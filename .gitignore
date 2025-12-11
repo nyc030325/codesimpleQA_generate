@@ -25,11 +25,6 @@ logs/
 *.sublime-project
 *.sublime-workspace
 
-# 数据文件（如果不需要提交到仓库）
-*.jsonl
-*.csv
-*.json
-*.txt
 
 # 其他
 .DS_Store
