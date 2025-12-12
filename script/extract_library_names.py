@@ -2,7 +2,7 @@ import json
 
 # 读取JSON文件
 try:
-    with open('/Users/bytedance/Desktop/multilingual-simpleQA/library_crawled_data_append.json', 'r', encoding='utf-8') as f:
+    with open('library_crawled_data_append.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     # 提取所有库名

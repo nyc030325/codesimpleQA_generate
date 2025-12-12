@@ -116,7 +116,7 @@ def generate_questions_for_content(content, library_name, tag, version, release_
 
             # 构建prompt
             # 读取data.json内容作为输入数据源
-            with open('/Users/bytedance/Desktop/multilingual-simpleQA/data.json', 'r', encoding='utf-8') as f:
+            with open('data.json', 'r', encoding='utf-8') as f:
                 data_json_content = f.read()
             
             prompt = f"""
@@ -399,11 +399,11 @@ def main():
     parser.add_argument('-m', '--model', type=str, choices=list(model_configs.keys()), 
                       default=DEFAULT_MODEL, help=f'选择使用的模型，默认为{DEFAULT_MODEL}')
     parser.add_argument('-i', '--input', type=str, 
-                      default='/Users/bytedance/Desktop/multilingual-simpleQA/all_crawled_data.json', 
-                      help='输入文件路径，默认为all_crawled_data.json')
+                      default='data/specific_library_crawled_data.json', 
+                      help='输入文件路径，默认为data/specific_library_crawled_data.json')
     parser.add_argument('-o', '--output', type=str, 
-                      default='/Users/bytedance/Desktop/multilingual-simpleQA/simpleqa_dataset_fixed.csv', 
-                      help='输出文件路径，默认为simpleqa_dataset_fixed.csv')
+                      default='data/simpleqa_dataset_new.csv', 
+                      help='输出文件路径，默认为data/simpleqa_dataset_new.csv')
     parser.add_argument('-w', '--workers', type=int, 
                       default=32, help='并行处理的最大线程数，默认为32')
     parser.add_argument('-n', '--num_entries', type=int, 
@@ -412,7 +412,9 @@ def main():
     args = parser.parse_args()
     
     # 读取library信息
-    with open("/Users/bytedance/Desktop/multilingual-simpleQA/data.json", 'r', encoding='utf-8') as f:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_file = os.path.normpath(os.path.join(script_dir, "data/data.json"))
+    with open(data_file, 'r', encoding='utf-8') as f:
         library_data = json.load(f)
 
     # 创建library信息映射
@@ -433,7 +435,9 @@ def main():
         crawled_data = crawled_data[:args.num_entries]
     
     # 读取accessible_library_urls.json文件，用于获取URL与年份的对应关系
-    with open('/Users/bytedance/Desktop/multilingual-simpleQA/accessible_library_urls.json', 'r', encoding='utf-8') as f:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    accessible_file = os.path.normpath(os.path.join(script_dir, "data/accessible_library_urls.json"))
+    with open(accessible_file, 'r', encoding='utf-8') as f:
         accessible_urls = json.load(f)
     
     # 为每个库创建URL到年份的映射字典（顺序：0→2023，1→2024，2→2025）

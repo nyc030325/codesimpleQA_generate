@@ -1,0 +1,1010 @@
+[
+  {
+    "library_name": "React",
+    "version": "v18.3.0",
+    "url": "https://github.com/facebook/react/releases/tag/v18.3.0",
+    "content_length": 709,
+    "significance": 1
+  },
+  {
+    "library_name": "React",
+    "version": "v18.2.0",
+    "url": "https://github.com/facebook/react/releases/tag/v18.2.0",
+    "content_length": 953,
+    "significance": 1
+  },
+  {
+    "library_name": "React",
+    "version": "v19.2.0",
+    "url": "https://github.com/facebook/react/releases/tag/v19.2.0",
+    "content_length": 5024,
+    "significance": 1
+  },
+  {
+    "library_name": "Vue",
+    "version": "vue-3-3",
+    "url": "https://blog.vuejs.org/posts/vue-3-3",
+    "content_length": 11817,
+    "significance": 1
+  },
+  {
+    "library_name": "Vue",
+    "version": "3.5.22",
+    "url": "https://github.com/vuejs/core/blob/main/CHANGELOG.md",
+    "content_length": 1904,
+    "significance": 1
+  },
+  {
+    "library_name": "Vue",
+    "version": "3.4.37",
+    "url": "https://github.com/vuejs/core/blob/main/changelogs/CHANGELOG-3.4.md",
+    "content_length": 1425,
+    "significance": 1
+  },
+  {
+    "library_name": "Angular",
+    "version": "20.0.0",
+    "url": "https://github.com/angular/angular/releases/tag/20.0.0",
+    "content_length": 12215,
+    "significance": 1
+  },
+  {
+    "library_name": "Angular",
+    "version": "18.0.0",
+    "url": "https://github.com/angular/angular/releases/tag/18.0.0",
+    "content_length": 16316,
+    "significance": 1
+  },
+  {
+    "library_name": "Angular",
+    "version": "16.0.0",
+    "url": "https://github.com/angular/angular/releases/tag/16.0.0",
+    "content_length": 14146,
+    "significance": 1
+  },
+  {
+    "library_name": "Next.js",
+    "version": "v13.4.0",
+    "url": "https://github.com/vercel/next.js/releases/tag/v13.4.0",
+    "content_length": 5270,
+    "significance": 1
+  },
+  {
+    "library_name": "Next.js",
+    "version": "v14.2.0",
+    "url": "https://github.com/vercel/next.js/releases/tag/v14.2.0",
+    "content_length": 61700,
+    "significance": 1
+  },
+  {
+    "library_name": "Next.js",
+    "version": "v15.3.0",
+    "url": "https://github.com/vercel/next.js/releases/tag/v15.3.0",
+    "content_length": 21562,
+    "significance": 1
+  },
+  {
+    "library_name": "Nuxt",
+    "version": "v3.6.0",
+    "url": "https://github.com/nuxt/nuxt/releases/tag/v3.6.0",
+    "content_length": 11246,
+    "significance": 1
+  },
+  {
+    "library_name": "Nuxt",
+    "version": "v3.12.0",
+    "url": "https://github.com/nuxt/nuxt/releases/tag/v3.12.0",
+    "content_length": 20126,
+    "significance": 1
+  },
+  {
+    "library_name": "Nuxt",
+    "version": "v3.17.0",
+    "url": "https://github.com/nuxt/nuxt/releases/tag/v3.17.0",
+    "content_length": 10968,
+    "significance": 1
+  },
+  {
+    "library_name": "Fastify",
+    "version": "v4.19.0",
+    "url": "https://github.com/fastify/fastify/releases/tag/v4.19.0",
+    "content_length": 2395,
+    "significance": 1
+  },
+  {
+    "library_name": "Fastify",
+    "version": "v4.28.0",
+    "url": "https://github.com/fastify/fastify/releases/tag/v4.28.0",
+    "content_length": 378,
+    "significance": 1
+  },
+  {
+    "library_name": "Fastify",
+    "version": "v5.3.0",
+    "url": "https://github.com/fastify/fastify/releases/tag/v5.3.0",
+    "content_length": 1042,
+    "significance": 1
+  },
+  {
+    "library_name": "Vite",
+    "version": "v4.4.0",
+    "url": "https://github.com/vitejs/vite/releases/tag/v4.4.0",
+    "content_length": 6516,
+    "significance": 1
+  },
+  {
+    "library_name": "Vite",
+    "version": "v5.4.0",
+    "url": "https://github.com/vitejs/vite/releases/tag/v5.4.0",
+    "content_length": 1614,
+    "significance": 1
+  },
+  {
+    "library_name": "Vite",
+    "version": "v6.3.0",
+    "url": "https://github.com/vitejs/vite/releases/tag/v6.3.0",
+    "content_length": 3823,
+    "significance": 1
+  },
+  {
+    "library_name": "Webpack",
+    "version": "v5.88.0",
+    "url": "https://github.com/webpack/webpack/releases/tag/v5.88.0",
+    "content_length": 1065,
+    "significance": 1
+  },
+  {
+    "library_name": "Webpack",
+    "version": "v5.94.0",
+    "url": "https://github.com/webpack/webpack/releases/tag/v5.94.0",
+    "content_length": 639,
+    "significance": 1
+  },
+  {
+    "library_name": "ESLint",
+    "version": "v8.44.0",
+    "url": "https://github.com/eslint/eslint/releases/tag/v8.44.0",
+    "content_length": 1821,
+    "significance": 1
+  },
+  {
+    "library_name": "Webpack",
+    "version": "v5.99.0",
+    "url": "https://github.com/webpack/webpack/releases/tag/v5.99.0",
+    "content_length": 1164,
+    "significance": 1
+  },
+  {
+    "library_name": "ESLint",
+    "version": "v9.9.0",
+    "url": "https://github.com/eslint/eslint/releases/tag/v9.9.0",
+    "content_length": 1045,
+    "significance": 1
+  },
+  {
+    "library_name": "ESLint",
+    "version": "v9.28.0",
+    "url": "https://github.com/eslint/eslint/releases/tag/v9.28.0",
+    "content_length": 2470,
+    "significance": 1
+  },
+  {
+    "library_name": "Vitest",
+    "version": "v0.33.0",
+    "url": "https://github.com/vitest-dev/vitest/releases/tag/v0.33.0",
+    "content_length": 483,
+    "significance": 1
+  },
+  {
+    "library_name": "Vitest",
+    "version": "v2.0.0",
+    "url": "https://github.com/vitest-dev/vitest/releases/tag/v2.0.0",
+    "content_length": 11584,
+    "significance": 1
+  },
+  {
+    "library_name": "Vitest",
+    "version": "v3.1.0",
+    "url": "https://github.com/vitest-dev/vitest/releases/tag/v3.1.0",
+    "content_length": 2150,
+    "significance": 1
+  },
+  {
+    "library_name": "Playwright",
+    "version": "v1.45.0",
+    "url": "https://github.com/microsoft/playwright/releases/tag/v1.45.0",
+    "content_length": 3929,
+    "significance": 1
+  },
+  {
+    "library_name": "Playwright",
+    "version": "v1.35.0",
+    "url": "https://github.com/microsoft/playwright/releases/tag/v1.35.0",
+    "content_length": 1574,
+    "significance": 1
+  },
+  {
+    "library_name": "Playwright",
+    "version": "v1.52.0",
+    "url": "https://github.com/microsoft/playwright/releases/tag/v1.52.0",
+    "content_length": 2051,
+    "significance": 1
+  },
+  {
+    "library_name": "SWR",
+    "version": "v2.2.0",
+    "url": "https://github.com/vercel/swr/releases/tag/v2.2.0",
+    "content_length": 2267,
+    "significance": 1
+  },
+  {
+    "library_name": "SWR",
+    "version": "v2.2.5",
+    "url": "https://github.com/vercel/swr/releases/tag/v2.2.5",
+    "content_length": 856,
+    "significance": 1
+  },
+  {
+    "library_name": "SWR",
+    "version": "v2.3.0",
+    "url": "https://github.com/vercel/swr/releases/tag/v2.3.0",
+    "content_length": 2587,
+    "significance": 1
+  },
+  {
+    "library_name": "Zustand",
+    "version": "v4.4.0",
+    "url": "https://github.com/pmndrs/zustand/releases/tag/v4.4.0",
+    "content_length": 1178,
+    "significance": 1
+  },
+  {
+    "library_name": "Zustand",
+    "version": "v4.5.0",
+    "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.0",
+    "content_length": 500,
+    "significance": 1
+  },
+  {
+    "library_name": "Zustand",
+    "version": "v5.0.3",
+    "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.3",
+    "content_length": 548,
+    "significance": 1
+  },
+  {
+    "library_name": "Pinia",
+    "version": "v3.0.0",
+    "url": "https://github.com/vuejs/pinia/releases/tag/v3.0.0",
+    "content_length": 547,
+    "significance": 1
+  },
+  {
+    "library_name": "Pinia",
+    "version": "2.1.0",
+    "url": "https://github.com/vuejs/pinia/releases/tag/v2.1.4",
+    "content_length": 326,
+    "significance": 1
+  },
+  {
+    "library_name": "Pinia",
+    "version": "2.2.0",
+    "url": "https://github.com/vuejs/pinia/releases/tag/v2.2.0",
+    "content_length": 210,
+    "significance": 1
+  },
+  {
+    "library_name": "Tailwind CSS",
+    "version": "v3.3.3",
+    "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.3.3",
+    "content_length": 885,
+    "significance": 1
+  },
+  {
+    "library_name": "Tailwind CSS",
+    "version": "v3.4.4",
+    "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.4.4",
+    "content_length": 326,
+    "significance": 1
+  },
+  {
+    "library_name": "Tailwind CSS",
+    "version": "v4.1.0",
+    "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.1.0",
+    "content_length": 2086,
+    "significance": 1
+  },
+  {
+    "library_name": "Material-UI",
+    "version": "v5.14.0",
+    "url": "https://github.com/mui/material-ui/releases/tag/v5.14.0",
+    "content_length": 3119,
+    "significance": 1
+  },
+  {
+    "library_name": "Material-UI",
+    "version": "v5.16.0",
+    "url": "https://github.com/mui/material-ui/releases/tag/v5.16.0",
+    "content_length": 852,
+    "significance": 1
+  },
+  {
+    "library_name": "Material-UI",
+    "version": "v7.1.0",
+    "url": "https://github.com/mui/material-ui/releases/tag/v7.1.0",
+    "content_length": 5223,
+    "significance": 1
+  },
+  {
+    "library_name": "Ant-Design",
+    "version": "5.7.0",
+    "url": "https://github.com/ant-design/ant-design/releases/tag/5.7.0",
+    "content_length": 5757,
+    "significance": 1
+  },
+  {
+    "library_name": "Ant-Design",
+    "version": "5.19.0",
+    "url": "https://github.com/ant-design/ant-design/releases/tag/5.19.0",
+    "content_length": 3722,
+    "significance": 1
+  },
+  {
+    "library_name": "Ant-Design",
+    "version": "5.25.0",
+    "url": "https://github.com/ant-design/ant-design/releases/tag/5.25.0",
+    "content_length": 5154,
+    "significance": 1
+  },
+  {
+    "library_name": "Three.js",
+    "version": "r167",
+    "url": "https://github.com/mrdoob/three.js/releases/tag/r167",
+    "content_length": 6378,
+    "significance": 1
+  },
+  {
+    "library_name": "Three.js",
+    "version": "r154",
+    "url": "https://github.com/mrdoob/three.js/releases/tag/r154",
+    "content_length": 4728,
+    "significance": 1
+  },
+  {
+    "library_name": "Three.js",
+    "version": "r177",
+    "url": "https://github.com/mrdoob/three.js/releases/tag/r177",
+    "content_length": 6932,
+    "significance": 1
+  },
+  {
+    "library_name": "Chart.js",
+    "version": "v4.3.0",
+    "url": "https://github.com/chartjs/Chart.js/releases/tag/v4.3.0",
+    "content_length": 1528,
+    "significance": 1
+  },
+  {
+    "library_name": "Chart.js",
+    "version": "v4.5.0",
+    "url": "https://github.com/chartjs/Chart.js/releases/tag/v4.5.0",
+    "content_length": 983,
+    "significance": 1
+  },
+  {
+    "library_name": "Chart.js",
+    "version": "v4.4.3",
+    "url": "https://github.com/chartjs/Chart.js/releases/tag/v4.4.3",
+    "content_length": 601,
+    "significance": 1
+  },
+  {
+    "library_name": "Apollo-Client",
+    "version": "v3.8.0",
+    "url": "https://github.com/apollographql/apollo-client/releases/tag/v3.8.0",
+    "content_length": 22020,
+    "significance": 1
+  },
+  {
+    "library_name": "Apollo-Client",
+    "version": "v3.11.0",
+    "url": "https://github.com/apollographql/apollo-client/releases/tag/v3.11.0",
+    "content_length": 4227,
+    "significance": 1
+  },
+  {
+    "library_name": "Apollo-Client",
+    "version": "v3.13.0",
+    "url": "https://github.com/apollographql/apollo-client/releases/tag/v3.13.0",
+    "content_length": 3984,
+    "significance": 1
+  },
+  {
+    "library_name": "Prisma",
+    "version": "5.0.0",
+    "url": "https://github.com/prisma/prisma/releases/tag/5.0.0",
+    "content_length": 13819,
+    "significance": 1
+  },
+  {
+    "library_name": "Prisma",
+    "version": "6.6.0",
+    "url": "https://github.com/prisma/prisma/releases/tag/6.6.0",
+    "content_length": 8003,
+    "significance": 1
+  },
+  {
+    "library_name": "Prisma",
+    "version": "5.17.0",
+    "url": "https://github.com/prisma/prisma/releases/tag/5.17.0",
+    "content_length": 1804,
+    "significance": 1
+  },
+  {
+    "library_name": "Drizzle-ORM",
+    "version": "0.28.0",
+    "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.28.0",
+    "content_length": 6409,
+    "significance": 1
+  },
+  {
+    "library_name": "Drizzle-ORM",
+    "version": "0.44.0",
+    "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.44.0",
+    "content_length": 3945,
+    "significance": 1
+  },
+  {
+    "library_name": "Drizzle-ORM",
+    "version": "0.33.0",
+    "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.33.0",
+    "content_length": 2334,
+    "significance": 1
+  },
+  {
+    "library_name": "Mongoose",
+    "version": "8.5.0",
+    "url": "https://github.com/Automattic/mongoose/releases/tag/8.5.0",
+    "content_length": 1071,
+    "significance": 1
+  },
+  {
+    "library_name": "Mongoose",
+    "version": "7.4.0",
+    "url": "https://github.com/Automattic/mongoose/releases/tag/7.4.0",
+    "content_length": 1167,
+    "significance": 1
+  },
+  {
+    "library_name": "Mongoose",
+    "version": "8.14.0",
+    "url": "https://github.com/Automattic/mongoose/releases/tag/8.14.0",
+    "content_length": 683,
+    "significance": 1
+  },
+  {
+    "library_name": "Hono",
+    "version": "v3.4.0",
+    "url": "https://github.com/honojs/hono/releases/tag/v3.4.0",
+    "content_length": 2736,
+    "significance": 1
+  },
+  {
+    "library_name": "Hono",
+    "version": "v4.5.0",
+    "url": "https://github.com/honojs/hono/releases/tag/v4.5.0",
+    "content_length": 7203,
+    "significance": 1
+  },
+  {
+    "library_name": "Hono",
+    "version": "v4.7.0",
+    "url": "https://github.com/honojs/hono/releases/tag/v4.7.0",
+    "content_length": 5612,
+    "significance": 1
+  },
+  {
+    "library_name": "Deno",
+    "version": "v1.35.0",
+    "url": "https://github.com/denoland/deno/releases/tag/v1.35.0",
+    "content_length": 1966,
+    "significance": 1
+  },
+  {
+    "library_name": "Deno",
+    "version": "v1.45.0",
+    "url": "https://github.com/denoland/deno/releases/tag/v1.45.0",
+    "content_length": 4577,
+    "significance": 1
+  },
+  {
+    "library_name": "Deno",
+    "version": "v2.3.0",
+    "url": "https://github.com/denoland/deno/releases/tag/v2.3.0",
+    "content_length": 17145,
+    "significance": 1
+  },
+  {
+    "library_name": "Astro",
+    "version": "astro%402.8.0",
+    "url": "https://github.com/withastro/astro/releases/tag/astro%402.8.0",
+    "content_length": 1995,
+    "significance": 1
+  },
+  {
+    "library_name": "Astro",
+    "version": "astro%404.12.0",
+    "url": "https://github.com/withastro/astro/releases/tag/astro%404.12.0",
+    "content_length": 5871,
+    "significance": 1
+  },
+  {
+    "library_name": "Astro",
+    "version": "astro%405.7.0",
+    "url": "https://github.com/withastro/astro/releases/tag/astro%405.7.0",
+    "content_length": 6894,
+    "significance": 1
+  },
+  {
+    "library_name": "SolidJS",
+    "version": "v1.9.0",
+    "url": "https://github.com/solidjs/solid/releases/tag/v1.9.0",
+    "content_length": 4282,
+    "significance": 1
+  },
+  {
+    "library_name": "SolidJS",
+    "version": "v1.8.0",
+    "url": "https://github.com/solidjs/solid/releases/tag/v1.8.0",
+    "content_length": 5355,
+    "significance": 1
+  },
+  {
+    "library_name": "SolidJS",
+    "version": "v1.7.0",
+    "url": "https://github.com/solidjs/solid/releases/tag/v1.7.0",
+    "content_length": 8428,
+    "significance": 1
+  },
+  {
+    "library_name": "Turborepo",
+    "version": "v1.10.0",
+    "url": "https://github.com/vercel/turborepo/releases/tag/v1.10.0",
+    "content_length": 1577,
+    "significance": 1
+  },
+  {
+    "library_name": "Turborepo",
+    "version": "v2.0.0",
+    "url": "https://github.com/vercel/turborepo/releases/tag/v2.0.0",
+    "content_length": 3411,
+    "significance": 1
+  },
+  {
+    "library_name": "Turborepo",
+    "version": "v2.5.0",
+    "url": "https://github.com/vercel/turborepo/releases/tag/v2.5.0",
+    "content_length": 11755,
+    "significance": 1
+  },
+  {
+    "library_name": "Prettier",
+    "version": "3.3.0",
+    "url": "https://prettier.io/blog/2024/06/01/3.3.0.html",
+    "content_length": 14063,
+    "significance": 1
+  },
+  {
+    "library_name": "Prettier",
+    "version": "3.0.0",
+    "url": "https://prettier.io/blog/2023/07/05/3.0.0.html",
+    "content_length": 77593,
+    "significance": 1
+  },
+  {
+    "library_name": "Prettier",
+    "version": "3.5.0",
+    "url": "https://prettier.io/blog/2025/02/09/3.5.0",
+    "content_length": 16987,
+    "significance": 1
+  },
+  {
+    "library_name": "Zod",
+    "version": "v4.1.0",
+    "url": "https://github.com/colinhacks/zod/releases/tag/v4.1.0",
+    "content_length": 7763,
+    "significance": 1
+  },
+  {
+    "library_name": "Zod",
+    "version": "v3.21.0",
+    "url": "https://github.com/colinhacks/zod/releases/tag/v3.21.0",
+    "content_length": 3871,
+    "significance": 1
+  },
+  {
+    "library_name": "Zod",
+    "version": "v3.23.0",
+    "url": "https://github.com/colinhacks/zod/releases/tag/v3.23.0",
+    "content_length": 7420,
+    "significance": 1
+  },
+  {
+    "library_name": "Cypress",
+    "version": "12-17-0",
+    "url": "https://docs.cypress.io/guides/references/changelog#12-17-0",
+    "content_length": 1198,
+    "significance": 1
+  },
+  {
+    "library_name": "Cypress",
+    "version": "14-4-0",
+    "url": "https://docs.cypress.io/guides/references/changelog#14-4-0",
+    "content_length": 1841,
+    "significance": 1
+  },
+  {
+    "library_name": "Cypress",
+    "version": "13-13-0",
+    "url": "https://docs.cypress.io/guides/references/changelog#13-13-0",
+    "content_length": 782,
+    "significance": 1
+  },
+  {
+    "library_name": "Svelte",
+    "version": "svelte%405.39.10",
+    "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.39.10",
+    "content_length": 378,
+    "significance": 1
+  },
+  {
+    "library_name": "Svelte",
+    "version": "svelte%404.0.0",
+    "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%404.0.0",
+    "content_length": 4158,
+    "significance": 1
+  },
+  {
+    "library_name": "Svelte",
+    "version": "svelte%405.1.10",
+    "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%405.1.10",
+    "content_length": 913,
+    "significance": 1
+  },
+  {
+    "library_name": "Qwik",
+    "version": "%40builder.io%2Fqwik%401.13.0",
+    "url": "https://github.com/QwikDev/qwik/releases/tag/%40builder.io%2Fqwik%401.13.0",
+    "content_length": 1306,
+    "significance": 1
+  },
+  {
+    "library_name": "Qwik",
+    "version": "v1.7.0",
+    "url": "https://github.com/QwikDev/qwik/releases/tag/v1.7.0",
+    "content_length": 1045,
+    "significance": 1
+  },
+  {
+    "library_name": "Qwik",
+    "version": "v1.2.0",
+    "url": "https://github.com/QwikDev/qwik/releases/tag/v1.2.0",
+    "content_length": 8954,
+    "significance": 1
+  },
+  {
+    "library_name": "Elysia",
+    "version": "1.3.0",
+    "url": "https://github.com/elysiajs/elysia/releases/tag/1.3.0",
+    "content_length": 2428,
+    "significance": 1
+  },
+  {
+    "library_name": "Elysia",
+    "version": "1.2.0",
+    "url": "https://github.com/elysiajs/elysia/releases/tag/1.2.0",
+    "content_length": 10035,
+    "significance": 1
+  },
+  {
+    "library_name": "Elysia",
+    "version": "0.7",
+    "url": "https://github.com/elysiajs/elysia/releases/tag/0.7",
+    "content_length": 16433,
+    "significance": 1
+  },
+  {
+    "library_name": "Express",
+    "version": "4.18.3",
+    "url": "https://github.com/expressjs/express/releases/tag/4.18.3",
+    "content_length": 1687,
+    "significance": 1
+  },
+  {
+    "library_name": "Express",
+    "version": "v5.2.0",
+    "url": "https://github.com/expressjs/express/releases/tag/v5.2.0",
+    "content_length": 4601,
+    "significance": 1
+  },
+  {
+    "library_name": "Express",
+    "version": "v5.0.0",
+    "url": "https://github.com/expressjs/express/releases/tag/v5.0.0",
+    "content_length": 5557,
+    "significance": 1
+  },
+  {
+    "library_name": "Chakra-UI",
+    "version": "%40chakra-ui%2Freact%403.0.0-next.17",
+    "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Freact%403.0.0-next.17",
+    "content_length": 818,
+    "significance": 1
+  },
+  {
+    "library_name": "Chakra-UI",
+    "version": "%40chakra-ui%2Fpanda-preset%403.30.0",
+    "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fpanda-preset%403.30.0",
+    "content_length": 923,
+    "significance": 1
+  },
+  {
+    "library_name": "Chakra-UI",
+    "version": "%40chakra-ui%2Ftabs%402.2.0",
+    "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%402.2.0",
+    "content_length": 978,
+    "significance": 1
+  },
+  {
+    "library_name": "TypeScript",
+    "version": "5.1",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/",
+    "content_length": 18409,
+    "significance": 1
+  },
+  {
+    "library_name": "TypeScript",
+    "version": "5.9",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/",
+    "content_length": 15793,
+    "significance": 1
+  },
+  {
+    "library_name": "TypeScript",
+    "version": "5.6",
+    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-6/",
+    "content_length": 32499,
+    "significance": 1
+  },
+  {
+    "library_name": "Day.js",
+    "version": "v1.11.11",
+    "url": "https://github.com/iamkun/dayjs/releases/tag/v1.11.11",
+    "content_length": 281,
+    "significance": 1
+  },
+  {
+    "library_name": "Day.js",
+    "version": "v1.11.9",
+    "url": "https://github.com/iamkun/dayjs/releases/tag/v1.11.9",
+    "content_length": 649,
+    "significance": 1
+  },
+  {
+    "library_name": "Day.js",
+    "version": "v1.11.19",
+    "url": "https://github.com/iamkun/dayjs/releases/tag/v1.11.19",
+    "content_length": 367,
+    "significance": 1
+  },
+  {
+    "library_name": "Sequelize",
+    "version": "v7.0.0-alpha.46",
+    "url": "https://github.com/sequelize/sequelize/releases/tag/v7.0.0-alpha.46",
+    "content_length": 637,
+    "significance": 1
+  },
+  {
+    "library_name": "Sequelize",
+    "version": "v7.0.0-alpha.43",
+    "url": "https://github.com/sequelize/sequelize/releases/tag/v7.0.0-alpha.43",
+    "content_length": 525,
+    "significance": 1
+  },
+  {
+    "library_name": "Sequelize",
+    "version": "v6.32.0",
+    "url": "https://github.com/sequelize/sequelize/releases/tag/v6.32.0",
+    "content_length": 423,
+    "significance": 1
+  },
+  {
+    "library_name": "tRPC",
+    "version": "v10.28.0",
+    "url": "https://github.com/trpc/trpc/releases/tag/v10.28.0",
+    "content_length": 547,
+    "significance": 1
+  },
+  {
+    "library_name": "tRPC",
+    "version": "v10.45.0",
+    "url": "https://github.com/trpc/trpc/releases/tag/v10.45.0",
+    "content_length": 806,
+    "significance": 1
+  },
+  {
+    "library_name": "tRPC",
+    "version": "v11.4.0",
+    "url": "https://github.com/trpc/trpc/releases/tag/v11.4.0",
+    "content_length": 477,
+    "significance": 1
+  },
+  {
+    "library_name": "TypeORM",
+    "version": "0.3.16",
+    "url": "https://github.com/typeorm/typeorm/releases/tag/0.3.16",
+    "content_length": 1459,
+    "significance": 1
+  },
+  {
+    "library_name": "TypeORM",
+    "version": "0.3.20",
+    "url": "https://github.com/typeorm/typeorm/releases/tag/0.3.20",
+    "content_length": 1045,
+    "significance": 1
+  },
+  {
+    "library_name": "TypeORM",
+    "version": "0.3.22",
+    "url": "https://github.com/typeorm/typeorm/releases/tag/0.3.22",
+    "content_length": 3064,
+    "significance": 1
+  },
+  {
+    "library_name": "Bun",
+    "version": "v0.7.0",
+    "url": "https://bun.sh/blog/bun-v0.7.0",
+    "content_length": 22013,
+    "significance": 1
+  },
+  {
+    "library_name": "Bun",
+    "version": "v1.1.19",
+    "url": "https://bun.sh/blog/bun-v1.1.19",
+    "content_length": 16979,
+    "significance": 1
+  },
+  {
+    "library_name": "Bun",
+    "version": "v1.2.15",
+    "url": "https://bun.sh/blog/bun-v1.2.15",
+    "content_length": 11378,
+    "significance": 1
+  },
+  {
+    "library_name": "GraphQL",
+    "version": "v17.0.0-alpha.8",
+    "url": "https://github.com/graphql/graphql-js/releases/tag/v17.0.0-alpha.8",
+    "content_length": 2193,
+    "significance": 1
+  },
+  {
+    "library_name": "GraphQL",
+    "version": "v16.7.0",
+    "url": "https://github.com/graphql/graphql-js/releases/tag/v16.7.0",
+    "content_length": 401,
+    "significance": 1
+  },
+  {
+    "library_name": "GraphQL",
+    "version": "v16.10.0",
+    "url": "https://github.com/graphql/graphql-js/releases/tag/v16.10.0",
+    "content_length": 1524,
+    "significance": 1
+  },
+  {
+    "library_name": "React-Query",
+    "version": "v4.32.0",
+    "url": "https://github.com/TanStack/query/releases/tag/v4.32.0",
+    "content_length": 534,
+    "significance": 1
+  },
+  {
+    "library_name": "React-Query",
+    "version": "v5.24.2",
+    "url": "https://github.com/TanStack/query/releases/tag/v5.24.2",
+    "content_length": 1698,
+    "significance": 1
+  },
+  {
+    "library_name": "React-Query",
+    "version": "v5.75.0",
+    "url": "https://github.com/TanStack/query/releases/tag/v5.75.0",
+    "content_length": 1069,
+    "significance": 1
+  },
+  {
+    "library_name": "Axios",
+    "version": "v1.7.5",
+    "url": "https://github.com/axios/axios/releases/tag/v1.7.5",
+    "content_length": 433,
+    "significance": 1
+  },
+  {
+    "library_name": "Axios",
+    "version": "v1.4.0",
+    "url": "https://github.com/axios/axios/releases/tag/v1.4.0",
+    "content_length": 567,
+    "significance": 1
+  },
+  {
+    "library_name": "Axios",
+    "version": "v1.9.0",
+    "url": "https://github.com/axios/axios/releases/tag/v1.9.0",
+    "content_length": 841,
+    "significance": 1
+  },
+  {
+    "library_name": "Date-fns",
+    "version": "v2.29.0",
+    "url": "https://github.com/date-fns/date-fns/releases/tag/v2.29.0",
+    "content_length": 1422,
+    "significance": 1
+  },
+  {
+    "library_name": "Date-fns",
+    "version": "v4.1.0",
+    "url": "https://github.com/date-fns/date-fns/releases/tag/v4.1.0",
+    "content_length": 525,
+    "significance": 1
+  },
+  {
+    "library_name": "Date-fns",
+    "version": "v3.0.0",
+    "url": "https://github.com/date-fns/date-fns/releases/tag/v3.0.0",
+    "content_length": 4558,
+    "significance": 1
+  },
+  {
+    "library_name": "Jest",
+    "version": "v29.6.0",
+    "url": "https://github.com/jestjs/jest/releases/tag/v29.6.0",
+    "content_length": 3130,
+    "significance": 1
+  },
+  {
+    "library_name": "Jest",
+    "version": "v30.0.0-alpha.6",
+    "url": "https://github.com/jestjs/jest/releases/tag/v30.0.0-alpha.6",
+    "content_length": 2274,
+    "significance": 1
+  },
+  {
+    "library_name": "Jest",
+    "version": "v30.0.0",
+    "url": "https://github.com/jestjs/jest/releases/tag/v30.0.0",
+    "content_length": 17690,
+    "significance": 1
+  },
+  {
+    "library_name": "NestJS",
+    "version": "v10.0.0",
+    "url": "https://github.com/nestjs/nest/releases/tag/v10.0.0",
+    "content_length": 7381,
+    "significance": 1
+  },
+  {
+    "library_name": "NestJS",
+    "version": "v11.1.7",
+    "url": "https://github.com/nestjs/nest/releases/tag/v11.1.7",
+    "content_length": 1452,
+    "significance": 1
+  },
+  {
+    "library_name": "NestJS",
+    "version": "v10.4.9",
+    "url": "https://github.com/nestjs/nest/releases/tag/v10.4.9",
+    "content_length": 3923,
+    "significance": 1
+  }
+]

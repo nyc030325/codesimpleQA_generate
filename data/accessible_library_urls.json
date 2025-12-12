@@ -1,0 +1,252 @@
+{
+  "React": [
+    "https://github.com/facebook/react/releases/tag/v18.2.0",
+    "https://github.com/facebook/react/releases/tag/v18.3.0",
+    "https://github.com/facebook/react/releases/tag/v19.2.0"
+  ],
+  "Vue": [
+    "https://blog.vuejs.org/posts/vue-3-3",
+    "https://github.com/vuejs/core/blob/main/changelogs/CHANGELOG-3.4.md",
+    "https://github.com/vuejs/core/blob/main/CHANGELOG.md"
+  ],
+  "Angular": [
+    "https://github.com/angular/angular/releases/tag/16.0.0",
+    "https://github.com/angular/angular/releases/tag/18.0.0",
+    "https://github.com/angular/angular/releases/tag/20.0.0"
+  ],
+  "Next.js": [
+    "https://github.com/vercel/next.js/releases/tag/v13.4.0",
+    "https://github.com/vercel/next.js/releases/tag/v14.2.0",
+    "https://github.com/vercel/next.js/releases/tag/v15.3.0"
+  ],
+  "Nuxt": [
+    "https://github.com/nuxt/nuxt/releases/tag/v3.6.0",
+    "https://github.com/nuxt/nuxt/releases/tag/v3.12.0",
+    "https://github.com/nuxt/nuxt/releases/tag/v3.17.0"
+  ],
+  "Svelte": [
+    "https://github.com/sveltejs/svelte/releases/tag/svelte%404.0.0",
+    "https://github.com/sveltejs/svelte/releases/tag/svelte%405.1.10",
+    "https://github.com/sveltejs/svelte/releases/tag/svelte%405.39.10"
+  ],
+  "Express": [
+    "https://github.com/expressjs/express/releases/tag/4.18.3",
+    "https://github.com/expressjs/express/releases/tag/v5.0.0",
+    "https://github.com/expressjs/express/releases/tag/v5.2.0"
+  ],
+  "Fastify": [
+    "https://github.com/fastify/fastify/releases/tag/v4.19.0",
+    "https://github.com/fastify/fastify/releases/tag/v4.28.0",
+    "https://github.com/fastify/fastify/releases/tag/v5.3.0"
+  ],
+  "NestJS": [
+    "https://github.com/nestjs/nest/releases/tag/v10.0.0",
+    "https://github.com/nestjs/nest/releases/tag/v10.4.9",
+    "https://github.com/nestjs/nest/releases/tag/v11.1.7"
+  ],
+  "TypeScript": [
+    "https://devblogs.microsoft.com/typescript/announcing-typescript-5-1/",
+    "https://devblogs.microsoft.com/typescript/announcing-typescript-5-6/",
+    "https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/"
+  ],
+  "Vite": [
+    "https://github.com/vitejs/vite/releases/tag/v4.4.0",
+    "https://github.com/vitejs/vite/releases/tag/v5.4.0",
+    "https://github.com/vitejs/vite/releases/tag/v6.3.0"
+  ],
+  "Webpack": [
+    "https://github.com/webpack/webpack/releases/tag/v5.88.0",
+    "https://github.com/webpack/webpack/releases/tag/v5.94.0",
+    "https://github.com/webpack/webpack/releases/tag/v5.99.0"
+  ],
+  "ESLint": [
+    "https://github.com/eslint/eslint/releases/tag/v8.44.0",
+    "https://github.com/eslint/eslint/releases/tag/v9.9.0",
+    "https://github.com/eslint/eslint/releases/tag/v9.28.0"
+  ],
+  "Prettier": [
+    "https://prettier.io/blog/2023/07/05/3.0.0.html",
+    "https://prettier.io/blog/2024/06/01/3.3.0.html",
+    "https://prettier.io/blog/2025/02/09/3.5.0"
+  ],
+  "Jest": [
+    "https://github.com/jestjs/jest/releases/tag/v29.6.0",
+    "https://github.com/jestjs/jest/releases/tag/v30.0.0-alpha.6",
+    "https://github.com/jestjs/jest/releases/tag/v30.0.0"
+  ],
+  "Vitest": [
+    "https://github.com/vitest-dev/vitest/releases/tag/v0.33.0",
+    "https://github.com/vitest-dev/vitest/releases/tag/v2.0.0",
+    "https://github.com/vitest-dev/vitest/releases/tag/v3.1.0"
+  ],
+  "Playwright": [
+    "https://github.com/microsoft/playwright/releases/tag/v1.35.0",
+    "https://github.com/microsoft/playwright/releases/tag/v1.45.0",
+    "https://github.com/microsoft/playwright/releases/tag/v1.52.0"
+  ],
+  "Cypress": [
+    "https://docs.cypress.io/guides/references/changelog#12-17-0",
+    "https://docs.cypress.io/guides/references/changelog#13-13-0",
+    "https://docs.cypress.io/guides/references/changelog#14-4-0"
+  ],
+  "Axios": [
+    "https://github.com/axios/axios/releases/tag/v1.4.0",
+    "https://github.com/axios/axios/releases/tag/v1.7.5",
+    "https://github.com/axios/axios/releases/tag/v1.9.0"
+  ],
+  "Day.js": [
+    "https://github.com/iamkun/dayjs/releases/tag/v1.11.9",
+    "https://github.com/iamkun/dayjs/releases/tag/v1.11.11",
+    "https://github.com/iamkun/dayjs/releases/tag/v1.11.19"
+  ],
+  "Date-fns": [
+    "https://github.com/date-fns/date-fns/releases/tag/v2.29.0",
+    "https://github.com/date-fns/date-fns/releases/tag/v3.0.0",
+    "https://github.com/date-fns/date-fns/releases/tag/v4.1.0"
+  ],
+  "Zod": [
+    "https://github.com/colinhacks/zod/releases/tag/v3.21.0",
+    "https://github.com/colinhacks/zod/releases/tag/v3.23.0",
+    "https://github.com/colinhacks/zod/releases/tag/v4.1.0"
+  ],
+  "React-Query": [
+    "https://github.com/TanStack/query/releases/tag/v4.32.0",
+    "https://github.com/TanStack/query/releases/tag/v5.24.2",
+    "https://github.com/TanStack/query/releases/tag/v5.75.0"
+  ],
+  "SWR": [
+    "https://github.com/vercel/swr/releases/tag/v2.2.0",
+    "https://github.com/vercel/swr/releases/tag/v2.2.5",
+    "https://github.com/vercel/swr/releases/tag/v2.3.0"
+  ],
+  "Zustand": [
+    "https://github.com/pmndrs/zustand/releases/tag/v4.4.0",
+    "https://github.com/pmndrs/zustand/releases/tag/v4.5.0",
+    "https://github.com/pmndrs/zustand/releases/tag/v5.0.3"
+  ],
+  "Pinia": [
+    "https://github.com/vuejs/pinia/releases/tag/v2.1.4",
+    "https://github.com/vuejs/pinia/releases/tag/v2.2.0",
+    "https://github.com/vuejs/pinia/releases/tag/v3.0.0"
+  ],
+  "Tailwind CSS": [
+    "https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.3.3",
+    "https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.4.4",
+    "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.1.0"
+  ],
+  "Material-UI": [
+    "https://github.com/mui/material-ui/releases/tag/v5.14.0",
+    "https://github.com/mui/material-ui/releases/tag/v5.16.0",
+    "https://github.com/mui/material-ui/releases/tag/v7.1.0"
+  ],
+  "Ant-Design": [
+    "https://github.com/ant-design/ant-design/releases/tag/5.7.0",
+    "https://github.com/ant-design/ant-design/releases/tag/5.19.0",
+    "https://github.com/ant-design/ant-design/releases/tag/5.25.0"
+  ],
+  "Chakra-UI": [
+    "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%402.2.0",
+    "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Freact%403.0.0-next.17",
+    "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fpanda-preset%403.30.0"
+  ],
+  "Three.js": [
+    "https://github.com/mrdoob/three.js/releases/tag/r154",
+    "https://github.com/mrdoob/three.js/releases/tag/r167",
+    "https://github.com/mrdoob/three.js/releases/tag/r177"
+  ],
+  "Chart.js": [
+    "https://github.com/chartjs/Chart.js/releases/tag/v4.3.0",
+    "https://github.com/chartjs/Chart.js/releases/tag/v4.4.3",
+    "https://github.com/chartjs/Chart.js/releases/tag/v4.5.0"
+  ],
+  "GraphQL": [
+    "https://github.com/graphql/graphql-js/releases/tag/v16.7.0",
+    "https://github.com/graphql/graphql-js/releases/tag/v16.10.0",
+    "https://github.com/graphql/graphql-js/releases/tag/v17.0.0-alpha.8"
+  ],
+  "Apollo-Client": [
+    "https://github.com/apollographql/apollo-client/releases/tag/v3.8.0",
+    "https://github.com/apollographql/apollo-client/releases/tag/v3.11.0",
+    "https://github.com/apollographql/apollo-client/releases/tag/v3.13.0"
+  ],
+  "Prisma": [
+    "https://github.com/prisma/prisma/releases/tag/5.0.0",
+    "https://github.com/prisma/prisma/releases/tag/5.17.0",
+    "https://github.com/prisma/prisma/releases/tag/6.6.0"
+  ],
+  "Drizzle-ORM": [
+    "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.28.0",
+    "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.33.0",
+    "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.44.0"
+  ],
+  "TypeORM": [
+    "https://github.com/typeorm/typeorm/releases/tag/0.3.16",
+    "https://github.com/typeorm/typeorm/releases/tag/0.3.20",
+    "https://github.com/typeorm/typeorm/releases/tag/0.3.22"
+  ],
+  "Sequelize": [
+    "https://github.com/sequelize/sequelize/releases/tag/v6.32.0",
+    "https://github.com/sequelize/sequelize/releases/tag/v7.0.0-alpha.43",
+    "https://github.com/sequelize/sequelize/releases/tag/v7.0.0-alpha.46"
+  ],
+  "Mongoose": [
+    "https://github.com/Automattic/mongoose/releases/tag/7.4.0",
+    "https://github.com/Automattic/mongoose/releases/tag/8.5.0",
+    "https://github.com/Automattic/mongoose/releases/tag/8.14.0"
+  ],
+  "tRPC": [
+    "https://github.com/trpc/trpc/releases/tag/v10.28.0",
+    "https://github.com/trpc/trpc/releases/tag/v10.45.0",
+    "https://github.com/trpc/trpc/releases/tag/v11.4.0"
+  ],
+  "Hono": [
+    "https://github.com/honojs/hono/releases/tag/v3.4.0",
+    "https://github.com/honojs/hono/releases/tag/v4.5.0",
+    "https://github.com/honojs/hono/releases/tag/v4.7.0"
+  ],
+  "Elysia": [
+    "https://github.com/elysiajs/elysia/releases/tag/0.7",
+    "https://github.com/elysiajs/elysia/releases/tag/1.2.0",
+    "https://github.com/elysiajs/elysia/releases/tag/1.3.0"
+  ],
+  "Bun": [
+    "https://bun.sh/blog/bun-v0.7.0",
+    "https://bun.sh/blog/bun-v1.1.19",
+    "https://bun.sh/blog/bun-v1.2.15"
+  ],
+  "Deno": [
+    "https://github.com/denoland/deno/releases/tag/v1.35.0",
+    "https://github.com/denoland/deno/releases/tag/v1.45.0",
+    "https://github.com/denoland/deno/releases/tag/v2.3.0"
+  ],
+  "Astro": [
+    "https://github.com/withastro/astro/releases/tag/astro%402.8.0",
+    "https://github.com/withastro/astro/releases/tag/astro%404.12.0",
+    "https://github.com/withastro/astro/releases/tag/astro%405.7.0"
+  ],
+  "SolidJS": [
+    "https://github.com/solidjs/solid/releases/tag/v1.7.0",
+    "https://github.com/solidjs/solid/releases/tag/v1.8.0",
+    "https://github.com/solidjs/solid/releases/tag/v1.9.0"
+  ],
+  "Qwik": [
+    "https://github.com/QwikDev/qwik/releases/tag/v1.2.0",
+    "https://github.com/QwikDev/qwik/releases/tag/v1.7.0",
+    "https://github.com/QwikDev/qwik/releases/tag/%40builder.io%2Fqwik%401.13.0"
+  ],
+  "Turborepo": [
+    "https://github.com/vercel/turborepo/releases/tag/v1.10.0",
+    "https://github.com/vercel/turborepo/releases/tag/v2.0.0",
+    "https://github.com/vercel/turborepo/releases/tag/v2.5.0"
+  ],
+  "Nx": [
+    "https://github.com/nrwl/nx/releases/tag/16.5.0",
+    "https://github.com/nrwl/nx/releases/tag/19.4.0",
+    "https://github.com/nrwl/nx/releases/tag/22.2.0"
+  ],
+  "Storybook": [
+    "https://github.com/storybookjs/storybook/releases/tag/v7.0.11",
+    "https://github.com/storybookjs/storybook/releases/tag/v8.2.0",
+    "https://github.com/storybookjs/storybook/releases/tag/v8.6.0"
+  ]
+}

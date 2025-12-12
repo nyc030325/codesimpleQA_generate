@@ -10,7 +10,10 @@ import sys
 
 def read_accessible_urls():
     """读取accessible_library_urls.json文件"""
-    file_path = "/Users/bytedance/Desktop/multilingual-simpleQA/accessible_library_urls.json"
+    # 使用脚本所在目录的绝对路径来构建文件路径
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, "../data/accessible_library_urls.json")
+    file_path = os.path.normpath(file_path)  # 规范化路径
     if not os.path.exists(file_path):
         print(f"文件未找到: {file_path}")
         return {}
@@ -496,7 +499,10 @@ def main():
                 print(f"✗ 爬取 {url} 发生未知错误: {e}")
     
     # 保存爬取结果（使用统一文件名）
-    output_file = "/Users/bytedance/Desktop/multilingual-simpleQA/specific_library_crawled_data.json"
+    # 获取当前脚本所在目录
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # 构建输出文件的绝对路径
+    output_file = os.path.normpath(os.path.join(script_dir, "../data/specific_library_crawled_data.json"))
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(crawled_data, f, ensure_ascii=False, indent=2)
     
@@ -537,7 +543,9 @@ def main():
         print(f"内容重复检查结果: 3个URL的内容都不相同")
     
     # 询问用户是否要追加保存到统一的JSON文件
-    append_file = "/Users/bytedance/Desktop/multilingual-simpleQA/library_crawled_data_append.json"
+    # 构建append_file的绝对路径
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    append_file = os.path.normpath(os.path.join(script_dir, "../data/library_crawled_data_append.json"))
     while True:
         user_input = input(f"\n是否将结果追加到 {append_file}？(yes/no): ").strip().lower()
         if user_input in ['yes', 'y']:

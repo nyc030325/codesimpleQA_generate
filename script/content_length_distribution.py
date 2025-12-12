@@ -2,7 +2,7 @@ import json
 import os
 
 # 定义文件路径
-file_path = "/Users/bytedance/Desktop/multilingual-simpleQA/library_crawled_data_append.json"
+file_path = "../data/library_crawled_data_append.json"
 
 # 检查文件是否存在
 if not os.path.exists(file_path):
@@ -83,7 +83,7 @@ if short_content_entries:
     short_content_entries.sort(key=lambda x: x['length'])
     
     # 打开文件保存短内容
-    output_file = "/Users/bytedance/Desktop/multilingual-simpleQA/short_content_entries.txt"
+    output_file = "short_content_entries.txt"
     with open(output_file, 'w', encoding='utf-8') as f:
         for i, entry in enumerate(short_content_entries, 1):
             print(f"第{i}条: {entry['length']} 字符, Library: {entry['library_name']}, Version: {entry.get('version', 'N/A')}")
