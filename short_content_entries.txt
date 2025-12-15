@@ -1,77 +1,18 @@
 === 条目 1 ===
-库名: Caffeine
+库名: STTP
 版本: N/A
-URL: https://github.com/ben-manes/caffeine/releases/tag/v3.1.7
-长度: 189 字符
+URL: https://github.com/softwaremill/sttp/releases/tag/v3.9.4
+长度: 209 字符
 内容:
-Cache
-Improved builder construction time (
-#905
+What’s Changed
+Suspend the evaluation of the SttpBackendStub.send() effect in the target monad (
+#2099
 )
-JCache
-Fixed deadlock when a cache listener writes to another cache (
-#1065
+@adamw
+Improve proxy authentication preventing NPE and allow Basic Authentication (v3) (
+#2088
 )
-Added
-jakarta.inject
-support, dropping
-javax.inject
-(
-#1009
-)
-
-==================================================
-
-=== 条目 2 ===
-库名: Elasticsearch-Java
-版本: N/A
-URL: https://github.com/elastic/elasticsearch-java/releases/tag/v8.13.0
-长度: 228 字符
-内容:
-What's Changed
-Add ES|QL helpers (
-#762
-)  by
-@swallez
-in
-#763
-Add misc improvements to the framework (
-#760
-)  by
-@swallez
-in
-#761
-Various bugfixes (
-#745
-)(
-#756
-) by
-@l-trotta
-in
-#746
-,
-#757
-Full Changelog
-:
-v8.12.2...v8.13.0
-
-==================================================
-
-=== 条目 3 ===
-库名: Resilience4j
-版本: N/A
-URL: https://github.com/resilience4j/resilience4j/releases/tag/v2.1.0
-长度: 239 字符
-内容:
-Enhancements
-Fallbackmethod supports usage of annotations in Spring
-Issue
-#1955
-: RecordResultPredicate can be configured in Spring Boot config now
-Bugs
-Issue
-#1980
-: Fixed API regression following removal of io.vavr dependencies in v2.0.0
+@DybekK
 
 ==================================================
 

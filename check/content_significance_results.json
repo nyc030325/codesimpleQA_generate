@@ -1,632 +1,632 @@
 [
   {
-    "library_name": "Spring-Data-JPA",
-    "version": "3.1.0",
-    "url": "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.1.0",
-    "content_length": 440,
+    "library_name": "Http4s",
+    "version": "v0.23.27",
+    "url": "https://github.com/http4s/http4s/releases/tag/v0.23.27",
+    "content_length": 2530,
     "significance": 1
   },
   {
-    "library_name": "Lettuce",
-    "version": "6.4.0.RELEASE",
-    "url": "https://github.com/lettuce-io/lettuce-core/releases/tag/6.4.0.RELEASE",
-    "content_length": 2441,
+    "library_name": "Cats-Effect",
+    "version": "v3.6.2",
+    "url": "https://github.com/typelevel/cats-effect/releases/tag/v3.6.2",
+    "content_length": 4251,
     "significance": 1
   },
   {
-    "library_name": "Spring-Data-JPA",
-    "version": "3.3.0",
-    "url": "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.3.0",
-    "content_length": 2070,
+    "library_name": "Akka",
+    "version": "v2.8.3",
+    "url": "https://github.com/akka/akka/releases/tag/v2.8.3",
+    "content_length": 2581,
     "significance": 1
   },
   {
-    "library_name": "Spring-Security",
-    "version": "6.5.0",
-    "url": "https://github.com/spring-projects/spring-security/releases/tag/6.5.0",
-    "content_length": 2480,
+    "library_name": "Cats",
+    "version": "v2.13.0",
+    "url": "https://github.com/typelevel/cats/releases/tag/v2.13.0",
+    "content_length": 5302,
     "significance": 1
   },
   {
-    "library_name": "Spring-Security",
-    "version": "6.3.0",
-    "url": "https://github.com/spring-projects/spring-security/releases/tag/6.3.0",
-    "content_length": 3182,
+    "library_name": "Cats",
+    "version": "v2.12.0",
+    "url": "https://github.com/typelevel/cats/releases/tag/v2.12.0",
+    "content_length": 596,
     "significance": 1
   },
   {
-    "library_name": "Spring-Boot",
-    "version": "v3.3.0",
-    "url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.3.0",
-    "content_length": 6950,
+    "library_name": "Cats",
+    "version": "v2.10.0",
+    "url": "https://github.com/typelevel/cats/releases/tag/v2.10.0",
+    "content_length": 5234,
     "significance": 1
   },
   {
-    "library_name": "Spring-Data-JPA",
-    "version": "3.5.0",
-    "url": "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.5.0",
-    "content_length": 4630,
+    "library_name": "Akka",
+    "version": "v2.9.3",
+    "url": "https://github.com/akka/akka/releases/tag/v2.9.3",
+    "content_length": 4067,
     "significance": 1
   },
   {
-    "library_name": "Spring-Boot",
-    "version": "v3.5.0",
-    "url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.5.0",
-    "content_length": 4020,
+    "library_name": "Akka-HTTP",
+    "version": "v10.6.3",
+    "url": "https://github.com/akka/akka-http/releases/tag/v10.6.3",
+    "content_length": 756,
     "significance": 1
   },
   {
-    "library_name": "Spring-Framework",
-    "version": "v6.1.10",
-    "url": "https://github.com/spring-projects/spring-framework/releases/tag/v6.1.10",
-    "content_length": 989,
+    "library_name": "Cats-Effect",
+    "version": "v3.5.4",
+    "url": "https://github.com/typelevel/cats-effect/releases/tag/v3.5.4",
+    "content_length": 2656,
     "significance": 1
   },
   {
-    "library_name": "Spring-Boot",
-    "version": "v3.1.0",
-    "url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.1.0",
-    "content_length": 3676,
+    "library_name": "ZIO",
+    "version": "v2.1.20",
+    "url": "https://github.com/zio/zio/releases/tag/v2.1.20",
+    "content_length": 6634,
     "significance": 1
   },
   {
-    "library_name": "Spring-Framework",
-    "version": "v6.0.10",
-    "url": "https://github.com/spring-projects/spring-framework/releases/tag/v6.0.10",
-    "content_length": 4633,
+    "library_name": "Akka",
+    "version": "v2.10.7",
+    "url": "https://github.com/akka/akka/releases/tag/v2.10.7",
+    "content_length": 2152,
     "significance": 1
   },
   {
-    "library_name": "JUnit5",
-    "version": "5.12.0",
-    "url": "https://docs.junit.org/5.12.0/release-notes/",
-    "content_length": 9150,
+    "library_name": "Http4s",
+    "version": "v0.23.31",
+    "url": "https://github.com/http4s/http4s/releases/tag/v0.23.31",
+    "content_length": 5830,
     "significance": 1
   },
   {
-    "library_name": "JUnit5",
-    "version": "5.11.0",
-    "url": "https://docs.junit.org/5.11.0/release-notes/",
-    "content_length": 8568,
+    "library_name": "Http4s",
+    "version": "v0.23.22",
+    "url": "https://github.com/http4s/http4s/releases/tag/v0.23.22",
+    "content_length": 1632,
     "significance": 1
   },
   {
-    "library_name": "Lettuce",
-    "version": "6.6.0.RELEASE",
-    "url": "https://github.com/lettuce-io/lettuce-core/releases/tag/6.6.0.RELEASE",
-    "content_length": 6047,
+    "library_name": "Akka-HTTP",
+    "version": "v10.5.1",
+    "url": "https://github.com/akka/akka-http/releases/tag/v10.5.1",
+    "content_length": 674,
     "significance": 1
   },
   {
-    "library_name": "Spring-Security",
-    "version": "6.1.0",
-    "url": "https://github.com/spring-projects/spring-security/releases/tag/6.1.0",
-    "content_length": 1984,
+    "library_name": "Cats-Effect",
+    "version": "v3.5.1",
+    "url": "https://github.com/typelevel/cats-effect/releases/tag/v3.5.1",
+    "content_length": 1918,
     "significance": 1
   },
   {
-    "library_name": "Spring-Framework",
-    "version": "v6.2.7",
-    "url": "https://github.com/spring-projects/spring-framework/releases/tag/v6.2.7",
-    "content_length": 2297,
-    "significance": 1
-  },
-  {
-    "library_name": "Lettuce",
-    "version": "6.2.5.RELEASE",
-    "url": "https://github.com/lettuce-io/lettuce-core/releases/tag/6.2.5.RELEASE",
-    "content_length": 811,
-    "significance": 1
-  },
-  {
-    "library_name": "Flyway",
-    "version": "flyway-10.13.0",
-    "url": "https://github.com/flyway/flyway/releases/tag/flyway-10.13.0",
-    "content_length": 845,
-    "significance": 1
-  },
-  {
-    "library_name": "Flyway",
-    "version": "flyway-11.10.0",
-    "url": "https://github.com/flyway/flyway/releases/tag/flyway-11.10.0",
-    "content_length": 1188,
-    "significance": 1
-  },
-  {
-    "library_name": "Liquibase",
-    "version": "v4.32.0",
-    "url": "https://github.com/liquibase/liquibase/releases/tag/v4.32.0",
-    "content_length": 28168,
-    "significance": 1
-  },
-  {
-    "library_name": "Liquibase",
-    "version": "v4.23.0",
-    "url": "https://github.com/liquibase/liquibase/releases/tag/v4.23.0",
-    "content_length": 15920,
-    "significance": 1
-  },
-  {
-    "library_name": "JUnit5",
-    "version": "5.10.0",
-    "url": "https://docs.junit.org/5.10.0/release-notes/",
-    "content_length": 8204,
-    "significance": 1
-  },
-  {
-    "library_name": "Flyway",
-    "version": "flyway-9.18.0",
-    "url": "https://github.com/flyway/flyway/releases/tag/flyway-9.18.0",
-    "content_length": 975,
-    "significance": 1
-  },
-  {
-    "library_name": "Micronaut",
-    "version": "v4.5.0",
-    "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.5.0",
-    "content_length": 4699,
-    "significance": 1
-  },
-  {
-    "library_name": "Liquibase",
-    "version": "v4.28.0",
-    "url": "https://github.com/liquibase/liquibase/releases/tag/v4.28.0",
-    "content_length": 13246,
-    "significance": 1
-  },
-  {
-    "library_name": "gRPC-Java",
-    "version": "v1.72.0",
-    "url": "https://github.com/grpc/grpc-java/releases/tag/v1.72.0",
-    "content_length": 3596,
-    "significance": 1
-  },
-  {
-    "library_name": "gRPC-Java",
-    "version": "v1.56.0",
-    "url": "https://github.com/grpc/grpc-java/releases/tag/v1.56.0",
-    "content_length": 3512,
-    "significance": 1
-  },
-  {
-    "library_name": "Micronaut",
-    "version": "v4.9.0",
-    "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.9.0",
-    "content_length": 8749,
-    "significance": 1
-  },
-  {
-    "library_name": "gRPC-Java",
-    "version": "v1.65.0",
-    "url": "https://github.com/grpc/grpc-java/releases/tag/v1.65.0",
-    "content_length": 2219,
-    "significance": 1
-  },
-  {
-    "library_name": "Resilience4j",
-    "version": "v2.2.0",
-    "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.2.0",
-    "content_length": 750,
-    "significance": 1
-  },
-  {
-    "library_name": "Micronaut",
-    "version": "v4.0.0",
-    "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.0.0",
-    "content_length": 43473,
-    "significance": 1
-  },
-  {
-    "library_name": "Resilience4j",
-    "version": "v2.3.0",
-    "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.3.0",
-    "content_length": 1661,
-    "significance": 1
-  },
-  {
-    "library_name": "Resilience4j",
-    "version": "v2.1.0",
-    "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.1.0",
-    "content_length": 239,
-    "significance": 1
-  },
-  {
-    "library_name": "MyBatis",
-    "version": "mybatis-3",
-    "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.18",
-    "content_length": 1095,
-    "significance": 1
-  },
-  {
-    "library_name": "MyBatis",
-    "version": "mybatis-3",
-    "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.15",
-    "content_length": 1385,
-    "significance": 1
-  },
-  {
-    "library_name": "MyBatis",
-    "version": "mybatis-3",
-    "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.12",
-    "content_length": 8184,
-    "significance": 1
-  },
-  {
-    "library_name": "Gson",
-    "version": "gson-parent-2.12.0",
-    "url": "https://github.com/google/gson/releases/tag/gson-parent-2.12.0",
-    "content_length": 1700,
-    "significance": 1
-  },
-  {
-    "library_name": "Gson",
-    "version": "gson-parent-2.11.0",
-    "url": "https://github.com/google/gson/releases/tag/gson-parent-2.11.0",
-    "content_length": 6041,
-    "significance": 1
-  },
-  {
-    "library_name": "Guava",
-    "version": "v33.2.0",
-    "url": "https://github.com/google/guava/releases/tag/v33.2.0",
-    "content_length": 2067,
-    "significance": 1
-  },
-  {
-    "library_name": "Gson",
-    "version": "gson-parent-2.10.1",
-    "url": "https://github.com/google/gson/releases/tag/gson-parent-2.10.1",
-    "content_length": 2326,
-    "significance": 1
-  },
-  {
-    "library_name": "Guava",
-    "version": "v33.5.0",
-    "url": "https://github.com/google/guava/releases/tag/v33.5.0",
-    "content_length": 1783,
-    "significance": 1
-  },
-  {
-    "library_name": "Mockito",
-    "version": "v5.21.0",
-    "url": "https://github.com/mockito/mockito/releases/tag/v5.21.0",
-    "content_length": 1450,
-    "significance": 1
-  },
-  {
-    "library_name": "Guava",
-    "version": "v32.1.0",
-    "url": "https://github.com/google/guava/releases/tag/v32.1.0",
-    "content_length": 7117,
-    "significance": 1
-  },
-  {
-    "library_name": "Mockito",
-    "version": "v5.4.0",
-    "url": "https://github.com/mockito/mockito/releases/tag/v5.4.0",
-    "content_length": 2175,
-    "significance": 1
-  },
-  {
-    "library_name": "Mockito",
-    "version": "v5.12.0",
-    "url": "https://github.com/mockito/mockito/releases/tag/v5.12.0",
-    "content_length": 2010,
-    "significance": 1
-  },
-  {
-    "library_name": "AssertJ",
-    "version": "assertj-build-3.24.0",
-    "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.24.0",
-    "content_length": 20377,
-    "significance": 1
-  },
-  {
-    "library_name": "AssertJ",
-    "version": "assertj-build-3.27.4",
-    "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.27.4",
-    "content_length": 617,
-    "significance": 1
-  },
-  {
-    "library_name": "Log4j2",
-    "version": "logging-log4j2",
-    "url": "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.21.0",
-    "content_length": 6434,
-    "significance": 1
-  },
-  {
-    "library_name": "Log4j2",
-    "version": "logging-log4j2",
-    "url": "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.25.0",
-    "content_length": 7274,
-    "significance": 1
-  },
-  {
-    "library_name": "Retrofit",
-    "version": "2.12.0",
-    "url": "https://github.com/square/retrofit/releases/tag/2.12.0",
-    "content_length": 548,
-    "significance": 1
-  },
-  {
-    "library_name": "Jedis",
-    "version": "v7.0.0",
-    "url": "https://github.com/redis/jedis/releases/tag/v7.0.0",
-    "content_length": 2347,
-    "significance": 1
-  },
-  {
-    "library_name": "AssertJ",
-    "version": "assertj-build-3.26.0",
-    "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.26.0",
-    "content_length": 2994,
-    "significance": 1
-  },
-  {
-    "library_name": "Log4j2",
-    "version": "logging-log4j2",
-    "url": "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.23.1",
-    "content_length": 1329,
-    "significance": 1
-  },
-  {
-    "library_name": "Retrofit",
-    "version": "2.11.0",
-    "url": "https://github.com/square/retrofit/releases/tag/2.11.0",
-    "content_length": 415,
-    "significance": 1
-  },
-  {
-    "library_name": "Jedis",
-    "version": "v5.0.0",
-    "url": "https://github.com/redis/jedis/releases/tag/v5.0.0",
-    "content_length": 2430,
-    "significance": 1
-  },
-  {
-    "library_name": "Retrofit",
-    "version": "2.10.0",
-    "url": "https://github.com/square/retrofit/releases/tag/2.10.0",
-    "content_length": 3188,
-    "significance": 1
-  },
-  {
-    "library_name": "MapStruct",
-    "version": "1.6.0.Beta1",
-    "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.6.0.Beta1",
-    "content_length": 7299,
-    "significance": 1
-  },
-  {
-    "library_name": "Jedis",
-    "version": "v5.1.4",
-    "url": "https://github.com/redis/jedis/releases/tag/v5.1.4",
-    "content_length": 1048,
-    "significance": 1
-  },
-  {
-    "library_name": "MapStruct",
-    "version": "1.6.3",
-    "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.6.3",
-    "content_length": 332,
-    "significance": 1
-  },
-  {
-    "library_name": "Quarkus",
-    "version": "3.2.0.Final",
-    "url": "https://github.com/quarkusio/quarkus/releases/tag/3.2.0.Final",
-    "content_length": 3566,
-    "significance": 1
-  },
-  {
-    "library_name": "MapStruct",
-    "version": "1.5.3.Final",
-    "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.5.3.Final",
-    "content_length": 1541,
-    "significance": 1
-  },
-  {
-    "library_name": "Quarkus",
-    "version": "3.26.0",
-    "url": "https://github.com/quarkusio/quarkus/releases/tag/3.26.0",
-    "content_length": 970,
-    "significance": 1
-  },
-  {
-    "library_name": "Quarkus",
-    "version": "3.12.0",
-    "url": "https://github.com/quarkusio/quarkus/releases/tag/3.12.0",
-    "content_length": 1630,
-    "significance": 1
-  },
-  {
-    "library_name": "Micrometer",
-    "version": "v1.16.0",
-    "url": "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.16.0",
-    "content_length": 3570,
-    "significance": 1
-  },
-  {
-    "library_name": "Micrometer",
-    "version": "v1.13.0",
-    "url": "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.13.0",
-    "content_length": 7595,
-    "significance": 1
-  },
-  {
-    "library_name": "Micrometer",
-    "version": "v1.11.0",
-    "url": "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.11.0",
-    "content_length": 2597,
-    "significance": 1
-  },
-  {
-    "library_name": "OpenAPI-Generator",
-    "version": "v7.15.0",
-    "url": "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.15.0",
-    "content_length": 6163,
-    "significance": 1
-  },
-  {
-    "library_name": "Caffeine",
-    "version": "v3.1.3",
-    "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.1.3",
-    "content_length": 673,
-    "significance": 1
-  },
-  {
-    "library_name": "OpenAPI-Generator",
-    "version": "v7.0.0",
-    "url": "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.0.0",
-    "content_length": 4827,
-    "significance": 1
-  },
-  {
-    "library_name": "Caffeine",
-    "version": "v3.2.0",
-    "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.2.0",
+    "library_name": "Akka-HTTP",
+    "version": "v10.7.2",
+    "url": "https://github.com/akka/akka-http/releases/tag/v10.7.2",
     "content_length": 990,
     "significance": 1
   },
   {
-    "library_name": "Testcontainers",
-    "version": "1.20.0",
-    "url": "https://github.com/testcontainers/testcontainers-java/releases/tag/1.20.0",
-    "content_length": 2455,
+    "library_name": "ZIO",
+    "version": "v2.0.15",
+    "url": "https://github.com/zio/zio/releases/tag/v2.0.15",
+    "content_length": 441,
     "significance": 1
   },
   {
-    "library_name": "Caffeine",
-    "version": "v3.1.7",
-    "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.1.7",
-    "content_length": 189,
+    "library_name": "ZIO",
+    "version": "v2.1.5",
+    "url": "https://github.com/zio/zio/releases/tag/v2.1.5",
+    "content_length": 1257,
     "significance": 1
   },
   {
-    "library_name": "Testcontainers",
-    "version": "1.19.0",
-    "url": "https://github.com/testcontainers/testcontainers-java/releases/tag/1.19.0",
-    "content_length": 4436,
+    "library_name": "Circe",
+    "version": "v0.14.15",
+    "url": "https://github.com/circe/circe/releases/tag/v0.14.15",
+    "content_length": 1199,
     "significance": 1
   },
   {
-    "library_name": "OpenAPI-Generator",
-    "version": "v7.6.0",
-    "url": "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.6.0",
-    "content_length": 3893,
+    "library_name": "Circe",
+    "version": "v0.14.10",
+    "url": "https://github.com/circe/circe/releases/tag/v0.14.10",
+    "content_length": 1218,
     "significance": 1
   },
   {
-    "library_name": "Maven",
-    "version": "maven-3.9.8",
-    "url": "https://github.com/apache/maven/releases/tag/maven-3.9.8",
-    "content_length": 2683,
+    "library_name": "ZIO-HTTP",
+    "version": "v3.5.0",
+    "url": "https://github.com/zio/zio-http/releases/tag/v3.5.0",
+    "content_length": 2376,
     "significance": 1
   },
   {
-    "library_name": "Testcontainers",
-    "version": "1.21.0",
-    "url": "https://github.com/testcontainers/testcontainers-java/releases/tag/1.21.0",
-    "content_length": 1750,
+    "library_name": "FS2",
+    "version": "v3.12.0",
+    "url": "https://github.com/typelevel/fs2/releases/tag/v3.12.0",
+    "content_length": 2146,
     "significance": 1
   },
   {
-    "library_name": "Elasticsearch-Java",
-    "version": "v8.16.7",
-    "url": "https://github.com/elastic/elasticsearch-java/releases/tag/v8.16.7",
-    "content_length": 2383,
+    "library_name": "Circe",
+    "version": "v0.14.6",
+    "url": "https://github.com/circe/circe/releases/tag/v0.14.6",
+    "content_length": 4412,
     "significance": 1
   },
   {
-    "library_name": "Maven",
-    "version": "maven-3.9.11",
-    "url": "https://github.com/apache/maven/releases/tag/maven-3.9.11",
-    "content_length": 1051,
+    "library_name": "FS2",
+    "version": "v3.7.0",
+    "url": "https://github.com/typelevel/fs2/releases/tag/v3.7.0",
+    "content_length": 3271,
     "significance": 1
   },
   {
-    "library_name": "Elasticsearch-Java",
-    "version": "v8.8.0",
-    "url": "https://github.com/elastic/elasticsearch-java/releases/tag/v8.8.0",
-    "content_length": 825,
+    "library_name": "ZIO-HTTP",
+    "version": "v0.0.5",
+    "url": "https://github.com/zio/zio-http/releases/tag/v0.0.5",
+    "content_length": 2911,
     "significance": 1
   },
   {
-    "library_name": "Maven",
-    "version": "maven-3.9.3",
-    "url": "https://github.com/apache/maven/releases/tag/maven-3.9.3",
-    "content_length": 1472,
+    "library_name": "Slick",
+    "version": "v3.5.0-M2",
+    "url": "https://github.com/slick/slick/releases/tag/v3.5.0-M2",
+    "content_length": 1602,
     "significance": 1
   },
   {
-    "library_name": "Apache-Dubbo",
-    "version": "dubbo-3.2.5",
-    "url": "https://github.com/apache/dubbo/releases/tag/dubbo-3.2.5",
-    "content_length": 4373,
+    "library_name": "ZIO-HTTP",
+    "version": "v3.0.0",
+    "url": "https://github.com/zio/zio-http/releases/tag/v3.0.0",
+    "content_length": 45421,
     "significance": 1
   },
   {
-    "library_name": "Sentinel",
-    "version": "1.8.7",
-    "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.7",
-    "content_length": 1764,
+    "library_name": "FS2",
+    "version": "v3.11.0",
+    "url": "https://github.com/typelevel/fs2/releases/tag/v3.11.0",
+    "content_length": 2189,
     "significance": 1
   },
   {
-    "library_name": "Nacos",
-    "version": "2.3.0",
-    "url": "https://github.com/alibaba/nacos/releases/tag/2.3.0",
-    "content_length": 1539,
+    "library_name": "Slick",
+    "version": "v3.6.0",
+    "url": "https://github.com/slick/slick/releases/tag/v3.6.0",
+    "content_length": 4329,
     "significance": 1
   },
   {
-    "library_name": "Elasticsearch-Java",
-    "version": "v8.13.0",
-    "url": "https://github.com/elastic/elasticsearch-java/releases/tag/v8.13.0",
-    "content_length": 228,
+    "library_name": "Slick",
+    "version": "v3.5.0",
+    "url": "https://github.com/slick/slick/releases/tag/v3.5.0",
+    "content_length": 15345,
     "significance": 1
   },
   {
-    "library_name": "Apache-Dubbo",
-    "version": "dubbo-3.3.0",
-    "url": "https://github.com/apache/dubbo/releases/tag/dubbo-3.3.0",
-    "content_length": 4195,
+    "library_name": "ScalaTest",
+    "version": "release-3.2.14",
+    "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.14",
+    "content_length": 835,
     "significance": 1
   },
   {
-    "library_name": "Sentinel",
-    "version": "1.8.6",
-    "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.6",
-    "content_length": 779,
+    "library_name": "ScalaTest",
+    "version": "release-3.2.19",
+    "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.19",
+    "content_length": 1540,
     "significance": 1
   },
   {
-    "library_name": "Nacos",
-    "version": "3.0.0",
-    "url": "https://github.com/alibaba/nacos/releases/tag/3.0.0",
-    "content_length": 4050,
+    "library_name": "ScalaTest",
+    "version": "release-3.2.16",
+    "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.16",
+    "content_length": 837,
     "significance": 1
   },
   {
-    "library_name": "Sentinel",
-    "version": "1.8.8",
-    "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.8",
-    "content_length": 742,
+    "library_name": "MUnit",
+    "version": "v1.1.2",
+    "url": "https://github.com/scalameta/munit/releases/tag/v1.1.2",
+    "content_length": 3788,
     "significance": 1
   },
   {
-    "library_name": "Nacos",
-    "version": "2.4.0",
-    "url": "https://github.com/alibaba/nacos/releases/tag/2.4.0",
-    "content_length": 5077,
+    "library_name": "Shapeless",
+    "version": "v2.3.10",
+    "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.10",
+    "content_length": 501,
     "significance": 1
   },
   {
-    "library_name": "Apache-Dubbo",
-    "version": "dubbo-3.3.5",
-    "url": "https://github.com/apache/dubbo/releases/tag/dubbo-3.3.5",
-    "content_length": 3780,
+    "library_name": "ScalaCheck",
+    "version": "v1.17.0",
+    "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.17.0",
+    "content_length": 548,
+    "significance": 1
+  },
+  {
+    "library_name": "MUnit",
+    "version": "v1.0.2",
+    "url": "https://github.com/scalameta/munit/releases/tag/v1.0.2",
+    "content_length": 980,
+    "significance": 1
+  },
+  {
+    "library_name": "MUnit",
+    "version": "v1.0.0-M8",
+    "url": "https://github.com/scalameta/munit/releases/tag/v1.0.0-M8",
+    "content_length": 2574,
+    "significance": 1
+  },
+  {
+    "library_name": "ScalaCheck",
+    "version": "v1.19.0",
+    "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.19.0",
+    "content_length": 1404,
+    "significance": 1
+  },
+  {
+    "library_name": "ScalaCheck",
+    "version": "v1.17.1",
+    "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.17.1",
+    "content_length": 6262,
+    "significance": 1
+  },
+  {
+    "library_name": "Shapeless",
+    "version": "v2.3.11",
+    "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.11",
+    "content_length": 473,
+    "significance": 1
+  },
+  {
+    "library_name": "Shapeless",
+    "version": "v2.3.13",
+    "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.13",
+    "content_length": 320,
+    "significance": 1
+  },
+  {
+    "library_name": "Refined",
+    "version": "v0.11.0",
+    "url": "https://github.com/fthomas/refined/releases/tag/v0.11.0",
+    "content_length": 1623,
+    "significance": 1
+  },
+  {
+    "library_name": "Refined",
+    "version": "v0.11.1",
+    "url": "https://github.com/fthomas/refined/releases/tag/v0.11.1",
+    "content_length": 2944,
+    "significance": 1
+  },
+  {
+    "library_name": "Refined",
+    "version": "v0.11.3",
+    "url": "https://github.com/fthomas/refined/releases/tag/v0.11.3",
+    "content_length": 2720,
+    "significance": 1
+  },
+  {
+    "library_name": "Monocle",
+    "version": "v3.2.0",
+    "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.2.0",
+    "content_length": 654,
+    "significance": 1
+  },
+  {
+    "library_name": "Chimney",
+    "version": "1.8.0",
+    "url": "https://github.com/scalalandio/chimney/releases/tag/1.8.0",
+    "content_length": 1504,
+    "significance": 1
+  },
+  {
+    "library_name": "Tapir",
+    "version": "v1.11.4",
+    "url": "https://github.com/softwaremill/tapir/releases/tag/v1.11.4",
+    "content_length": 651,
+    "significance": 1
+  },
+  {
+    "library_name": "Monocle",
+    "version": "v3.1.0",
+    "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.1.0",
+    "content_length": 1039,
+    "significance": 1
+  },
+  {
+    "library_name": "Monocle",
+    "version": "v3.3.0",
+    "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.3.0",
+    "content_length": 605,
+    "significance": 1
+  },
+  {
+    "library_name": "Chimney",
+    "version": "0.8.0",
+    "url": "https://github.com/scalalandio/chimney/releases/tag/0.8.0",
+    "content_length": 3864,
+    "significance": 1
+  },
+  {
+    "library_name": "SBT",
+    "version": "v1.11.5",
+    "url": "https://github.com/sbt/sbt/releases/tag/v1.11.5",
+    "content_length": 1978,
+    "significance": 1
+  },
+  {
+    "library_name": "Chimney",
+    "version": "1.3.0",
+    "url": "https://github.com/scalalandio/chimney/releases/tag/1.3.0",
+    "content_length": 953,
+    "significance": 1
+  },
+  {
+    "library_name": "Tapir",
+    "version": "v1.7.4",
+    "url": "https://github.com/softwaremill/tapir/releases/tag/v1.7.4",
+    "content_length": 2426,
+    "significance": 1
+  },
+  {
+    "library_name": "Tapir",
+    "version": "v1.11.45",
+    "url": "https://github.com/softwaremill/tapir/releases/tag/v1.11.45",
+    "content_length": 1663,
+    "significance": 1
+  },
+  {
+    "library_name": "SBT",
+    "version": "v1.10.0",
+    "url": "https://github.com/sbt/sbt/releases/tag/v1.10.0",
+    "content_length": 5579,
+    "significance": 1
+  },
+  {
+    "library_name": "Mill",
+    "version": "0.12.15",
+    "url": "https://github.com/com-lihaoyi/mill/releases/tag/0.12.15",
+    "content_length": 1771,
+    "significance": 1
+  },
+  {
+    "library_name": "Mill",
+    "version": "0.11.1",
+    "url": "https://github.com/com-lihaoyi/mill/releases/tag/0.11.1",
+    "content_length": 1908,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala-CLI",
+    "version": "v1.0.2",
+    "url": "https://github.com/VirtusLab/scala-cli/releases/tag/v1.0.2",
+    "content_length": 5407,
+    "significance": 1
+  },
+  {
+    "library_name": "SBT",
+    "version": "v1.9.5",
+    "url": "https://github.com/sbt/sbt/releases/tag/v1.9.5",
+    "content_length": 1084,
+    "significance": 1
+  },
+  {
+    "library_name": "Mill",
+    "version": "0.11.8",
+    "url": "https://github.com/com-lihaoyi/mill/releases/tag/0.11.8",
+    "content_length": 9098,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala-CLI",
+    "version": "v1.8.0",
+    "url": "https://github.com/VirtusLab/scala-cli/releases/tag/v1.8.0",
+    "content_length": 8524,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala-CLI",
+    "version": "v1.4.0",
+    "url": "https://github.com/VirtusLab/scala-cli/releases/tag/v1.4.0",
+    "content_length": 7948,
+    "significance": 1
+  },
+  {
+    "library_name": "Caliban",
+    "version": "v2.11.0",
+    "url": "https://github.com/ghostdogpr/caliban/releases/tag/v2.11.0",
+    "content_length": 682,
+    "significance": 1
+  },
+  {
+    "library_name": "Sangria",
+    "version": "v4.0.0",
+    "url": "https://github.com/sangria-graphql/sangria/releases/tag/v4.0.0",
+    "content_length": 2812,
+    "significance": 1
+  },
+  {
+    "library_name": "Caliban",
+    "version": "v2.3.0",
+    "url": "https://github.com/ghostdogpr/caliban/releases/tag/v2.3.0",
+    "content_length": 1314,
+    "significance": 1
+  },
+  {
+    "library_name": "Sangria",
+    "version": "v4.2.13",
+    "url": "https://github.com/sangria-graphql/sangria/releases/tag/v4.2.13",
+    "content_length": 487,
+    "significance": 1
+  },
+  {
+    "library_name": "Caliban",
+    "version": "v2.7.0",
+    "url": "https://github.com/ghostdogpr/caliban/releases/tag/v2.7.0",
+    "content_length": 1479,
+    "significance": 1
+  },
+  {
+    "library_name": "Skunk",
+    "version": "v1.0.0-M11",
+    "url": "https://github.com/typelevel/skunk/releases/tag/v1.0.0-M11",
+    "content_length": 3117,
+    "significance": 1
+  },
+  {
+    "library_name": "Scio",
+    "version": "v0.13.0",
+    "url": "https://github.com/spotify/scio/releases/tag/v0.13.0",
+    "content_length": 5262,
+    "significance": 1
+  },
+  {
+    "library_name": "Skunk",
+    "version": "v0.6.0",
+    "url": "https://github.com/typelevel/skunk/releases/tag/v0.6.0",
+    "content_length": 3993,
+    "significance": 1
+  },
+  {
+    "library_name": "Sangria",
+    "version": "v4.1.0",
+    "url": "https://github.com/sangria-graphql/sangria/releases/tag/v4.1.0",
+    "content_length": 1559,
+    "significance": 1
+  },
+  {
+    "library_name": "Skunk",
+    "version": "v0.6.4",
+    "url": "https://github.com/typelevel/skunk/releases/tag/v0.6.4",
+    "content_length": 2111,
+    "significance": 1
+  },
+  {
+    "library_name": "STTP",
+    "version": "v3.9.4",
+    "url": "https://github.com/softwaremill/sttp/releases/tag/v3.9.4",
+    "content_length": 209,
+    "significance": 1
+  },
+  {
+    "library_name": "STTP",
+    "version": "v3.8.7",
+    "url": "https://github.com/softwaremill/sttp/releases/tag/v3.8.7",
+    "content_length": 401,
+    "significance": 1
+  },
+  {
+    "library_name": "Scio",
+    "version": "v0.15.0",
+    "url": "https://github.com/spotify/scio/releases/tag/v0.15.0",
+    "content_length": 2332,
+    "significance": 1
+  },
+  {
+    "library_name": "Scio",
+    "version": "v0.14.0",
+    "url": "https://github.com/spotify/scio/releases/tag/v0.14.0",
+    "content_length": 6279,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala-Steward",
+    "version": "v0.34.0",
+    "url": "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.34.0",
+    "content_length": 2479,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala-Steward",
+    "version": "v0.31.0",
+    "url": "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.31.0",
+    "content_length": 5446,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala2",
+    "version": "v2.13.18",
+    "url": "https://github.com/scala/scala/releases/tag/v2.13.18",
+    "content_length": 3256,
+    "significance": 1
+  },
+  {
+    "library_name": "STTP",
+    "version": "v4.0.0",
+    "url": "https://github.com/softwaremill/sttp/releases/tag/v4.0.0",
+    "content_length": 1630,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala2",
+    "version": "v2.13.11",
+    "url": "https://github.com/scala/scala/releases/tag/v2.13.11",
+    "content_length": 4768,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala-Steward",
+    "version": "v0.25.0",
+    "url": "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.25.0",
+    "content_length": 1417,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala2",
+    "version": "v2.13.14",
+    "url": "https://github.com/scala/scala/releases/tag/v2.13.14",
+    "content_length": 2409,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala3",
+    "version": "scala3",
+    "url": "https://github.com/scala/scala3/releases/tag/3.7.0",
+    "content_length": 9111,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala3",
+    "version": "scala3",
+    "url": "https://github.com/scala/scala3/releases/tag/3.3.0",
+    "content_length": 8930,
+    "significance": 1
+  },
+  {
+    "library_name": "Scala3",
+    "version": "scala3",
+    "url": "https://github.com/scala/scala3/releases/tag/3.4.2",
+    "content_length": 6071,
+    "significance": 1
+  },
+  {
+    "library_name": "Scalafmt",
+    "version": "v3.7.0",
+    "url": "https://github.com/scalameta/scalafmt/releases/tag/v3.7.0",
+    "content_length": 4382,
+    "significance": 1
+  },
+  {
+    "library_name": "Scalafmt",
+    "version": "v3.9.0",
+    "url": "https://github.com/scalameta/scalafmt/releases/tag/v3.9.0",
+    "content_length": 4937,
+    "significance": 1
+  },
+  {
+    "library_name": "Scalafmt",
+    "version": "v3.8.0",
+    "url": "https://github.com/scalameta/scalafmt/releases/tag/v3.8.0",
+    "content_length": 4303,
     "significance": 1
   }
 ]

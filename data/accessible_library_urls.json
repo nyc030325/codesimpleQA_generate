@@ -1,152 +1,152 @@
 {
-  "Spring-Boot": [
-    "https://github.com/spring-projects/spring-boot/releases/tag/v3.1.0",
-    "https://github.com/spring-projects/spring-boot/releases/tag/v3.3.0",
-    "https://github.com/spring-projects/spring-boot/releases/tag/v3.5.0"
+  "Akka": [
+    "https://github.com/akka/akka/releases/tag/v2.8.3",
+    "https://github.com/akka/akka/releases/tag/v2.9.3",
+    "https://github.com/akka/akka/releases/tag/v2.10.7"
   ],
-  "Spring-Framework": [
-    "https://github.com/spring-projects/spring-framework/releases/tag/v6.0.10",
-    "https://github.com/spring-projects/spring-framework/releases/tag/v6.1.10",
-    "https://github.com/spring-projects/spring-framework/releases/tag/v6.2.7"
+  "Akka-HTTP": [
+    "https://github.com/akka/akka-http/releases/tag/v10.5.1",
+    "https://github.com/akka/akka-http/releases/tag/v10.6.3",
+    "https://github.com/akka/akka-http/releases/tag/v10.7.2"
   ],
-  "Spring-Security": [
-    "https://github.com/spring-projects/spring-security/releases/tag/6.1.0",
-    "https://github.com/spring-projects/spring-security/releases/tag/6.3.0",
-    "https://github.com/spring-projects/spring-security/releases/tag/6.5.0"
+  "Http4s": [
+    "https://github.com/http4s/http4s/releases/tag/v0.23.22",
+    "https://github.com/http4s/http4s/releases/tag/v0.23.27",
+    "https://github.com/http4s/http4s/releases/tag/v0.23.31"
   ],
-  "Spring-Data-JPA": [
-    "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.1.0",
-    "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.3.0",
-    "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.5.0"
+  "Cats": [
+    "https://github.com/typelevel/cats/releases/tag/v2.10.0",
+    "https://github.com/typelevel/cats/releases/tag/v2.12.0",
+    "https://github.com/typelevel/cats/releases/tag/v2.13.0"
   ],
-  "MyBatis": [
-    "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.12",
-    "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.15",
-    "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.18"
+  "Cats-Effect": [
+    "https://github.com/typelevel/cats-effect/releases/tag/v3.5.1",
+    "https://github.com/typelevel/cats-effect/releases/tag/v3.5.4",
+    "https://github.com/typelevel/cats-effect/releases/tag/v3.6.2"
   ],
-  "Gson": [
-    "https://github.com/google/gson/releases/tag/gson-parent-2.10.1",
-    "https://github.com/google/gson/releases/tag/gson-parent-2.11.0",
-    "https://github.com/google/gson/releases/tag/gson-parent-2.12.0"
+  "ZIO": [
+    "https://github.com/zio/zio/releases/tag/v2.0.15",
+    "https://github.com/zio/zio/releases/tag/v2.1.5",
+    "https://github.com/zio/zio/releases/tag/v2.1.20"
   ],
-  "Guava": [
-    "https://github.com/google/guava/releases/tag/v32.1.0",
-    "https://github.com/google/guava/releases/tag/v33.2.0",
-    "https://github.com/google/guava/releases/tag/v33.5.0"
+  "ZIO-HTTP": [
+    "https://github.com/zio/zio-http/releases/tag/v0.0.5",
+    "https://github.com/zio/zio-http/releases/tag/v3.0.0",
+    "https://github.com/zio/zio-http/releases/tag/v3.5.0"
   ],
-  "JUnit5": [
-    "https://docs.junit.org/5.10.0/release-notes/",
-    "https://docs.junit.org/5.11.0/release-notes/",
-    "https://docs.junit.org/5.12.0/release-notes/"
+  "FS2": [
+    "https://github.com/typelevel/fs2/releases/tag/v3.7.0",
+    "https://github.com/typelevel/fs2/releases/tag/v3.11.0",
+    "https://github.com/typelevel/fs2/releases/tag/v3.12.0"
   ],
-  "Mockito": [
-    "https://github.com/mockito/mockito/releases/tag/v5.4.0",
-    "https://github.com/mockito/mockito/releases/tag/v5.12.0",
-    "https://github.com/mockito/mockito/releases/tag/v5.21.0"
+  "Circe": [
+    "https://github.com/circe/circe/releases/tag/v0.14.6",
+    "https://github.com/circe/circe/releases/tag/v0.14.10",
+    "https://github.com/circe/circe/releases/tag/v0.14.15"
   ],
-  "AssertJ": [
-    "https://github.com/assertj/assertj/releases/tag/assertj-build-3.24.0",
-    "https://github.com/assertj/assertj/releases/tag/assertj-build-3.26.0",
-    "https://github.com/assertj/assertj/releases/tag/assertj-build-3.27.4"
+  "Slick": [
+    "https://github.com/slick/slick/releases/tag/v3.5.0-M2",
+    "https://github.com/slick/slick/releases/tag/v3.5.0",
+    "https://github.com/slick/slick/releases/tag/v3.6.0"
   ],
-  "Log4j2": [
-    "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.21.0",
-    "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.23.1",
-    "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.25.0"
+  "ScalaTest": [
+    "https://github.com/scalatest/scalatest/releases/tag/release-3.2.14",
+    "https://github.com/scalatest/scalatest/releases/tag/release-3.2.16",
+    "https://github.com/scalatest/scalatest/releases/tag/release-3.2.19"
   ],
-  "Retrofit": [
-    "https://github.com/square/retrofit/releases/tag/2.10.0",
-    "https://github.com/square/retrofit/releases/tag/2.11.0",
-    "https://github.com/square/retrofit/releases/tag/2.12.0"
+  "MUnit": [
+    "https://github.com/scalameta/munit/releases/tag/v1.0.0-M8",
+    "https://github.com/scalameta/munit/releases/tag/v1.0.2",
+    "https://github.com/scalameta/munit/releases/tag/v1.1.2"
   ],
-  "Jedis": [
-    "https://github.com/redis/jedis/releases/tag/v5.0.0",
-    "https://github.com/redis/jedis/releases/tag/v5.1.4",
-    "https://github.com/redis/jedis/releases/tag/v7.0.0"
+  "ScalaCheck": [
+    "https://github.com/typelevel/scalacheck/releases/tag/v1.17.0",
+    "https://github.com/typelevel/scalacheck/releases/tag/v1.17.1",
+    "https://github.com/typelevel/scalacheck/releases/tag/v1.19.0"
   ],
-  "Lettuce": [
-    "https://github.com/lettuce-io/lettuce-core/releases/tag/6.2.5.RELEASE",
-    "https://github.com/lettuce-io/lettuce-core/releases/tag/6.4.0.RELEASE",
-    "https://github.com/lettuce-io/lettuce-core/releases/tag/6.6.0.RELEASE"
+  "Shapeless": [
+    "https://github.com/milessabin/shapeless/releases/tag/v2.3.10",
+    "https://github.com/milessabin/shapeless/releases/tag/v2.3.11",
+    "https://github.com/milessabin/shapeless/releases/tag/v2.3.13"
   ],
-  "Flyway": [
-    "https://github.com/flyway/flyway/releases/tag/flyway-9.18.0",
-    "https://github.com/flyway/flyway/releases/tag/flyway-10.13.0",
-    "https://github.com/flyway/flyway/releases/tag/flyway-11.10.0"
+  "Refined": [
+    "https://github.com/fthomas/refined/releases/tag/v0.11.0",
+    "https://github.com/fthomas/refined/releases/tag/v0.11.1",
+    "https://github.com/fthomas/refined/releases/tag/v0.11.3"
   ],
-  "Liquibase": [
-    "https://github.com/liquibase/liquibase/releases/tag/v4.23.0",
-    "https://github.com/liquibase/liquibase/releases/tag/v4.28.0",
-    "https://github.com/liquibase/liquibase/releases/tag/v4.32.0"
+  "Monocle": [
+    "https://github.com/optics-dev/Monocle/releases/tag/v3.1.0",
+    "https://github.com/optics-dev/Monocle/releases/tag/v3.2.0",
+    "https://github.com/optics-dev/Monocle/releases/tag/v3.3.0"
   ],
-  "MapStruct": [
-    "https://github.com/mapstruct/mapstruct/releases/tag/1.5.3.Final",
-    "https://github.com/mapstruct/mapstruct/releases/tag/1.6.0.Beta1",
-    "https://github.com/mapstruct/mapstruct/releases/tag/1.6.3"
+  "Chimney": [
+    "https://github.com/scalalandio/chimney/releases/tag/0.8.0",
+    "https://github.com/scalalandio/chimney/releases/tag/1.3.0",
+    "https://github.com/scalalandio/chimney/releases/tag/1.8.0"
   ],
-  "Quarkus": [
-    "https://github.com/quarkusio/quarkus/releases/tag/3.2.0.Final",
-    "https://github.com/quarkusio/quarkus/releases/tag/3.12.0",
-    "https://github.com/quarkusio/quarkus/releases/tag/3.26.0"
+  "Tapir": [
+    "https://github.com/softwaremill/tapir/releases/tag/v1.7.4",
+    "https://github.com/softwaremill/tapir/releases/tag/v1.11.4",
+    "https://github.com/softwaremill/tapir/releases/tag/v1.11.45"
   ],
-  "Micronaut": [
-    "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.0.0",
-    "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.5.0",
-    "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.9.0"
+  "SBT": [
+    "https://github.com/sbt/sbt/releases/tag/v1.9.5",
+    "https://github.com/sbt/sbt/releases/tag/v1.10.0",
+    "https://github.com/sbt/sbt/releases/tag/v1.11.5"
   ],
-  "gRPC-Java": [
-    "https://github.com/grpc/grpc-java/releases/tag/v1.56.0",
-    "https://github.com/grpc/grpc-java/releases/tag/v1.65.0",
-    "https://github.com/grpc/grpc-java/releases/tag/v1.72.0"
+  "Mill": [
+    "https://github.com/com-lihaoyi/mill/releases/tag/0.11.1",
+    "https://github.com/com-lihaoyi/mill/releases/tag/0.11.8",
+    "https://github.com/com-lihaoyi/mill/releases/tag/0.12.15"
   ],
-  "Micrometer": [
-    "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.11.0",
-    "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.13.0",
-    "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.16.0"
+  "Scala-CLI": [
+    "https://github.com/VirtusLab/scala-cli/releases/tag/v1.0.2",
+    "https://github.com/VirtusLab/scala-cli/releases/tag/v1.4.0",
+    "https://github.com/VirtusLab/scala-cli/releases/tag/v1.8.0"
   ],
-  "OpenAPI-Generator": [
-    "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.0.0",
-    "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.6.0",
-    "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.15.0"
+  "Caliban": [
+    "https://github.com/ghostdogpr/caliban/releases/tag/v2.3.0",
+    "https://github.com/ghostdogpr/caliban/releases/tag/v2.7.0",
+    "https://github.com/ghostdogpr/caliban/releases/tag/v2.11.0"
   ],
-  "Caffeine": [
-    "https://github.com/ben-manes/caffeine/releases/tag/v3.1.3",
-    "https://github.com/ben-manes/caffeine/releases/tag/v3.1.7",
-    "https://github.com/ben-manes/caffeine/releases/tag/v3.2.0"
+  "Sangria": [
+    "https://github.com/sangria-graphql/sangria/releases/tag/v4.0.0",
+    "https://github.com/sangria-graphql/sangria/releases/tag/v4.1.0",
+    "https://github.com/sangria-graphql/sangria/releases/tag/v4.2.13"
   ],
-  "Resilience4j": [
-    "https://github.com/resilience4j/resilience4j/releases/tag/v2.1.0",
-    "https://github.com/resilience4j/resilience4j/releases/tag/v2.2.0",
-    "https://github.com/resilience4j/resilience4j/releases/tag/v2.3.0"
+  "Skunk": [
+    "https://github.com/typelevel/skunk/releases/tag/v0.6.0",
+    "https://github.com/typelevel/skunk/releases/tag/v0.6.4",
+    "https://github.com/typelevel/skunk/releases/tag/v1.0.0-M11"
   ],
-  "Testcontainers": [
-    "https://github.com/testcontainers/testcontainers-java/releases/tag/1.19.0",
-    "https://github.com/testcontainers/testcontainers-java/releases/tag/1.20.0",
-    "https://github.com/testcontainers/testcontainers-java/releases/tag/1.21.0"
+  "Scio": [
+    "https://github.com/spotify/scio/releases/tag/v0.13.0",
+    "https://github.com/spotify/scio/releases/tag/v0.14.0",
+    "https://github.com/spotify/scio/releases/tag/v0.15.0"
   ],
-  "Maven": [
-    "https://github.com/apache/maven/releases/tag/maven-3.9.3",
-    "https://github.com/apache/maven/releases/tag/maven-3.9.8",
-    "https://github.com/apache/maven/releases/tag/maven-3.9.11"
+  "STTP": [
+    "https://github.com/softwaremill/sttp/releases/tag/v3.8.7",
+    "https://github.com/softwaremill/sttp/releases/tag/v3.9.4",
+    "https://github.com/softwaremill/sttp/releases/tag/v4.0.0"
   ],
-  "Elasticsearch-Java": [
-    "https://github.com/elastic/elasticsearch-java/releases/tag/v8.8.0",
-    "https://github.com/elastic/elasticsearch-java/releases/tag/v8.13.0",
-    "https://github.com/elastic/elasticsearch-java/releases/tag/v8.16.7"
+  "Scala-Steward": [
+    "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.25.0",
+    "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.31.0",
+    "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.34.0"
   ],
-  "Apache-Dubbo": [
-    "https://github.com/apache/dubbo/releases/tag/dubbo-3.2.5",
-    "https://github.com/apache/dubbo/releases/tag/dubbo-3.3.0",
-    "https://github.com/apache/dubbo/releases/tag/dubbo-3.3.5"
+  "Scala3": [
+    "https://github.com/scala/scala3/releases/tag/3.3.0",
+    "https://github.com/scala/scala3/releases/tag/3.4.2",
+    "https://github.com/scala/scala3/releases/tag/3.7.0"
   ],
-  "Nacos": [
-    "https://github.com/alibaba/nacos/releases/tag/2.3.0",
-    "https://github.com/alibaba/nacos/releases/tag/2.4.0",
-    "https://github.com/alibaba/nacos/releases/tag/3.0.0"
+  "Scala2": [
+    "https://github.com/scala/scala/releases/tag/v2.13.11",
+    "https://github.com/scala/scala/releases/tag/v2.13.14",
+    "https://github.com/scala/scala/releases/tag/v2.13.18"
   ],
-  "Sentinel": [
-    "https://github.com/alibaba/Sentinel/releases/tag/1.8.6",
-    "https://github.com/alibaba/Sentinel/releases/tag/1.8.7",
-    "https://github.com/alibaba/Sentinel/releases/tag/1.8.8"
+  "Scalafmt": [
+    "https://github.com/scalameta/scalafmt/releases/tag/v3.7.0",
+    "https://github.com/scalameta/scalafmt/releases/tag/v3.8.0",
+    "https://github.com/scalameta/scalafmt/releases/tag/v3.9.0"
   ]
 }
