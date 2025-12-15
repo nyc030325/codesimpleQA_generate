@@ -18,18 +18,18 @@
 
 3. 从文件读取：
    python convert_multiline_to_singleline.py --file input.txt
-"""
+
+注意：本工具会自动删除字符串中的双引号，避免与字符串标识重复。"""
 
 import argparse
 import sys
 
-def convert_to_singleline(multiline_str, escape_quotes=True, preserve_newlines=False):
+def convert_to_singleline(multiline_str, preserve_newlines=False):
     """
     将多行字符串转换为一行字符串
     
     参数：
         multiline_str (str): 输入的多行字符串
-        escape_quotes (bool): 是否转义字符串中的双引号，默认为True
         preserve_newlines (bool): 是否保留换行符为\n转义序列，默认为False
     
     返回：
@@ -46,9 +46,8 @@ def convert_to_singleline(multiline_str, escape_quotes=True, preserve_newlines=F
         singleline = singleline.replace('\n', ' ')
         singleline = singleline.replace('\r', ' ')
     
-    # 转义双引号
-    if escape_quotes:
-        singleline = singleline.replace('"', '\\"')
+    # 直接删除双引号，避免与字符串标识重复
+    singleline = singleline.replace('"', '')
     
     # 折叠连续的空格
     import re
@@ -60,8 +59,7 @@ def convert_to_singleline(multiline_str, escape_quotes=True, preserve_newlines=F
 def main():
     parser = argparse.ArgumentParser(description='将多行字符串转换为一行字符串')
     parser.add_argument('--file', '-f', type=str, help='输入文件路径')
-    parser.add_argument('--preserve-newlines', '-n', action='store_true', help='保留换行符为\\n转义序列')
-    parser.add_argument('--no-escape-quotes', action='store_true', help='不转义字符串中的双引号')
+    parser.add_argument('--preserve-newlines', '-n', action='store_true', help='保留换行符为\n转义序列')
     
     args = parser.parse_args()
     
@@ -84,8 +82,7 @@ def main():
     # 转换
     result = convert_to_singleline(
         content,
-        preserve_newlines=args.preserve_newlines,
-        escape_quotes=not args.no_escape_quotes
+        preserve_newlines=args.preserve_newlines
     )
     
     # 输出结果

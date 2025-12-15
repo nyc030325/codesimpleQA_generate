@@ -12,6 +12,7 @@ import random
 import traceback
 import concurrent.futures
 from openai import AzureOpenAI
+from openai import APIError, RateLimitError
 from tqdm import tqdm
 
 # 设置API参数
@@ -115,11 +116,20 @@ def check_content_significance(client, content, library_name, version):
                 
         except Exception as e:
             print(f"错误：检查内容时发生异常（第{attempt+1}/{max_retries}次尝试）- {e}")
-            if attempt < max_retries - 1:
+            
+            # 检查是否是429状态码错误
+            is_429_error = False
+            if isinstance(e, RateLimitError) or "429" in str(e):
+                is_429_error = True
+                print(f"检测到429状态码（请求频率过高），将等待1分钟后重试...")
+                time.sleep(60)  # 429错误时等待1分钟
+            elif attempt < max_retries - 1:
                 print(f"{retry_delay}秒后重试...")
                 time.sleep(retry_delay)
                 retry_delay *= 2  # 指数退避
-            else:
+            
+            # 如果是最后一次尝试或429错误但已达到最大重试次数，返回0
+            if attempt >= max_retries - 1:
                 print(f"已达到最大重试次数，处理失败")
                 traceback.print_exc()
                 return 0
@@ -164,7 +174,7 @@ def process_item(item):
 
 
 def main():
-    input_file = '/Users/bytedance/codesimpleQA_generate-2/data/library_crawled_data_append.json'
+    input_file = '/Users/bytedance/codesimpleQA_generate-2/data/all_libraries_crawled_data.json'
     output_file = '/Users/bytedance/codesimpleQA_generate-2/check/content_significance_results.json'
     
     # 检查文件是否存在

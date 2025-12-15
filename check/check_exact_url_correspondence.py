@@ -123,5 +123,5 @@ def check_exact_correspondence(accessible_file, crawled_file):
 
 if __name__ == "__main__":
     accessible_file = '/Users/bytedance/codesimpleQA_generate-2/data/accessible_library_urls.json'
-    crawled_file = '/Users/bytedance/codesimpleQA_generate-2/data/library_crawled_data_append.json'
+    crawled_file = '/Users/bytedance/codesimpleQA_generate-2/data/all_libraries_crawled_data.json'
     check_exact_correspondence(accessible_file, crawled_file)

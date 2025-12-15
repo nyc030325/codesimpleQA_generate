@@ -1,632 +1,632 @@
 [
   {
-    "library_name": "Serde-json",
-    "version": "v1.0.106",
-    "url": "https://github.com/serde-rs/json/releases/tag/v1.0.106",
-    "content_length": 149,
+    "library_name": "Spring-Data-JPA",
+    "version": "3.1.0",
+    "url": "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.1.0",
+    "content_length": 440,
     "significance": 1
   },
   {
-    "library_name": "Reqwest",
-    "version": "v0.11.19",
-    "url": "https://github.com/seanmonstar/reqwest/releases/tag/v0.11.19",
-    "content_length": 990,
+    "library_name": "Lettuce",
+    "version": "6.4.0.RELEASE",
+    "url": "https://github.com/lettuce-io/lettuce-core/releases/tag/6.4.0.RELEASE",
+    "content_length": 2441,
     "significance": 1
   },
   {
-    "library_name": "Tokio",
-    "version": "tokio-1.38.0",
-    "url": "https://github.com/tokio-rs/tokio/releases/tag/tokio-1.38.0",
-    "content_length": 2497,
+    "library_name": "Spring-Data-JPA",
+    "version": "3.3.0",
+    "url": "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.3.0",
+    "content_length": 2070,
     "significance": 1
   },
   {
-    "library_name": "Tokio",
-    "version": "tokio-1.44.0",
-    "url": "https://github.com/tokio-rs/tokio/releases/tag/tokio-1.44.0",
-    "content_length": 1958,
+    "library_name": "Spring-Security",
+    "version": "6.5.0",
+    "url": "https://github.com/spring-projects/spring-security/releases/tag/6.5.0",
+    "content_length": 2480,
     "significance": 1
   },
   {
-    "library_name": "Hyper",
-    "version": "v1.6.0",
-    "url": "https://github.com/hyperium/hyper/releases/tag/v1.6.0",
-    "content_length": 732,
+    "library_name": "Spring-Security",
+    "version": "6.3.0",
+    "url": "https://github.com/spring-projects/spring-security/releases/tag/6.3.0",
+    "content_length": 3182,
     "significance": 1
   },
   {
-    "library_name": "Serde",
-    "version": "v1.0.181",
-    "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.181",
-    "content_length": 291,
+    "library_name": "Spring-Boot",
+    "version": "v3.3.0",
+    "url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.3.0",
+    "content_length": 6950,
     "significance": 1
   },
   {
-    "library_name": "Chrono",
-    "version": "v0.4.26",
-    "url": "https://github.com/chronotope/chrono/releases/tag/v0.4.26",
-    "content_length": 806,
+    "library_name": "Spring-Data-JPA",
+    "version": "3.5.0",
+    "url": "https://github.com/spring-projects/spring-data-jpa/releases/tag/3.5.0",
+    "content_length": 4630,
     "significance": 1
   },
   {
-    "library_name": "Serde-json",
-    "version": "v1.0.143",
-    "url": "https://github.com/serde-rs/json/releases/tag/v1.0.143",
-    "content_length": 222,
+    "library_name": "Spring-Boot",
+    "version": "v3.5.0",
+    "url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.5.0",
+    "content_length": 4020,
     "significance": 1
   },
   {
-    "library_name": "Serde",
-    "version": "v1.0.197",
-    "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.197",
-    "content_length": 123,
+    "library_name": "Spring-Framework",
+    "version": "v6.1.10",
+    "url": "https://github.com/spring-projects/spring-framework/releases/tag/v6.1.10",
+    "content_length": 989,
     "significance": 1
   },
   {
-    "library_name": "Serde",
-    "version": "v1.0.211",
-    "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.211",
-    "content_length": 311,
+    "library_name": "Spring-Boot",
+    "version": "v3.1.0",
+    "url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.1.0",
+    "content_length": 3676,
     "significance": 1
   },
   {
-    "library_name": "Reqwest",
-    "version": "v0.12.25",
-    "url": "https://github.com/seanmonstar/reqwest/releases/tag/v0.12.25",
-    "content_length": 1105,
+    "library_name": "Spring-Framework",
+    "version": "v6.0.10",
+    "url": "https://github.com/spring-projects/spring-framework/releases/tag/v6.0.10",
+    "content_length": 4633,
     "significance": 1
   },
   {
-    "library_name": "Serde-json",
-    "version": "v1.0.132",
-    "url": "https://github.com/serde-rs/json/releases/tag/v1.0.132",
-    "content_length": 194,
+    "library_name": "JUnit5",
+    "version": "5.12.0",
+    "url": "https://docs.junit.org/5.12.0/release-notes/",
+    "content_length": 9150,
     "significance": 1
   },
   {
-    "library_name": "Reqwest",
-    "version": "v0.12.5",
-    "url": "https://github.com/seanmonstar/reqwest/releases/tag/v0.12.5",
-    "content_length": 850,
+    "library_name": "JUnit5",
+    "version": "5.11.0",
+    "url": "https://docs.junit.org/5.11.0/release-notes/",
+    "content_length": 8568,
     "significance": 1
   },
   {
-    "library_name": "Tokio",
-    "version": "tokio-1.29.0",
-    "url": "https://github.com/tokio-rs/tokio/releases/tag/tokio-1.29.0",
-    "content_length": 1193,
+    "library_name": "Lettuce",
+    "version": "6.6.0.RELEASE",
+    "url": "https://github.com/lettuce-io/lettuce-core/releases/tag/6.6.0.RELEASE",
+    "content_length": 6047,
     "significance": 1
   },
   {
-    "library_name": "Chrono",
-    "version": "v0.4.38",
-    "url": "https://github.com/chronotope/chrono/releases/tag/v0.4.38",
-    "content_length": 1333,
+    "library_name": "Spring-Security",
+    "version": "6.1.0",
+    "url": "https://github.com/spring-projects/spring-security/releases/tag/6.1.0",
+    "content_length": 1984,
     "significance": 1
   },
   {
-    "library_name": "Chrono",
-    "version": "v0.4.41",
-    "url": "https://github.com/chronotope/chrono/releases/tag/v0.4.41",
-    "content_length": 721,
+    "library_name": "Spring-Framework",
+    "version": "v6.2.7",
+    "url": "https://github.com/spring-projects/spring-framework/releases/tag/v6.2.7",
+    "content_length": 2297,
     "significance": 1
   },
   {
-    "library_name": "Hyper",
-    "version": "v1.4.0",
-    "url": "https://github.com/hyperium/hyper/releases/tag/v1.4.0",
-    "content_length": 1248,
+    "library_name": "Lettuce",
+    "version": "6.2.5.RELEASE",
+    "url": "https://github.com/lettuce-io/lettuce-core/releases/tag/6.2.5.RELEASE",
+    "content_length": 811,
     "significance": 1
   },
   {
-    "library_name": "Hyper",
-    "version": "v0.14.25",
-    "url": "https://github.com/hyperium/hyper/releases/tag/v0.14.25",
-    "content_length": 575,
+    "library_name": "Flyway",
+    "version": "flyway-10.13.0",
+    "url": "https://github.com/flyway/flyway/releases/tag/flyway-10.13.0",
+    "content_length": 845,
     "significance": 1
   },
   {
-    "library_name": "Axum",
-    "version": "axum-v0.7.6",
-    "url": "https://github.com/tokio-rs/axum/releases/tag/axum-v0.7.6",
-    "content_length": 334,
+    "library_name": "Flyway",
+    "version": "flyway-11.10.0",
+    "url": "https://github.com/flyway/flyway/releases/tag/flyway-11.10.0",
+    "content_length": 1188,
     "significance": 1
   },
   {
-    "library_name": "Axum",
-    "version": "axum-v0.6.19",
-    "url": "https://github.com/tokio-rs/axum/releases/tag/axum-v0.6.19",
-    "content_length": 401,
+    "library_name": "Liquibase",
+    "version": "v4.32.0",
+    "url": "https://github.com/liquibase/liquibase/releases/tag/v4.32.0",
+    "content_length": 28168,
     "significance": 1
   },
   {
-    "library_name": "SeaORM",
-    "version": "1.1.11",
-    "url": "https://github.com/SeaQL/sea-orm/releases/tag/1.1.11",
-    "content_length": 1116,
+    "library_name": "Liquibase",
+    "version": "v4.23.0",
+    "url": "https://github.com/liquibase/liquibase/releases/tag/v4.23.0",
+    "content_length": 15920,
     "significance": 1
   },
   {
-    "library_name": "Actix-web",
-    "version": "web-v4.11.0",
-    "url": "https://github.com/actix/actix-web/releases/tag/web-v4.11.0",
-    "content_length": 362,
+    "library_name": "JUnit5",
+    "version": "5.10.0",
+    "url": "https://docs.junit.org/5.10.0/release-notes/",
+    "content_length": 8204,
     "significance": 1
   },
   {
-    "library_name": "Actix-web",
-    "version": "web-v4.8.0",
-    "url": "https://github.com/actix/actix-web/releases/tag/web-v4.8.0",
-    "content_length": 493,
+    "library_name": "Flyway",
+    "version": "flyway-9.18.0",
+    "url": "https://github.com/flyway/flyway/releases/tag/flyway-9.18.0",
+    "content_length": 975,
     "significance": 1
   },
   {
-    "library_name": "SeaORM",
-    "version": "1.0.0",
-    "url": "https://github.com/SeaQL/sea-orm/releases/tag/1.0.0",
-    "content_length": 5044,
+    "library_name": "Micronaut",
+    "version": "v4.5.0",
+    "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.5.0",
+    "content_length": 4699,
     "significance": 1
   },
   {
-    "library_name": "Warp",
-    "version": "v0.3.6",
-    "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.6",
-    "content_length": 831,
+    "library_name": "Liquibase",
+    "version": "v4.28.0",
+    "url": "https://github.com/liquibase/liquibase/releases/tag/v4.28.0",
+    "content_length": 13246,
     "significance": 1
   },
   {
-    "library_name": "Diesel",
-    "version": "v2.1.0",
-    "url": "https://github.com/diesel-rs/diesel/releases/tag/v2.1.0",
-    "content_length": 10236,
+    "library_name": "gRPC-Java",
+    "version": "v1.72.0",
+    "url": "https://github.com/grpc/grpc-java/releases/tag/v1.72.0",
+    "content_length": 3596,
     "significance": 1
   },
   {
-    "library_name": "Diesel",
+    "library_name": "gRPC-Java",
+    "version": "v1.56.0",
+    "url": "https://github.com/grpc/grpc-java/releases/tag/v1.56.0",
+    "content_length": 3512,
+    "significance": 1
+  },
+  {
+    "library_name": "Micronaut",
+    "version": "v4.9.0",
+    "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.9.0",
+    "content_length": 8749,
+    "significance": 1
+  },
+  {
+    "library_name": "gRPC-Java",
+    "version": "v1.65.0",
+    "url": "https://github.com/grpc/grpc-java/releases/tag/v1.65.0",
+    "content_length": 2219,
+    "significance": 1
+  },
+  {
+    "library_name": "Resilience4j",
     "version": "v2.2.0",
-    "url": "https://github.com/diesel-rs/diesel/releases/tag/v2.2.0",
-    "content_length": 4588,
+    "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.2.0",
+    "content_length": 750,
     "significance": 1
   },
   {
-    "library_name": "Diesel",
+    "library_name": "Micronaut",
+    "version": "v4.0.0",
+    "url": "https://github.com/micronaut-projects/micronaut-core/releases/tag/v4.0.0",
+    "content_length": 43473,
+    "significance": 1
+  },
+  {
+    "library_name": "Resilience4j",
     "version": "v2.3.0",
-    "url": "https://github.com/diesel-rs/diesel/releases/tag/v2.3.0",
-    "content_length": 3969,
+    "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.3.0",
+    "content_length": 1661,
     "significance": 1
   },
   {
-    "library_name": "Actix-web",
-    "version": "web-v4.4.0",
-    "url": "https://github.com/actix/actix-web/releases/tag/web-v4.4.0",
-    "content_length": 925,
+    "library_name": "Resilience4j",
+    "version": "v2.1.0",
+    "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.1.0",
+    "content_length": 239,
     "significance": 1
   },
   {
-    "library_name": "Axum",
-    "version": "axum-v0.8.3",
-    "url": "https://github.com/tokio-rs/axum/releases/tag/axum-v0.8.3",
-    "content_length": 324,
-    "significance": 1
-  },
-  {
-    "library_name": "Warp",
-    "version": "v0.3.2",
-    "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.2",
-    "content_length": 1690,
-    "significance": 1
-  },
-  {
-    "library_name": "Warp",
-    "version": "v0.3.7",
-    "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.7",
-    "content_length": 875,
-    "significance": 1
-  },
-  {
-    "library_name": "SeaORM",
-    "version": "0.12.1",
-    "url": "https://github.com/SeaQL/sea-orm/releases/tag/0.12.1",
-    "content_length": 12695,
-    "significance": 1
-  },
-  {
-    "library_name": "Clap",
-    "version": "v4.3.0",
-    "url": "https://github.com/clap-rs/clap/releases/tag/v4.3.0",
-    "content_length": 554,
-    "significance": 1
-  },
-  {
-    "library_name": "Tracing",
-    "version": "tracing-0.1.41",
-    "url": "https://github.com/tokio-rs/tracing/releases/tag/tracing-0.1.41",
-    "content_length": 973,
-    "significance": 1
-  },
-  {
-    "library_name": "Clap",
-    "version": "v4.5.47",
-    "url": "https://github.com/clap-rs/clap/releases/tag/v4.5.47",
-    "content_length": 248,
-    "significance": 1
-  },
-  {
-    "library_name": "Tracing",
-    "version": "tracing-0.1.42",
-    "url": "https://github.com/tokio-rs/tracing/releases/tag/tracing-0.1.42",
-    "content_length": 962,
-    "significance": 1
-  },
-  {
-    "library_name": "Clap",
-    "version": "v4.5.17",
-    "url": "https://github.com/clap-rs/clap/releases/tag/v4.5.17",
-    "content_length": 130,
-    "significance": 1
-  },
-  {
-    "library_name": "Rand",
-    "version": "rand_distr-0.5.0-alpha.0",
-    "url": "https://github.com/rust-random/rand/releases/tag/rand_distr-0.5.0-alpha.0",
-    "content_length": 920,
-    "significance": 1
-  },
-  {
-    "library_name": "Log",
-    "version": "0.4.21",
-    "url": "https://github.com/rust-lang/log/releases/tag/0.4.21",
-    "content_length": 1488,
-    "significance": 1
-  },
-  {
-    "library_name": "Log",
-    "version": "0.4.29",
-    "url": "https://github.com/rust-lang/log/releases/tag/0.4.29",
-    "content_length": 765,
-    "significance": 1
-  },
-  {
-    "library_name": "Tracing",
-    "version": "tracing-0.1.39",
-    "url": "https://github.com/tokio-rs/tracing/releases/tag/tracing-0.1.39",
-    "content_length": 1205,
-    "significance": 1
-  },
-  {
-    "library_name": "Log",
-    "version": "0.4.18",
-    "url": "https://github.com/rust-lang/log/releases/tag/0.4.18",
-    "content_length": 1485,
-    "significance": 1
-  },
-  {
-    "library_name": "Bytes",
-    "version": "v1.3.0",
-    "url": "https://github.com/tokio-rs/bytes/releases/tag/v1.3.0",
-    "content_length": 306,
-    "significance": 1
-  },
-  {
-    "library_name": "Bytes",
-    "version": "v1.7.0",
-    "url": "https://github.com/tokio-rs/bytes/releases/tag/v1.7.0",
-    "content_length": 799,
-    "significance": 1
-  },
-  {
-    "library_name": "Bytes",
-    "version": "v1.11.0",
-    "url": "https://github.com/tokio-rs/bytes/releases/tag/v1.11.0",
-    "content_length": 535,
-    "significance": 1
-  },
-  {
-    "library_name": "Futures",
-    "version": "0.3.31",
-    "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.31",
-    "content_length": 707,
-    "significance": 1
-  },
-  {
-    "library_name": "Uuid",
-    "version": "1.5.0",
-    "url": "https://github.com/uuid-rs/uuid/releases/tag/1.5.0",
-    "content_length": 649,
-    "significance": 1
-  },
-  {
-    "library_name": "Rand",
-    "version": "0.9.0-beta.0",
-    "url": "https://github.com/rust-random/rand/releases/tag/0.9.0-beta.0",
-    "content_length": 5215,
-    "significance": 1
-  },
-  {
-    "library_name": "Uuid",
-    "version": "v1.17.0",
-    "url": "https://github.com/uuid-rs/uuid/releases/tag/v1.17.0",
-    "content_length": 441,
-    "significance": 1
-  },
-  {
-    "library_name": "Url",
-    "version": "v2.4.0",
-    "url": "https://github.com/servo/rust-url/releases/tag/v2.4.0",
-    "content_length": 1372,
-    "significance": 1
-  },
-  {
-    "library_name": "Uuid",
-    "version": "1.10.0",
-    "url": "https://github.com/uuid-rs/uuid/releases/tag/1.10.0",
-    "content_length": 612,
-    "significance": 1
-  },
-  {
-    "library_name": "Url",
-    "version": "v2.5.5",
-    "url": "https://github.com/servo/rust-url/releases/tag/v2.5.5",
-    "content_length": 1527,
-    "significance": 1
-  },
-  {
-    "library_name": "Rand",
-    "version": "0.9.1",
-    "url": "https://github.com/rust-random/rand/releases/tag/0.9.1",
-    "content_length": 896,
-    "significance": 1
-  },
-  {
-    "library_name": "Futures",
-    "version": "0.3.26",
-    "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.26",
-    "content_length": 423,
-    "significance": 1
-  },
-  {
-    "library_name": "Futures",
-    "version": "0.3.30",
-    "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.30",
-    "content_length": 267,
-    "significance": 1
-  },
-  {
-    "library_name": "Url",
-    "version": "v2.5.1",
-    "url": "https://github.com/servo/rust-url/releases/tag/v2.5.1",
-    "content_length": 1655,
-    "significance": 1
-  },
-  {
-    "library_name": "Tower",
-    "version": "tower-0.5.2",
-    "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.5.2",
-    "content_length": 178,
-    "significance": 1
-  },
-  {
-    "library_name": "Tower",
-    "version": "tower-0.4.13",
-    "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.4.13",
-    "content_length": 346,
-    "significance": 1
-  },
-  {
-    "library_name": "Tower",
-    "version": "tower-0.5.0",
-    "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.5.0",
-    "content_length": 1034,
-    "significance": 1
-  },
-  {
-    "library_name": "Scraper",
-    "version": "v0.18.0",
-    "url": "https://github.com/causal-agent/scraper/releases/tag/v0.18.0",
-    "content_length": 658,
-    "significance": 1
-  },
-  {
-    "library_name": "Prost",
-    "version": "v0.12.0",
-    "url": "https://github.com/tokio-rs/prost/releases/tag/v0.12.0",
-    "content_length": 339,
-    "significance": 1
-  },
-  {
-    "library_name": "Tonic",
-    "version": "v0.12.0",
-    "url": "https://github.com/hyperium/tonic/releases/tag/v0.12.0",
-    "content_length": 1391,
-    "significance": 1
-  },
-  {
-    "library_name": "Polars",
-    "version": "rs-0.52.0",
-    "url": "https://github.com/pola-rs/polars/releases/tag/rs-0.52.0",
-    "content_length": 16883,
-    "significance": 1
-  },
-  {
-    "library_name": "Tonic",
-    "version": "v0.14.0",
-    "url": "https://github.com/hyperium/tonic/releases/tag/v0.14.0",
-    "content_length": 2307,
-    "significance": 1
-  },
-  {
-    "library_name": "Prost",
-    "version": "v0.13.0",
-    "url": "https://github.com/tokio-rs/prost/releases/tag/v0.13.0",
-    "content_length": 1931,
-    "significance": 1
-  },
-  {
-    "library_name": "Tonic",
-    "version": "v0.13.0",
-    "url": "https://github.com/hyperium/tonic/releases/tag/v0.13.0",
-    "content_length": 4404,
-    "significance": 1
-  },
-  {
-    "library_name": "Rustls",
-    "version": "Unknown version",
-    "url": "https://github.com/rustls/rustls/releases/tag/v/0.23.28",
-    "content_length": 2434,
-    "significance": 1
-  },
-  {
-    "library_name": "Scraper",
-    "version": "v0.21.0",
-    "url": "https://github.com/causal-agent/scraper/releases/tag/v0.21.0",
-    "content_length": 783,
-    "significance": 1
-  },
-  {
-    "library_name": "Polars",
-    "version": "rs-0.40.0",
-    "url": "https://github.com/pola-rs/polars/releases/tag/rs-0.40.0",
-    "content_length": 11118,
-    "significance": 1
-  },
-  {
-    "library_name": "Prost",
-    "version": "v0.14.0",
-    "url": "https://github.com/tokio-rs/prost/releases/tag/v0.14.0",
-    "content_length": 2687,
-    "significance": 1
-  },
-  {
-    "library_name": "Scraper",
-    "version": "v0.24.0",
-    "url": "https://github.com/causal-agent/scraper/releases/tag/v0.24.0",
-    "content_length": 644,
-    "significance": 1
-  },
-  {
-    "library_name": "Rustls",
-    "version": "Unknown version",
-    "url": "https://github.com/rustls/rustls/releases/tag/v/0.23.13",
-    "content_length": 3429,
-    "significance": 1
-  },
-  {
-    "library_name": "Rustls",
-    "version": "v%2F0.21.2",
-    "url": "https://github.com/rustls/rustls/releases/tag/v%2F0.21.2",
+    "library_name": "MyBatis",
+    "version": "mybatis-3",
+    "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.18",
     "content_length": 1095,
     "significance": 1
   },
   {
-    "library_name": "Polars",
-    "version": "rs-0.34.0",
-    "url": "https://github.com/pola-rs/polars/releases/tag/rs-0.34.0",
-    "content_length": 15948,
+    "library_name": "MyBatis",
+    "version": "mybatis-3",
+    "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.15",
+    "content_length": 1385,
     "significance": 1
   },
   {
-    "library_name": "Indicatif",
-    "version": "0.17.4",
-    "url": "https://github.com/console-rs/indicatif/releases/tag/0.17.4",
-    "content_length": 1020,
+    "library_name": "MyBatis",
+    "version": "mybatis-3",
+    "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.12",
+    "content_length": 8184,
     "significance": 1
   },
   {
-    "library_name": "Indicatif",
-    "version": "0.17.12",
-    "url": "https://github.com/console-rs/indicatif/releases/tag/0.17.12",
-    "content_length": 389,
+    "library_name": "Gson",
+    "version": "gson-parent-2.12.0",
+    "url": "https://github.com/google/gson/releases/tag/gson-parent-2.12.0",
+    "content_length": 1700,
     "significance": 1
   },
   {
-    "library_name": "Indicatif",
-    "version": "0.17.9",
-    "url": "https://github.com/console-rs/indicatif/releases/tag/0.17.9",
-    "content_length": 881,
+    "library_name": "Gson",
+    "version": "gson-parent-2.11.0",
+    "url": "https://github.com/google/gson/releases/tag/gson-parent-2.11.0",
+    "content_length": 6041,
     "significance": 1
   },
   {
-    "library_name": "Eframe",
-    "version": "0.33.0",
-    "url": "https://github.com/emilk/egui/releases/tag/0.33.0",
-    "content_length": 4506,
+    "library_name": "Guava",
+    "version": "v33.2.0",
+    "url": "https://github.com/google/guava/releases/tag/v33.2.0",
+    "content_length": 2067,
     "significance": 1
   },
   {
-    "library_name": "Eframe",
-    "version": "0.24.0",
-    "url": "https://github.com/emilk/egui/releases/tag/0.24.0",
-    "content_length": 2601,
+    "library_name": "Gson",
+    "version": "gson-parent-2.10.1",
+    "url": "https://github.com/google/gson/releases/tag/gson-parent-2.10.1",
+    "content_length": 2326,
     "significance": 1
   },
   {
-    "library_name": "Leptos",
-    "version": "v0.7.0",
-    "url": "https://github.com/leptos-rs/leptos/releases/tag/v0.7.0",
-    "content_length": 17570,
+    "library_name": "Guava",
+    "version": "v33.5.0",
+    "url": "https://github.com/google/guava/releases/tag/v33.5.0",
+    "content_length": 1783,
     "significance": 1
   },
   {
-    "library_name": "Ratatui",
-    "version": "ratatui-v0.30.0-alpha.5",
-    "url": "https://github.com/ratatui/ratatui/releases/tag/ratatui-v0.30.0-alpha.5",
-    "content_length": 7408,
-    "significance": 0
-  },
-  {
-    "library_name": "Dioxus",
-    "version": "v0.7.1",
-    "url": "https://github.com/DioxusLabs/dioxus/releases/tag/v0.7.1",
-    "content_length": 2065,
+    "library_name": "Mockito",
+    "version": "v5.21.0",
+    "url": "https://github.com/mockito/mockito/releases/tag/v5.21.0",
+    "content_length": 1450,
     "significance": 1
   },
   {
-    "library_name": "Leptos",
-    "version": "v0.5.0",
-    "url": "https://github.com/leptos-rs/leptos/releases/tag/v0.5.0",
-    "content_length": 28339,
+    "library_name": "Guava",
+    "version": "v32.1.0",
+    "url": "https://github.com/google/guava/releases/tag/v32.1.0",
+    "content_length": 7117,
     "significance": 1
   },
   {
-    "library_name": "Leptos",
-    "version": "v0.8.0",
-    "url": "https://github.com/leptos-rs/leptos/releases/tag/v0.8.0",
-    "content_length": 13556,
+    "library_name": "Mockito",
+    "version": "v5.4.0",
+    "url": "https://github.com/mockito/mockito/releases/tag/v5.4.0",
+    "content_length": 2175,
     "significance": 1
   },
   {
-    "library_name": "Eframe",
-    "version": "0.29.0",
-    "url": "https://github.com/emilk/egui/releases/tag/0.29.0",
-    "content_length": 7153,
+    "library_name": "Mockito",
+    "version": "v5.12.0",
+    "url": "https://github.com/mockito/mockito/releases/tag/v5.12.0",
+    "content_length": 2010,
     "significance": 1
   },
   {
-    "library_name": "Ratatui",
-    "version": "v0.21.0",
-    "url": "https://github.com/ratatui/ratatui/releases/tag/v0.21.0",
-    "content_length": 3481,
+    "library_name": "AssertJ",
+    "version": "assertj-build-3.24.0",
+    "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.24.0",
+    "content_length": 20377,
     "significance": 1
   },
   {
-    "library_name": "Ratatui",
-    "version": "v0.27.0",
-    "url": "https://github.com/ratatui/ratatui/releases/tag/v0.27.0",
-    "content_length": 11165,
+    "library_name": "AssertJ",
+    "version": "assertj-build-3.27.4",
+    "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.27.4",
+    "content_length": 617,
     "significance": 1
   },
   {
-    "library_name": "Dioxus",
-    "version": "v0.4.0",
-    "url": "https://github.com/DioxusLabs/dioxus/releases/tag/v0.4.0",
-    "content_length": 7799,
+    "library_name": "Log4j2",
+    "version": "logging-log4j2",
+    "url": "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.21.0",
+    "content_length": 6434,
     "significance": 1
   },
   {
-    "library_name": "Dioxus",
-    "version": "v0.5.0",
-    "url": "https://github.com/DioxusLabs/dioxus/releases/tag/v0.5.0",
-    "content_length": 42749,
+    "library_name": "Log4j2",
+    "version": "logging-log4j2",
+    "url": "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.25.0",
+    "content_length": 7274,
+    "significance": 1
+  },
+  {
+    "library_name": "Retrofit",
+    "version": "2.12.0",
+    "url": "https://github.com/square/retrofit/releases/tag/2.12.0",
+    "content_length": 548,
+    "significance": 1
+  },
+  {
+    "library_name": "Jedis",
+    "version": "v7.0.0",
+    "url": "https://github.com/redis/jedis/releases/tag/v7.0.0",
+    "content_length": 2347,
+    "significance": 1
+  },
+  {
+    "library_name": "AssertJ",
+    "version": "assertj-build-3.26.0",
+    "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.26.0",
+    "content_length": 2994,
+    "significance": 1
+  },
+  {
+    "library_name": "Log4j2",
+    "version": "logging-log4j2",
+    "url": "https://github.com/apache/logging-log4j2/releases/tag/rel%2F2.23.1",
+    "content_length": 1329,
+    "significance": 1
+  },
+  {
+    "library_name": "Retrofit",
+    "version": "2.11.0",
+    "url": "https://github.com/square/retrofit/releases/tag/2.11.0",
+    "content_length": 415,
+    "significance": 1
+  },
+  {
+    "library_name": "Jedis",
+    "version": "v5.0.0",
+    "url": "https://github.com/redis/jedis/releases/tag/v5.0.0",
+    "content_length": 2430,
+    "significance": 1
+  },
+  {
+    "library_name": "Retrofit",
+    "version": "2.10.0",
+    "url": "https://github.com/square/retrofit/releases/tag/2.10.0",
+    "content_length": 3188,
+    "significance": 1
+  },
+  {
+    "library_name": "MapStruct",
+    "version": "1.6.0.Beta1",
+    "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.6.0.Beta1",
+    "content_length": 7299,
+    "significance": 1
+  },
+  {
+    "library_name": "Jedis",
+    "version": "v5.1.4",
+    "url": "https://github.com/redis/jedis/releases/tag/v5.1.4",
+    "content_length": 1048,
+    "significance": 1
+  },
+  {
+    "library_name": "MapStruct",
+    "version": "1.6.3",
+    "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.6.3",
+    "content_length": 332,
+    "significance": 1
+  },
+  {
+    "library_name": "Quarkus",
+    "version": "3.2.0.Final",
+    "url": "https://github.com/quarkusio/quarkus/releases/tag/3.2.0.Final",
+    "content_length": 3566,
+    "significance": 1
+  },
+  {
+    "library_name": "MapStruct",
+    "version": "1.5.3.Final",
+    "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.5.3.Final",
+    "content_length": 1541,
+    "significance": 1
+  },
+  {
+    "library_name": "Quarkus",
+    "version": "3.26.0",
+    "url": "https://github.com/quarkusio/quarkus/releases/tag/3.26.0",
+    "content_length": 970,
+    "significance": 1
+  },
+  {
+    "library_name": "Quarkus",
+    "version": "3.12.0",
+    "url": "https://github.com/quarkusio/quarkus/releases/tag/3.12.0",
+    "content_length": 1630,
+    "significance": 1
+  },
+  {
+    "library_name": "Micrometer",
+    "version": "v1.16.0",
+    "url": "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.16.0",
+    "content_length": 3570,
+    "significance": 1
+  },
+  {
+    "library_name": "Micrometer",
+    "version": "v1.13.0",
+    "url": "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.13.0",
+    "content_length": 7595,
+    "significance": 1
+  },
+  {
+    "library_name": "Micrometer",
+    "version": "v1.11.0",
+    "url": "https://github.com/micrometer-metrics/micrometer/releases/tag/v1.11.0",
+    "content_length": 2597,
+    "significance": 1
+  },
+  {
+    "library_name": "OpenAPI-Generator",
+    "version": "v7.15.0",
+    "url": "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.15.0",
+    "content_length": 6163,
+    "significance": 1
+  },
+  {
+    "library_name": "Caffeine",
+    "version": "v3.1.3",
+    "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.1.3",
+    "content_length": 673,
+    "significance": 1
+  },
+  {
+    "library_name": "OpenAPI-Generator",
+    "version": "v7.0.0",
+    "url": "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.0.0",
+    "content_length": 4827,
+    "significance": 1
+  },
+  {
+    "library_name": "Caffeine",
+    "version": "v3.2.0",
+    "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.2.0",
+    "content_length": 990,
+    "significance": 1
+  },
+  {
+    "library_name": "Testcontainers",
+    "version": "1.20.0",
+    "url": "https://github.com/testcontainers/testcontainers-java/releases/tag/1.20.0",
+    "content_length": 2455,
+    "significance": 1
+  },
+  {
+    "library_name": "Caffeine",
+    "version": "v3.1.7",
+    "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.1.7",
+    "content_length": 189,
+    "significance": 1
+  },
+  {
+    "library_name": "Testcontainers",
+    "version": "1.19.0",
+    "url": "https://github.com/testcontainers/testcontainers-java/releases/tag/1.19.0",
+    "content_length": 4436,
+    "significance": 1
+  },
+  {
+    "library_name": "OpenAPI-Generator",
+    "version": "v7.6.0",
+    "url": "https://github.com/OpenAPITools/openapi-generator/releases/tag/v7.6.0",
+    "content_length": 3893,
+    "significance": 1
+  },
+  {
+    "library_name": "Maven",
+    "version": "maven-3.9.8",
+    "url": "https://github.com/apache/maven/releases/tag/maven-3.9.8",
+    "content_length": 2683,
+    "significance": 1
+  },
+  {
+    "library_name": "Testcontainers",
+    "version": "1.21.0",
+    "url": "https://github.com/testcontainers/testcontainers-java/releases/tag/1.21.0",
+    "content_length": 1750,
+    "significance": 1
+  },
+  {
+    "library_name": "Elasticsearch-Java",
+    "version": "v8.16.7",
+    "url": "https://github.com/elastic/elasticsearch-java/releases/tag/v8.16.7",
+    "content_length": 2383,
+    "significance": 1
+  },
+  {
+    "library_name": "Maven",
+    "version": "maven-3.9.11",
+    "url": "https://github.com/apache/maven/releases/tag/maven-3.9.11",
+    "content_length": 1051,
+    "significance": 1
+  },
+  {
+    "library_name": "Elasticsearch-Java",
+    "version": "v8.8.0",
+    "url": "https://github.com/elastic/elasticsearch-java/releases/tag/v8.8.0",
+    "content_length": 825,
+    "significance": 1
+  },
+  {
+    "library_name": "Maven",
+    "version": "maven-3.9.3",
+    "url": "https://github.com/apache/maven/releases/tag/maven-3.9.3",
+    "content_length": 1472,
+    "significance": 1
+  },
+  {
+    "library_name": "Apache-Dubbo",
+    "version": "dubbo-3.2.5",
+    "url": "https://github.com/apache/dubbo/releases/tag/dubbo-3.2.5",
+    "content_length": 4373,
+    "significance": 1
+  },
+  {
+    "library_name": "Sentinel",
+    "version": "1.8.7",
+    "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.7",
+    "content_length": 1764,
+    "significance": 1
+  },
+  {
+    "library_name": "Nacos",
+    "version": "2.3.0",
+    "url": "https://github.com/alibaba/nacos/releases/tag/2.3.0",
+    "content_length": 1539,
+    "significance": 1
+  },
+  {
+    "library_name": "Elasticsearch-Java",
+    "version": "v8.13.0",
+    "url": "https://github.com/elastic/elasticsearch-java/releases/tag/v8.13.0",
+    "content_length": 228,
+    "significance": 1
+  },
+  {
+    "library_name": "Apache-Dubbo",
+    "version": "dubbo-3.3.0",
+    "url": "https://github.com/apache/dubbo/releases/tag/dubbo-3.3.0",
+    "content_length": 4195,
+    "significance": 1
+  },
+  {
+    "library_name": "Sentinel",
+    "version": "1.8.6",
+    "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.6",
+    "content_length": 779,
+    "significance": 1
+  },
+  {
+    "library_name": "Nacos",
+    "version": "3.0.0",
+    "url": "https://github.com/alibaba/nacos/releases/tag/3.0.0",
+    "content_length": 4050,
+    "significance": 1
+  },
+  {
+    "library_name": "Sentinel",
+    "version": "1.8.8",
+    "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.8",
+    "content_length": 742,
+    "significance": 1
+  },
+  {
+    "library_name": "Nacos",
+    "version": "2.4.0",
+    "url": "https://github.com/alibaba/nacos/releases/tag/2.4.0",
+    "content_length": 5077,
+    "significance": 1
+  },
+  {
+    "library_name": "Apache-Dubbo",
+    "version": "dubbo-3.3.5",
+    "url": "https://github.com/apache/dubbo/releases/tag/dubbo-3.3.5",
+    "content_length": 3780,
     "significance": 1
   }
 ]

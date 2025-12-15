@@ -545,7 +545,7 @@ def main():
     # 询问用户是否要追加保存到统一的JSON文件
     # 构建append_file的绝对路径
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    append_file = os.path.normpath(os.path.join(script_dir, "../data/library_crawled_data_append.json"))
+    append_file = os.path.normpath(os.path.join(script_dir, "../data/all_libraries_crawled_data.json"))
     while True:
         user_input = input(f"\n是否将结果追加到 {append_file}？(yes/no): ").strip().lower()
         if user_input in ['yes', 'y']:

@@ -1,181 +1,181 @@
 problem,answer,library_name,tag,language,year,problem_type
-In Serde 1.0.197 what compiler warning was fixed,unused_imports,Serde,POPULAR,Python,2024,General
-In Serde 1.0.197 which Display impls were optimized,code size,Serde,POPULAR,Python,2024,API
-In Axum 0.8.3 which trait gained OptionalFromRequest for Json,OptionalFromRequest,Axum,POPULAR,Python,2025,API
-In Axum 0.8.3 what new configuration was allowed on WebSocketUpgrade,read buffer capacity,Axum,POPULAR,Python,2025,General
-In Warp 0.3.2 what new async infallible Filter method was added,Filter::then,Warp,NICHE,Python,2023,API
-In Warp 0.3.2 what new redirect helper returns 302 Found,redirect::found,Warp,NICHE,Python,2023,General
-In Reqwest 0.12.25 what new method was added to Error,is_upgrade,Reqwest,POPULAR,Python,2025,API
-In Reqwest 0.12.25 what header is now sent to HTTPS proxies for HTTP targets,Proxy-Authorization,Reqwest,POPULAR,Python,2025,General
-In Diesel 2.1.0 what new attribute improves error messages for field type mismatches,diesel(check_for_backend),Diesel,NICHE,Python,2023,API
-In Diesel 2.1.0 what new CLI flag generates migrations from schema diff,--diff-schema,Diesel,NICHE,Python,2023,General
-In Serde-json 1.0.132 by what percentage was JSON array deserialization performance improved,8%,Serde-json,POPULAR,Python,2024,General
-In Serde-json 1.0.132 what GitHub issue number tracked the binary size improvement for JSON object deserialization,1205,Serde-json,POPULAR,Python,2024,API
-In Serde 1.0.181 which attribute now works with flatten during in-place deserialization,serde(alias),Serde,POPULAR,Python,2023,API
-In Serde 1.0.181 what improvement was made for adjacently tagged enums in index-based formats,representation,Serde,POPULAR,Python,2023,General
-In Serde-json 1.0.106 what new accessor was added to Value,as_number,Serde-json,POPULAR,Python,2023,API
-In Serde-json 1.0.106 what new accessor was added to Number under arbitrary_precision,as_str,Serde-json,POPULAR,Python,2023,API
-In Axum 0.6.19 what new method was added to axum::extract::Query,try_from_uri,Axum,POPULAR,Python,2023,API
-In Axum 0.6.19 what dependency was updated to 0.19,tokio-tungstenite,Axum,POPULAR,Python,2023,General
-In Hyper 1.6.0 what new http1 builder method was added,ignore_invalid_headers,Hyper,POPULAR,Python,2025,API
-In Hyper 1.6.0 what new ext callback was added,on_informational,Hyper,POPULAR,Python,2025,General
-In Serde 1.0.211 which attribute combination triggers improved mismatch errors,with and default,Serde,POPULAR,Python,2025,API
-In Serde 1.0.211 what deserialization binary size reduction was achieved,12%,Serde,POPULAR,Python,2025,General
-In Chrono 0.4.38 which new method was added to Weekday,days_since,Chrono,POPULAR,Python,2024,API
-In Chrono 0.4.38 which deprecated feature was removed,rustc-serialize,Chrono,POPULAR,Python,2024,General
-In SeaORM 1.0.0 what new method was added to ActiveValue,set_if_not_equals,SeaORM,NICHE,Python,2024,API
-In SeaORM 1.0.0 what CLI option was added to migrate generate,none,SeaORM,NICHE,Python,2024,General
-In Hyper v0.14.25 what new client function was added to capture connection,client::connect::capture_connection(),Hyper,POPULAR,Python,2023,API
-In Hyper v0.14.25 what new field was added to Connected,poison,Hyper,POPULAR,Python,2023,General
-In tokio 1.38.0 which new fs method was added,File::create_new,Tokio,POPULAR,Python,2024,API
-In tokio 1.38.0 which new sync method was added to Notify,notify_last,Tokio,POPULAR,Python,2024,General
-In Diesel 2.3.0 what new attribute was added to AsChangeset derive,#[diesel(skip_update)],Diesel,NICHE,Python,2025,API
-In Diesel 2.3.0 what new DSL was added to UNION clauses,limit(),Diesel,NICHE,Python,2025,General
-In Actix-web 4.8.0 what new responder type was added,web::Html,Actix-web,POPULAR,Python,2024,API
-In Actix-web 4.8.0 what new method was added to HttpRequest,full_url(),Actix-web,POPULAR,Python,2024,API
-In Chrono 0.4.26 which dependency was removed,num-iter,Chrono,POPULAR,Python,2023,General
-In Chrono 0.4.26 which issue caused DurationRound panics,1010,Chrono,POPULAR,Python,2023,API
-In Actix-web 4.4.0 what new crate feature enables HttpServer bind_auto_h2c,http2,Actix-web,POPULAR,Python,2023,API
-In Actix-web 4.4.0 what is the new MSRV due to the time dependency,1.68,Actix-web,POPULAR,Python,2023,General
-In Reqwest 0.12.5 what Cargo feature was added to use rustls without a crypto provider,rustls-tls-no-provider,Reqwest,POPULAR,Python,2024,General
-In Reqwest 0.12.5 what new method was added to blocking::ClientBuilder to change DNS resolver,dns_resolver,Reqwest,POPULAR,Python,2024,API
-In Hyper 1.4.0 which new method was added to SendRequest,try_send_request,Hyper,POPULAR,Python,2024,API
-In Hyper 1.4.0 which new Builder method controls Date headers,auto_date_header,Hyper,POPULAR,Python,2024,General
-In Reqwest 0.11.19 what new ClientBuilder method allows ignoring invalid headers in HTTP1 responses,http1_ignore_invalid_headers_in_responses,Reqwest,POPULAR,Python,2023,API
-In Reqwest 0.11.19 what environment variable was added to support proxy configuration,ALL_PROXY,Reqwest,POPULAR,Python,2023,General
-In Warp 0.3.7 what new key type was added to the tls config,ecc private key,Warp,NICHE,Python,2025,API
-In Warp 0.3.7 what multipart fallback behavior was introduced,filename as part name,Warp,NICHE,Python,2025,General
-In Tokio 1.29.0 what new method was added to broadcast::Receiver,blocking_recv,Tokio,POPULAR,Python,2023,API
-In Tokio 1.29.0 what new metric was added for tasks,number of tasks,Tokio,POPULAR,Python,2023,General
-In Serde-json 1.0.143 which new trait was implemented for Map iterators,Clone and Debug,Serde-json,POPULAR,Python,2025,API
-In Serde-json 1.0.143 which formatter received a Default implementation,CompactFormatter,Serde-json,POPULAR,Python,2025,General
-In SeaORM 1.1.11 which new trait method was added to ActiveModelTrait,default_values,SeaORM,NICHE,Python,2025,API
-In SeaORM 1.1.11 what dependency was upgraded to 0.5,heck,SeaORM,NICHE,Python,2025,General
-In Actix-web 4.11.0 what new method was added to Logger,log_level,Actix-web,POPULAR,Python,2025,API
-In Actix-web 4.11.0 what dependency version was updated to 8,brotli,Actix-web,POPULAR,Python,2025,General
-In Chrono 0.4.41 what new method was added to TimeDelta,subsec_micros,Chrono,POPULAR,Python,2025,API
-In Chrono 0.4.41 what new collection of Weekday was added,WeekdaySet,Chrono,POPULAR,Python,2025,General
-In Warp 0.3.6 which function accepts None for max_length,multipart::form,Warp,NICHE,Python,2024,API
-In Warp 0.3.6 what new method was added to TlsServer,try_bind_with_graceful_shutdown,Warp,NICHE,Python,2024,General
-In Tokio 1.44.0 which new method was added to oneshot::Receiver,is_empty,Tokio,POPULAR,Python,2025,API
-In Tokio 1.44.0 what behavior change was made to from_std on sockets,panic on blocking socket,Tokio,POPULAR,Python,2025,General
-In Diesel 2.2.0 which field attribute was added to Insertable,skip_insertion,Diesel,NICHE,Python,2024,API
-In Diesel 2.2.0 what new configuration option was added for SQLite integer primary keys,sqlite-integer-primary-key-is-bigint,Diesel,NICHE,Python,2024,General
-In Axum 0.7.6 what new function was added to Router,Router::has_routes,Axum,POPULAR,Python,2024,API
-In Axum 0.7.6 what new method was added to Serve and WithGracefulShutdown,tcp_nodelay,Axum,POPULAR,Python,2024,General
-In Clap 4.5.17 what was styled,required argument groups,Clap,POPULAR,Python,2024,General
-In Clap 4.5.17 which derive error messages were improved,unsupported fields,Clap,POPULAR,Python,2024,API
-In Clap 4.5.47 which trait gained an Infallible impl,Subcommand,Clap,POPULAR,Python,2025,API
-In Clap 4.5.47 what new impl was added for the unit type,FromArgMatches,Clap,POPULAR,Python,2025,General
-In SeaORM 0.12.1 which method was added to MigratorTrait,migration_table_name,SeaORM,NICHE,Python,2023,API
-In SeaORM 0.12.1 what new CLI subcommand supports space separated names,migrate generate,SeaORM,NICHE,Python,2023,General
-In Clap 4.3.0 which parser setting gained higher precedence than allow_hyphen_values,value_terminator,Clap,POPULAR,Python,2023,API
-In Clap 4.3.0 what help alignment was corrected,possible values list,Clap,POPULAR,Python,2023,General
-In tracing-0.1.41 which new core API was added for Field,index API,Tracing,POPULAR,Python,2024,API
-In tracing-0.1.41 what was the new MSRV,1.63,Tracing,POPULAR,Python,2024,General
-In Uuid 1.17.0 what new target was added,wasm32v1-none,Uuid,POPULAR,Python,2025,General
-In Uuid 1.17.0 which derive was replaced with manual impl,Hash,Uuid,POPULAR,Python,2025,API
-In Rand 0.9.1 which distribution was added,Alphabetic,Rand,POPULAR,Python,2025,General
-In Rand 0.9.1 which crate was re-exported,rand_core,Rand,POPULAR,Python,2025,API
-In Log 0.4.29 what MSRV was set to,1.68.0,Log,POPULAR,Python,2025,General
-In Log 0.4.29 which dependency was replaced with serde_core,serde,Log,POPULAR,Python,2025,API
-In tracing-0.1.42 which new macro was added for recording multiple values,record_all!,Tracing,POPULAR,Python,2025,API
-In tracing-0.1.42 what was removed from the documented Span API,Span::record_all,Tracing,POPULAR,Python,2025,General
-In Uuid 1.10.0 which Builder method was renamed from rfc4122 to gregorian,from_gregorian_timestamp,Uuid,POPULAR,Python,2024,API
-In Uuid 1.10.0 what prefix was dropped from Timestamp method names,RFC4122,Uuid,POPULAR,Python,2024,General
-In Log 0.4.18 which new function was added to set the max level,racy,set_max_level_racy,Log,POPULAR,Python,2023,API
-In Log 0.4.18 which dependency was removed,cfg_if,Log,POPULAR,Python,2023,General
-In Url 2.4.0 what new method was added to the url crate,authority,Url,NICHE,Python,2023,API
-In Url 2.4.0 which crates gained no_std support,form_urlencoded data-url idna,Url,NICHE,Python,2023,General
-In Log 0.4.21 which method was renamed to to_cow_str,Value::to_str,Log,POPULAR,Python,2024,API
-In Log 0.4.21 which two new crates were added,logcontrol-log log-reload,Log,POPULAR,Python,2024,General
-In Bytes 1.3.0 which method was renamed and exposed,BytesMut::spare_capacity_mut,Bytes,POPULAR,Python,2023,API
-In Bytes 1.3.0 what new native-endian functions were added,get and put,Bytes,POPULAR,Python,2023,General
-In rand_distr 0.5.0-alpha.0 what new trait was implemented for distributions,PartialEq,Rand,POPULAR,Python,2023,API
-In rand_distr 0.5.0-alpha.0 what new weighted distribution was added,WeightedIndexTree,Rand,POPULAR,Python,2023,General
-In Uuid 1.5.0 which new trait impl was added for String under std,From<Uuid>,Uuid,POPULAR,Python,2023,API
-In Uuid 1.5.0 which external crate gained support,bytemuck,Uuid,POPULAR,Python,2023,General
-In Url 2.5.5 which function was added to Mime,library_name,Url,NICHE,Python,2025,API
-In Url 2.5.5 what new validation was added to set_hostname,colon rejection,Url,NICHE,Python,2025,General
-In Futures 0.3.26 which new method was added to Either,as_pin_mut,Futures,POPULAR,Python,2023,API
-In Futures 0.3.26 which trait was implemented for Buffered,FusedStream,Futures,POPULAR,Python,2023,General
-In Bytes 1.11.0 what type replaced usize::MAX in BytesMut::remaining_mut,isize::MAX,Bytes,POPULAR,Python,2025,API
-In Bytes 1.11.0 what MSRV was set,1.57,Bytes,POPULAR,Python,2025,General
-In Futures 0.3.30 which new method was added to BiLock,is_pair_of,Futures,POPULAR,Python,2024,API
-In Futures 0.3.30 which method had its panic fixed,FuturesUnordered::clear,Futures,POPULAR,Python,2024,General
-In Futures 0.3.31 what new constructor method was added to stream::Iter,get_ref,Futures,POPULAR,Python,2025,API
-In Futures 0.3.31 what new future type was introduced,AlwaysReady,Futures,POPULAR,Python,2025,General
-In Url 2.5.1 what constant was used when encoding path in from_file_path,SPECIAL_PATH_SEGMENT,Url,NICHE,Python,2024,API
-In Url 2.5.1 what branch was renamed from master to,main,Url,NICHE,Python,2024,General
-In tracing 0.1.39 what new capability was added to macros regarding field names,Allow constant field names,Tracing,POPULAR,Python,2023,API
-In tracing 0.1.39 what new feature was added to macros for event naming,Allow setting event names,Tracing,POPULAR,Python,2023,General
-In Bytes 1.7.0 what new method was added to reclaim without extra allocation,reclaim,Bytes,POPULAR,Python,2024,API
-In Bytes 1.7.0 what new conversion was added from Bytes to BytesMut,Bytes to BytesMut,Bytes,POPULAR,Python,2024,General
-In tower 0.4.13 what new public constructor was added,load_shed,Tower,NICHE,Python,2023,API
-In tower 0.4.13 which util fix addressed call_all hanging with pending Stream,call_all,Tower,NICHE,Python,2023,General
-In Tonic 0.13.0 which new method was added to the Endpoint builder,local_address,Tonic,NICHE,Python,2024,API
-In Tonic 0.13.0 which new compression support was added,deflate,Tonic,NICHE,Python,2024,General
-In Prost 0.13.0 what new error type replaced DecodeError for TryFrom<i32> enum conversion,UnknownEnumValue,Prost,NICHE,Python,2024,General
-In Prost 0.13.0 what trait is now automatically derived for some messages,Copy,Prost,NICHE,Python,2024,API
-In Tower 0.5.2 which new boxed service type was added to util,BoxCloneSyncService,Tower,NICHE,Python,2025,API
-In Tower 0.5.2 which new boxed layer type was added to util,BoxCloneSyncServiceLayer,Tower,NICHE,Python,2025,General
-In Prost 0.14.0 what renamed feature flag replaced prost-derive,derive,Prost,NICHE,Python,2025,General
-In Prost 0.14.0 what new conversion was implemented for Duration,chrono::TimeDelta,Prost,NICHE,Python,2025,API
-In Rand 0.9.0-beta.0 what top-level function was added alongside random_iter and random_range,fill,Rand,POPULAR,Python,2024,API
-In Rand 0.9.0-beta.0 what feature was renamed from serde1 to,serde,Rand,POPULAR,Python,2024,General
-In Tonic 0.14.0 which two new TCP socket options can be set,TCP_KEEPINTVL TCP_KEEPCNT,Tonic,NICHE,Python,2025,API
-In Tonic 0.14.0 what header is now preserved by default,user-agent,Tonic,NICHE,Python,2025,General
-In Tower 0.5.0 what new trait was added to allow custom budget implementations,Budget trait,Tower,NICHE,Python,2024,General
-In Tower 0.5.0 what was the new parameter mutability for retry::Policy::retry,&mut Req and &mut Res,Tower,NICHE,Python,2024,API
-In Scraper 0.18.0 what new trait was implemented for Selector,ToCss,Scraper,NICHE,Python,2023,API
-In Scraper 0.18.0 what new public parser was added to selector,public parser,Scraper,NICHE,Python,2023,General
-In Polars rs-0.52.0 what new separator parameter was added to unnest,separator,Polars,NICHE,Python,2025,API
-In Polars rs-0.52.0 what new allow_empty flag was added to,item,Polars,NICHE,Python,2025,General
-In Prost 0.12.0 what new trait was implemented for enums,TryFrom<i32>,Prost,NICHE,Python,2023,API
-In Prost 0.12.0 what was the new MSRV,1.64,Prost,NICHE,Python,2023,General
-In Scraper 0.24.0 which dependency was bumped first,html5ever,Scraper,NICHE,Python,2025,General
-In Scraper 0.24.0 which dependency version selectors reached,0.31.0,Scraper,NICHE,Python,2025,API
-In Scraper v0.21.0 what new workspace feature was introduced,workspaces,Scraper,NICHE,Python,2024,General
-In Scraper v0.21.0 which dependency did LoZack19 remove when migrating OnceCell,once_cell,Scraper,NICHE,Python,2024,API
-In rs-0.40.0 what new option was added to disable globbing in csv,disable_glob,Polars,NICHE,Python,2024,General
-In rs-0.40.0 what new argument was added to Expr.top_k and Expr.bottom_k,by,Polars,NICHE,Python,2024,API
-In Indicatif 0.17.12 which new method was added to ProgressBar,force_draw,Indicatif,NICHE,Python,2025,API
-In Indicatif 0.17.12 which dependency was switched from number_prefix to unit_prefix,unit_prefix,Indicatif,NICHE,Python,2025,General
-In Indicatif 0.17.9 what new parameter was added to allow constructing and setting the progress bar len to None,None,Indicatif,NICHE,Python,2024,API
-In Indicatif 0.17.9 what dependency replaced instant,web-time,Indicatif,NICHE,Python,2024,General
-In Polars 0.34.0 what parameter was renamed to quote_char,write_csv,Polars,NICHE,Python,2023,API
-In Polars 0.34.0 what new config setting disables the string cache,disable_string_cache,Polars,NICHE,Python,2023,General
-In Rustls 0.23.28 what new method was added to ClientConnection,tls13_tickets_received,Rustls,NICHE,Python,2025,API
-In Rustls 0.23.28 what new method was added to ClientHello,named_groups,Rustls,NICHE,Python,2025,General
-In Dioxus 0.4.0 what new CLI subcommand was added to lint code,check,Dioxus,NICHE,Python,2023,General
-In Dioxus 0.4.0 what new attribute was added to the Link component,to,Dioxus,NICHE,Python,2023,API
-In Rustls 0.23.13 what new crate feature disables built-in provider installation,custom-provider,Rustls,NICHE,Python,2024,General
-In Rustls 0.23.13 which function had its Send Sync bounds removed from client session storage,client session storage field,Rustls,NICHE,Python,2024,API
-In Eframe 0.24.0 which new field was added to RawInput,viewports,Eframe,NICHE,Python,2023,API
-In Eframe 0.24.0 what keyboard shortcut modifier was removed from zoom_with_keyboard_shortcuts,egui::gui_zoom,Eframe,NICHE,Python,2023,General
-In Rustls 0.21.2 what new signature parameter type was added to RootCertStore::add_parsable_certificates,&[impl AsRef<[u8]>],Rustls,NICHE,Python,2023,API
-In Rustls 0.21.2 which QUIC version support was newly added,QUIC V2,Rustls,NICHE,Python,2023,General
-In Leptos 0.5.0 what prop name replaced view on the For component,children,Leptos,NICHE,Python,2023,General
-In Leptos 0.5.0 which macro was introduced to replace nested with calls,with,Leptos,NICHE,Python,2023,API
-In eframe 0.29.0 which function now expects HtmlCanvasElement instead of its id,WebRunner::start,Eframe,NICHE,Python,2024,API
-In eframe 0.29.0 which NativeOptions setting was removed and moved to egui::Options,follow_system_theme,Eframe,NICHE,Python,2024,General
-In Ratatui 0.27.0 what new border set was added alongside border::FULL,border::EMPTY,Ratatui,NICHE,Python,2024,API
-In Ratatui 0.27.0 which example was added to demonstrate logging to a file,tracing,Ratatui,NICHE,Python,2024,General
-In Dioxus CLI 0.7.1 what flag was re-added to dx build,--platform,Dioxus,NICHE,Python,2025,General
-In Dioxus CLI 0.7.1 what new flag was added to dx build,--raw-json-diagnostics,Dioxus,NICHE,Python,2025,General
-In Ratatui 0.30.0-alpha.5 which new constructor was added to canvas types,canvas types,Ratatui,NICHE,Python,2025,API
-In Ratatui 0.30.0-alpha.5 what new widget was added by @Its-Just-Nans,RatatuiMascot,Ratatui,NICHE,Python,2025,General
-In Indicatif 0.17.4 what new method was added to `InMemoryTerm`?,contents_formatted,Indicatif,NICHE,Python,2023,API
-In Indicatif 0.17.4 what dependency was updated from 0.3.15 to 1.0.0?,portable-atomic,Indicatif,NICHE,Python,2023,General
-In Eframe 0.33.0 which new trait replaced Context::on_begin_pass and Context::on_end_pass,Plugin,Eframe,NICHE,Python,2025,General
-In Eframe 0.33.0 which new Ui helper sets its minimum size to available space,take_available_space,Eframe,NICHE,Python,2025,API
-In Tonic v0.12.0 which new public function was added to the boxed module,boxed,Tonic,NICHE,Python,2023,API
-In Tonic v0.12.0 what compression encoding error was made more informative,not utf8 value,Tonic,NICHE,Python,2023,General
-In Ratatui 0.21.0 which new widget was added for date selection,Calendar,Ratatui,NICHE,Python,2023,General
-In Ratatui 0.21.0 what method was added to List to return its length,len,Ratatui,NICHE,Python,2023,API
-In Leptos 0.8.0 which new server function protocol enables WebSocket usage,Websocket<JsonEncoding JsonEncoding>,Leptos,NICHE,Python,2025,API
-In Leptos 0.8.0 which Axum version was supported in the upgrade,0.8,Leptos,NICHE,Python,2025,General
-In Dioxus 0.5.0 which new attribute directive merges conditional tailwind classes automatically,class,Dioxus,NICHE,Python,2024,General
-In Dioxus 0.5.0 what new hook replaced use_state and use_ref for state management,use_signal,Dioxus,NICHE,Python,2024,API
-In Leptos 0.7.0 which new method on RwSignal avoids cloning the contained value,read,Leptos,NICHE,Python,2024,API
-In Leptos 0.7.0 what required prop replaces the optional fallback prop on Router,fallback,Leptos,NICHE,Python,2024,General
+In SeaORM 1.1.11 what new method was added to ActiveModelTrait to provide default values for an active model?,default_values,SeaORM,NICHE,Python,2025,API
+In SeaORM 1.1.11 the sea-orm-cli fixed codegen for what specific Postgres vector extension?,PgVector,SeaORM,NICHE,Python,2025,General
+In Axum 0.6.19 what is the new Minimum Supported Rust Version?,1.63,Axum,POPULAR,Python,2023,General
+In Axum 0.6.19 what method was added to axum::extract::Query for creation from a Uri?,try_from_uri,Axum,POPULAR,Python,2023,API
+In Actix-web 4.8.0 what new HttpRequest method was added to get the complete request URL,full_url(),Actix-web,POPULAR,Python,2024,API
+In Actix-web 4.8.0 what HTTP status code is now used by the UrlencodedError::ContentType variant,415,Actix-web,POPULAR,Python,2024,General
+What new Cargo feature was introduced in Reqwest v0.12.5 to use rustls without a crypto provider?,rustls-tls-no-provider,Reqwest,POPULAR,Python,2024,General
+In Reqwest v0.12.5 what method was added to the blocking ClientBuilder for changing the DNS resolver?,dns_resolver(),Reqwest,POPULAR,Python,2024,API
+In Warp v0.3.2 what async infallible method was added to the Filter trait for chaining operations?,Filter::then(),Warp,NICHE,Python,2023,API
+In Warp v0.3.2 which dependency was replaced by futures-util to create a smaller package?,futures,Warp,NICHE,Python,2023,General
+In Clap v4.5.17 what part of the help output received styling improvements?,required argument groups,Clap,POPULAR,Python,2024,General
+For Clap's derive macro in v4.5.17 what was improved for unsupported fields?,error messages,Clap,POPULAR,Python,2024,General
+In Clap 4.5.47 the runtime error text for derive was updated to match what?,clap,Clap,POPULAR,Python,2025,General
+In Clap 4.5.47 for what type was an impl of FromArgMatches and Subcommand added?,Infallible,Clap,POPULAR,Python,2025,API
+In tracing 0.1.41 what is the new Minimum Supported Rust Version MSRV,1.63,Tracing,POPULAR,Python,2024,General
+In tracing 0.1.41 what byte slice type can now be recorded as an event or span field,&[u8],Tracing,POPULAR,Python,2024,API
+In tracing 0.1.39 what core data structure was changed to allow valuesets of any length,ValueSet,Tracing,POPULAR,Python,2023,API
+In tracing 0.1.39 what minimum version was the proc-macro2 dependency bumped to for attributes,1.0.60,Tracing,POPULAR,Python,2023,General
+In tracing 0.1.42 what new macro was added to record multiple values in a single call?,record_all!,Tracing,POPULAR,Python,2025,General
+In tracing 0.1.42 what method on Span was removed from the documented public API?,Span::record_all,Tracing,POPULAR,Python,2025,API
+In Log 0.4.18 what new function was added to manage the maximum logging level without a global lock?,set_max_level_racy,Log,POPULAR,Python,2023,API
+In Log 0.4.18 which dependency was completely removed to reduce the library's external requirements?,cfg_if,Log,POPULAR,Python,2023,General
+In Log 0.4.29 what was the new Minimum Supported Rust Version MSRV set to,1.68.0,Log,POPULAR,Python,2025,General
+In Log 0.4.29 what crate replaced the full serde dependency to reduce bloat,serde_core,Log,POPULAR,Python,2025,API
+In Log 0.4.21 what method name replaced the Value::to_str method,to_cow_str,Log,POPULAR,Python,2024,API
+In Log 0.4.21 which API was prepared for its upcoming stabilization,structured logging,Log,POPULAR,Python,2024,General
+In axum v0.7.6 to what version was the tokio-tungstenite dependency updated?,0.23,Axum,POPULAR,Python,2024,General
+In axum v0.7.6 what new function was added to Router to check if it contains any routes?,has_routes,Axum,POPULAR,Python,2024,API
+In Serde-json v1.0.106 under what feature is the Number::as_str accessor available,arbitrary_precision,Serde-json,POPULAR,Python,2023,General
+In Serde-json v1.0.106 what new accessor method was added to the Value type,as_number,Serde-json,POPULAR,Python,2023,API
+In Chrono v0.4.26 which dependency was removed to reduce the dependency tree,num-iter,Chrono,POPULAR,Python,2023,General
+In Chrono v0.4.26 which API struct had panics fixed that originated from issue #1010,DurationRound,Chrono,POPULAR,Python,2023,API
+In SeaORM 1.0.0 what new attribute was added to the DeriveEntityModel macro for renaming all fields?,rename_all,SeaORM,NICHE,Python,2024,General
+In SeaORM 1.0.0 what breaking change renamed the ConnectOptions::pool_options method?,ConnectOptions::sqlx_pool_options(),SeaORM,NICHE,Python,2024,API
+In Hyper v0.14.25 what was added to the Connected type to protect against panics from user IO types,poison,Hyper,POPULAR,Python,2023,General
+In Hyper v0.14.25 what new function was added to the client connect module for capturing connections,capture_connection(),Hyper,POPULAR,Python,2023,API
+In Chrono 0.4.38 what long-deprecated feature was completely removed to prevent Cargo from updating dependents that rely on it?,rustc-serialize,Chrono,POPULAR,Python,2024,General
+In Chrono 0.4.38 what new method was added to the Weekday type to calculate the number of days since another weekday?,days_since,Chrono,POPULAR,Python,2024,API
+In Diesel 2.1.0 what CLI flag enables generating migrations based on a schema.rs diff?,--diff-schema,Diesel,NICHE,Python,2023,General
+In Diesel 2.1.0 what derive macro allows combining different database connections into a single enum?,MultiConnection,Diesel,NICHE,Python,2023,API
+In Diesel v2.3.0 what new environment variable sets the logging filter instead of RUST_LOG?,DIESEL_LOG,Diesel,NICHE,Python,2025,General
+In Diesel v2.3.0 what attribute for the AsChangeset derive skips updating a field in the struct?,#[diesel(skip_update)],Diesel,NICHE,Python,2025,API
+In Serde v1.0.197 what rustc version prompted a fix for unused_imports warnings,1.78,Serde,POPULAR,Python,2024,General
+In Serde v1.0.197 which trait implementations were optimized to reduce code size,Display impls,Serde,POPULAR,Python,2024,API
+In Chrono v0.4.41 what method was added to the Datelike trait to find the number of days in a month?,num_days_in_month,Chrono,POPULAR,Python,2025,API
+In Chrono v0.4.41 how does TimeZone from_posix_tz treat an empty TZ environment variable?,UTC,Chrono,POPULAR,Python,2025,General
+In Serde v1.0.211 what are now shown in error messages when variant deserialization fails?,variant aliases,Serde,POPULAR,Python,2025,General
+In Serde v1.0.211 which two attributes received improved error reporting for mismatched signatures?,with and default,Serde,POPULAR,Python,2025,API
+In tokio-1.29.0 what trait implementation was removed from runtime EnterGuard to fix a bug?,Send,Tokio,POPULAR,Python,2023,General
+In tokio-1.29.0 what method was added to the process Command struct to pass an argument without quoting?,raw_arg,Tokio,POPULAR,Python,2023,API
+In Serde-json v1.0.143 what trait was implemented for the CompactFormatter struct to enable its default instantiation?,Default,Serde-json,POPULAR,Python,2025,API
+In Serde-json v1.0.143 the Map type can now be constructed from a string due to the implementation of what trait?,FromStr,Serde-json,POPULAR,Python,2025,General
+In Reqwest v0.12.25 what new method on the Error type detects if an error was from an HTTP upgrade?,is_upgrade(),Reqwest,POPULAR,Python,2025,API
+In Reqwest v0.12.25 what header is now correctly sent to an HTTPS proxy for an HTTP target?,Proxy-Authorization,Reqwest,POPULAR,Python,2025,General
+In Warp v0.3.6 what new method was added to TlsServer to bind with graceful shutdown support?,try_bind_with_graceful_shutdown(),Warp,NICHE,Python,2024,API
+In Warp v0.3.6 the multipart Part content_type method was changed to return what kind of string?,the full mime string,Warp,NICHE,Python,2024,General
+In Hyper v1.6.0 what builder option was added to http1 to disregard malformed headers,ignore_invalid_headers,Hyper,POPULAR,Python,2025,General
+In Hyper v1.6.0 what receiver does the http2::Builder::max_local_error_reset_streams method now take,&mut self,Hyper,POPULAR,Python,2025,API
+In tokio-1.44.0 what behavior now occurs when passing a blocking socket to the net `from_std` method?,panic,Tokio,POPULAR,Python,2025,General
+What method was added to the `Command` struct in tokio-1.44.0 to check if the child process will be killed on drop?,get_kill_on_drop(),Tokio,POPULAR,Python,2025,API
+In Actix-web web-v4.11.0 what new method was added to HttpServer to await an external shutdown signal,shutdown_signal(),Actix-web,POPULAR,Python,2025,API
+In Actix-web web-v4.11.0 what image format can the Compress middleware now compress,SVG,Actix-web,POPULAR,Python,2025,General
+In Serde-json v1.0.132 what approximate percentage improvement was made to binary size for JSON object deserialization?,50%,Serde-json,POPULAR,Python,2024,General
+What was the approximate performance improvement for JSON array deserialization in Serde-json v1.0.132?,8%,Serde-json,POPULAR,Python,2024,General
+In axum v0.8.3 what aspect of WebSocketUpgrade can now be configured by the user?,read buffer capacity,Axum,POPULAR,Python,2025,General
+In axum v0.8.3 the OptionalFromRequest trait was newly implemented for the Extension type and what other type?,Json,Axum,POPULAR,Python,2025,API
+In rand_distr 0.5.0-alpha.0 which constructor for the Dirichlet distribution was removed?,Dirichlet::new_with_size,Rand,POPULAR,Python,2023,API
+In rand_distr 0.5.0-alpha.0 what new tree-like data structure was added?,WeightedIndexTree,Rand,POPULAR,Python,2023,General
+In Hyper v1.4.0 what server header can be disabled using the new Builder::auto_date_header method,Date headers,Hyper,POPULAR,Python,2024,General
+In Hyper v1.4.0 what new method was added to the SendRequest struct,try_send_request(),Hyper,POPULAR,Python,2024,API
+In Serde v1.0.181 what attribute now works with flatten during in-place deserialization?,serde(alias),Serde,POPULAR,Python,2023,API
+In Serde v1.0.181 what enum representation was improved for formats serializing tags by index?,adjacently tagged enums,Serde,POPULAR,Python,2023,General
+In Actix-web v4.4.0 what is the new maximum number of extractor parameters for handler functions?,16,Actix-web,POPULAR,Python,2023,General
+In Actix-web v4.4.0 for which web module type was the serde::Deserialize trait implemented?,web::Data,Actix-web,POPULAR,Python,2023,API
+In Warp v0.3.7 which configuration function gained support for ecc private keys,tls(),Warp,NICHE,Python,2025,API
+In Warp v0.3.7 what does the multipart feature use as a fallback for a part's name,filename,Warp,NICHE,Python,2025,General
+In Tokio 1.38.0 what new Apple operating system gained networking support,visionOS,Tokio,POPULAR,Python,2024,General
+In Tokio 1.38.0 what new method was added to the Notify struct to wake only the last waiter,notify_last,Tokio,POPULAR,Python,2024,API
+In Diesel v2.2.0 what configuration option allows using BigInt for INTEGER PRIMARY KEY columns in SQLite?,sqlite-integer-primary-key-is-bigint,Diesel,NICHE,Python,2024,General
+In Diesel v2.2.0 what attribute lets the Insertable derive skip fields that map to generated columns?,#[diesel(skip_insertion)],Diesel,NICHE,Python,2024,API
+In Rand 0.9.0-beta.0 what was the serde1 feature renamed to,serde,Rand,POPULAR,Python,2024,General
+In Rand 0.9.0-beta.0 what function was Rng::gen renamed to in order to avoid a keyword conflict,random,Rand,POPULAR,Python,2024,API
+In Reqwest v0.11.19 what new proxy environment variable gained support for configuration?,ALL_PROXY,Reqwest,POPULAR,Python,2023,General
+In Reqwest v0.11.19 what new ClientBuilder method allows spaces after a header name in responses?,http1_allow_spaces_after_header_name_in_responses(),Reqwest,POPULAR,Python,2023,API
+In Bytes v1.11.0 to what version was the Minimum Supported Rust Version MSRV bumped?,1.57,Bytes,POPULAR,Python,2025,General
+In Bytes v1.11.0 what constant is now used by BytesMut remaining_mut instead of usize MAX?,isize::MAX,Bytes,POPULAR,Python,2025,API
+In Futures 0.3.31 a breaking change was allowed to fix a soundness bug in which task function?,task::waker_ref,Futures,POPULAR,Python,2025,General
+In Futures 0.3.31 what new struct was added to the future module for futures that are always ready?,AlwaysReady,Futures,POPULAR,Python,2025,API
+In Url v2.5.1 what punycode function's performance was improved by avoiding double allocation?,decode_to_string,Url,NICHE,Python,2024,API
+In Url v2.5.1 what library was the idna component reimplemented on top of?,ICU4X,Url,NICHE,Python,2024,General
+In Rustls 0.21.2 what was the Minimum Supported Rust Version MSRV bumped to?,1.60,Rustls,NICHE,Python,2023,General
+In Rustls 0.21.2 what trait bound was added to the argument of the RootCertStore::add_parsable_certificates method?,AsRef<[u8]>,Rustls,NICHE,Python,2023,API
+In Indicatif 0.17.9 what value can now be passed to set the progress bar length to an unknown size?,None,Indicatif,NICHE,Python,2024,API
+In Indicatif 0.17.9 what crate replaced the instant crate for time handling?,web-time,Indicatif,NICHE,Python,2024,General
+In Indicatif 0.17.12 the number_prefix dependency was switched to what new dependency?,unit_prefix,Indicatif,NICHE,Python,2025,General
+In Indicatif 0.17.12 what new method was added to the ProgressBar class to compel a redraw?,force_draw,Indicatif,NICHE,Python,2025,API
+In Indicatif 0.17.4 what new method was added to the InMemoryTerm struct,contents_formatted(),Indicatif,NICHE,Python,2023,API
+In Indicatif 0.17.4 what argument parsing library was structopt migrated to,clap,Indicatif,NICHE,Python,2023,General
+In Leptos v0.7.0 what new signal method provides an immutable guard without a closure like the .with() method?,.read(),Leptos,NICHE,Python,2024,API
+In Leptos v0.7.0 what function for opt-in update batching was removed because batching is now default behavior?,batch,Leptos,NICHE,Python,2024,General
+In Rand 0.9.1 what new distribution was added for generating alphabetic characters?,rand::distr::Alphabetic,Rand,POPULAR,Python,2025,API
+In Rand 0.9.1 what dependency was removed from the core library as part of the security and unsafe code revision?,zerocopy,Rand,POPULAR,Python,2025,General
+In Leptos v0.5.0 what method on the Resource APIs replaced the former .with() function,map(),Leptos,NICHE,Python,2023,API
+In Leptos v0.5.0 the log warn and error macros were moved to what new module,logging,Leptos,NICHE,Python,2023,General
+In Uuid v1.17.0 what convenience trait implementation was added for std?,TryFrom,Uuid,POPULAR,Python,2025,API
+In Uuid v1.17.0 what new architecture was added to support OSX builds?,arm,Uuid,POPULAR,Python,2025,General
+In Bytes 1.7.0 what type replaced mem::forget in internal implementations,ManuallyDrop,Bytes,POPULAR,Python,2024,General
+In Bytes 1.7.0 what method was added to reclaim memory without an additional allocation,reclaim,Bytes,POPULAR,Python,2024,API
+In Url v2.5.5 what character will now cause the set_hostname function to produce an error?,:,Url,NICHE,Python,2025,API
+In Url v2.5.5 which parsing function was optimized by removing a heap allocation for performance?,parse_query,Url,NICHE,Python,2025,General
+In Bytes 1.3.0 what function was exposed on BytesMut to give a mutable slice of the spare capacity?,spare_capacity_mut,Bytes,POPULAR,Python,2023,API
+In Bytes 1.3.0 a fix for the reserve method ensures what kind of data is not kept in unused capacity?,important data,Bytes,POPULAR,Python,2023,General
+In Url v2.4.0 what new method was added to the Url struct to get the authority component?,authority,Url,NICHE,Python,2023,API
+What minimum supported Rust version was Url v2.4.0 updated to for compatibility with serde-derive?,1.56,Url,NICHE,Python,2023,General
+In Uuid 1.10.0 what calendar system do the newly renamed timestamp methods now refer to instead of RFC4122,gregorian,Uuid,POPULAR,Python,2024,General
+In Uuid 1.10.0 what new method on Builder replaces the deprecated from_rfc4122_timestamp function,Builder::from_gregorian_timestamp,Uuid,POPULAR,Python,2024,API
+In Futures 0.3.30 a panic was fixed in which method of the FuturesUnordered type,clear,Futures,POPULAR,Python,2024,General
+In Futures 0.3.30 what new method was added to ReadHalf and WriteHalf to check if they originated from the same object,is_pair_of,Futures,POPULAR,Python,2024,API
+In SeaORM 0.12.1 what new method was added to the MigratorTrait to allow for customizing the migration table's name,migration_table_name(),SeaORM,NICHE,Python,2023,API
+In SeaORM 0.12.1 what new derive macro was introduced to replace the functionality of the former Iden derive macro,DeriveIden,SeaORM,NICHE,Python,2023,General
+In Prost v0.12.0 what trait was implemented for enums to enable conversion from i32?,TryFrom<i32>,Prost,NICHE,Python,2023,API
+In Prost v0.12.0 what new Minimum Supported Rust Version was established?,1.64,Prost,NICHE,Python,2023,General
+In Futures 0.3.26 what trait bound on T was removed from the Debug implementations of mpsc and oneshot types?,Debug,Futures,POPULAR,Python,2023,General
+In Futures 0.3.26 what new method on Shared checks if two pointers point to the same allocation?,ptr_eq,Futures,POPULAR,Python,2023,API
+In Scraper v0.18.0 what new trait was implemented for Selector to enable CSS conversion?,ToCss,Scraper,NICHE,Python,2023,API
+In Scraper v0.18.0 what new public component was added to the selector module?,parser,Scraper,NICHE,Python,2023,General
+In Uuid 1.5.0 what CI tool replaced MIPS for testing purposes,Miri,Uuid,POPULAR,Python,2023,General
+In Uuid 1.5.0 what trait was implemented for the String type when using the std feature flag,From,Uuid,POPULAR,Python,2023,API
+In Clap 4.3.0 what parser setting now has higher precedence than `allow_hyphen_values`?,value_terminator,Clap,POPULAR,Python,2023,General
+In Clap 4.3.0 what help feature for subcommands is no longer triggered by default with `--help`?,next-line-help,Clap,POPULAR,Python,2023,General
+In Tonic v0.13.0 what service was exposed to provide server reflection capabilities,ReflectionService,Tonic,NICHE,Python,2024,API
+In Tonic v0.13.0 what new compression algorithm support was added,deflate,Tonic,NICHE,Python,2024,General
+In tower 0.5.2 what new boxed Service was added that implements Clone Send and Sync?,BoxCloneSyncService,Tower,NICHE,Python,2025,API
+What new boxed Layer was introduced in tower 0.5.2 that provides Clone Send and Sync traits?,BoxCloneSyncServiceLayer,Tower,NICHE,Python,2025,General
+In tower 0.4.13 what public constructor was added for the Overloaded error type,load_shed,Tower,NICHE,Python,2023,API
+In tower 0.4.13 the util module fixed a hang in what function when a request Stream was pending,call_all,Tower,NICHE,Python,2023,General
+In Tower 0.5.0 what new Minimum Supported Rust Version was established?,1.63.0,Tower,NICHE,Python,2024,General
+In Tower 0.5.0 what deprecated method was removed from the ServiceExt trait in the util module?,ready_and,Tower,NICHE,Python,2024,API
+In Tonic v0.12.0 what major dependency was updated to version 1.0 as part of a breaking change,hyper,Tonic,NICHE,Python,2023,General
+In Tonic v0.12.0 what type now describes a DER encoded certificate for the tls module,rustls_pki_types::CertificateDer,Tonic,NICHE,Python,2023,API
+In Eframe 0.33.0 what helper function was added to Ui to set its minimum size to the available space?,take_available_space(),Eframe,NICHE,Python,2025,API
+In Eframe 0.33.0 what value was the default text size changed to?,13.0,Eframe,NICHE,Python,2025,General
+In Prost v0.14.0 what is the new name for the prost-derive feature flag,derive,Prost,NICHE,Python,2025,General
+In Prost v0.14.0 what trait was removed as a supertrait of the Message trait,Debug,Prost,NICHE,Python,2025,API
+In Rustls 0.23.13 what new crate feature disables installation of the built-in provider?,custom-provider,Rustls,NICHE,Python,2024,General
+In Rustls 0.23.13 what provider-related function was removed for builds without aws_lc_rs?,default_fips_provider(),Rustls,NICHE,Python,2024,API
+In Polars rs-0.40.0 what term was 'Chunk' universally renamed to,RecordBatch,Polars,NICHE,Python,2024,General
+In Polars rs-0.40.0 what new method was added to structs for adding or replacing fields,struct.with_fields,Polars,NICHE,Python,2024,API
+In Rustls 0.23.28 what new key exchange mechanism was added but is not offered by default?,secp256r1mlkem768,Rustls,NICHE,Python,2025,General
+In Rustls 0.23.28 what new method on ClientConnection exposes the number of received TLS1.3 resumption tickets?,tls13_tickets_received(),Rustls,NICHE,Python,2025,API
+In Scraper v0.24.0 what documentation file was recreated to no longer be a symbolic link?,README.md,Scraper,NICHE,Python,2025,General
+In Scraper v0.24.0 what was the final version for the selectors dependency after multiple bumps?,0.31.0,Scraper,NICHE,Python,2025,General
+In Polars 0.34.0 the `write_csv` parameter `quote` was renamed to what new parameter name?,quote_char,Polars,NICHE,Python,2023,API
+In Polars 0.34.0 what new SQL string function was introduced for capitalizing the first letter of each word?,INITCAP,Polars,NICHE,Python,2023,General
+In Prost 0.13.0 what new error type is returned by the TryFrom implementation for enums replacing DecodeError?,UnknownEnumValue,Prost,NICHE,Python,2024,API
+In Prost 0.13.0 what trait will prost-build now automatically derive for some messages where possible?,Copy,Prost,NICHE,Python,2024,General
+In Polars rs-0.52.0 what bitwise operator was added to the SQL interface,BIT_NOT,Polars,NICHE,Python,2025,General
+In Polars rs-0.52.0 what parameter was added to scan_ipc to enable globbing patterns,glob,Polars,NICHE,Python,2025,API
+In Scraper v0.21.0 what module was migrated to use std::cell::OnceCell,once_cell::unsync::OnceCell,Scraper,NICHE,Python,2024,General
+In Scraper v0.21.0 which two iterators were updated to become fused iterators,Select and Text,Scraper,NICHE,Python,2024,API
+In Tonic v0.14.0 after Prost was extracted what new crate contains Prost build functionality?,tonic-prost-build,Tonic,NICHE,Python,2025,General
+In Tonic v0.14.0 which trait bound was re-added to the Streaming type to make it thread-safe again?,Sync,Tonic,NICHE,Python,2025,API
+In Eframe 0.24.0 what new Options setting which is enabled by default replaced the zoom_with_keyboard_shortcuts function?,Options::zoom_with_keyboard,Eframe,NICHE,Python,2023,General
+In Eframe 0.24.0 what constant replaced the Id::null() function for representing a null identifier?,Id::NULL,Eframe,NICHE,Python,2023,API
+In Dioxus v0.4.0 what annotation marks a function to ensure its code runs only on the server?,#[server],Dioxus,NICHE,Python,2023,General
+In Dioxus v0.4.0 what new derive macro is used with an enum to define type-safe application routes?,Routable,Dioxus,NICHE,Python,2023,API
+In Leptos 0.8.0 what cfg flag improves dev-mode compile times and is the default in cargo-leptos?,erase_components,Leptos,NICHE,Python,2025,General
+In Leptos 0.8.0 what trait must a custom error type implement for improved server function error handling?,FromServerFnError,Leptos,NICHE,Python,2025,API
+In Eframe 0.29.0 what HTML object type does the WebRunner::start method now expect?,HtmlCanvasElement,Eframe,NICHE,Python,2024,API
+In Eframe 0.29.0 to which module were the theme settings from NativeOptions moved?,egui::Options,Eframe,NICHE,Python,2024,General
+In Ratatui v0.27.0 what two new style properties for LineGauge replaced the deprecated gauge_style property?,filled_style and unfilled_style,Ratatui,NICHE,Python,2024,API
+In Ratatui v0.27.0 which three backend crates can now be used without adding them as direct dependencies?,crossterm termion and termwiz,Ratatui,NICHE,Python,2024,General
+In Ratatui v0.21.0 what new terminal backend was introduced with an accompanying example?,termwiz,Ratatui,NICHE,Python,2023,General
+In Ratatui v0.21.0 what method was added to the List struct to retrieve its length?,len(),Ratatui,NICHE,Python,2023,API
+In Ratatui v0.30.0-alpha.5 what is the name of the newly added mascot widget,RatatuiMascot,Ratatui,NICHE,Python,2025,General
+In Ratatui v0.30.0-alpha.5 what new constructor was added to the layout Offset type,new(),Ratatui,NICHE,Python,2025,API
+In Dioxus v0.7.1 what command-line flag was restored after being accidentally removed,--platform,Dioxus,NICHE,Python,2025,General
+In Dioxus v0.7.1 what new function allows modifying the window before the webview is created,with_on_window_ready,Dioxus,NICHE,Python,2025,API
+In Dioxus v0.5.0 what new clone-free API was introduced to replace use_state and use_ref for state management?,Signal,Dioxus,NICHE,Python,2024,General
+In Dioxus v0.5.0 what method on the event object accesses the native platform-specific event type like web_sys::MouseEvent?,web_event(),Dioxus,NICHE,Python,2024,API

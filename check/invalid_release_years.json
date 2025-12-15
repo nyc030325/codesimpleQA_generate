@@ -1,32 +1,32 @@
 [
   {
-    "library": "Serde",
+    "library": "JUnit5",
     "entries": [
       {
-        "library_name": "Serde",
-        "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.197",
-        "version": "v1.0.197",
-        "title": "Release v1.0.197 · serde-rs/serde · GitHub",
-        "release_date": "2024-02-20T00:24:22Z",
-        "content": "Fix unused_imports warnings when compiled by rustc 1.78\nOptimize code size of some Display impls (\n#2697\n, thanks\n@nyurik\n)",
+        "library_name": "JUnit5",
+        "url": "https://docs.junit.org/5.12.0/release-notes/",
+        "version": "5.12.0",
+        "title": "JUnit 5 Release Notes",
+        "release_date": "Unknown release date",
+        "content": "5.12.0 Date of Release: February 21, 2025 Scope: Output file attachments for tests and containers Improvements to the Open Test Reporting XML output Resource lock definition improvements Thread dumps on test timeouts Parameterized test validation improvements Filtering support for auto-registered extensions Kotlin contracts for assertions Configurable Jupiter extension context scope Enhancements to the ConsoleLauncher Better support for GraalVM native image usage Improved discovery support for file-based test engines Customizable classpath scanning Parallel execution support in JUnit Vintage engine Numerous bug fixes and other enhancements For a complete list of all closed issues and pull requests for this release, consult the 5.12.0-M1, 5.12.0-RC1, 5.12.0-RC2, and 5.12.0 milestone pages in the JUnit repository on GitHub. Overall Improvements New Features and Improvements All affected JAR files now include native-image.properties files that contain the --initialize-at-build-time option to avoid breakages in GraalVM projects when updating to newer versions of JUnit. JUnit Platform Deprecations and Breaking Changes SearchOption and AnnotationSupport.findAnnotation(Class, Class, SearchOption) from junit-platform-commons have been deprecated. New Features and Improvements ConsoleLauncher now accepts multiple values for all --select options. ConsoleLauncher now supports a --select-unique-id option to select containers and tests by unique ID. ConsoleLauncher supports new --exclude-methodname and --include-methodname options to include or exclude methods based on fully qualified method names without parameters. For example, --exclude-methodname=^org\\.example\\..+#methodname will exclude all methods called methodName under package org.example. The --select-file and --select-resource options for the ConsoleLauncher now support line and column numbers. New ReflectionSupport.makeAccessible(Field) public utility method to be used by third parties instead of calling the internal ReflectionUtils.makeAccessible(Field) method directly. The ReflectionSupport.tryToLoadClass(…​) utility methods now support lookups for the void pseudo-type, which indirectly supports String to Class conversion for void in parameterized tests in JUnit Jupiter. New addResourceContainerSelectorResolver() method in EngineDiscoveryRequestResolver.Builder which supports the discovery of class path resource based tests, analogous to the existing addClassContainerSelectorResolver() method. New getOutputDirectoryProvider() method in EngineDiscoveryRequest and TestPlan to allow test engines to publish/attach files to containers and tests by calling EngineExecutionListener.fileEntryPublished(…​). Registered TestExecutionListeners can then access these files by overriding the fileEntryPublished(…​) method. The following improvements have been made to the Open Test Reporting XML output: Information about the Git repository, the current branch, the commit hash, and the current worktree status are now included in the XML report, if applicable. A section containing JUnit-specific metadata about each test/container to the HTML report is now written by open-test-reporting when added to the classpath/module path Information about published files is now included as attachments. If output capturing is enabled, the captured output written to System.out and System.err is now included in the XML report. Output written to System.out and System.err from non-test threads is now attributed to the most recent test or container that was started or has written output. New public interface ClasspathScanner allowing third parties to provide a custom implementation for scanning the classpath for classes and resources. New AnnotationSupport.findAnnotation(Class, Class, List) method to support searching for an annotation on an inner class and its runtime enclosing instance types. New TestDescriptor.orderChildren(UnaryOperator<List<TestDescriptor>> orderer) method to order children in place JUnit Jupiter Bug Fixes Provide runtime enclosing types of @Nested test classes and contained test methods to DisplayNameGenerator implementations. Prior to this change, such generators were only able to access the enclosing class in which @Nested was declared, but they could not access the concrete runtime type of the enclosing instance. @DisplayNameGeneration annotations are now discovered on the runtime enclosing types of @Nested test classes instead of the compile-time enclosing class in which the @Nested class was declared. Fix handling of junctions on Windows during @TempDir cleanup: junctions will no longer be followed when deleting directories and broken junctions will be deleted. Deprecations and Breaking Changes When injecting TestInfo into test class constructors, the TestInfo now contains data for the test method for which the test class instance is being created, unless the test instance lifecycle is set to PER_CLASS (in which case it continues to contain the data for the test class). If you require the TestInfo of the test class, you can implement a @BeforeAll lifecycle method and inject TestInfo into that method. When injecting TestReporter into test class constructors the published report entries are now associated with the test method rather than the test class, unless the test instance lifecycle is set to PER_CLASS (in which case the published report entries will continue to be associated with the test class). If you want to publish report entries for the test class, you can implement a @BeforeAll lifecycle method and inject TestReporter into that method. New Features and Improvements Kotlin contracts for Kotlin-specific assertion methods in Assertions. @TempDir is now supported on test class constructors. Shared resource locks may now be determined programmatically at runtime via the new @ResourceLock#providers attribute that accepts implementations of ResourceLocksProvider. Shared resource locks for direct child nodes may now be configured via the new @ResourceLock(target = CHILDREN) attribute. This may improve parallelization when a test class declares a READ lock, but only a few methods hold a READ_WRITE lock. @EnumSource has new from and to attributes that support the selection of enum constants within the specified range. In a @ParameterizedTest method, a null value can now be supplied for Java Date/Time types such as LocalDate if the new nullable attribute in @JavaTimeConversionPattern is set to true. The new @ParameterizedTest(allowZeroInvocations = true) attribute allows to specify that the absence of invocations is expected in some cases and should not cause a test failure. Parameterized tests now support argument count validation. If the junit.jupiter.params.argumentCountValidation=strict configuration parameter or the @ParameterizedTest(argumentCountValidation = STRICT) attribute is set, any mismatch between the declared number of arguments and the number of arguments provided by the arguments source will result in an error. By default, it is still only an error if there are fewer arguments provided than declared. ArgumentsProvider (declared via @ArgumentsSource), ArgumentConverter (declared via @ConvertWith), and ArgumentsAggregator (declared via @AggregateWith) implementations can now use constructor injection from registered ParameterResolver extensions. TestTemplateInvocationContextProvider extensions can now signal that they may potentially return zero invocation contexts by overriding the new mayReturnZeroTestTemplateInvocationContexts() method. Extensions that implement TestInstancePreConstructCallback, TestInstanceFactory, TestInstancePostProcessor, ParameterResolver, or InvocationInterceptor may override the getTestInstantiationExtensionContextScope() method to enable receiving a test-scoped ExtensionContext in Extension methods called during test class instantiation. This behavior will become the default in future versions of JUnit. The new PreInterruptCallback interface defines the API for Extensions that wish to be called prior to invocations of Thread#interrupt() by the @Timeout extension. When enabled via the junit.jupiter.execution.timeout.threaddump.enabled configuration parameter, an implementation of PreInterruptCallback is registered that writes a thread dump to System.out prior to interrupting a test thread due to a timeout. TestReporter now allows publishing files for a test method or test class which can be used to include them in test reports, such as the Open Test Reporting format. Auto-registered extensions can now be filtered using include and exclude patterns that can be specified as configuration parameters. JRE-based conditions such as @EnabledOnJre and @DisabledForJreRange now support arbitrary Java versions. See the User Guide for details. The @TempDir extension now warns during cleanup when deleting symlinks that target locations outside the temporary directory to signal that the target file or directory is not deleted, only the link to it. JUnit Vintage New Features and Improvements Added support for executing test classes and/or methods in parallel. Please refer to the User Guide for more information.",
         "crawl_status": "success"
       },
       {
-        "library_name": "Serde",
-        "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.181",
-        "version": "v1.0.181",
-        "title": "Release v1.0.181 · serde-rs/serde · GitHub",
-        "release_date": "2023-08-04T00:02:43Z",
-        "content": "Make\nserde(alias)\nwork in combination with\nflatten\nwhen using in-place deserialization (\n#2443\n, thanks\n@Mingun\n)\nImprove the representation of adjacently tagged enums in formats where enum tags are serialized by index, as opposed to by string name (\n#2505\n,\n#2496\n, thanks\n@Baptistemontan\n)",
+        "library_name": "JUnit5",
+        "url": "https://docs.junit.org/5.11.0/release-notes/",
+        "version": "5.11.0",
+        "title": "JUnit 5 Release Notes",
+        "release_date": "Unknown release date",
+        "content": "5.11.0 Date of Release: August 14, 2024 Scope: @FieldSource annotation for use with @ParameterizedTest methods Repeatable @..Source annotations for parameterized tests Enhancements for authoring dynamic and parameterized tests @AutoClose annotation to automatically close field resources in tests ConversionSupport utility for converting from a string to a supported target type Extensible syntax for specifying discovery selectors @BeforeSuite and @AfterSuite annotations Classpath resource scanning support for engines Numerous bug fixes and enhancements regarding field and method search algorithms For a complete list of all closed issues and pull requests for this release, consult the 5.11.0-M1, 5.11.0-M2, 5.11.0-RC1, and 5.11.0 milestone pages in the JUnit repository on GitHub. Overall Improvements New Features and Improvements Java classes in published artifacts are now compiled with the -parameters option of javac and thus now contain metadata for reflection on parameters such as their names. JUnit Platform Bug Fixes Field and method search algorithms now adhere to standard Java semantics regarding whether a given field or method is visible or overridden according to the rules of the Java language. See the new Field and Method Search Semantics section of the User Guide for details. ReflectionSupport.findFields(…​) now returns a distinct set of fields. Fixed parsing of recursive jar URIs which allows the JUnit Platform Launcher to be used inside Spring Boot executable jars for Spring Boot 3.2 and later. The junit-platform-suite-engine now includes configuration provided via @ConfigurationParameter when selecting tests by UniqueId (backported to 5.10.3). In order to support using @EnabledInNativeImage on test classes, UniqueIdTrackingListener now tracks descendants of skipped test containers (backported to 5.10.3). Attempting to deserialize a TestIdentifier no longer causes a NullPointerException when there is no parent identifier. See issue 3819 (backported to 5.10.3). Deprecations and Breaking Changes As mentioned in the Bug Fixes section above, field and method search algorithms now adhere to standard Java semantics regarding whether a given field or method is visible or overridden according to the rules of the Java language. The changes in the search algorithms may, however, result in breaking changes for some use cases. In light of that, it is possible to revert to the previous \"legacy semantics\". See the new Field and Method Search Semantics section of the User Guide for details. New Features and Improvements New ConversionSupport utility in junit-platform-commons which exposes the conversion logic that was previously private to JUnit Jupiter’s @ParameterizedTest infrastructure — for use in third-party extensions and test engines. Error messages for type mismatches in NamespacedHierarchicalStore now include the actual type and value in addition to the required type. Updated open-test-reporting dependency to 0.1.0-M2. All Platform implementations of DiscoverySelector now have a parseable string representation that can be generated by calling the new DiscoverySelector.toIdentifier() method and toString() on the returned DiscoverySelectorIdentifier. This string representation can be used to reconstruct the original DiscoverySelector by calling the new DiscoverySelectors.parse() method. This change will allow build tools and IDEs to provide generic mechanisms for specifying selectors on the command line or in configuration files without having to support each selector type individually. The Console Launcher supports specifying selectors via their identifiers using the --select option. For example, --select class:foo.Bar will run all tests in the foo.Bar class. Similarly, the JUnit Platform Suite engine provides a new @Select(\"<identifier>\") annotation. The Console Launcher now provides a --version option. NamespacedHierarchicalStore now throws an IllegalStateException for any attempt to modify or query the store after it has been closed. In addition, an attempt to close a store that has already been closed will have no effect. See issue 3614 for details. Introduce @ConfigurationParametersResource for @Suite classes and --config-resource option for ConsoleLauncher that allow specifying additional properties files on the classpath as sources of configuration parameters. New rootCause() condition in TestExecutionResultConditions that matches if an exception’s root cause matches all supplied conditions, for use with the EngineTestKit. ReflectionSupport now supports scanning for classpath resources. Introduce @BeforeSuite and @AfterSuite lifecycle methods for @Suite classes. JUnit Jupiter Bug Fixes Due to changes in the JUnit Platform regarding field and method search algorithms (see Bug Fixes above), numerous bugs have been addressed within JUnit Jupiter, including but not limited to the following. Two @TempDir fields with the same name in a superclass and subclass will now both be injected. Two @Test methods with the same signature in a superclass and subclass will now both be invoked, as long as the @Test method in the subclass does not override the @Test method in the superclass, which can occur if the superclass method is private or if the superclass method is package-private and resides in a different package than the subclass. The same applies to other types of test methods (@TestFactory, @ParameterizedTest, etc.) as well as lifecycle methods (@BeforeAll, @AfterAll, @BeforeEach, and @AfterEach). MethodOrderer.Random and ClassOrderer.Random now use the same default seed that is generated during class initialization (backported to 5.10.3). TestInstancePostProcessor extensions can now be registered via the @ExtendWith annotation on non-static fields. Methods and constructors invoked via ExecutableInvoker now use the same extensions as the context they are invoked from and the same ExtensionContext is passed to registered instances of ParameterResolver. The org.junit.jupiter.api.extension.support package is now exported from the org.junit.jupiter.api module Deprecations and Breaking Changes The registration order of extensions was changed to allow non-static fields to be processed earlier. This change may affect extensions that rely on the order of registration. Kotlin support now depends on Kotlin API and language version 1.6; whereas, it previously depended on version 1.3. New Features and Improvements New @FieldSource annotation for use with @ParameterizedTest methods which allows you to source arguments from a local field or an external field referenced by fully qualified field name. This feature is similar to the existing @MethodSource feature. See the User Guide for details. New @AutoClose annotation that can be applied to fields within tests to automatically close the annotated resource after test execution. See the User Guide for details. JAVA_23 and JAVA_24 have been added to the JRE enum for use with JRE-based execution conditions. New Exception Handling documentation in the User Guide. Improved documentation for Assumptions in the User Guide. Improved Javadoc for assertThrows() and assertThrowsExactly() to make it clear that the supplied message is not the expected message of the thrown exception. Improved documentation for semantics of a disabled test regarding class-level lifecycle methods and callbacks. @..Source annotations for parameterized tests can now be used as repeatable annotations. See the User Guide for details. New argumentSet() factory method for providing a custom name for an entire set of arguments for a @ParameterizedTest. See the User Guide for details. New assertInstanceOf methods added for Kotlin following up with similar Java assertInstanceOf methods introduced in 5.8 version. New generators in DynamicTest that take a Stream/Iterator of Named<Executable> along with a convenient NamedExecutable interface that can simplify writing dynamic tests, in particular in recent versions of Java that support records. @TempDir now suppresses NoSuchFileException when attempting to delete files that may have been already deleted by another thread or process. @TempDir now fails fast in case TempDirFactory::createTempDirectory returns null, a file, or a symbolic link to a file. @TempDir now fails fast in case the annotated target is of type File and TempDirFactory::createTempDirectory returns a Path that does not belong to the default file system. Allow potentially unlimited characters per column in @CsvSource and @CsvFileSource by specifying maxCharsPerColumn = -1. JUnit Vintage No changes.",
         "crawl_status": "success"
       },
       {
-        "library_name": "Serde",
-        "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.211",
-        "version": "v1.0.211",
-        "title": "Release v1.0.211 · serde-rs/serde · GitHub",
-        "release_date": "2024-10-22T06:33:16Z",
-        "content": "Improve error reporting about mismatched signature in\nwith\nand\ndefault\nattributes (\n#2558\n, thanks\n@Mingun\n)\nShow variant aliases in error message when variant deserialization fails (\n#2566\n, thanks\n@Mingun\n)\nImprove binary size of untagged enum and internally tagged enum deserialization by about 12% (\n#2821\n)",
+        "library_name": "JUnit5",
+        "url": "https://docs.junit.org/5.10.0/release-notes/",
+        "version": "5.10.0",
+        "title": "JUnit 5 Release Notes",
+        "release_date": "Unknown release date",
+        "content": "5.10.0 Date of Release: July 23, 2023 Scope: Promotion of various experimental APIs to stable New LauncherInterceptor SPI New testfeed details mode for ConsoleLauncher New ConsoleLauncher subcommand for test discovery without execution Dry-run mode for test execution New NamespacedHierarchicalStore for use in third-party test engines Stacktrace pruning to hide internal JUnit calls New @SelectMethod support in test @Suite classes. New TempDirFactory SPI for customizing how temporary directories are created Failure threshold for @RepeatedTest New convenience base classes for implementing ArgumentsProvider and ArgumentConverter Custom class loader support for class/method selectors, @MethodSource, @EnabledIf, and @DisabledIf Improved configurability of parallel execution Numerous bug fixes and minor improvements For a complete list of all closed issues and pull requests for this release, consult the 5.10.0-M1, 5.10.0-RC1, 5.10.0-RC2, and 5.10.0 GA milestone pages in the JUnit repository on GitHub. JUnit Platform Deprecations and Breaking Changes Building native images with GraalVM now requires configuring the build arg --initialize-at-build-time=org.junit.platform.launcher.core.LauncherConfig and --initialize-at-build-time=org.junit.jupiter.engine.config.InstantiatingConfigurationParameterConverter. The getMethodParameterTypes() methods in MethodSelector and NestedMethodSelector have been deprecated and replaced by getParameterTypeNames() for greater clarity. New Features and Improvements Various experimental APIs have been promoted to stable, including ModuleSelector, EngineDiscoveryListener, EngineDiscoveryRequestResolver, LauncherSession, LauncherSessionListener, parallel execution support classes, @Suite and related annotations, and others. All utility methods in ReflectionSupport that return a List now have counterparts which return a Stream. New tryToLoadClass(…​) variant in ReflectionSupport that accepts an explicit ClassLoader, allowing classes to be resolved with custom ClassLoader arrangements. ReflectionSupport.findMethod(Class<?>, String, String) now uses the ClassLoader of the supplied Class to load parameter types instead of using the default ClassLoader. This allows parameter types to be resolved with custom ClassLoader arrangements (such as OSGi). Consequently, DiscoverySelectors.selectMethod(Class<?>, String, String) also now works properly with custom ClassLoader arrangements. New @SelectMethod selector support in the @Suite test engine. Classes may now be selected by fully-qualified name via the names attribute in @SelectClasses. New overloaded constructors for ClassSelector, NestedClassSelector, MethodSelector, and NestedMethodSelector that take an explicit ClassLoader as a parameter, allowing selectors to select classes in custom ClassLoader arrangements like in OSGi. New selectMethod() and selectNestedMethod() variants in DiscoverySelectors that accept a Class<?>…​ argument of parameter types as a type-safe alternative to providing the names of parameter types as a comma-delimited string. For consistency with JUnit Jupiter lifecycle callbacks, listener method pairs for started/finished and opened/closed events are now invoked using wrapping semantics. This means that finished/closed event methods are invoked in reverse order compared to the corresponding started/opened event methods when multiple listeners are registered. This affects the following listener interfaces: TestExecutionListener, EngineExecutionListener, LauncherDiscoveryListener, and LauncherSessionListener. New LauncherInterceptor SPI for intercepting the creation of instances of Launcher and LauncherSessionlistener as well as invocations of the discover and execute methods of the former. Please refer to the User Guide for details. Support for limiting the max-pool-size-factor for parallel execution via a configuration parameter. New testfeed details mode for ConsoleLauncher that prints test execution events as they occur in a concise format. The existing functionality of the ConsoleLauncher has been split into two subcommands: execute for executing tests and engines for listing registered test engines. A new discover subcommand has been added to the ConsoleLauncher to print the discovered tests for the specified details mode without executing them. Improved error message for cyclic graphs detected during test discovery to be more actionable. Extracted NamespacedHierarchicalStore from JUnit Jupiter engine for reuse by other test engines and their extensions. New dry-run mode to simulate test execution without actually running tests. Please refer to the User Guide for details. Stack traces produced by failing tests are now pruned of calls from the org.junit, jdk.internal.reflect, and sun.reflect packages. This feature can be disabled via a configuration parameter. Please refer to the User Guide for details. New getAncestors() method in TestDescriptor. JUnit Jupiter Bug Fixes The extensions supporting @MethodSource, @EnabledIf, and @DisabledIf now load classes by fully-qualified class name using the ClassLoader obtained from the test class when possible. This allows classes to be resolved with custom ClassLoader arrangements (such as OSGi). When converting an argument for a @ParameterizedTest method from a fully-qualified class name (String) to a Class, the ClassLoader of the class in which the @ParameterizedTest method is declared is now used to resolve the Class instead of the default ClassLoader. Deprecations and Breaking Changes The dynamic parallel execution strategy now allows the thread pool to be saturated by default. Implicit type conversion of boolean values like in @CsvSource is now stricter, only allowing values true or false (case-insensitive), in order to make accidental mistakes apparent and to avoid potential confusion. New Features and Improvements Various experimental APIs have been promoted to stable, including MethodOrderer, ClassOrderer, InvocationInterceptor, LifecycleMethodExecutionExceptionHandler, @TempDir, parallel execution annotations, and others. JAVA_22 has been added to the JRE enum for use with JRE-based execution conditions. New reason attribute in @Execution which can be used to document the reason for using the selected execution mode. New junit.jupiter.execution.parallel.config.dynamic.max-pool-size-factor configuration parameter to set the maximum pool size factor. New junit.jupiter.execution.parallel.config.dynamic.saturate configuration parameter to disable pool saturation. @RepeatedTest can now be configured with a failure threshold which signifies the number of failures after which remaining repetitions will be automatically skipped. See the User Guide for details. If @MethodSource is used with a non-static factory method that should be static, the exception thrown now provides the user a meaningful explanation of how to address the problem. @EmptySource now supports additional types, including Collection and Map subtypes with a public no-arg constructor. New ArgumentsAccessor.getInvocationIndex() method that supplies the index of a @ParameterizedTest invocation. New AnnotationBasedArgumentsProvider convenience base class which implements both ArgumentsProvider and AnnotationConsumer. New AnnotationBasedArgumentConverter convenience base class which implements both ArgumentConverter and AnnotationConsumer. @TempDir can now be used as a meta-annotation in order to create custom composed annotations. See the @JimfsTempDir example in the User Guide for details. @TempDir now successfully cleans up files and directories on Windows that are set to read-only. New TempDirFactory SPI for customizing how the @TempDir extension creates temporary directories. See the User Guide for details. The User Guide now includes an example implementation of the RandomNumberExtension in order to improve the documentation for extension registration via @ExtendWith on fields. The scope of applicability for TestWatcher implementations is now more extensively documented in the User Guide and Javadoc. DisplayNameGenerator methods are now allowed to return null, in order to signal to fall back to the default display name generator. JUnit Vintage No changes.",
         "crawl_status": "success"
       }
     ],
@@ -35,92 +35,42 @@
       2025,
       2023
     ],
-    "actual_years": [
-      2024,
-      2023
-    ],
+    "actual_years": [],
     "years_extracted": [
-      2024,
-      2023,
-      2024
-    ],
-    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
-  },
-  {
-    "library": "Warp",
-    "entries": [
-      {
-        "library_name": "Warp",
-        "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.6",
-        "version": "v0.3.6",
-        "title": "Release v0.3.6 · seanmonstar/warp · GitHub",
-        "release_date": "2023-09-27T14:18:43Z",
-        "content": "Features\nAdd ability to pass\nNone\nto\nmultipart::form().max_length()\n.\nImplement\nReply\nfor\nResult<impl Reply, impl Reply>\n.\nMake\nmultipart::Part::content_type()\nreturn the full mime string.\nAdd\nTlsServer::try_bind_with_graceful_shutdown()\n.\nFixes\nUpdated tungstenite and rustls dependencies for security fixes.\nNew Contributors\n@jnicholls\nmade their first contribution in\n#717\n@kouta-kun\nmade their first contribution in\n#1044\n@tottoto\nmade their first contribution in\n#1043\n@aedmondson\nmade their first contribution in\n#1046\n@outamaa\nmade their first contribution in\n#919\n@louiseyousre200 made their first contribution in\n#1056\n@nickbp\nmade their first contribution in\n#1061\n@vitorenesduarte\nmade their first contribution in\n#1064\n@AldaronLau\nmade their first contribution in\n#1063\n@belgoking\nmade their first contribution in\n#1062",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Warp",
-        "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.2",
-        "version": "v0.3.2",
-        "title": "Release v0.3.2 · seanmonstar/warp · GitHub",
-        "release_date": "2021-11-09T18:11:15Z",
-        "content": "Features\n:\nAdd\nFilter::then()\n, which is like\nFilter::map()\nin that it's infallible, but is async like\nFilter::and_then()\n.\nAdd\nredirect::found()\nreply helper that returns\n302 Found\n.\nAdd\ncompression-brotli\nand\ncompression-gzip\ncargo features to enable only the compression you need.\nAllow\nHEAD\nrequests to be served to\nfs::dir()\nfilters.\nAllow\npath!()\nwith no arguments.\nFixes\n:\nUpdate private dependencies Tungstenite and Multipart.\nReplaces uses of\nfutures\nwith\nfutures-util\n, which is a smaller dependency.\nNew Contributors\n@viraptor\nmade their first contribution in\n#825\n@zenria\nmade their first contribution in\n#835\n@Aankhen\nmade their first contribution in\n#849\n@FlorianDr\nmade their first contribution in\n#843\n@adamchalmers\nmade their first contribution in\n#858\n@ekzhang\nmade their first contribution in\n#860\n@utkarshkukreti\nmade their first contribution in\n#696\n@johannescpk\nmade their first contribution in\n#861\n@sindreij\nmade their first contribution in\n#864\n@haileys\nmade their first contribution in\n#701\n@In-line\nmade their first contribution in\n#836\n@0xdeafbeef\nmade their first contribution in\n#839\n@emesterhazy\nmade their first contribution in\n#866\n@joseluisq\nmade their first contribution in\n#869\n@JasterV\nmade their first contribution in\n#873\n@aujxn\nmade their first contribution in\n#876\n@simonborje\nmade their first contribution in\n#883\n@yaymukund\nmade their first contribution in\n#885\n@SeanChao\nmade their first contribution in\n#890\n@e-user made their first contribution in\n#877\n@gtsiam\nmade their first contribution in\n#878\n@bkgood\nmade their first contribution in\n#896\n@nylonicious\nmade their first contribution in\n#906\n@some-dood\nmade their first contribution in\n#912",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Warp",
-        "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.7",
-        "version": "v0.3.7",
-        "title": "Release v0.3.7 · seanmonstar/warp · GitHub",
-        "release_date": "2025-08-01T16:09:15Z",
-        "content": "tl;dr\nFeatures\n:\nAdd ecc private key support to\ntls()\nconfig.\nFixes\n:\nSeveral dependency upgrades.\nWhat's Changed\ndeps: move rustls-pemfile crate to tls feature by\n@tottoto\nin\n#1069\nECC private keys support for\ntls\nfeature by\n@joseluisq\nin\n#1048\nFix\ncargo minimal-versions check\nby\n@Finomnis\nin\n#1078\ndeps: remove unused tokio-stream dependency by\n@tottoto\nin\n#1079\ndeps: update to rustls 0.22 by\n@tottoto\nin\n#1081\nmultipart: fallback to filename as part name by\n@wca\nin\n#1045\ndeps: update tokio-tungstenite, tracing-log and async-compression dependency by\n@tottoto\nin\n#1085\nupdate to use handlebars v5 by\n@campeis\nin\n#1087\nstyle: clean up new rustc warnings by\n@seanmonstar\nin\n#1097\nci: single required job by\n@seanmonstar\nin\n#1098\nNew Contributors\n@Finomnis\nmade their first contribution in\n#1078\n@wca\nmade their first contribution in\n#1045\nFull Changelog\n:\nv0.3.6...v0.3.7",
-        "crawl_status": "success"
-      }
-    ],
-    "expected_years": [
-      2024,
-      2025,
-      2023
-    ],
-    "actual_years": [
-      2025,
-      2023
-    ],
-    "years_extracted": [
-      2023,
       null,
-      2025
+      null,
+      null
     ],
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   },
   {
-    "library": "Rand",
+    "library": "Resilience4j",
     "entries": [
       {
-        "library_name": "Rand",
-        "url": "https://github.com/rust-random/rand/releases/tag/rand_distr-0.5.0-alpha.0",
-        "version": "rand_distr-0.5.0-alpha.0",
-        "title": "Release rand_distr-0.5.0-alpha.0 · rust-random/rand · GitHub",
-        "release_date": "2024-02-18T17:56:14Z",
-        "content": "This is a pre-release. To depend on this version, use\nrand_distr = \"=0.5.0-alpha.0\"\nto prevent automatic updates (which can be expected to include breaking changes).\nAdditions\nMake distributions comparable with\nPartialEq\n(\n#1218\n)\nAdd\nWeightedIndexTree\n(\n#1372\n)\nChanges\nTarget\nrand\nversion\n0.9.0-alpha.0\nRemove unused fields from\nGamma\n,\nNormalInverseGaussian\nand\nZipf\ndistributions (\n#1184\n)\nThis breaks serialization compatibility with older versions.\nDirichlet\nnow uses\nconst\ngenerics, which means that its size is required at compile time (\n#1292\n)\nThe\nDirichlet::new_with_size\nconstructor was removed (\n#1292\n)\nFixes\nFix Knuth's method so\nPoisson\ndoesn't return -1.0 for small lambda (\n#1284\n)\nFix\nPoisson\ndistribution instantiation so it return an error if lambda is infinite (\n#1291\n)\nFix Dirichlet sample for small alpha values to avoid NaN samples (\n#1209\n)\nFix infinite loop in\nBinomial\ndistribution (\n#1325\n)",
+        "library_name": "Resilience4j",
+        "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.3.0",
+        "version": "v2.3.0",
+        "title": "Release v2.3.0 · resilience4j/resilience4j · GitHub",
+        "release_date": "2025-01-03T08:52:23Z",
+        "content": "Enhancements\nIssue\n#2234\n: Allow passing custom Clock to CircuitBreaker without needing to use internal API.\nIssue\n#2131\n: Added support for RxJava3 in Spring projects.\nIssue\n#2029\n: Include\ndecorateSupplier\nas a\nRetry\ninstance method.\nIssue\n#2246\n: Add handling for the case where a non-checked retry consumer is interrupted during sleep.\nIssue\n#2245\n: Refactor\nRetry#executeSuspendExecute\ncondition to enhance consistency with\nFlowRetry\n.\nIssue\n#2232\n: Convert\nSynchronized\nto\nReentrantLock\nto avoid virtual-thread pinning issues.\nIssue\n#2241\n: Implement a lock-free sliding window for internal CircuitBreaker metrics.\nIssue\n#2239\n: Add a\nClock\nto\nCircuitBreakerConfig\nand utilize it in the state machine.\nIssue\n#2200\n: Ignore unknown exceptions in CircuitBreaker configuration.\nIssue\n#2233\n: Improve exception message for failure rate threshold in CircuitBreaker configuration.\nIssue\n#1404\n: Configure exponential backoff or randomized wait duration if base configuration allows it.\nIssue\n#2179\n: Ensure\nRateLimiter.executeSuspendFunction\nrespects\ndrainPermissionsOnResult\nin the configuration.\nIssue\n#2152\n: Ensure the randomize function always returns a number greater than 1.0.\nIssue\n#2130\n: Add support for Feign 12.5+.\nIssue\n#2121\n: Specify required\nRateLimiter\npermits in annotations.\nBugs\nIssue\n#2243\n: Fixed potential memory leak in\nDefaultEventConsumerRegistry\n.\nIssue\n#2209\n: Resolved issue where\nCompletionStage\ndoes not complete on user-supplied predicate failures.\nIssue\n#2190\n: Fixed\nStackOverflowError\nand circular reference in CircuitBreaker configuration handling.\nIssue\n#2175\n: Fixed validation error message for\nslowCallDurationThreshold\n.",
         "crawl_status": "success"
       },
       {
-        "library_name": "Rand",
-        "url": "https://github.com/rust-random/rand/releases/tag/0.9.0-beta.0",
-        "version": "0.9.0-beta.0",
-        "title": "Release 0.9.0-beta.0 · rust-random/rand · GitHub",
-        "release_date": "2024-11-26T13:34:21Z",
-        "content": "This is a pre-release. To depend on this version, use\nrand = \"=0.9.0-beta.0\"\nto prevent automatic updates (which can be expected to include breaking changes).\nSecurity and unsafe\nPolicy: \"rand is not a crypto library\" (\n#1514\n)\nRemove fork-protection from\nReseedingRng\nand\nThreadRng\n. Instead, it is recommended to call\nThreadRng::reseed\non fork. (\n#1379\n)\nUse\nzerocopy\nto replace some\nunsafe\ncode (\n#1349\n,\n#1393\n,\n#1446\n,\n#1502\n)\nCompilation options\nBump the MSRV to 1.63.0 (\n#1207\n,\n#1246\n,\n#1269\n,\n#1341\n,\n#1416\n,\n#1536\n); note that 1.60.0 may work for dependents when using\n--ignore-rust-version\nSupport\nstd\nfeature without\ngetrandom\nor\nrand_chacha\n(\n#1354\n)\nImprove\nthread_rng\nrelated docs (\n#1257\n)\nThe\nserde1\nfeature has been renamed\nserde\n(\n#1477\n)\nThe implicit feature\nrand_chacha\nhas been removed. This is enabled by\nstd_rng\n. (\n#1473\n)\nEnable feature\nsmall_rng\nby default (\n#1455\n)\nRename feature\ngetrandom\nto\nos_rng\n(\n#1537\n)\nInherited changes from\nrand_core\nAdd fn\nRngCore::read_adapter\nimplementing\nstd::io::Read\n(\n#1267\n)\nAdd trait\nCryptoBlockRng: BlockRngCore\n; make\ntrait CryptoRng: RngCore\n(\n#1273\n)\nAdd traits\nTryRngCore\n,\nTryCryptoRng\n(\n#1424\n,\n#1499\n)\nAdd bounds\nClone\nand\nAsRef\nto associated type\nSeedableRng::Seed\n(\n#1491\n)\nRng trait and top-level fns\nRename fn\nrand::thread_rng()\nto\nrand::rng()\n, and remove from the prelude (\n#1506\n)\nAdd top-level fns\nrandom_iter\n,\nrandom_range\n,\nrandom_bool\n,\nrandom_ratio\n,\nfill\n(\n#1488\n)\nRemove fn\nrand::random()\nfrom the prelude (\n#1506\n)\nRe-introduce fn\nRng::gen_iter\nas\nrandom_iter\n(\n#1305\n,\n#1500\n)\nRename fn\nRng::gen\nto\nrandom\nto avoid conflict with the new\ngen\nkeyword in Rust 2024 (\n#1438\n)\nRename fns\nRng::gen_range\nto\nrandom_range\n,\ngen_bool\nto\nrandom_bool\n,\ngen_ratio\nto\nrandom_ratio\n(\n#1505\n)\nAnnotate panicking methods with\n#[track_caller]\n(\n#1442\n,\n#1447\n)\nRNGs\nMake\nReseedingRng::reseed\ndiscard remaining data from the last block generated (\n#1379\n)\nChange fn\nSmallRng::seed_from_u64\nimplementation (\n#1203\n)\nFix\n<SmallRng as SeedableRng>::Seed\nsize to 256 bits (\n#1455\n)\nRemove first parameter (\nrng\n) of\nReseedingRng::new\n(\n#1533\n)\nImprove SmallRng initialization performance (\n#1482\n)\nSequences\nOptimize fn\nsample_floyd\n, affecting output of\nrand::seq::index::sample\nand\nrand::seq::SliceRandom::choose_multiple\n(\n#1277\n)\nNew, faster algorithms for\nIteratorRandom::choose\nand\nchoose_stable\n(\n#1268\n)\nNew, faster algorithms for\nSliceRandom::shuffle\nand\npartial_shuffle\n(\n#1272\n)\nSplit trait\nSliceRandom\ninto\nIndexedRandom\n,\nIndexedMutRandom\n,\nSliceRandom\n(\n#1382\n)\nAdd\nIndexedRandom::choose_multiple_array\n,\nindex::sample_array\n(\n#1453\n,\n#1469\n)\nFix\nIndexdRandom::choose_multiple_weighted\nfor very small seeds and optimize for large input length / low memory (\n#1530\n)\nDistributions\nRename module\nrand::distributions\nto\nrand::distr\n(\n#1470\n)\nRelax\nSized\nbound on\nDistribution<T> for &D\n(\n#1278\n)\nRename distribution\nStandard\nto\nStandardUniform\n(\n#1526\n)\nRemove impl of\nDistribution<Option<T>>\nfor\nStandardUniform\n(\n#1526\n)\nLet distribution\nStandardUniform\nsupport all\nNonZero*\ntypes (\n#1332\n)\nFns\n{Uniform, UniformSampler}::{new, new_inclusive}\nreturn a\nResult\n(instead of potentially panicking) (\n#1229\n)\nDistribution\nUniform\nimplements\nTryFrom\ninstead of\nFrom\nfor ranges (\n#1229\n)\nOptimize distribution\nUniform\n: use Canon's method (single sampling) / Lemire's method (distribution sampling) for faster sampling (breaks value stability;\n#1287\n)\nAdd\nUniformUsize\nand use to make\nUniform\nfor\nusize\nportable (\n#1487\n)\nOptimize fn\nsample_single_inclusive\nfor floats (+~20% perf) (\n#1289\n)\nAllow\nUniformFloat::new\nsamples and\nUniformFloat::sample_single\nto yield\nhigh\n(\n#1462\n)\nAdd impl\nDistString\nfor distributions\nSlice<char>\nand\nUniform<char>\n(\n#1315\n)\nAdd fn\nSlice::num_choices\n(\n#1402\n)\nFix portability of distribution\nSlice\n(\n#1469\n)\nAdd trait\nWeight\n, allowing\nWeightedIndex\nto trap overflow (\n#1353\n)\nAdd fns\nweight, weights, total_weight\nto distribution\nWeightedIndex\n(\n#1420\n)\nRename enum\nWeightedError\nto\nWeightError\n, revising variants (\n#1382\n) and mark as\n#[non_exhaustive]\n(\n#1480\n)\nAdd fn\np()\nfor distribution\nBernoulli\nto access probability (\n#1481\n)\nSIMD\nSwitch to\nstd::simd\n, expand SIMD & docs (\n#1239\n)\nOptimise SIMD widening multiply (\n#1247\n)\nDocumentation\nAdd\nCargo.lock.msrv\nfile (\n#1275\n)\nDocs: enable experimental\n--generate-link-to-definition\nfeature (\n#1327\n)\nBetter doc of crate features, use\ndoc_auto_cfg\n(\n#1411\n,\n#1450\n)\nOther\nReformat with\nrustfmt\nand enforce (\n#1448\n)\nApply Clippy suggestions and enforce (\n#1448\n,\n#1474\n)\nMove all benchmarks to new\nbenches\ncrate (\n#1329\n,\n#1439\n) and migrate to Criterion (\n#1490\n)\nNew Contributors\n@MichaelOwenDyer\nmade their first contribution in\n#1405\n@JustusFluegel\nmade their first contribution in\n#1402\n@acceptacross\nmade their first contribution in\n#1407\n@waywardmonkeys\nmade their first contribution in\n#1472\n@clarfonthey\nmade their first contribution in\n#1491\n@arthurprs\nmade their first contribution in\n#1482\n@marcpabst\nmade their first contribution in\n#1481\n@JamboChen\nmade their first contribution in\n#1504\n@oconnor663\nmade their first contribution in\n#1488\n@ComputerDruid\nmade their first contribution in\n#1534\nFull Changelog\n:\n0.9.0-alpha.0...0.9.0-beta.0",
+        "library_name": "Resilience4j",
+        "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.1.0",
+        "version": "v2.1.0",
+        "title": "Release Release v2.1.0 · resilience4j/resilience4j · GitHub",
+        "release_date": "2023-06-29T09:53:33Z",
+        "content": "Enhancements\nFallbackmethod supports usage of annotations in Spring\nIssue\n#1955\n: RecordResultPredicate can be configured in Spring Boot config now\nBugs\nIssue\n#1980\n: Fixed API regression following removal of io.vavr dependencies in v2.0.0",
         "crawl_status": "success"
       },
       {
-        "library_name": "Rand",
-        "url": "https://github.com/rust-random/rand/releases/tag/0.9.1",
-        "version": "0.9.1",
-        "title": "Release rand v0.9.1 · rust-random/rand · GitHub",
-        "release_date": "2025-04-17T14:40:57Z",
-        "content": "Changelog\nSecurity and unsafe\nRevise \"not a crypto library\" policy again (\n#1565\n)\nRemove\nzerocopy\ndependency from\nrand\n(\n#1579\n)\nFixes\nFix feature\nsimd_support\nfor recent nightly rust (\n#1586\n)\nChanges\nAllow\nfn rand::seq::index::sample_weighted\nand\nfn IndexedRandom::choose_multiple_weighted\nto return fewer than\namount\nresults (\n#1623\n), reverting an undocumented change (\n#1382\n) to the previous release.\nAdditions\nAdd\nrand::distr::Alphabetic\ndistribution. (\n#1587\n)\nRe-export\nrand_core\n(\n#1604\n)\nNew Contributors\n@yttersian\nmade their first contribution in\n#1567\n@sorairolake\nmade their first contribution in\n#1583\n@1Git2Clone\nmade their first contribution in\n#1587\n@baloo\nmade their first contribution in\n#1589\n@fjarri\nmade their first contribution in\n#1593\n@Raymi306\nmade their first contribution in\n#1616\n@hashcatHitman\nmade their first contribution in\n#1627\nFull Changelog\n:\n0.9.0...0.9.1",
+        "library_name": "Resilience4j",
+        "url": "https://github.com/resilience4j/resilience4j/releases/tag/v2.2.0",
+        "version": "v2.2.0",
+        "title": "Release Release v2.2.0 · resilience4j/resilience4j · GitHub",
+        "release_date": "2023-12-17T09:39:08Z",
+        "content": "Enhancements\nSupport Micronaut 4\nIssue\n#1962\n: Added apache commons configuration based registries\nBugs\nIssue\n#2052\n: Support class name using SpEL expression at\n@CIRCUITBREAKER\nname field enhancement\nIssue\n#2040\n: ThreadPoolBulkhead always uses the \"default\" configuration in micronaut application bug\nIssue\n#2037\n: Removing stale retry configurations from configuration map enhancement\nIssue\n#1625\n: New module that collects overall information enhancement\nIssue\n#1565\n: Do not retry if IntervalFunction returns interval less than 0\nIssue\n#1865\n: Timelimiter always uses the \"default\" configuration in micronaut application\nIssue\n#2038\n: java.lang.StackOverflowError due to infinite loop in CircuitBreakerStateMachine$OpenState.tryAcquirePermission",
         "crawl_status": "success"
       }
     ],
@@ -130,91 +80,44 @@
       2023
     ],
     "actual_years": [
-      2024,
-      2025
-    ],
-    "years_extracted": [
-      2024,
-      2024,
-      2025
-    ],
-    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
-  },
-  {
-    "library": "Futures",
-    "entries": [
-      {
-        "library_name": "Futures",
-        "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.30",
-        "version": "0.3.30",
-        "title": "Release 0.3.30 · rust-lang/futures-rs · GitHub",
-        "release_date": "2023-12-24T14:41:39Z",
-        "content": "Add\n{BiLock,SplitStream,SplitSink,ReadHalf,WriteHalf}::is_pair_of\n(\n#2797\n)\nFix panic in\nFuturesUnordered::clear\n(\n#2809\n)\nFix panic in\nAsyncBufReadExt::fill_buf\n(\n#2801\n,\n#2812\n)\nImprove support for targets without atomic CAS (\n#2811\n)\nRemove build scripts (\n#2811\n)",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Futures",
-        "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.31",
-        "version": "0.3.31",
-        "title": "Release 0.3.31 · rust-lang/futures-rs · GitHub",
-        "release_date": "2024-10-05T07:08:21Z",
-        "content": "Fix use after free of task in\nFuturesUnordered\nwhen dropped future panics (\n#2886\n)\nFix soundness bug in\ntask::waker_ref\n(\n#2830\n)\nThis is a breaking change but allowed because it is soundness bug fix.\nFix bugs in\nAsyncBufRead::read_line\nand\nAsyncBufReadExt::lines\n(\n#2884\n)\nFix parsing issue in\nselect!\n/\nselect_biased!\n(\n#2832\n)\nThis is technically a breaking change as it will now reject a very odd undocumented syntax that was previously accidentally accepted.\nWork around issue due to upstream\nWaker::will_wake\nchange (\n#2865\n)\nAdd\nstream::Iter::{get_ref,get_mut,into_inner}\n(\n#2875\n)\nAdd\nfuture::AlwaysReady\n(\n#2825\n)\nRelax trait bound on non-constructor methods of\nio::{BufReader,BufWriter}\n(\n#2848\n)",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Futures",
-        "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.26",
-        "version": "0.3.26",
-        "title": "Release 0.3.26 · rust-lang/futures-rs · GitHub",
-        "release_date": "2023-01-30T16:16:33Z",
-        "content": "Add\nEither::as_pin_mut\nand\nEither::as_pin_ref\n(\n#2691\n)\nAdd\nShared::ptr_eq\nand\nShared::ptr_hash\n(\n#2691\n)\nImplement\nFusedStream\nfor\nBuffered\n(\n#2676\n)\nImplement\nFusedStream\nfor all streams in\nReadyChunks\n(\n#2693\n)\nFix bug in\nFuturesOrdered::push_front\n(\n#2664\n)\nRemove\nFut::Output: Clone\nbounds from some\nShared\nmethods (\n#2662\n)\nRemove\nT: Debug\nbounds from\nDebug\nimplementations of\nmpsc\nand\noneshot\ntypes (\n#2666\n,\n#2667\n)",
-        "crawl_status": "success"
-      }
-    ],
-    "expected_years": [
-      2024,
       2025,
       2023
     ],
-    "actual_years": [
-      2024,
-      2023
-    ],
     "years_extracted": [
+      2025,
       2023,
-      2024,
       2023
     ],
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   },
   {
-    "library": "Tower",
+    "library": "MyBatis",
     "entries": [
       {
-        "library_name": "Tower",
-        "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.4.13",
-        "version": "tower-0.4.13",
-        "title": "Release tower 0.4.13 · tower-rs/tower · GitHub",
-        "release_date": "2022-06-17T19:48:18Z",
-        "content": "Added\nload_shed\n: Public constructor for\nOverloaded\nerror (\n#661\n)\nFixed\nutil\n: Fix hang with\ncall_all\nwhen the\nStream\nof requests is pending\n(\n#656\n)\nready_cache\n: Ensure cancelation is observed by pending services (\n#668\n,\nfixes\n#415\n)\ndocs\n: Fix a missing section header due to a typo (\n#646\n)\ndocs\n: Fix broken links to\nService\ntrait (\n#659\n)",
+        "library_name": "MyBatis",
+        "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.18",
+        "version": "mybatis-3",
+        "title": "Release Mybatis 3.5.18 · mybatis/mybatis-3 · GitHub",
+        "release_date": "2025-01-01T03:46:10Z",
+        "content": "Regressions\nFixed issue in 3.5.17\n#3334\nNew\nIgnore empty xnode per\n#3349\nShare expression validator\n#3339\nThrow helpful error instead of IndexOutOfBoundsException (automapping)\n#3327\nOptimize mapper builder\n#3252\nTests\nAdd TransactionFactory, Transaction test cases\n#3277\nBuild\nReworked pom to match current java 17 build usage\nMoved all tests to newer java standards\nCleaned up github actions\nRun 'site' branch only on release commits\nSupport Notice: This is expected last java 8 release, A new branch support-java8 will be created from this point in case older support needs a fix.  After this, master will move to java 11 for one release in order to start bringing code support up to java 11.  After that, a support-java11 will be created then master will move to java 17 or better only.  This will change the plans slightly as doing this means java 11 will be 3.6.0 and temporary in nature whereas anything discussed for 3.6.0 will move to 3.7.0.  Once at java 17, same java application will occur.  After that point, anything previously discussed for the original 3.6.0 can start coming in.",
         "crawl_status": "success"
       },
       {
-        "library_name": "Tower",
-        "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.5.2",
-        "version": "tower-0.5.2",
-        "title": "Release tower 0.5.2 · tower-rs/tower · GitHub",
-        "release_date": "2024-12-11T13:27:06Z",
-        "content": "Added\nutil\n: Add\nBoxCloneSyncService\nwhich is a\nClone + Send + Sync\nboxed\nService\n(\n#777\n)\nutil\n: Add\nBoxCloneSyncServiceLayer\nwhich is a\nClone + Send + Sync\nboxed\nLayer\n(\n#802\n)",
+        "library_name": "MyBatis",
+        "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.12",
+        "version": "mybatis-3",
+        "title": "Release Mybatis 3.5.12 Release · mybatis/mybatis-3 · GitHub",
+        "release_date": "2023-03-01T04:17:16Z",
+        "content": "\"The Great Cleanup\"\nUser impactful changes\n#2703\nReferencing collection parameter by name fails fixing\n#2693\n#2709\nFix a race condition caused by other threads calling mapper methods while mapped tables are being constructed\n#2727\nEnable ability to provide custom configuration to XMLConfigBuilder\n#2731\nAdding mapper could fail under JPMS\n#2741\nAdd 'affectedData' attribute to\n@select\n, @SelectProvider, and\n<select />\n#2767\nResolve resultType by namespace and id when not provided resultType and resultMap\n#2804\nSearch readable property when resolving constructor arg type by name\nMinor correction: 'boolean' can never be null (primative)\nGeneral library updates\nUses parameters option for compiler now (needed by spring boot 3) (for reflection needs)\nCode cleanup\n#2816\nUse open rewrite to partially cleanup java code\n#2817\nAdd private constructors per open rewrite\n#2819\nAdd final where appropriate per open rewrite\n#2825\nCleanup if statement breaks / return logic\n#2826\nEclipse based cleanup\nBuild\n#2820\nRemove test ci group profile in favor of more direct usage on GH-Actions and update deprecated surefire along in overview in README.md\nAdjustments to build so shaded ognl and javassist no longer throw warnings\nBuild with jdk 21-ea as well now\nVarious test cleanup, updates, and additions\nTurn on auto formatting of all java code including note to contributors on readme to skip formatting when necessary in code blocks\nTests may use jdk 11 now while retaining jdk 8 runtime\nPom cleanup / better clarification on parameters\nDocumentation\nVarious documentation updates\nFor Contributors:\nMybatis is now using auto formatting of the code base.  If contribution needs special formatting such as annotations or specific javadocs that conflict with formatting rules, use\n// @formatter:off\nand\n// @formatter:on\naround block of code to be ignored on formatting.  If within a javadoc, since its a comment type, the entire thing is affected so just wrap this around the entire javadoc.  Try to ensure code inside the non formatting block is appropriately formatted otherwise to ease readability.\nWhat's Changed\nUpdate junit5 monorepo to v5.9.1 by\n@renovate\nin\n#2702\nUpdate dependency org.slf4j:slf4j-api to v2.0.2 by\n@renovate\nin\n#2701\nReferencing collection parameter by name fails ... by\n@harawata\nin\n#2703\nUpdate dependency org.slf4j:slf4j-api to v2.0.3 by\n@renovate\nin\n#2704\nUpdate dependency org.testcontainers:junit-jupiter to v1.17.4 by\n@renovate\nin\n#2706\nUpdate dependency org.testcontainers:postgresql to v1.17.4 by\n@renovate\nin\n#2708\nUpdate dependency org.testcontainers:mysql to v1.17.4 by\n@renovate\nin\n#2707\nUpdate dependency ch.qos.logback:logback-classic to v1.4.2 by\n@renovate\nin\n#2710\nUpdate dependency ch.qos.logback:logback-classic to v1.4.3 by\n@renovate\nin\n#2711\nUpdate dependency org.testcontainers:postgresql to v1.17.5 by\n@renovate\nin\n#2714\nUpdate dependency org.testcontainers:junit-jupiter to v1.17.5 by\n@renovate\nin\n#2712\nUpdate dependency org.testcontainers:mysql to v1.17.5 by\n@renovate\nin\n#2713\nUpdate dependency ch.qos.logback:logback-classic to v1.4.4 by\n@renovate\nin\n#2716\nUpdate dependency mysql:mysql-connector-java to v8.0.31 by\n@renovate\nin\n#2720\nUpdate dependency org.mockito:mockito-junit-jupiter to v4.8.1 by\n@renovate\nin\n#2719\nUpdate dependency org.mockito:mockito-core to v4.8.1 by\n@renovate\nin\n#2725\nEnable ability to provide custom configuration to XMLConfigBuilder by\n@epochcoder\nin\n#2727\nFix a race condition caused by other threads calling mapper methods while mappedStatements are being constructed by\n@tianshuang\nin\n#2709\nAdding mapper could fail under JPMS by\n@harawata\nin\n#2731\nUpdate mockito monorepo to v4.9.0 by\n@renovate\nin\n#2733\nUpdate dependency org.testcontainers:mysql to v1.17.6 by\n@renovate\nin\n#2737\nUpdate dependency org.testcontainers:junit-jupiter to v1.17.6 by\n@renovate\nin\n#2736\nUpdate dependency org.testcontainers:postgresql to v1.17.6 by\n@renovate\nin\n#2738\nUpdate dependency org.slf4j:slf4j-api to v2.0.4 by\n@renovate\nin\n#2739\nBump postgresql from 42.5.0 to 42.5.1 by\n@dependabot\nin\n#2744\nUpdate dependency ch.qos.reload4j:reload4j to v1.2.23 by\n@renovate\nin\n#2742\nUpdate dependency ch.qos.logback:logback-classic to v1.4.5 by\n@renovate\nin\n#2740\nUpdate dependency org.slf4j:slf4j-api to v2.0.5 by\n@renovate\nin\n#2745\nAdd\naffectData\nattribute to\n@Select\n,\n@SelectProvider\nand\n<select />\nby\n@harawata\nin\n#2741\nUpdate dependency ch.qos.reload4j:reload4j to v1.2.24 by\n@renovate\nin\n#2748\n[pom] Update mysql-connector-j to new GAV relocation by\n@hazendaz\nin\n#2751\n[ci] Cleanup charset usage by\n@hazendaz\nin\n#2752\n[pom] Add filter to exclude MANIFEST.MF from uber jar from other jars… by\n@hazendaz\nin\n#2753\nUpdate dependency org.slf4j:slf4j-api to v2.0.6 by\n@renovate\nin\n#2755\nUpdate mockito monorepo to v4.10.0 by\n@renovate\nin\n#2756\nUpdate dependency org.mybatis:mybatis-parent to v37 by\n@renovate\nin\n#2766\nUpdate mockito monorepo to v4.11.0 by\n@renovate\nin\n#2765\n[actions] Drop jdk 18 by\n@hazendaz\nin\n#2768\nUse method signature to resolve\nresultType\nof\n<select>\nby\n@FlyInWind1\nin\n#2767\nUpdate dependency org.assertj:assertj-core to v3.24.1 by\n@renovate\nin\n#2769\nUpdate junit5 monorepo to v5.9.2 by\n@renovate\nin\n#2772\nUpdate mockito monorepo to v5 (major) by\n@renovate\nin\n#2774\nUpdate dependency org.assertj:assertj-core to v3.24.2 by\n@renovate\nin\n#2775\nUpdate dependency com.mysql:mysql-connector-j to v8.0.32 by\n@renovate\nin\n#2776\nUpdate dependency maven to v3.8.7 by\n@renovate\nin\n#2779\n[pom] Add mockito subclass support by\n@hazendaz\nin\n#2781\nInclude JDK 21 in CI build by\n@harawata\nin\n#2780\nUpdate mockito monorepo to v5.1.0 by\n@renovate\nin\n#2782\nUpdate mockito monorepo to v5.1.1 by\n@renovate\nin\n#2783\nUpdate dependency org.postgresql:postgresql to v42.5.2 by\n@renovate\nin\n#2785\n[ci] Type the array lists by\n@hazendaz\nin\n#2788\nRoad toward turning on auto formatting by\n@hazendaz\nin\n#2790\n[ci] Formatting by\n@hazendaz\nin\n#2791\n[ci] Formatting by\n@hazendaz\nin\n#2792\n[ci] formatting by\n@hazendaz\nin\n#2793\nUpdate dependency org.postgresql:postgresql to v42.5.3 by\n@renovate\nin\n#2789\n[ci] Formatting by\n@hazendaz\nin\n#2794\n[ci] formatting by\n@hazendaz\nin\n#2795\n[ci] formatting by\n@hazendaz\nin\n#2796\n[ci] formatting by\n@hazendaz\nin\n#2797\n[ci] formatting by\n@hazendaz\nin\n#2798\n[ci] Fix readme for formatter tags by\n@hazendaz\nin\n#2799\n[mvn] Bump to maven 3.9.0 and change maven.config to 3.9/4.x style by\n@hazendaz\nin\n#2801\nSearch readable property when resolving constructor arg type by name by\n@harawata\nin\n#2804\nUpdate test code to clarify the consequence by\n@hogimn\nin\n#2805\nUpdate dependency org.postgresql:postgresql to v42.5.4 by\n@renovate\nin\n#2808\nAdd Unit Test for PooledDataSource by\n@hogimn\nin\n#2809\n[ci] Minor formatting adjustments by\n@hazendaz\nin\n#2814\n[ci] Fix end of line markers at end of file per git standards (ie emp… by\n@hazendaz\nin\n#2815\n[ci] Apply open rewrite partially on java cleanup by\n@hazendaz\nin\n#2816\nAdd private constructors per open rewrite / fix two tests that were invalid by\n@hazendaz\nin\n#2817\n[ci] Tabs to spaces by\n@hazendaz\nin\n#2818\n[ci] Add final where appropriate per open rewrite by\n@hazendaz\nin\n#2819\n[tests] Rework test process and document it dropping use of prioer profile for straight property usage by\n@hazendaz\nin\n#2820\n[ci] Do not use star imports (across test classes) by\n@hazendaz\nin\n#2821\n[tests] Various cleanups via Eclipse with extra hand holding by\n@hazendaz\nin\n#2822\n[tests] More test modernization cleanups by\n@hazendaz\nin\n#2823\n[ci] Use objects class for hash, equals usage by\n@hazendaz\nin\n#2824\n[ci] Cleanup if statement breaks / return logic by\n@hazendaz\nin\n#2825\nMore Eclipse based cleanups by\n@hazendaz\nin\n#2826\nUpdate dependency org.apache.logging.log4j:log4j-core to v2.20.0 by\n@renovate\nin\n#2828\nUpdate dependency org.apache.logging.log4j:log4j-api to v2.20.0 by\n@renovate\nin\n#2827\nFew cleanups in pom by\n@hazendaz\nin\n#2833\nUse CountDownLatch to coordinate the execution order by\n@hogimn\nin\n#2831\nNew Contributors\n@epochcoder\nmade their first contribution in\n#2727\n@tianshuang\nmade their first contribution in\n#2709\n@FlyInWind1\nmade their first contribution in\n#2767\n@hogimn\nmade their first contribution in\n#2805\nFull Changelog\n:\nmybatis-3.5.11...mybatis-3.5.12",
         "crawl_status": "success"
       },
       {
-        "library_name": "Tower",
-        "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.5.0",
-        "version": "tower-0.5.0",
-        "title": "Release tower 0.5.0 · tower-rs/tower · GitHub",
-        "release_date": "2024-08-13T16:50:10Z",
-        "content": "Fixed\nutil\n:\nBoxService\nis now\nSync\n(\n#702\n)\nChanged\nutil\n: Removed deprecated\nServiceExt::ready_and\nmethod and\nReadyAnd\nfuture (\n#652\n)\nretry\n:\nBreaking Change\nretry::Policy::retry\nnow accepts\n&mut Req\nand\n&mut Res\ninstead of the previous mutable versions. This\nincreases the flexibility of the retry policy. To update, update your method signature to include\nmut\nfor both parameters. (\n#584\n)\nretry\n:\nBreaking Change\nChange Policy to accept &mut self (\n#681\n)\nretry\n: Add generic backoff utilities (\n#685\n)\nretry\n: Add Budget trait. This allows end-users to implement their own budget and bucket implementations. (\n#703\n)\nreconnect\n:\nBreaking Change\nRemove unused generic parameter from\nReconnect::new\n(\n#755\n)\nready-cache\n: Allow iteration over ready services (\n#700\n)\ndiscover\n: Implement\nClone\nfor Change (\n#701\n)\nutil\n: Add a BoxCloneServiceLayer (\n#708\n)\nrng\n: use a simpler random 2-sampler (\n#716\n)\nfilter\n: Derive\nClone\nfor\nAsyncFilterLayer\n(\n#731\n)\ngeneral\n: Update IndexMap (\n#741\n)\nMSRV\n: Increase MSRV to 1.63.0 (\n#741\n)",
+        "library_name": "MyBatis",
+        "url": "https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.5.15",
+        "version": "mybatis-3",
+        "title": "Release Mybatis 3.5.15 · mybatis/mybatis-3 · GitHub",
+        "release_date": "2023-12-14T06:41:30Z",
+        "content": "Changes\nXNode#toString() should output all child nodes.  See\n#3001\nand associated tickets on this issue\nFix performance of mappedColumnNames.contains by using 'set' rather than 'list'.  See\n#3023\nFix osgi issue with javassist.   See\n#3031\nUpdated shaded OGNL to 3.4.2.  See\n#3035\nAdd support method for generating dynamic sql on SQL class.  See\n#2887\nGeneral library updates\nGeneral document updates\nBuild\nWe now show builds from java 11, 17, 21, and 22 on Github Actions.  Code is still java 8 compatible at this time.\nUpdate vulnerable hsqldb to 2.7.2 fixing our tests that now work due to newer support.  Note, users were never affected by this but at least one user pull request was attempted opened in addition to both renovate and dependabot and various reporting on it.\nNow using more properties to define versions in pom to lower the frequency of pull requests from renovate\nSite\nWe have moved to maven site 4.0.0 using site xsd 2.0.0.  This resulted in us needing to turn off the PDF documentation of our site.  Please just use our site pages for now.\nDue to site changes, if anyone finds any issues, please be sure to report them as the upgrade path with maven has been disappointing at best.  We believe we got all setup correctly but will fix anything as quickly as discovered problematic.  We apologize in advance of this situation as we work through maven 4 site changes.",
         "crawl_status": "success"
       }
     ],
@@ -224,43 +127,185 @@
       2023
     ],
     "actual_years": [
+      2025,
+      2023
+    ],
+    "years_extracted": [
+      2025,
+      2023,
+      2023
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Retrofit",
+    "entries": [
+      {
+        "library_name": "Retrofit",
+        "url": "https://github.com/square/retrofit/releases/tag/2.11.0",
+        "version": "2.11.0",
+        "title": "Release 2.11.0 · square/retrofit · GitHub",
+        "release_date": "2024-03-28T20:01:16Z",
+        "content": "New\nThe built-in\nOptionalConverterFactory\nis now public to allow installing it before other converters which consume all types (e.g., Moshi, Gson, Jackson, etc.).\nFixed\nEnsure that exceptions thrown from failure to parse method annotations can be observed by multiple threads/callers. Previously only the first caller would see the actual parsing exception and other callers would get a cryptic\nClassCastException\n.",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Retrofit",
+        "url": "https://github.com/square/retrofit/releases/tag/2.12.0",
+        "version": "2.12.0",
+        "title": "Release 2.12.0 · square/retrofit · GitHub",
+        "release_date": "2025-05-15T15:10:14Z",
+        "content": "New\nFirst-party converters now support deferring serialization to happen when the request body is written (i.e., during HTTP execution) rather than when the HTTP request is created. In some cases this moves conversion from a calling thread to a background thread, such as in the case when using\nCall.enqueue\ndirectly.\nThe following converters support this feature through a new\nwithStreaming()\nfactory method:\nGson\nJackson\nMoshi\nProtobuf\nWire\nFixed\nPrimitive types used with\n@Tag\nnow work by storing the value boxed with the boxed class as the key.",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Retrofit",
+        "url": "https://github.com/square/retrofit/releases/tag/2.10.0",
+        "version": "2.10.0",
+        "title": "Release 2.10.0 · square/retrofit · GitHub",
+        "release_date": "2024-03-18T19:45:48Z",
+        "content": "New\nSupport using\nUnit\nas a response type. This can be used for non-body HTTP methods like\nHEAD\nor body-containing HTTP methods like\nGET\nwhere the body will be discarded without deserialization.\nkotlinx.serialization converter!\nThis was imported from\ngithub.com/JakeWharton/retrofit2-kotlinx-serialization-converter/\nand remains unchanged from its 1.0.0 release.\nThe Maven coordinates are\ncom.squareup.retrofit2:converter-kotlinx-serialization\n.\nJAXB 3 converter!\nThe Maven coordinates are\ncom.squareup.retrofit2:converter-jaxb3\n.\n@Header\n,\n@Headers\n, and\n@HeaderMap\ncan now set non-ASCII values through the\nallowUnsafeNonAsciiValues\nannotation property. These are not technically compliant with the HTTP specification, but are often supported or required by services.\nPublish a BOM of all modules. The Maven coordinates are\ncom.squareup.retrofit2:retrofit-bom\n.\nInvocation\nnow exposes the service\nClass<?>\nand the instance on which the method was invoked. This disambiguates the source when service inheritence is used.\nA response type keeper annotation processor is now available for generating shrinker rules for all referenced types in your service interface. In some cases, it's impossible for static shrinker rules to keep the entirety of what Retrofit needs at runtime. This annotation processor generates those additional rules. For more info see\nits README\n.\nChanged\nAdd shrinker rules to retain the generic signatures of built-in types (\nCall\n,\nResponse\n, etc.) which are used via reflection at runtime.\nRemove backpressure support from RxJava 2 and 3 adapters. Since we only deliver a single value and the Reactive Streams specification states that callers must request a non-zero subscription value, we never need to honor backpressure.\nKotlin\nRetrofit.create\nfunction now has a non-null lower bound. Even if you specified a nullable type before this function would never return null.\nSuspend functions now capture and defer all\nThrowable\nsubtypes (not just\nException\nsubtypes) to avoid Java's\nUndeclaredThrowableException\nwhen thrown synchronously.\nEagerly reject\nsuspend fun\nfunctions that return\nCall<Body>\n. These are never correct, and should declare a return type of\nBody\ndirectly.\nSupport for Java 14-specific and Java 16-specific reflection needed to invoke default methods on interfaces have been moved to separate versions of a class through a multi-release jar. This should have no observable impact other than the jar now contains classes which target Java 14 and Java 16 bytecode that might trip up some static analysis tools which are not aware of multi-release jars.\nParameter names are now displayed in exception messages when available in the underlying Java bytecode.\nJackson converter now supports binary formats by using byte streams rather than character streams in its implementation. Use the\ncreate(ObjectMapper, MediaType)\noverload to supply the value of the\nContent-Type\nheader for your format.\nFixed\nDo not include synthetic methods when doing eager validation.\nUse per-method rather than per-class locking when parsing annotations. This eliminates contention when multiple calls are made in quick succession at the beginning of the process lifetime.",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2025
+    ],
+    "years_extracted": [
+      2024,
+      2025,
       2024
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "MapStruct",
+    "entries": [
+      {
+        "library_name": "MapStruct",
+        "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.5.3.Final",
+        "version": "1.5.3.Final",
+        "title": "Release 1.5.3.Final · mapstruct/mapstruct · GitHub",
+        "release_date": "2022-10-07T18:42:00Z",
+        "content": "Bugs\nGeneric\n@AfterMapping\ndoes not consider\n@MappingTarget\nproperly in 1.5 (\n#3036\n)\nMethod annotated with\n@AfterMapping\nis not called (\n#2955\n)\nIgnored unknown source property error, but property exist (\n#2743\n)\nSubclassMapping\ndoesn't honour\nmappingControl\n(\n#3018\n)\nUpgrade from 1.4.1 to 1.5.2 broke primitive to wrapper classes mapping (\n#2921\n)\nConversion of\nBigDecimal\nto primitive\ndouble\nwrong with 1.5.2 (\n#2913\n)\nAmbiguous mapping methods when upgrading to MapStruct 1.5.0.RC1 (\n#2840\n)\nSubclassMapping\nstackoverflow exception (\n#2825\n)\nOptional\nwrapping pattern broken in 1.5.2.Final (\n#2925\n)\nMissing import in generated mapper when referencing a nested enum from an unrelated class (\n#2945\n)\nUnused import warning of nested classes (\n#2907\n)\nCompilation error in generated code for\n@Conditional\nand collection (\n#2937\n)\nMissing import of nested class (\n#2897\n)\nIgnoring unmapped source properties in inverse inheritance (\n#2949\n)\nCompilation error when mapping fields with the same type due to not wrapping in a\ntry-catch\nblock (\n#2839\n)\nUsing\n@TargetType\nas a parameter for\n@Condition\ncauses NPE during compiling (\n#2882\n)\nCannot map from a covariant (extends) generic type (\n#2677\n)\nDocumentation\nAdd IntelliJ and Eclipse plugin to the documentation (\n#2928\n)\nFix typos in documentation (\n#2974\n,\n#2982\n,\n#2989\n)\nUpdate Typos in javadoc (\n#2958\n)\nPolish comments, javadoc and documentation (\n#3026\n)\nImprove documentation for\nBeanMapping#ignoreByDefault\n(\n#2929\n)\nBuild\nBuild fails when running mvn test on an M1 Mac (\n#2922\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "MapStruct",
+        "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.6.3",
+        "version": "1.6.3",
+        "title": "Release 1.6.3 · mapstruct/mapstruct · GitHub",
+        "release_date": "2024-11-09T11:39:56Z",
+        "content": "Bugs\nRedundant if condition in Java record mapping with\nRETURN_DEFAULT\nstrategy (\n#3747\n)\nStackoverflow with Immutables custom builder (\n#3370\n)\nUnused import of\njava.time.LocalDate\nwhen mapping source\nLocalDateTime\nto target\nLocalDate\n(\n#3732\n)\nDocumentation\nAdd section to README.md comparing mapstruct with Java Records (\n#3751\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "MapStruct",
+        "url": "https://github.com/mapstruct/mapstruct/releases/tag/1.6.0.Beta1",
+        "version": "1.6.0.Beta1",
+        "title": "Release 1.6.0.Beta1 · mapstruct/mapstruct · GitHub",
+        "release_date": "2023-11-04T22:28:35Z",
+        "content": "Features\nAccess to target property name (\n#2688\n) -\n@TargetPropertyName\ncan be used to access the target property name to conditional and mapping methods\nSupport passing annotations to generated code (\n#1574\n,\n#2773\n,\n#2895\n,\n#2983\n) - Using\n@AnnotateWith\n. If a method is annotated with\n@Deprecated\nit is automatically copied into the generated code.\nSupport for globally defining\nnullValueIterableMappingStrategy\nand\nnullValueMapMappingStrategy\n(\n#2953\n) - The different strategies can be configured using\nmapstruct.nullValueIterableMappingStrategy\nand\nmapstruct.nullValueMapMappingStrategy\nrespectively\nSupport qualifiers for\nSubclassMapping\nannotated methods (\n#3119\n)\nSupport defining custom processor options for custom SPI (\n#3071\n) - There is also\nAdditionalSupportedOptionsProvider\nthat can be used to defined the supported options for a custom SPI. The additional options cannot start with\nmapstruct\n.\nSupport for defining Javadoc on the generated mapper (\n#2987\n) - Using\n@Javadoc\nEnhancements\nSupport for converting between\nEnum\nand\nInteger\n(\n#2963\n)\nSupport for converting between\nLocale\nand\nString\n(\n#3172\n)\nSupport for implicit conversion between\njava.time.LocalDate\nand\njava.time.LocalDateTime\n(\n#3199\n)\nSupport custom name in Spring annotations (\n#1427\n) - Can be done using\n@AnnotateWith(value = Service.class, elements = @AnnotateWith.Element(strings = \"cakeMapperV2\"))\nSupport meta annotations for\n@ValueMapping\n(\n#3037\n)\nAmbiguous mapping method but there is a more specific mapping (\n#1216\n)\nDo not treat getter as an alternative write accessor when using\nCollectionMappingStrategy#TARGET_IMMUTABLE\n(\n#2952\n)\nImprove line location report for invalid qualifier for\nSubclassMapping\n(\n#3202\n)\nSupport\n@InheritConfiguration\nfor\n@SubclassMapping\nin methods with identical signature (\n#3125\n)\nDo not require\nsubclassExhaustiveStrategy\nwhen source is a sealed class and all subtypes are specified (\n#3054\n)\nAdd validation of\nString\ntype for\n@TargetPropertyName\n(\n#2863\n)\nSupport for all lifecycle methods on type being build with builders (\n#1454\n)\n@BeforeMapping\nwith\n@TargetType\nthe type being build\n@AfterMapping\nwith\n@TargetType\nthe type being build\n@AfterMapping\nwith\n@MappingTarget\nthe type being build\nRedundant null checks for nested properties (\n#3245\n)\n@Default\non Java Record's constructor isn't respected (\n#3231\n)\nAdd\nInjectionStrategy.SETTER\n(\n#3229\n)\nAdd\nBeanMapping#unmappedSourcePolicy\n(\n#3309\n)\nImprove support for Map attributes for immutables (\n#3089\n)\nSupport mapping\nIterable\nto\nCollection\n(\n#3376\n)\nBugs\nBreaking change: Mapping from Map to Bean (\n#3144\n)\nCondition with\n@TargetType\non\nCollection\nfails to compile (\n#2901\n)\nAnnotations are automatically passed in forged methods (\n#3015\n)\nMapping Composition does not work for\n@SubclassMapping\n(\n#3174\n)\nMapping control disabling conversions does not disable them in 2 step mappings (\n#3186\n)\n@BeanMapping(ignoreByDefault = true)\ndoes not work for constructor properties (\n#3158\n)\n@ValueMapping\nstrips spaces from source (\n#3153\n)\ndefaultExpression\ndoes not work when mapping a collection of custom types (\n#3159\n)\nArrays cannot be mapped to collection / iterable using an adder method (\n#3165\n)\nUnmapped source properties error when source is mapped to a nested field of the target object (\n#2781\n)\nNullPointerException\nwhen ignoring target '.' (\n#3238\n) - There is now a compilation error instead of an error in the processor\nNullValuePropertyMappingStrategy.IGNORE\ndoes not ignore target collection even when source one is null (only when\ncollectionMappingStrategy = CollectionMappingStrategy.TARGET_IMMUTABLE\n) (\n#3104\n)\n@SubclassMapping\nnot working with\n@Mapping\nnested properties and target all (\n#3126\n)\nCompile error when using\ndefault\nand\nstatic\nmethods in\n@MapperConfig\n(\n#3296\n)\nGeneric class with adder method and\nCollectionMappingStrategy.ADDER_PREFERRED\nfails (\n#3310\n)\nMapStruct can not map only primitives (\n#3317\n)\n2-step mapping with generics does not work correctly (\n#2663\n)\nMapStruct no longer handles generic mapping methods (in conjunction with immutables) after upgrading from 1.4.x to version 1.5.x (\n#3163\n)\nIgnored mappings when using\n@InheritConfiguration\n(\n#3361\n)\nDocumentation\nUse GitHub new Issue Form Templates (\n#3008\n)\nMapping composition is no longer experimental (\n#3239\n)\nImprove Lombok integration documentation (\n#3374\n)\nBuild / Refactoring\nTry to stabilise some date conversion tests (\n#2806\n)\nAvoid unnecessary unboxing of Boolean (\n#3003\n)\nUpdate FreeMarker to 2.3.32\nRefactor method selection and use a context to be able to more easily access information (\n#3280\n)\nUpdate tarLongFileMode to use POSIX (\n#3340\n)\nSimplified some expressions, redundant expressions removed (\n#3292\n)\nRefactor to use presence check for mapping methods (\n#3347\n) - Still only internal and custom presence checks methods are not supported for source parameters (see\n#2610\nfor that)\nUpdate github actions (\n#3397\n)\nAdd Java 21 to test matrix\nAdd Java EA to test matrix\nRemoving java 13 and 18 from test matrict\nBreaking Changes\nMap to Bean\nIn 1.5 we added support for mapping a map to a bean by implicitly mapping all the properties from the target bean by accessing them from the map. However, this lead to some problems in multi mapping methods. Therefore, in this release we tightened up a bit and in multi source mapping methods the Map will not be considered when doing implicit mappings.\ne.g.\n@Mapper\npublic interface CarMapper {\n\n    // This method is going to implicitly map all the target properties from the map\n    Target map(Map<String, Object> map);\n    \n    // This method is not going to use the map for implicit mappings.\n    //  Only the name will be mapped from the map (since it has been defined like that\n    @Mapping(target = \"name\", source = \"map.name\")\n    Target map(Source source, Map<String, Object> map)\n\n}\n@BeanMapping\ninheritance\nAll, except\nresultType\nand\nignoredUnmappedSourceProperties\nattributes of\n@BeanMapping\nhave been made to consistently be passed down to the generated nested methods. This means that if you were relying on some buggy behavior it might no longer work.\ne.g.\nBeanMapping#ignoreByDefault\nwas not being passed down properly, i.e. implicit mapping was being done for nested properties. This has been fixed. If you want to implicitly map nested mappings then you'll have to define your own mapper appropriatelly.\n@\nMapper\ninterface\nMyMapper\n{\n@\nBeanMapping\n(\nignoreByDefault\n=\ntrue\n)\n@\nMapping\n(\nsource\n=\n\"sub\"\n,\ntarget\n=\n\"target\"\n)\nTarget\nmap\n(\nSource\nsource\n);\n}\nneeds to be replaced with\n@\nMapper\ninterface\nMyMapper\n{\n@\nBeanMapping\n(\nignoreByDefault\n=\ntrue\n)\n@\nMapping\n(\nsource\n=\n\"sub\"\n,\ntarget\n=\n\"target\"\n)\nTarget\nmap\n(\nSource\nsource\n);\n// this is the mapping `source = \"sub\"` and `target = \"target\"`\n// redefined to get rid of the `ignoreByDefault=true`, because this property is inherited\nSubTarget\nsubSourceToSubTarget\n(\nSubSource\nsubSource\n);\n}\nSponsoring\nAfter the request from the community we have enabled sponsoring for the project. See\n#2340\nfor how you can sponsor us if you want to.\nContributors\n@anton-erofeev\n@Blackbaud-JasonBodnar\n@Bragolgirith\n@chenzijia12300\n@eroznik\n@EvaristeGalois11\n@ivlcic\n@jccampanero\n@kooixh\n@MengxingYuan\n@MLNW\n@Nikolas-Charalambidis\n@paparadva\n@prasanth08\n@ro0sterjam\n@rgdoliveira\n@venkatesh2090",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2023
     ],
     "years_extracted": [
       null,
       2024,
-      2024
+      2023
     ],
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   },
   {
-    "library": "Tonic",
+    "library": "Caffeine",
     "entries": [
       {
-        "library_name": "Tonic",
-        "url": "https://github.com/hyperium/tonic/releases/tag/v0.12.0",
-        "version": "v0.12.0",
-        "title": "Release v0.12.0 · hyperium/tonic · GitHub",
-        "release_date": "2024-07-08T17:59:49Z",
-        "content": "v0.12.0\n(2024-07-08)\nThis breaking release updates tonic to the hyper\n1.0\necosystem and also updates\nto prost\nv0.13.0\n.\nFeatures\nbuild:\nCustom codecs for generated code (\n#1599\n) (\n18a2b30\n)\nchannel:\nMake channel feature additive (\n#1574\n) (\nb947e1a\n)\ncodec:\nMake error when not utf8 value in compression encoding (\n#1768\n) (\nf8e1f87\n)\nImplement http_body::Body::size_hint for custom body (\n#1713\n) (\n9728c01\n)\nMake boxed function public (\n#1754\n) (\n2cc868f\n)\nRelax GrpcMethod lifetime (\n#1598\n) (\n68bf17d\n)\ntls:\nAdd ability to add multiple ca certificates (\n#1724\n) (\n3457f92\n)\ntls:\nUse rustls_pki_types::CertificateDer to describe DER encoded certificate (\n#1707\n) (\n96a8cbc\n)\ntls:\nRemove tls roots implicit configuration (\n#1731\n) (\nde73617\n)\ntransport:\nMake service router independent from transport (\n#1572\n) (\nda48235\n)\ntransport:\nMake transport server and channel independent (\n#1630\n) (\n654289f\n)\ntransport:\nRename reexported axum body (\n#1752\n) (\n5d7bfc2\n)\nUse http::Extensions directly (\n#1710\n) (\ned95d27\n)\nBug Fixes\ntonic:\nflush accumulated ready messages when status received (\n#1756\n) (\nd312dcc\n), closes\n#1423\nBREAKING CHANGES\ntonic\nand crates updated to hyper 1.0 (\n#1670\n)\ntonic\nand crates updated to prost 0.13 (\n#1779\n)\ntonic_reflection::server\nis updated to use the generated\ntonic_reflection::pb::v1\ncode.\nMake compression encoding configuration more malleable (\n#1757\n)",
+        "library_name": "Caffeine",
+        "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.1.3",
+        "version": "v3.1.3",
+        "title": "Release 3.1.3 · ben-manes/caffeine · GitHub",
+        "release_date": "2023-02-10T07:18:01Z",
+        "content": "Cache\nFixed the build time dependency constraints from being leaked into the external metadata (\n#867\n)\nFixed the cause of a removal notification for a discarded refresh when the entry was removed\nFixed the behavior for null lookups into returned unmodifiable maps to be consistent (\n#864\n)\nFixed an unexpected delay of removal notifications when using a scheduler (\n#859\n)\nFixed explicit refreshes from being deduped if the entry is pending eviction\nDefaulted methods to\n@CheckReturnValue\nfor static analysis (\n#863\n)\nReduced the lock hold time during Map.clear (\n#835\n)\nJCache\nFixed\nputAll\nwith an immutable map that causes an exception when using a cache writer (\n#841\n)",
         "crawl_status": "success"
       },
       {
-        "library_name": "Tonic",
-        "url": "https://github.com/hyperium/tonic/releases/tag/v0.13.0",
-        "version": "v0.13.0",
-        "title": "Release v0.13.0 · hyperium/tonic · GitHub",
-        "release_date": "2025-03-25T19:21:57Z",
-        "content": "This release is a breaking release and thus there are many changes include axum version and a few other crates. There are some additionally exposed APIs. At the moment this release is planned to be a long term release as the project shifts some of its resources to implementing a new transport module and to align itself better with other gPRC projects. More to be announced on this later.\nWhat's Changed\nfeat(router): Implement From Routes and axum::Router for RoutesBuilder by\n@tottoto\nin\n#1957\nfeat(service): Add Layered service to propagate NamedService implementation by\n@tottoto\nin\n#1966\nfeat(router): Add method to get mutable reference to axum::Router by\n@tottoto\nin\n#1980\nfix(tls): do not shutdown the server on connection timeout errors by\n@krispraws\nin\n#1972\nMake\nStatus::into_http()\ngeneric over any kind of\nDefault\n-able Body by\n@shikhar\nin\n#1978\nfeat(web): Remove unnecessary Bytes type from GrpcWebCall body type by\n@tottoto\nin\n#1985\nfeat(web): Remove enable api by\n@tottoto\nin\n#1982\nfeat(router): Remove unnecessary BoxBody from response body by\n@tottoto\nin\n#1994\nfeat: Add tcp setting getters to endpoint by\n@Benjscho\nin\n#1983\nserver: swallow TLS errors in the accept loop by\n@PDXKimani\nin\n#1990\nfeat(interceptor): Change InterceptorLayer constructor associated function by\n@tottoto\nin\n#2005\nfeat(build): Make cleanup-markdown feature additive by\n@tottoto\nin\n#1952\nfeat: make pub\nChannel\nfns that allow creating it from a custom connector by\n@shikhar\nin\n#2015\nfeat(tls): AWS Libcrypto Support by\n@jenr24-architect\nin\n#2008\nfeat(server): Remove into_service api by\n@tottoto\nin\n#1996\nuse ring if no default crypto provider is found by\n@conradludgate\nin\n#2034\nfeat(transport): Make tower internal dependency by\n@tottoto\nin\n#1947\nfeat(web): Relax GrpcWebService request body type by\n@tottoto\nin\n#2016\nfeat!: Add Body type by\n@tottoto\nin\n#2013\nfeat(reflection): Expose ReflectionService by\n@tottoto\nin\n#2066\nfeat(web): Implement Debug for ResponseFuture by\n@tottoto\nin\n#2068\nfix(server): Use Status::into_http api in recover error service by\n@tottoto\nin\n#2099\nfeat(health): Add WatchStream type for health service by\n@tottoto\nin\n#2108\nAdd deflate compression support by\n@a1ien\nin\n#2117\nfeat(tls): Add support for rustls ignore_client_order by\n@emuellen\nin\n#2042\nfeat(health): Remove unnecessary transport feature by\n@tottoto\nin\n#2130\nfeat(channel): Add local_address as an option Endpoint builder by\n@jparris\nin\n#1567\nfix(test): Use github endpoint to fix flaky test by\n@tottoto\nin\n#2148\nfix(test): Use test domain for test url by\n@tottoto\nin\n#2150\nfeat(server): Add serve api to server by\n@tottoto\nin\n#2152\nfeat(server): Allow server used independently of router by\n@tottoto\nin\n#2154\nfix(client): improve gRPC-Web client behavior with trailers with a space after the colon by\n@sudorandom\nin\n#2053\nFix percent-encoding of percent sign in\ngrpc-message\nheader by\n@AndiDog\nin\n#2107\nfeat: Expose recover error service by\n@tottoto\nin\n#2159\nfeat(metadata): Implement AsRef and AsMut traits for MetadataMap by\n@hr567\nin\n#2161\nAdd From for Response by\n@amrhassan\nin\n#1064\nfeat: optional\nSSLKEYLOGFILE\nsupport by\n@crepererum\nin\n#1539\nfeat: Allow convert i32 to Code in const context by\n@tottoto\nin\n#2195\nfeat(tonic): Exclude benches-disabled to remove Apache-2.0 resource by\n@tottoto\nin\n#2204\nfeat: Add proto header to generated code by\n@tottoto\nin\n#2205\nfeat(router): Use infallible as error type by\n@tottoto\nin\n#2232\nfeat(transport): add support for uds, unix domain socket\n#2218\nfix(streaming): tonic::Streaming enters infinite loop on response error\n#2199\nNew Contributors\n@shikhar\nmade their first contribution in\n#1979\n@krispraws\nmade their first contribution in\n#1972\n@PDXKimani\nmade their first contribution in\n#1990\n@jenr24-architect\nmade their first contribution in\n#2008\n@easwars\nmade their first contribution in\n#2047\n@arjan-bal\nmade their first contribution in\n#2076\n@allan2\nmade their first contribution in\n#2105\n@a1ien\nmade their first contribution in\n#2117\n@emuellen\nmade their first contribution in\n#2042\n@jparris\nmade their first contribution in\n#1567\n@sudorandom\nmade their first contribution in\n#2053\n@AndiDog\nmade their first contribution in\n#2107\n@hr567\nmade their first contribution in\n#2161\n@maximevtush\nmade their first contribution in\n#2167\n@dakaizou\nmade their first contribution in\n#2219\n@jimmycathy\nmade their first contribution in\n#2224\nFull Changelog\n:\nv0.12.3...v0.13.0",
+        "library_name": "Caffeine",
+        "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.1.7",
+        "version": "v3.1.7",
+        "title": "Release 3.1.7 · ben-manes/caffeine · GitHub",
+        "release_date": "2023-07-24T01:13:57Z",
+        "content": "Cache\nImproved builder construction time (\n#905\n)\nJCache\nFixed deadlock when a cache listener writes to another cache (\n#1065\n)\nAdded\njakarta.inject\nsupport, dropping\njavax.inject\n(\n#1009\n)",
         "crawl_status": "success"
       },
       {
-        "library_name": "Tonic",
-        "url": "https://github.com/hyperium/tonic/releases/tag/v0.14.0",
-        "version": "v0.14.0",
-        "title": "Release v0.14.0 · hyperium/tonic · GitHub",
-        "release_date": "2025-07-28T15:30:19Z",
-        "content": "This release marks an important milestone for tonic, \"hopefully\" this will be the last major breaking release of Tonic before we start to transition work into bringing the community a joint-effort\ngrpc-rust\nimplementation. For the moment, any new features for the core of tonic that are not related to the work towards\ngrpc-rust\nwill not be accepted (I believe tonic to be in quite a good spot, security features of course will be handled with the upmost importance). Stay tuned there will be more information the coming months on what is going on with the new project but you can already see some of the code in the\ngrpc\ncrate within the\ntonic\nrepository.\nYou can always watch\nthis video\nfor more info on\ngrpc-rust\n.\nBreaking Changes\nProst updated to v0.14\nProst has been extracted to their own crates\nMigration guide\nTo migrate between\n<=v0.13.1\nto\nv0.14\nanything that used prost has now been moved into either\ntonic-prost\nor\ntonic-prost-build\n. All the previous types are still available but under these two new crates.\nWhat's Changed\nadd support for tower's load-shed layer by\n@joeroback\nin\n#2189\nBox Status contents to reduce enum size (\n#2253\n) by\n@tustvold\nin\n#2282\nUpdate to prost 0.14 by\n@tottoto\nin\n#2300\nUpdate generated code to\nerror_details.proto\na56cbf3b\nby\n@kriswuollett\nin\n#2306\nfeat(transport): Allow setting TCP_KEEPINTVL and TCP_KEEPCNT by\n@xmakro\nin\n#2299\nfix(tonic): make\nStreaming\nSync\nagain by\n@Twey\nin\n#2293\nfeat: preserve user-agent header (for real) by\n@dbolduc\nin\n#2290\nfeat(tls): Add tls handshake timeout support by\n@honsunrise\nin\n#2309\nUpdate socket2 to v0.6 by\n@Thomasdezeeuw\nin\n#2329\nfeat: Extract prost into its own tonic based crates by\n@LucioFranco\nin\n#2321\nfeat(build): allow to specify trait attributes by\n@ya7on\nin\n#2348\nNew Contributors\n@joeroback\nmade their first contribution in\n#2189\n@tustvold\nmade their first contribution in\n#2282\n@darrasse\nmade their first contribution in\n#2297\n@ADSteele916\nmade their first contribution in\n#2291\n@kriswuollett\nmade their first contribution in\n#2306\n@xmakro\nmade their first contribution in\n#2299\n@Twey\nmade their first contribution in\n#2293\n@honsunrise\nmade their first contribution in\n#2309\n@CommanderStorm\nmade their first contribution in\n#2308\n@ya7on\nmade their first contribution in\n#2348\nFull Changelog\n:\nv0.13.1...v0.14.0",
+        "library_name": "Caffeine",
+        "url": "https://github.com/ben-manes/caffeine/releases/tag/v3.2.0",
+        "version": "v3.2.0",
+        "title": "Release 3.2.0 · ben-manes/caffeine · GitHub",
+        "release_date": "2025-01-17T21:28:02Z",
+        "content": "Cache\nAdded\nSigstore\nsigning of maven artifacts\nAdded\nExpiry\nstatic factory methods (\n#1499\n)\nMigrated to\nJSpecify\nannotations (was checker framework)\nFixed variable expiration calculation when nearing overflow\nAdded logging when an async cache's removal listener fails\nAdded an expiration write optimization to more operations (\n#1320\n)\nFixed when a\nWeigher\nor\nExpiry\nfail on an async completion (\n#1687\n)\nFixed cases when the expiration ticker was also used for statistics (\n#1678\n)\nFixed refresh handling to skip if the async cache's entry is still loading (\n#1478\n)\nFixed\ncontainsKey\nfor an async cache's synchronous view while in-flight (\n#1626\n)\nFixed premature expiration for an async cache when using nearly immediate expiration (\n#1623\n)\nFor a bulk async load returning extra mappings, wait to be added to the cache before returning (\n#1409\n)\nGuava\nRelaxed the OSGi version requirement (\n#1160\n)\nJCache\nAllow\nhibernate.javax.cache.uri\nto load the configuration from a jar (\n#1347\n)",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2025,
+      2023
+    ],
+    "years_extracted": [
+      2023,
+      2023,
+      2025
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Sentinel",
+    "entries": [
+      {
+        "library_name": "Sentinel",
+        "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.8",
+        "version": "1.8.8",
+        "title": "Release v1.8.8 · alibaba/Sentinel · GitHub",
+        "release_date": "2024-06-05T01:46:28Z",
+        "content": "Features / Enhancements\nSupport running test with JDK 21 or JDK17 (\n#3344\n) (\n#3339\n)\nAdd webmvc-6x-adapter module to support spring boot 3.x (\n#3351\n)\nReplace ThreadLocal with DateTimeFormatter (\n#3353\n)\nBug Fixes\nFix flaky tests and fix passDefaultLocalCheck (\n#3367\n)\nFix when duplication spi class found using SpiLoader (\n#3387\n)\nFix reflection exceptions caused by having identically named fallback/blockHandler with different parameter types (\n#3395\n)\nDependencies\nBump com.fasterxml.jackson.core:jackson-databind (\n#3342\n)\nBump org.springframework:spring-expression (\n#3375\n)\nBump org.springframework:spring-context (\n#3404\n)\nThanks for all contributors:\n@cdfive\n,\n@robberphex\n,\n@shichaoyuan\n,\n@LearningGp\n,\n@ruansheng8\n,\n@dowenliu-xyz",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Sentinel",
+        "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.6",
+        "version": "1.8.6",
+        "title": "Release v1.8.6 · alibaba/Sentinel · GitHub",
+        "release_date": "2022-10-26T08:43:04Z",
+        "content": "This release ships with a few enhancements and bug fixes.\nFurthermore, Sentinel OpenSergo data-source has been beta-available (\ncom.alibaba.csp:sentinel-datasource-opensergo:0.1.0-beta\n), which enables developers to configure Sentinel rules with\nOpenSergo fault-tolerance CRD\nin a unified way (under Kubernetes, with\nOpenSergo control plane\n).\nFeatures / Enhancements\nAdd\nid\nfield in Rule entity and record rule ID in block log (\n#2853\n)\nBug Fixes\nFix Dubbo SPI path bug in Dubbo 3.x adapter (\n#2822\n)\nFix the bug that\nSpiLoader#closeResources\nmay not record the exception when error occurs (\n#2890\n)\nDashboard\nImprove IP validation in SentinelApiClient and rule controllers\nThanks for all contributors:\n@AlbumenJ\n,\n@hongpy\n,\n@icodening\n,\n@PepoRobert\n,\n@sczyh30\n,\n@ZhongJinHacker",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Sentinel",
+        "url": "https://github.com/alibaba/Sentinel/releases/tag/1.8.7",
+        "version": "1.8.7",
+        "title": "Release v1.8.7 · alibaba/Sentinel · GitHub",
+        "release_date": "2023-12-29T02:10:27Z",
+        "content": "Features / Enhancements\nAdd default circuit breaker rule support (\n#2232\n)\nUpdate metrics name for better monitor selection in JMX MetricBeanWriter extension (\n#2976\n)\nRefine throttling control behavior of FlowRule: improve accuracy and support maxQps > 1000 (\n#2951\n)\nAdd SSL support for sentinel-datasource-redis (\n#3045\n)\nAdd basic implementation of token bucket for flow-control (\n#3106\n)\nRemove the requirement of carrying batchCount and args in entry.exit() (\n#3114\n)\nMake default JUL-based logging asynchronous (\n#3136\n)\nMake all ThreadPool static final (\n#3243\n)\nAdd Prometheus exporter module for Sentinel metrics (\n#3173\n)\nResource rules (flow/degrade/param/authority) support regex matching (\n#3251\n)\nBug Fixes\nFix NPE bug in LogSlot#entry when recording rule ID (\n#2980\n)\nFix the bug that error occurs in JMX metrics exporter when resource name contains '*' (\n#2992\n)\nFix thread-blocked problem of EtcdDataSource (\n#2991\n)\nFix potential connection leak bug when closing NacosDataSource (\n#2962\n)\nFix order dependent tests in SofaRpcFallbackRegistryTest (\n#3282\n)\nDashboard\nAdd simple Dockerfile for Sentinel dashboard (\n#2970\n)\nDependencies\nUpdate snakeyaml to 1.32 in sentinel-cluster/sentinel-cluster-server-envoy-rls module (\n#2921\n)\nUpdate dubbo to 2.7.18 in sentinel-demo/sentinel-demo-apache-dubbo (\n#2923\n)\nUpdate protobuf & gRPC version of adapter modules to fix macOS aarch64 compile error (\n#2993\n)\nUpgrade curator-recipes to 5.1.0 to fix API change for ZooKeeper data-source (\n#2963\n)\nThanks for all contributors:\n@sczyh30\n,\n@wuwen5\n,\n@xiaozzzi\n,\n@EzrealOf\n,\n@wilsonwu\n,\n@kirklin\n,\n@garroshh\n,\n@JosephZhang3\n,\n@LiYangSir\n,\n@Yan1025\n,\n@wenshao\n,\n@pandaapo\n,\n@frank-zsy\n,\n@z521598\n,\n@LearningGp\n,\n@robberphex\n,\n@clara0\n,\n@karl-sy\n, @SaaiVenkat",
         "crawl_status": "success"
       }
     ],
@@ -271,12 +316,12 @@
     ],
     "actual_years": [
       2024,
-      2025
+      2023
     ],
     "years_extracted": [
       2024,
-      2025,
-      2025
+      null,
+      2023
     ],
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   }

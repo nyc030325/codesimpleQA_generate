@@ -1,204 +1,77 @@
 === 条目 1 ===
-库名: Serde
+库名: Caffeine
 版本: N/A
-URL: https://github.com/serde-rs/serde/releases/tag/v1.0.197
-长度: 123 字符
+URL: https://github.com/ben-manes/caffeine/releases/tag/v3.1.7
+长度: 189 字符
 内容:
-Fix unused_imports warnings when compiled by rustc 1.78
-Optimize code size of some Display impls (
-#2697
-, thanks
-@nyurik
+Cache
+Improved builder construction time (
+#905
+)
+JCache
+Fixed deadlock when a cache listener writes to another cache (
+#1065
+)
+Added
+jakarta.inject
+support, dropping
+javax.inject
+(
+#1009
 )
 
 ==================================================
 
 === 条目 2 ===
-库名: Clap
+库名: Elasticsearch-Java
 版本: N/A
-URL: https://github.com/clap-rs/clap/releases/tag/v4.5.17
-长度: 130 字符
+URL: https://github.com/elastic/elasticsearch-java/releases/tag/v8.13.0
+长度: 228 字符
 内容:
-[4.5.17] - 2024-09-04
-Fixes
-(help)
-Style required argument groups
-(derive)
-Improve error messages when unsupported fields are used
+What's Changed
+Add ES|QL helpers (
+#762
+)  by
+@swallez
+in
+#763
+Add misc improvements to the framework (
+#760
+)  by
+@swallez
+in
+#761
+Various bugfixes (
+#745
+)(
+#756
+) by
+@l-trotta
+in
+#746
+,
+#757
+Full Changelog
+:
+v8.12.2...v8.13.0
 
 ==================================================
 
 === 条目 3 ===
-库名: Serde-json
+库名: Resilience4j
 版本: N/A
-URL: https://github.com/serde-rs/json/releases/tag/v1.0.106
-长度: 149 字符
+URL: https://github.com/resilience4j/resilience4j/releases/tag/v2.1.0
+长度: 239 字符
 内容:
-Add
-Value::as_number
-accessor (
-#1069
-, thanks
-@chanced
-)
-Add
-Number::as_str
-accessor under "arbitrary_precision" feature (
-#1067
-, thanks
-@chanced
-)
-
-==================================================
-
-=== 条目 4 ===
-库名: Tower
-版本: N/A
-URL: https://github.com/tower-rs/tower/releases/tag/tower-0.5.2
-长度: 178 字符
-内容:
-Added
-util
-: Add
-BoxCloneSyncService
-which is a
-Clone + Send + Sync
-boxed
-Service
-(
-#777
-)
-util
-: Add
-BoxCloneSyncServiceLayer
-which is a
-Clone + Send + Sync
-boxed
-Layer
-(
-#802
-)
-
-==================================================
-
-=== 条目 5 ===
-库名: Serde-json
-版本: N/A
-URL: https://github.com/serde-rs/json/releases/tag/v1.0.132
-长度: 194 字符
-内容:
-Improve binary size and compile time for JSON array and JSON object deserialization by about 50% (
-#1205
-)
-Improve performance of JSON array and JSON object deserialization by about 8% (
-#1206
-)
-
-==================================================
-
-=== 条目 6 ===
-库名: Serde-json
-版本: N/A
-URL: https://github.com/serde-rs/json/releases/tag/v1.0.143
-长度: 222 字符
-内容:
-Implement Clone and Debug for serde_json::Map iterators (
-#1264
-, thanks
-@xlambein
-)
-Implement Default for CompactFormatter (
-#1268
-, thanks
-@SOF3
-)
-Implement FromStr for serde_json::Map (
-#1271
-, thanks
-@mickvangelderen
-)
-
-==================================================
-
-=== 条目 7 ===
-库名: Clap
-版本: N/A
-URL: https://github.com/clap-rs/clap/releases/tag/v4.5.47
-长度: 248 字符
-内容:
-[4.5.47] - 2025-09-02
-Features
-Added
-impl FromArgMatches for ()
-Added
-impl Args for ()
-Added
-impl Subcommand for ()
-Added
-impl FromArgMatches for Infallible
-Added
-impl Subcommand for Infallible
-Fixes
-(derive)
-Update runtime error text to match
-clap
-
-==================================================
-
-=== 条目 8 ===
-库名: Futures
-版本: N/A
-URL: https://github.com/rust-lang/futures-rs/releases/tag/0.3.30
-长度: 267 字符
-内容:
-Add
-{BiLock,SplitStream,SplitSink,ReadHalf,WriteHalf}::is_pair_of
-(
-#2797
-)
-Fix panic in
-FuturesUnordered::clear
-(
-#2809
-)
-Fix panic in
-AsyncBufReadExt::fill_buf
-(
-#2801
-,
-#2812
-)
-Improve support for targets without atomic CAS (
-#2811
-)
-Remove build scripts (
-#2811
-)
-
-==================================================
-
-=== 条目 9 ===
-库名: Serde
-版本: N/A
-URL: https://github.com/serde-rs/serde/releases/tag/v1.0.181
-长度: 291 字符
-内容:
-Make
-serde(alias)
-work in combination with
-flatten
-when using in-place deserialization (
-#2443
-, thanks
-@Mingun
-)
-Improve the representation of adjacently tagged enums in formats where enum tags are serialized by index, as opposed to by string name (
-#2505
-,
-#2496
-, thanks
-@Baptistemontan
-)
+Enhancements
+Fallbackmethod supports usage of annotations in Spring
+Issue
+#1955
+: RecordResultPredicate can be configured in Spring Boot config now
+Bugs
+Issue
+#1980
+: Fixed API regression following removal of io.vavr dependencies in v2.0.0
 
 ==================================================
 

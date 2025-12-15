@@ -1,7 +1,7 @@
 import json
 
 # 读取爬取的数据
-with open('data/library_crawled_data_append.json', 'r', encoding='utf-8') as f:
+with open('data/all_libraries_crawled_data.json', 'r', encoding='utf-8') as f:
     crawled_data = json.load(f)
 
 print(f"总条目数: {len(crawled_data)}")

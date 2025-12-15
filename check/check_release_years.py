@@ -32,8 +32,8 @@ def extract_year(release_date):
     return None
 
 def main():
-    # 修改输入文件路径为library_crawled_data_append.json
-    input_file = '/Users/bytedance/codesimpleQA_generate-2/data/library_crawled_data_append.json'
+    # 修改输入文件路径为all_libraries_crawled_data.json
+    input_file = '/Users/bytedance/codesimpleQA_generate-2/data/all_libraries_crawled_data.json'
     output_file = '/Users/bytedance/codesimpleQA_generate-2/check/invalid_release_years.json'
     
     try:
