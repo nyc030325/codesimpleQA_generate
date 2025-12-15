@@ -1,241 +1,301 @@
 problem,answer,library_name,tag,language,year,problem_type
-In Pydantic 2.10.0 which new type was added specifically for Linux systems?,SocketPath,Pydantic,POPULAR,Python,2024,API
-In Pydantic 2.10.0 what experimental parameter allows partial JSON parsing during validation?,experimental_allow_partial,Pydantic,POPULAR,Python,2024,General
-In Pytest 8.3.0 which new flag turns on traceback output for XFAIL results,--xfail-tb,Pytest,POPULAR,Python,2024,General
-In Pytest 8.3.0 which option prevents grouping skipped tests by reason in short summary,--no-fold-skipped,Pytest,POPULAR,Python,2024,API
-In Requests 2.32.0 which directory contains the source files in the sdist,src/requests,Requests,POPULAR,Python,2024,General
-In Requests 2.32.0 what method defaults to utf-8 when neither chardet nor charset_normalizer is present,Response.text,Requests,POPULAR,Python,2024,API
-What Matplotlib 3.9.0 rcParam controls image interpolation stage?,image.interpolation_stage,Matplotlib,POPULAR,Python,2024,General
-Which Matplotlib 3.9.0 method removes experimental status from inset_axes?,Axes.inset_axes,Matplotlib,POPULAR,Python,2024,API
-In Flask v3.0.0 which attribute was deprecated in favor of feature detection or importlib.metadata.version,`__version__`,Flask,POPULAR,Python,2023,General
-In Flask v3.0.0 which argument was newly allowed in url_for calls,self,Flask,POPULAR,Python,2023,API
-In FastAPI 0.110.0 what must be added after except in dependencies with yield to require raising again,raise,FastAPI,POPULAR,Python,2024,General
-In FastAPI 0.110.0 what dependency usage pattern was fixed to prevent growing memory on internal server errors,dependencies with yield,FastAPI,POPULAR,Python,2024,API
-In Matplotlib 3.10.1 what warning is raised when both c and facecolors are used in scatter plot,Scatter plot color warning,Matplotlib,POPULAR,Python,2025,API
-In Matplotlib 3.10.1 which hash algorithm usage was removed to prevent issues on FIPS systems,MD5,Matplotlib,POPULAR,Python,2025,General
-In Matplotlib v3.7.0 what new keyword argument was added to colorbar to specify its position?,location,Matplotlib,POPULAR,Python,2023,API
-In Matplotlib v3.7.0 what new boxstyle option became available for annotations?,ellipse,Matplotlib,POPULAR,Python,2023,General
-In Pydantic v2.12.0 which new URL option was added by Viicos,preverse_empty_path,Pydantic,POPULAR,Python,2025,General
-In Pydantic v2.12.0 which parameter was added to validate functions,extra,Pydantic,POPULAR,Python,2025,API
-In Flask 3.1.0 what encoding parameter was added to Flask open_resource and Blueprint open_resource?,encoding,Flask,POPULAR,Python,2024,API
-In Flask 3.1.0 what config controls the Partitioned cookie attribute for CHIPS?,SESSION_COOKIE_PARTITIONED,Flask,POPULAR,Python,2024,General
-In Requests 2.31.0 which header was incorrectly forwarded to destination servers when following HTTPS redirects,Proxy-Authorization,Requests,POPULAR,Python,2023,General
-In Requests 2.31.0 what CVE identifier was assigned to the proxy authorization header vulnerability,CVE-2023-32681,Requests,POPULAR,Python,2023,General
-In FastAPI 0.100.0 which new Pydantic Field parameter replaces the deprecated regex,pattern,FastAPI,POPULAR,Python,2023,API
-In FastAPI 0.100.0 what optional package is now included in fastapi[all] for settings management,pydantic-settings,FastAPI,POPULAR,Python,2023,General
-In Requests 2.32.5 which caching feature introduced in 2.32.0 was reverted due to sustainability issues,SSLContext caching,Requests,POPULAR,Python,2025,General
-In Requests 2.32.5 which Python version support was added following its release,Python 3.14,Requests,POPULAR,Python,2025,General
-In SQLAlchemy 2.0.0 which new AutomapBase.prepare parameter allows customizing the __module__ attribute of generated classes,modulename_for_table,SQLAlchemy,POPULAR,Python,2023,General
-In SQLAlchemy 2.0.0 the _sql.ColumnOperators.in_() method typing changed from Sequence[Any] to which more flexible argument type,Iterable[Any],SQLAlchemy,POPULAR,Python,2023,API
-In SQLAlchemy 2.0.29 what new typing construct support was added for PEP 695 TypeAliasType,PEP 695 TypeAliasType,SQLAlchemy,POPULAR,Python,2024,General
-In SQLAlchemy 2.0.29 which method lost variant mappings after copy in schema types,with_variant,SQLAlchemy,POPULAR,Python,2024,API
-In FastAPI 0.120.0 what new micro-package dependency was added to replace typing_extensions.Doc,annotated-doc,FastAPI,POPULAR,Python,2025,General
-In FastAPI 0.120.0 which documentation utility class replaced typing_extensions.Doc,annotated_doc.Doc,FastAPI,POPULAR,Python,2025,API
-In SQLAlchemy 2.0.37 what new table option was added to specify the TABLESPACE when creating a table in Oracle?,oracle_tablespace,SQLAlchemy,POPULAR,Python,2025,General
-In SQLAlchemy 2.0.37 which method of the delete construct now accepts mysql_limit and mariadb_limit parameters?,Delete.with_dialect_options,SQLAlchemy,POPULAR,Python,2025,API
-In pytest 7.4.0 which new class method creates an ExceptionInfo object directly from an exception instance,ExceptionInfo.from_exception,Pytest,POPULAR,Python,2023,API
-In pytest 7.4.0 what message is shown when every traceback entry is filtered out,All traceback entries are hidden,Pytest,POPULAR,Python,2023,General
-In TensorFlow 2.20.0 what new option was added to tf.data.Options to enable faster input pipeline warm up?,autotune.min_parallelism,TensorFlow,POPULAR,Python,2025,API
-In TensorFlow 2.20.0 which package became optional due to limited support?,tensorflow-io-gcs-filesystem,TensorFlow,POPULAR,Python,2025,General
-In Flask 3.1.2 what method no longer fails inside async views,stream_with_context,Flask,POPULAR,Python,2025,API
-In Flask 3.1.2 what parameter ensures correct final session state after test client redirects,follow_redirects,Flask,POPULAR,Python,2025,General
-In Click 8.2.0 which base class replaces MultiCommand for group commands,Group,Click,POPULAR,Python,2025,API
-In Click 8.2.0 what exit code is returned when no_args_is_help shows help for a group,2,Click,POPULAR,Python,2025,General
-In Click 8.1.8 what type hints issue was fixed for click.open_file(),click.open_file() type hints,Click,POPULAR,Python,2024,API
-In Click 8.1.8 what was replaced with subprocess.Popen to improve security,os.system,Click,POPULAR,Python,2024,General
-In Pillow 12.0.0 which FreeType version support was removed,FreeType <= 2.9.0,Pillow,POPULAR,Python,2025,General
-In Pillow 12.0.0 which ImageCmsProfile attributes were deprecated,product_name and product_info,Pillow,POPULAR,Python,2025,API
-In Python-dotenv v0.21.1 what type alias was added for dotenv_path?,StrPath,Python-dotenv,POPULAR,Python,2023,API
-In Python-dotenv v0.21.1 which two commands received improved error messages when env file cannot be opened,get list,Python-dotenv,POPULAR,Python,2023,General
-In TensorFlow 2.18.0 what new optional argument was added to tf.data.Dataset.map to run synchronously?,synchronous,TensorFlow,POPULAR,Python,2024,API
-In TensorFlow 2.18.0 what default NumPy version is now used for compilation?,NumPy 2.0,TensorFlow,POPULAR,Python,2024,General
-In TensorFlow 2.13.0 which new Keras optimizer was introduced,Lion,TensorFlow,POPULAR,Python,2023,General
-In TensorFlow 2.13.0 what parameter in tf.nn.top_k specifies the output index type,index_type,TensorFlow,POPULAR,Python,2023,API
-In Redis-py v5.0.0 which Python version support ended,Python 3.7,Redis-py,POPULAR,Python,2023,General
-In Redis-py v5.0.0 what new feature allows server-side JavaScript execution,Triggers and Functions,Redis-py,POPULAR,Python,2023,General
-In Pillow 10.4.0 which new ImageDraw method was added to draw circles?,circle(),Pillow,POPULAR,Python,2024,API
-In Pillow 10.4.0 what EXIF tag is no longer preserved by default when saving TIFF images?,EXIFIFD,Pillow,POPULAR,Python,2024,General
-In Celery 5.3.0 which new control command revokes tasks by stamped headers?,revoke_by_stamped_headers,Celery,POPULAR,Python,2023,General
-In Celery 5.3.0 what parameter type does the new on_replace method of Task expect?,signature,Celery,POPULAR,Python,2023,API
-In Python-dotenv 1.1.0 which system call replaced subprocess in dotenv run for improved resource handling,execvpe,Python-dotenv,POPULAR,Python,2025,API
-In Python-dotenv 1.1.0 what new helper was added so load_dotenv works inside pdb,_is_debugger,Python-dotenv,POPULAR,Python,2025,General
-In Redis-py v7.0.0 what new argument was added to zrank, zrevrank and zunion for consistency with other sorted sets commands,score_cast_func,Redis-py,POPULAR,Python,2025,API
-In Redis-py v7.0.0 what new client type was introduced to communicate with multiple eventually consistent databases,MultiDBClient,Redis-py,POPULAR,Python,2025,General
-In Click 8.1.4 what type replaced typing.Dict for parameter hints?,typing.MutableMapping,Click,POPULAR,Python,2023,API
-In Click 8.1.4 what character is used to replace invalid bytes when writing filenames to streams with strict errors?,replacement character,Click,POPULAR,Python,2023,General
-What new argument was added to ImageOps.exif_transpose() in Pillow 10.0.0?,in_place,Pillow,POPULAR,Python,2023,API
-Which deprecated font sizing function was removed in Pillow 10.0.0?,ImageFont.getsize,Pillow,POPULAR,Python,2023,General
-In pytest 9.0.0 which configuration option enables strict mode globally,strict,Pytest,POPULAR,Python,2025,General
-In pytest 9.0.0 what is the new fixture type parameter for subtests,Subtests,Pytest,POPULAR,Python,2025,API
-In Python-dotenv v1.0.1 which contributor enabled modules using load_dotenv to be reloaded in a separate thread,@freddyaboulton,Python-dotenv,POPULAR,Python,2024,General
-In Python-dotenv v1.0.1 which pull request added python 3.12 and pypy3.10 to the test suite,#498,Python-dotenv,POPULAR,Python,2024,API
-In Pydantic v2.0 what warning class replaced the generic deprecation warning?,PydanticDeprecationWarning,Pydantic,POPULAR,Python,2023,General
-In Pydantic v2.0 which pydantic-core version did the release upgrade to?,0.42.0,Pydantic,POPULAR,Python,2023,API
-In PyTorch 2.4 what new default backend replaced the previous TCPStore server implementation,libuv,PyTorch,POPULAR,Python,2024,General
-In PyTorch 2.4 which new API method registers backward formulas for custom ops,register_autograd,PyTorch,POPULAR,Python,2024,API
-In Scikit-learn 1.3.0 which new clustering algorithm was added to the cluster module,HDBSCAN,Scikit-learn,POPULAR,Python,2023,General
-In Scikit-learn 1.3.0 what parameter was added to ensemble.HistGradientBoostingRegressor to support Gamma deviance loss,gamma,Scikit-learn,POPULAR,Python,2023,API
-In Django 5.0 what new attribute on ModelAdmin toggles facet counts in admin changelist filters?,show_facets,Django,POPULAR,Python,2023,General
-In Django 5.0 what new field class allows creating database generated columns that persist?,GeneratedField,Django,POPULAR,Python,2023,API
-In Jinja2 v3.1.5 which methods are blocked on known mutable sequence types in the sandbox?,clear and pop,Jinja2,POPULAR,Python,2025,API
-In Jinja2 v3.1.5 what function is now used when calling sync render for an async template?,asyncio.run,Jinja2,POPULAR,Python,2025,General
-In Celery 5.5.0 what new configuration option controls whether soft shutdown is enabled even when the worker is idle?,worker_enable_soft_shutdown_on_idle,Celery,POPULAR,Python,2025,General
-In Celery 5.5.0 what decorator argument enables native Pydantic model validation and serialization for a task?,pydantic=True,Celery,POPULAR,Python,2025,API
-In Django 6.0 which new template variable exposes the total count of items in a for loop,forloop.length,Django,POPULAR,Python,2025,General
-In Django 6.0 what new class attribute on Aggregate determines if order_by keyword is allowed,Aggregate.allow_order_by,Django,POPULAR,Python,2025,API
-In PyTorch 2.9.0 which new optimizer was introduced to the library core,Muon,PyTorch,POPULAR,Python,2025,General
-In PyTorch 2.9.0 what is the default value of the dynamo argument in torch.onnx.export,True,PyTorch,POPULAR,Python,2025,API
-What new default value for set_to_none in torch.nn.Module.zero_grad was introduced in PyTorch 2.0,True,PyTorch,POPULAR,Python,2023,General
-In PyTorch 2.0 which function must now receive return_complex explicitly for real input,torch.stft,PyTorch,POPULAR,Python,2023,API
-In Coverage 7.2.0 what new method was added to CoverageData to remove recorded data for a file,purge_files,Coverage,POPULAR,Python,2023,API
-In Coverage 7.2.0 what new setting under report lets you add exclusions without overwriting defaults,exclude_also,Coverage,POPULAR,Python,2023,General
-What new dtype namespace was introduced in NumPy 2.0.0 for performant string operations,numpy.strings,NumPy,POPULAR,Python,2024,API
-In NumPy 2.0.0 which alias for np.dtype(np.bytes_) was deprecated,"np.dtype(""a"")",NumPy,POPULAR,Python,2024,General
-In Django 5.1 which new middleware class redirects all unauthenticated requests to a login page by default,LoginRequiredMiddleware,Django,POPULAR,Python,2024,General
-In Django 5.1 what new parameter accepts a dictionary of query string keys and values in RequestFactory and AsyncRequestFactory,query_params,Django,POPULAR,Python,2024,API
-In NumPy 1.25.0 which function now returns namedtuples for eig eigh qr slogdet and svd,np.linalg,NumPy,POPULAR,Python,2023,API
-In NumPy 1.25.0 what environment variable enables runtime selection of CPU features,NPY_ENABLE_CPU_FEATURES,NumPy,POPULAR,Python,2023,General
-In NumPy 2.3.0 which new function was added for fast native slicing of string arrays,numpy.strings.slice,NumPy,POPULAR,Python,2025,API
-In NumPy 2.3.0 what build flag enables OpenMP parallelization for np.sort and np.argsort,-Denable_openmp,NumPy,POPULAR,Python,2025,General
-In Black 25.9.0 which Python version support was removed,pre-python 3.7,Black,POPULAR,Python,2025,General
-In Black 25.9.0 what newline style was added to normalize file newlines,\r,Black,POPULAR,Python,2025,API
-In Scikit-learn 1.7.0 which parameter was deprecated in ColumnTransformer and make_column_transformer?,force_int_remainder_cols,Scikit-learn,POPULAR,Python,2025,API
-In Scikit-learn 1.7.0 what new validation did FeatureUnion add to prevent silent concatenation failures?,2D output validation,Scikit-learn,POPULAR,Python,2025,General
-In Scikit-learn 1.5.0 which solver option was added to decomposition.PCA for large n_samples and small n_features,svd_solver=covariance_eigh,Scikit-learn,POPULAR,Python,2024,API
-In Scikit-learn 1.5.0 what build system became the main supported way replacing setuptools,Meson,Scikit-learn,POPULAR,Python,2024,General
-What filter in Jinja2 3.1.3 disallows keys containing spaces?,xmlattr,Jinja2,POPULAR,Python,2024,API
-What type of error messages were improved for invalid nesting of trans blocks in Jinja2 3.1.3?,more helpful,Jinja2,POPULAR,Python,2024,General
-In Jinja2 v3.1.0 which decorator replaces contextfilter,contextfunction,pass_context,Jinja2,POPULAR,Python,2023,API
-In Jinja2 v3.1.0 what new parameter controls case sensitivity in groupby filter,case_sensitive,Jinja2,POPULAR,Python,2023,General
-In Black 23.7.0 which environment variable can now set the --workers argument,BLACK_NUM_WORKERS,Black,POPULAR,Python,2023,General
-In Black 23.7.0 what PEP 695 syntax gained support,Python 3.12,Black,POPULAR,Python,2023,API
-What new argument must be passed to Redis in redis-py 5.1.0 to enable client-side caching?,protocol=3,Redis-py,POPULAR,Python,2024,API
-In redis-py 5.1.0 which class method returns the local cache instance after setting cache_config?,get_cache,Redis-py,POPULAR,Python,2024,General
-In Black 24.10.0 which Python patch version causes an error due to upstream memory safety issue?,3.12.5,Black,POPULAR,Python,2024,General
-In Black 24.10.0 which mypyc version was used to build the Python 3.13 wheels?,1.12 beta,Black,POPULAR,Python,2024,General
-In Coverage 7.12.0 which report format began displaying separate totals for statements and branches,JSON,Coverage,POPULAR,Python,2025,General
-In Coverage 7.12.0 which measurement core mishandled except* clauses causing KeyError,sysmon,Coverage,POPULAR,Python,2025,API
-In Celery 5.4.0 which new backend class was added for Google Cloud Storage?,GCS backend,Celery,POPULAR,Python,2024,API
-In Celery 5.4.0 what new pytest plugin version was released alongside to improve bug reporting?,pytest-celery v1.0.0,Celery,POPULAR,Python,2024,General
-In Coverage 7.5.0 what new checkbox was added to the HTML report to filter out fully covered files?,hide covered,Coverage,POPULAR,Python,2024,General
-In Coverage 7.5.0 what was the debug output configuration key renamed from attempted_config_files to?,config_files_attempted,Coverage,POPULAR,Python,2024,API
-In Polars py-1.30.0 which new null handling flag was added to list/arr.contains,nulls_equal,Polars,NICHE,Python,2025,General
-In Polars py-1.30.0 which new method was implemented on LazyFrame,match_to_schema,Polars,NICHE,Python,2025,API
-Which deprecated macOS configuration directory fallback was removed in Ruff 0.13.0,~/Library/Application Support/ruff/ruff.toml,Ruff,NICHE,Python,2025,General
-In Ruff 0.13.0 which rule code was removed that previously enforced non-pep604-isinstance checks,UP038,Ruff,NICHE,Python,2025,API
-In Polars py-0.18.0 what accessor replaced .arr for list namespace,.list,Polars,NICHE,Python,2023,API
-In Polars py-0.18.0 what default value was set for date_range ones and zeros,eager=False,Polars,NICHE,Python,2023,General
-In Polars 1.0.0 which engine became the new default for read_excel?,calamine,Polars,NICHE,Python,2024,General
-In Polars 1.0.0 what parameter was added to Series.equals to control name checking?,check_names,Polars,NICHE,Python,2024,API
-In Poetry 1.5.0 which new option was added to poetry show to display only top-level dependencies,--top-level,Poetry,NICHE,Python,2023,General
-In Poetry 1.5.0 what new key replaced the deprecated default and secondary flags for sources,priority,Poetry,NICHE,Python,2023,API
-In Poetry 2.2.0 which new option was added to the poetry show command to output JSON,--format,Poetry,NICHE,Python,2025,API
-In Poetry 2.2.0 what PEP number introduced support for dependency groups,PEP 735,Poetry,NICHE,Python,2025,General
-In Watchdog v3.0.0 which Python version support was dropped,3.6,Watchdog,NICHE,Python,2023,General
-In Watchdog v3.0.0 which missing character was fixed in FileSystemEvent.__repr__,>,Watchdog,NICHE,Python,2023,API
-In Ruff 0.7.0 which setting replaced lint.allow-unused-imports,lint.pyflakes.allow-unused-imports,Ruff,NICHE,Python,2024,General
-In Ruff 0.7.0 what is the new rule code for useless-try-except,TRY203,Ruff,NICHE,Python,2024,API
-In Ruff v0.1.0 which new CLI option enables unsafe fixes,--unsafe-fixes,Ruff,NICHE,Python,2023,General
-In Ruff v0.1.0 what setting replaced the removed format key,output-format,Ruff,NICHE,Python,2023,API
-In Tenacity 9.1.1 what return type annotation was added to BaseRetrying.copy?,Self,Tenacity,NICHE,Python,2025,API
-In Tenacity 9.1.1 which new type was added to allowed match types?,re.Pattern,Tenacity,NICHE,Python,2025,General
-In Tortoise-ORM 0.20.0 what parameter name replaced config_class in pydantic_model_creator,model_config,Tortoise-ORM,NICHE,Python,2023,API
-In Tortoise-ORM 0.20.0 which Python version support was dropped,python 3.7,Tortoise-ORM,NICHE,Python,2023,General
-In Tenacity 9.0.0 which keyword argument is now honored by wait_random_exponential,min,Tenacity,NICHE,Python,2024,API
-In Tenacity 9.0.0 what change prompted a major version bump,statistics attribute breakage,Tenacity,NICHE,Python,2024,General
-In Loguru 0.7.0 what new optional argument was added to file sinks to auto-re-create deleted files,watch,Loguru,NICHE,Python,2023,API
-In Loguru 0.7.0 what exception is now raised when the logger is reused inside a sink signal handler or __del__,RuntimeError,Loguru,NICHE,Python,2023,General
-In Tortoise-ORM 0.21.0 what new method was added to Q for easier testing of dynamically-built queries?,__eq__,Tortoise-ORM,NICHE,Python,2024,API
-In Tortoise-ORM 0.21.0 what change was made to bulk_create regarding its return value?,returns nothing,Tortoise-ORM,NICHE,Python,2024,General
-In Typer 0.20.0 what behavior is now enabled by default for user typos,command suggestions,Typer,NICHE,Python,2025,General
-In Typer 0.20.0 which Python version gained support,Python 3.14,Typer,NICHE,Python,2025,General
-In Typer 0.8.0 what feature was added to support user defined CLI parameter types,Custom types and parsers,Typer,NICHE,Python,2023,General
-In Typer 0.8.0 which Rich version range became supported,13.x,Typer,NICHE,Python,2023,API
-In Httpx 0.26.0 which new argument replaced the deprecated proxies parameter?,proxy,Httpx,NICHE,Python,2024,API
-In Httpx 0.26.0 which environment variable handling was fixed for fully qualified URL values?,NO_PROXY,Httpx,NICHE,Python,2024,General
-In Rich v14.1.0 which property was added to Syntax that returns a tuple of four integers,padding,Rich,NICHE,Python,2025,API
-In Rich v14.1.0 what environment variable was introduced to force interactive mode on or off,TTY_INTERACTIVE,Rich,NICHE,Python,2025,General
-In Tenacity 8.3.0 what new stop function was added to halt retries before exceeding a specified delay?,stop_before_delay,Tenacity,NICHE,Python,2023,API
-In Tenacity 8.3.0 what extra was added to support testing?,test,Tenacity,NICHE,Python,2023,General
-In Rich 13.5.0 which new method was added to the Text class to extend styles,Text.extend_style,Rich,NICHE,Python,2023,API
-In Rich 13.5.0 what default value was set for Text.tab_size to use Console.tab_size,None,Rich,NICHE,Python,2023,General
-In Rich 13.8.0 what new parameter was added to prompt.Prompt to control case sensitivity,case_sensitive,Rich,NICHE,Python,2024,API
-In Rich 13.8.0 which two colors are now used by RichHandler for errors and warnings,red and yellow,Rich,NICHE,Python,2024,General
-In Typer 0.13.0 which launch file behavior was changed to suppress output when opening URLs,launch,Typer,NICHE,Python,2024,API
-In Typer 0.13.0 what two parameters were deprecated in favor of newer syntax,is_flag and flag_value,Typer,NICHE,Python,2024,General
-What new authentication class replaced automatic NetRC handling in Httpx 0.24.0?,httpx.NetRCAuth(),Httpx,NICHE,Python,2023,API
-In Httpx 0.24.0 what character replaced plus for encoding spaces in query parameters?,percent twenty,Httpx,NICHE,Python,2023,General
-In Loguru 0.7.1 what new optional argument was added to logger.add for multiprocessing context,context,Loguru,NICHE,Python,2024,API
-In Loguru 0.7.1 what exception is raised if nanosecond precision is used for time formatting,ValueError,Loguru,NICHE,Python,2024,General
-In Playwright-python v1.35.0 what new argument changes the masking color for Page.screenshot,mask_color,Playwright-python,NICHE,Python,2023,API
-In Playwright-python v1.35.0 what new CLI command removes browser binaries installed by Playwright,uninstall,Playwright-python,NICHE,Python,2023,General
-In Playwright-python v1.52.0 which new option in apiRequest.new_context() controls maximum redirects,max_redirects,Playwright-python,NICHE,Python,2025,API
-In Playwright-python v1.52.0 which header can no longer be overridden in route.continue(),Cookie,Playwright-python,NICHE,Python,2025,General
-In Httpx 0.28.0 which argument was removed that previously allowed passing an ASGI app directly to the client?,app,Httpx,NICHE,Python,2025,API
-In Httpx 0.28.0 what proxy scheme was newly accepted as valid when configuring proxies?,socks5h,Httpx,NICHE,Python,2025,General
-In Watchdog v4.0.0 which observer constant related to moved directory traversal delay was removed?,WATCHDOG_TRAVERSE_MOVED_DIR_DELAY,Watchdog,NICHE,Python,2024,General
-In Watchdog v4.0.0 which new context manager class was added to DirectorySnapshotDiff?,DirectorySnapshotDiff.ContextManager,Watchdog,NICHE,Python,2024,API
-In Playwright-python v1.45.0 which new property in apiRequest.newContext() controls when to send the Authorization header,httpCredentials.send,Playwright-python,NICHE,Python,2024,API
-In Playwright-python v1.45.0 which Ubuntu version gained support for Chromium Firefox and WebKit,Ubuntu 24.04,Playwright-python,NICHE,Python,2024,General
-In Loguru 0.7.3 what type of error was fixed when removing all handlers with logger.remove() due to thread-safety issue,RuntimeError,Loguru,NICHE,Python,2025,General
-In Loguru 0.7.3 which option of exception formatting was fixed to work properly with Python 3.13,diagnose=True,Loguru,NICHE,Python,2025,API
-In Locust 2.16.0 which environment variable enables selection of user classes?,LOCUST_USER_CLASSES,Locust,NICHE,Python,2023,General
-In Locust 2.16.0 what new event was added for worker connection?,worker_connect,Locust,NICHE,Python,2023,API
-In Locust 2.42.6 what message level was changed from info to debug for duplicate client_ready messages?,debug,Locust,NICHE,Python,2025,General
-In Locust 2.42.6 which import was deferred to speed up startup unless truly needed?,pytest,Locust,NICHE,Python,2025,API
-In Poetry 1.8.0 what new option was added to poetry update to synchronize the environment,--sync,Poetry,NICHE,Python,2024,General
-In Poetry 1.8.0 what key was added to tool.poetry.packages to allow custom subpackage names,to,Poetry,NICHE,Python,2024,API
-In Locust 2.29.0 what new UI element was added to the charts,date and zoom,Locust,NICHE,Python,2024,General
-In Locust 2.29.0 which pull request added the Reset Button when Test is Stopped,#2726,Locust,NICHE,Python,2024,API
-In NetworkX 3.5 what new parameter was added to generate_random_paths to specify a starting node for generated walks?,initial_node,NetworkX,NICHE,Python,2025,API
-In NetworkX 3.5 which algorithm was added as a backend-only implementation?,Leiden,NetworkX,NICHE,Python,2025,General
-In NetworkX 3.1rc0 which new generator function received its first docstring example,dorogovtsev_goltsev_mendes,NetworkX,NICHE,Python,2023,General
-In NetworkX 3.1rc0 what new feature was added to allow Mixins of type Protocol,create_using,NetworkX,NICHE,Python,2023,API
-In Alembic rel_1_16_3 which new template combines pyproject with async?,pyproject_async,Alembic,NICHE,Python,2025,General
-In Alembic rel_1_16_3 what hook type runs python -m black?,module,Alembic,NICHE,Python,2025,API
-In Uvicorn 0.30.0 what type was newly allowed for the log_config parameter,ConfigParser or io.IO[Any],Uvicorn,NICHE,Python,2024,API
-In Uvicorn 0.30.0 which module was deprecated,uvicorn.workers,Uvicorn,NICHE,Python,2024,General
-In Textual v0.31.0 which new method was added to App and Widget to stop animations,App.stop_animation,Textual,NICHE,Python,2023,API
-In Textual v0.31.0 what keyword argument became mandatory when creating a thread worker,thread=True,Textual,NICHE,Python,2023,General
-In Uvicorn 0.35.0 which new protocol class was added by contributor Kludex?,WebSocketsSansIOProtocol,Uvicorn,NICHE,Python,2025,API
-In Uvicorn 0.35.0 which option received a refined help message from contributor zhangyoufu?,--proxy-headers,Uvicorn,NICHE,Python,2025,General
-In Alembic 1.13.3 which two new parameters can now be rendered for CreateTableOp and DropTableOp in autogenerate,if_exists and if_not_exists,Alembic,NICHE,Python,2024,API
-In Alembic 1.13.3 what change was made to the setuptools version pin in pyproject.toml,Removed setuptools<69.3 pin,Alembic,NICHE,Python,2024,General
-In Alembic 1.12.0 what new runner allows non-Python tools like ruff in code formatter?,exec,Alembic,NICHE,Python,2023,General
-In Alembic 1.12.0 what default value did EnvironmentContext.configure.compare_type change to?,True,Alembic,NICHE,Python,2023,API
-In Fire v0.6.0 which missing character was fixed in the bash completion script,$,Fire,NICHE,Python,2024,API
-In Fire v0.6.0 which Python version support ended after this release,Python 2,Fire,NICHE,Python,2024,General
-In Uvicorn 0.23.0 which new WebSocket parameter controls the maximum queue size,--ws-max-queue,Uvicorn,NICHE,Python,2023,API
-In Uvicorn 0.23.0 what Python version support was dropped,Python 3.7,Uvicorn,NICHE,Python,2023,General
-In Textual v0.77.0 what new system command was added to save a screenshot of the current screen?,Save Screenshot,Textual,NICHE,Python,2024,General
-In Textual v0.77.0 what class variable was added to DOMNode to contain Markdown help shown in the help panel?,DOMNode.HELP,Textual,NICHE,Python,2024,API
-In Pandas 2.2.0 which new engine was added to read_excel,calamine,Pandas,POPULAR,Python,2024,General
-In Pandas 2.2.0 what method creates a Series based on conditions,case_when,Pandas,POPULAR,Python,2024,API
-In Watchdog v6.0.0 which CLI argument was removed from watchmedo log,--trace,Watchdog,NICHE,Python,2025,General
-In Watchdog v6.0.0 what new type is accepted for stop_signal in AutoRestartTrick,signal.Signals,Watchdog,NICHE,Python,2025,API
-In pandas 2.0.0 which dtype is no longer supported when creating an Index directly,float16,Pandas,POPULAR,Python,2023,API
-In pandas 2.0.0 what new unit keyword values did date_range and timedelta_range gain,s ms us ns,Pandas,POPULAR,Python,2023,General
-In Fire v0.7.1 what theme replaced the previous one for IPython Inspector?,Neutral,Fire,NICHE,Python,2025,General
-In Fire v0.7.1 which function was called on component instead of None in inspectutils?,GetClassAttrsDict,Fire,NICHE,Python,2025,API
-In Tortoise-ORM 0.25.0 which queryset method gained support for selecting related fields using double underscore syntax,only,Tortoise-ORM,NICHE,Python,2025,API
-In Tortoise-ORM 0.25.0 what change was made to skip database selection when the router is not configured,Skip database selection,Tortoise-ORM,NICHE,Python,2025,General
-In Textual v5.0.0 which new method was added to MessagePump to wait for refresh completion,wait_for_refresh,Textual,NICHE,Python,2025,API
-In Textual v5.0.0 what environment variable disables automatic import of textual-speedups,TEXTUAL_SPEEDUPS=0,Textual,NICHE,Python,2025,General
-In Xlwings v0.32.0 which Python version support was dropped,3.8,Xlwings,NICHE,Python,2024,General
-In Xlwings v0.32.0 which decorator overrides type hints for conversion,@arg or @ret,Xlwings,NICHE,Python,2024,API
-In NetworkX 3.3 which new graph generator was added for the Kneser graph,Kneser graph,NetworkX,NICHE,Python,2024,General
-In NetworkX 3.3 what new argument was added to traveling_salesman_problem,**kwargs,NetworkX,NICHE,Python,2024,API
-In Fire v0.5.0 what new parameter was added to fire.Fire to support custom serialization?,serializer,Fire,NICHE,Python,2023,API
-In Fire v0.5.0 what change was made to help text display for kwonly arguments?,Default values shown,Fire,NICHE,Python,2023,General
-In Pre-commit 3.1.0 which deprecated language directive should users replace with language python,language python_venv,Pre-commit,NICHE,Python,2023,General
-In Pre-commit 3.1.0 what issue number reported stashing prevention when diff execution fails,#2773,Pre-commit,NICHE,Python,2023,General
-In Pre-commit v4.0.0 which deprecated language key was removed from configuration files,python_venv,Pre-commit,NICHE,Python,2024,General
-In Pre-commit v4.0.0 what stages were deprecated in favor of pre-commit pre-push and pre-merge-commit,commit push merge-commit,Pre-commit,NICHE,Python,2024,API
-In xlwings v0.33.17 what decorator replaced @sub for scripts,@script,Xlwings,NICHE,Python,2025,General
-In xlwings v0.33.17 what new converter turns values into tuple of tuples,tuple,Xlwings,NICHE,Python,2025,API
-In Pre-commit 4.4.0 what new aliases were added for language system and language script,unsupported and unsupported_script,Pre-commit,NICHE,Python,2025,General
-In Pre-commit 4.4.0 which PR added docker-in-docker detection for cgroups v2,#3535,Pre-commit,NICHE,Python,2025,API
-In xlwings v0.30.7 which new client type gained named range support in xlwings Server?,Google Apps Script,Xlwings,NICHE,Python,2023,General
-In xlwings v0.30.7 which method is recommended to call on the book object to prevent memory leaks?,mybook.close(),Xlwings,NICHE,Python,2023,API
-In Pandas 2.3.0 which new argument was added to Series.str.decode to control the result dtype,dtype,Pandas,POPULAR,Python,2025,API
-In Pandas 2.3.0 which storage option for StringDtype was deprecated,pyarrow_numpy,Pandas,POPULAR,Python,2025,General
+In Webpack 5.94.0 what new external type was added,module-import,Webpack,POPULAR,Python,2024,API
+In Webpack 5.94.0 what new comment directive was added for new URL,webpackIgnore,Webpack,POPULAR,Python,2024,General
+In React v18.2.0 what second argument is provided to onRecoverableError,component stack,React,POPULAR,Python,2023,API
+In React v18.2.0 what highWaterMark value is explicitly set to 0 for buffering in worker environments,0,React,POPULAR,Python,2023,General
+In Vitest v3.1.0 what new CLI option was added to support config loading,--configLoader,Vitest,NICHE,Python,2025,General
+In Vitest v3.1.0 which new option was added to test.each title formatting,array element,Vitest,NICHE,Python,2025,API
+In Vitest v0.33.0 what change was reverted regarding default include patterns,Revert to pre 0.32.0,Vitest,NICHE,Python,2023,General
+In Vitest v0.33.0 which module import was allowed in vite-node,node:test,Vitest,NICHE,Python,2023,API
+In Fastify 4.19.0 what new property was added to the request object,originalUrl,Fastify,NICHE,Python,2023,API
+In Fastify 4.19.0 what new command line option was added to pre-commit run,--fail-fast,Fastify,NICHE,Python,2023,General
+In React 18.3.0 what deprecated DOM method triggers a new warning,unmountComponentAtNode,React,POPULAR,Python,2024,General
+In React 18.3.0 which deprecated test-utils method now warns,d4ea75,React,POPULAR,Python,2024,API
+In ESLint v9.9.0 what new suggestion was added to require-await,remove async keyword,ESLint,POPULAR,Python,2024,General
+In ESLint v9.9.0 what config file type gained support,TS config files,ESLint,POPULAR,Python,2024,API
+In Webpack v5.99.0 what library replaced the union of module and module ESM libraries,module,Webpack,POPULAR,Python,2025,General
+In Webpack v5.99.0 what new hashing function is used for cache.hashAlgorithm with experiments.futureDefaults,xxhash64,Webpack,POPULAR,Python,2025,API
+In Fastify v4.28.0 what new method signature was introduced for reply.redirect,reply.redirect(url code),Fastify,NICHE,Python,2024,API
+In Fastify v4.28.0 what comparison change was made to the hasRoute method,case insensitive comparison,Fastify,NICHE,Python,2024,General
+In Playwright v1.35.0 what new option was added to page.screenshot,maskColor,Playwright,NICHE,Python,2023,API
+In Playwright v1.35.0 what new CLI command removes browser binaries,uninstall,Playwright,NICHE,Python,2023,General
+In ESLint 8.44.0 what new option was added to no-extra-parens rule,ternaryOperandBinaryExpressions,ESLint,POPULAR,Python,2023,API
+In ESLint 8.44.0 what new environment was introduced alongside es2023,es2024,ESLint,POPULAR,Python,2023,General
+In Vue 3.5.22 what new option was added for shadowRoot in custom elements,additional options,Vue,POPULAR,Python,2025,API
+In Vue 3.5.22 what directive arg type was widened from string to any,any,Vue,POPULAR,Python,2025,General
+In Vue 3.4.37 which property location was used instead of isProp.loc,isProp.arg.loc,Vue,POPULAR,Python,2024,API
+In Vue 3.4.37 what was reverted regarding unrelated getter and setter types for ref types,Revert of #11442,Vue,POPULAR,Python,2024,General
+In Vite 5.4.0 which new preload error event type was added,VitePreloadErrorEvent,Vite,POPULAR,Python,2024,API
+In Vite 5.4.0 which new sass api gained support,sass modern api,Vite,POPULAR,Python,2024,General
+In ESLint 9.28.0 what new CLI option was added,--pass-on-unpruned-suppressions,ESLint,POPULAR,Python,2025,General
+In ESLint 9.28.0 which rule gained allowTypeAnnotation parameter,func-style,ESLint,POPULAR,Python,2025,API
+In Webpack 5.88.0 what new default CSS mode was introduced,css/auto,Webpack,POPULAR,Python,2023,General
+In Webpack 5.88.0 which class types received significantly improved type coverage,Dependency Runtime Template,Webpack,POPULAR,Python,2023,API
+In Fastify v5.3.0 what new feature allows access to decorators,allow to access decorators,Fastify,NICHE,Python,2025,General
+In Fastify v5.3.0 which internal state property was cleared for garbage collection,[kState].readyPromise,Fastify,NICHE,Python,2025,API
+In Playwright 1.45.0 what new CLI option sets exit code 1 on flaky tests,--fail-on-flaky-tests,Playwright,NICHE,Python,2024,General
+In Playwright 1.45.0 what new property is available for custom expect matchers,timeout,Playwright,NICHE,Python,2024,API
+In Vite 6.3.0 what new envDir option value disables env loading,false,Vite,POPULAR,Python,2025,General
+In Vite 6.3.0 what new type was exposed as CustomPluginOptionsVite,CustomPluginOptionsVite,Vite,POPULAR,Python,2025,API
+In Next.js 15.3.0 which new flag was added to next start,--turbopack,Next.js,POPULAR,Python,2025,General
+In Next.js 15.3.0 which prop was deprecated,legacyBehavior,Next.js,POPULAR,Python,2025,API
+In Next.js 14.2.0 which new config-shared property was added,optimizeServerReact,Next.js,POPULAR,Python,2024,General
+In Next.js 14.2.0 which CLI option was added to next info to show hardware,available memory/CPU cores,Next.js,POPULAR,Python,2024,General
+In Nuxt 3.12.0 what new lifecycle hook was introduced for hydration,onPrehydrate,Nuxt,POPULAR,Python,2024,API
+In Nuxt 3.12.0 what directory under ~/ will now auto-register as layers,layers,Nuxt,POPULAR,Python,2024,General
+In Next.js 13.4.0 what new flag switches to experimental channel,--experimental-channel,Next.js,POPULAR,Python,2023,General
+In Next.js 13.4.0 what new method is added to next/headers,draftMode,Next.js,POPULAR,Python,2023,API
+In Vite 4.4.0 what new CSS transformer option was added,lightningcss,Vite,POPULAR,Python,2023,General
+In Vite 4.4.0 what new asset type was added,apng,Vite,POPULAR,Python,2023,API
+In Angular 20.0.0 what new method was added to AbstractControl,markAllAsDirty,Angular,POPULAR,Python,2025,API
+In Angular 20.0.0 what operator is now supported in templates,in,Angular,POPULAR,Python,2025,General
+In React 19.2.0 which new Hook extracts non-reactive logic into an Effect Event,useEffectEvent,React,POPULAR,Python,2025,API
+In React 19.2.0 which new API hides and restores UI and internal state,Activity,React,POPULAR,Python,2025,General
+In Nuxt 3.17.0 what new prop was added to NuxtLink,trailingSlash,Nuxt,POPULAR,Python,2025,API
+In Nuxt 3.17.0 what new built-in component was introduced for SSR-safe time display,NuxtTime,Nuxt,POPULAR,Python,2025,General
+In Vitest 2.0.0 what CLI flag was removed,--segfault-retry,Vitest,NICHE,Python,2024,General
+In Vitest 2.0.0 what new method was added to browser page,screenshot,Vitest,NICHE,Python,2024,API
+In Angular 16.0.0 which method was added to ApplicationRef,onDestroy,Angular,POPULAR,Python,2023,API
+In Angular 16.0.0 which compiler option was dropped,TypeScript 4.8,Angular,POPULAR,Python,2023,General
+In Angular 18.0.0 which new provider enables zoneless change detection,provideZonelessChangeDetection,Angular,POPULAR,Python,2024,API
+In Angular 18.0.0 what option must be set to cache auth HTTP requests,includeRequestsWithAuthHeaders,Angular,POPULAR,Python,2024,General
+In Vue 3.3 which new macro declares expected slots and their props,defineSlots,Vue,POPULAR,Python,2023,API
+In Vue 3.3 what new macro allows declaring component options inside script setup,defineOptions,Vue,POPULAR,Python,2023,General
+In SWR 2.2.0 what new API was introduced for React,React.use,SWR,NICHE,Python,2023,API
+In SWR 2.2.0 what type export path was fixed,immutable,SWR,NICHE,Python,2023,General
+In SWR v2.3.0 what fallback data type was newly supported,promises,SWR,NICHE,Python,2025,General
+In SWR v2.3.0 which infinite mutator type was exported,SWRInfiniteKeyedMutator,SWR,NICHE,Python,2025,API
+In Nuxt v3.6.0 what new option was added to navigateTo,open,Nuxt,POPULAR,Python,2023,API
+In Nuxt v3.6.0 what HTML filename enables the built-in SPA loading indicator,spa-loading-template.html,Nuxt,POPULAR,Python,2023,General
+In Zustand 4.4.0 what new entry point was added,zustand/traditional,Zustand,NICHE,Python,2023,General
+In Zustand 4.4.0 what function replaces create when using equalityFn,createWithEqualityFn,Zustand,NICHE,Python,2023,API
+In Tailwind CSS v3.3.3 which new utility was added,aria-busy,Tailwind CSS,POPULAR,Python,2023,General
+In Tailwind CSS v3.3.3 what became async to improve performance,PostCSS plugin,Tailwind CSS,POPULAR,Python,2023,API
+In Zustand v5.0.3 which util type was made public,ExtractState,Zustand,NICHE,Python,2025,API
+In Zustand v5.0.3 what rollup config issue was fixed,alias entries,Zustand,NICHE,Python,2025,General
+In SWR v2.2.5 what new parameter type was added to the revalidate option in mutate,function,SWR,NICHE,Python,2024,API
+In SWR v2.2.5 what new CLI option was added to pre-commit run,--fail-fast,SWR,NICHE,Python,2024,General
+In Pinia v3.0.0 which deprecated alias was removed,PiniaStorePlugin,Pinia,POPULAR,Python,2025,API
+In Pinia v3.0.0 what defineStore call pattern was removed,defineStore({ id: 'id' }),Pinia,POPULAR,Python,2025,General
+In Playwright v1.52.0 what new method was added to expect for asserting class names,toContainClass,Playwright,NICHE,Python,2025,API
+In Playwright v1.52.0 what new option in apiRequest.newContext controls maximum redirects,maxRedirects,Playwright,NICHE,Python,2025,General
+In Zustand v4.5.0 what new function was added to getInitialState,getInitialState,Zustand,NICHE,Python,2024,API
+In Zustand v4.5.0 which method was deprecated in the WithReact type,getServerState,Zustand,NICHE,Python,2024,General
+In Pinia 2.2.0 which devtools feature exposes the selected store globally,expose selected store,Pinia,POPULAR,Python,2024,General
+In Pinia 2.2.0 what helper was added to consistently handle $onAction,action helper,Pinia,POPULAR,Python,2024,API
+In Pinia 2.1.0 what new devtools feature allows resetting setup stores from inspector,reset from inspector,Pinia,POPULAR,Python,2023,General
+In Pinia 2.1.0 what new capability is allowed for app injections in setup stores,app injections allowed,Pinia,POPULAR,Python,2023,API
+In Tailwind CSS v4.1.0 what new variant was added alongside inverted-colors,noscript,Tailwind CSS,POPULAR,Python,2025,General
+In Tailwind CSS v4.1.0 what new utility was added for pointer-none,pointer-coarse,Tailwind CSS,POPULAR,Python,2025,API
+In Material-UI 5.14.0 which directive was added to icons-material to support Next.js App Router,use client,Material-UI,POPULAR,Python,2023,General
+In Material-UI 5.14.0 which Joy UI component playground was updated to set variant and color defaults,Link,Material-UI,POPULAR,Python,2023,API
+In Tailwind CSS v3.4.4 what new support was added for {col row}-{start end} utilities,negative values,Tailwind CSS,POPULAR,Python,2024,General
+In Tailwind CSS v3.4.4 which variant classes no longer get prefixed in arbitrary values,has-* group-has-* peer-has-*,Tailwind CSS,POPULAR,Python,2024,API
+In Material-UI 7.1.0 what new prop enables CSS layers for pages router,enableCssLayers,Material-UI,POPULAR,Python,2025,General
+In Material-UI 7.1.0 which slot was added to OutlinedInput,notchedOutline,Material-UI,POPULAR,Python,2025,API
+In Material-UI 5.16.0 what new provider component was added,DefaultPropsProvider,Material-UI,POPULAR,Python,2024,API
+In Material-UI 5.16.0 what new script was added for Next.js App Router,InitColorSchemeScript,Material-UI,POPULAR,Python,2024,General
+In Ant-Design 5.7.0 which new prop was added to Badge,classNames,Ant-Design,POPULAR,Python,2023,API
+In Ant-Design 5.7.0 what new seed token was added for links,colorLink,Ant-Design,POPULAR,Python,2023,General
+In Ant-Design 5.19.0 which new parameter was added to Select filterSort,searchValue,Ant-Design,POPULAR,Python,2024,API
+In Ant-Design 5.19.0 what new global configuration property does ConfigProvider support,variant,Ant-Design,POPULAR,Python,2024,General
+In Three.js r167 what new FX class was added for Ground Truth Ambient Occlusion,GTAONode,Three.js,NICHE,Python,2024,API
+In Three.js r167 what new class was added to the math module,Matrix2,Three.js,NICHE,Python,2024,General
+In Three.js r154 what new transparency mode was added to Material,alphaHash,Three.js,NICHE,Python,2023,API
+In Three.js r154 what fragment shader include was renamed from encodings_fragment,colorspace_fragment,Three.js,NICHE,Python,2023,General
+In Ant-Design 5.25.0 which new component token was added to Collapse,borderlessContentPadding,Ant-Design,POPULAR,Python,2025,API
+In Ant-Design 5.25.0 what new prop was added to the Tour component,actionsRender,Ant-Design,POPULAR,Python,2025,General
+In Three.js r177 what new property was added to SpotLightShadow,aspect,Three.js,NICHE,Python,2025,API
+In Three.js r177 what new accessor was added to AfterimagePass,damp,Three.js,NICHE,Python,2025,General
+In Chart.js 4.3.0 what new border option was added to ArcElement,borderDash,Chart.js,NICHE,Python,2023,API
+In Chart.js 4.3.0 what new behavior was enabled for line segments regarding gradients and patterns,applying gradients and pattern,Chart.js,NICHE,Python,2023,General
+In Apollo-Client 3.11.0 what new function was added to useQueryRefHandlers,subscribeToMore,Apollo-Client,NICHE,Python,2024,API
+In Apollo-Client 3.11.0 what option replaces connectToDevtools,devtools,Apollo-Client,NICHE,Python,2024,General
+In Prisma 5.0.0 what deprecated generator property was removed,experimentalFeatures,Prisma,POPULAR,Python,2023,General
+In Prisma 5.0.0 what CLI flag was removed from migrate dev,--experimental,Prisma,POPULAR,Python,2023,General
+In Chart.js 4.5.0 what new option was added for doughnut graphs,selfJoin,Chart.js,NICHE,Python,2025,API
+In Chart.js 4.5.0 what filler plugin feature was added for pivoted line charts,above/below colors,Chart.js,NICHE,Python,2025,General
+In Apollo Client v3.13.0 what new hook was added for Suspense,useSuspenseFragment,Apollo-Client,NICHE,Python,2025,API
+In Apollo Client v3.13.0 what option in useMutation was deprecated,ignoreResults,Apollo-Client,NICHE,Python,2025,General
+In Prisma 5.17.0 which CLI command option was fixed,--allow-no-models,Prisma,POPULAR,Python,2024,General
+In Prisma 5.17.0 which warning was removed,10th instance Prisma Client,Prisma,POPULAR,Python,2024,API
+In Hono 3.4.0 what new adapter was added,Netlify,Hono,NICHE,Python,2023,General
+In Hono 3.4.0 which new helper function was added to Cookie Middleware,getSignedCookie,Hono,NICHE,Python,2023,API
+In Apollo-Client v3.8.0 what new hook was added for React suspense,useSuspenseQuery,Apollo-Client,NICHE,Python,2023,API
+In Apollo-Client v3.8.0 what directive was added to skip reactive comparisons,@nonreactive,Apollo-Client,NICHE,Python,2023,General
+In Hono v4.7.0 which new helper was introduced,proxy,Hono,NICHE,Python,2025,General
+In Hono v4.7.0 what new method was added to context,buffer,Hono,NICHE,Python,2025,API
+In Mongoose 7.4.0 which new method was added to Connection prototype,removeDb,Mongoose,POPULAR,Python,2023,API
+In Mongoose 7.4.0 what new option was added to Model create,aggregateErrors,Mongoose,POPULAR,Python,2023,General
+In Mongoose 8.14.0 what new Query method was added,findById,Mongoose,POPULAR,Python,2025,API
+In Mongoose 8.14.0 what new option was added to skip stack traces,skipOriginalStackTraces,Mongoose,POPULAR,Python,2025,General
+In Drizzle-ORM 0.28.0 what new mode config value was added for mysql2 driver,planetscale,Drizzle-ORM,NICHE,Python,2023,General
+In Drizzle-ORM 0.28.0 what new parameter was added to db.insert().values(),{},Drizzle-ORM,NICHE,Python,2023,API
+In Chart.js 4.4.3 which property now returns false if canvas is false-y,platform.isAttached,Chart.js,NICHE,Python,2024,API
+In Chart.js 4.4.3 what was the only bug fixed regarding hiding bars by dataindex,hide bar by dataindex,Chart.js,NICHE,Python,2024,General
+In Deno 1.35.0 what new method was added to Headers,Headers#getSetCookie,Deno,NICHE,Python,2023,API
+In Deno 1.35.0 what new setting was stabilized,alpnProtocols,Deno,NICHE,Python,2023,General
+In Prisma 6.6.0 what new option was added to prisma init,--prompt,Prisma,POPULAR,Python,2025,General
+In Prisma 6.6.0 what field controls ESM or CommonJS output,moduleFormat,Prisma,POPULAR,Python,2025,API
+In Mongoose 8.5.0 which new method was added to document to capture modified paths,$createModifiedPathsSnapshot,Mongoose,POPULAR,Python,2024,API
+In Mongoose 8.5.0 which query chaining methods were removed,count() and findOneAndRemove(),Mongoose,POPULAR,Python,2024,General
+In Drizzle-ORM 0.33.0 which helper function was reported as not working,isTable,Drizzle-ORM,NICHE,Python,2024,API
+In Drizzle-ORM 0.33.0 what SQL operator is used in the provided jsonb update query,#>>,Drizzle-ORM,NICHE,Python,2024,General
+In Drizzle-ORM 0.44.0 what new error class wraps database driver errors,DrizzleQueryError,Drizzle-ORM,NICHE,Python,2025,API
+In Drizzle-ORM 0.44.0 which cache module constant enables explicit caching only,global: false,Drizzle-ORM,NICHE,Python,2025,General
+In Astro 2.8.0 which new build option for SSR was added,excludeMiddleware,Astro,NICHE,Python,2023,General
+In Astro 2.8.0 what new utility does astro/middleware export,trySerializeLocals,Astro,NICHE,Python,2023,API
+In Deno v2.3.0 what new flag was added to deno add,--npm,Denon,NICHE,Python,2025,General
+In Deno v2.3.0 what new option was added to Deno.connect,signal,Denon,NICHE,Python,2025,API
+In Deno v1.45.0 what new CLI flag errors if the lockfile is out of date,--frozen,Deno,NICHE,Python,2024,General
+In Deno v1.45.0 which optional parameter of ext crypto deriveBits became nullable,length,Deno,NICHE,Python,2024,API
+In Astro 4.12.0 what new parameter was added to astro check,--noSync,Astro,NICHE,Python,2024,General
+In Astro 4.12.0 what new function was exported from astro:assets,inferRemoteSize,Astro,NICHE,Python,2024,API
+In Astro 5.7.0 which experimental flag was removed to stabilize SVG Components,svg,Astro,NICHE,Python,2025,General
+In Astro 5.7.0 what new virtual module became stable after removing serializeConfig flag,astro:config,Astro,NICHE,Python,2025,API
+In Prettier 3.3.0 what new Flow syntax was added for component declarations,component,Prettier,POPULAR,Python,2024,API
+In Prettier 3.3.0 what new config file format was supported,package.yaml,Prettier,POPULAR,Python,2024,General
+In Cypress 12.17.0 what new notification type was introduced for Cypress Cloud users,desktop notifications,Cypress,POPULAR,Python,2023,General
+In Cypress 12.17.0 which environment variable must be used to set the Electron debug port,ELECTRON_EXTRA_LAUNCH_ARGS,Cypress,POPULAR,Python,2023,General
+In Zod 3.23.0 which new string validation method accepts ISO 8601 duration strings,.duration(),Zod,NICHE,Python,2024,API
+In Zod 3.23.0 what flag allows unqualified datetimes in z.string().datetime(),local,Zod,NICHE,Python,2024,General
+In Qwik 1.13.0 which option of useTask is deprecated,eagerness,Qwik,NICHE,Python,2025,API
+In Qwik 1.13.0 what CustomEvent is emitted when view transition starts,qviewTransition,Qwik,NICHE,Python,2025,General
+In Zod 4.1.0 what new top-level string format was added for validating hashes,z.hash,Zod,NICHE,Python,2025,API
+In Zod 4.1.0 what new method enforces true extends logic without overwriting fields,.safeExtend,Zod,NICHE,Python,2025,General
+In Qwik v1.2.0 what new CLI option was added to qwik new,new,Qwik,NICHE,Python,2023,General
+In Qwik v1.2.0 what type was widened for width and height to accept %,Numberish,Qwik,NICHE,Python,2023,API
+In Chakra-UI 3.30.0 which semantic token was added to all color palettes for outlines,border,Chakra-UI,NICHE,Python,2025,General
+In Chakra-UI 3.30.0 which colorPalette property replaced muted in outline variants of Button Badge Tag Checkbox,border,Chakra-UI,NICHE,Python,2025,API
+In Zod 3.21.0 what new method was added to z.enum for removing elements,exclude,Zod,NICHE,Python,2023,API
+In Zod 3.21.0 what new string validation method checks for emoji-only strings,emoji,Zod,NICHE,Python,2023,General
+In Qwik v1.7.0 what new type do form errors with dot notation have,slightly different type,Qwik,NICHE,Python,2024,API
+In Qwik v1.7.0 what change causes routeloaders to re-run,Changes to search parameters,Qwik,NICHE,Python,2024,General
+In Elysia 0.7 what new cookie property enables automatic signature signing,sign,Elysia,NICHE,Python,2023,API
+In Elysia 0.7 what new text-based feature provides 64 HTTP status codes with autocompletion,Text-based status,Elysia,NICHE,Python,2023,General
+In TypeScript 5.6 what new flag stops build on first error,--stopOnBuildErrors,TypeScript,POPULAR,Python,2024,General
+In TypeScript 5.6 IteratorObject replaced which previous single type,BuiltinIterator,TypeScript,POPULAR,Python,2024,API
+In Hono v4.5.0 which new adapter supports service workers,service-worker,Hono,NICHE,Python,2024,General
+In Hono v4.5.0 what new function does the cloudflare-pages adapter export,handleMiddleware,Hono,NICHE,Python,2024,API
+In TypeScript 5.1 what new JSX type allows tags returning Promise,JSX.ElementType,TypeScript,POPULAR,Python,2023,API
+In TypeScript 5.1 which explicit typeRoots change stops upward node_modules walks,Explicit typeRoots disables upward walks,TypeScript,POPULAR,Python,2023,General
+In TypeScript 5.9 what new module option was added,node20,TypeScript,POPULAR,Python,2025,General
+In TypeScript 5.9 what new import form was introduced,import defer,TypeScript,POPULAR,Python,2025,API
+"In Day.js 1.11.19 what Italian locale string was corrected from ""un' ora fa"" to",un'ora fa,Day.js,NICHE,Python,2025,General
+In Day.js 1.11.19 which locale received updated relative time support,Belarusian,Day.js,NICHE,Python,2025,General
+In tRPC v10.28.0 what new ability was added to TRPCProxyClient-methods,.apply(),tRPC,NICHE,Python,2023,API
+In tRPC v10.28.0 what new feature allows closing active subscriptions,close active subscriptions,tRPC,NICHE,Python,2023,General
+In tRPC v10.45.0 what new factory method superseded .createCaller(),t.createCallerFactory(),tRPC,NICHE,Python,2024,API
+In tRPC v10.45.0 which dependency was removed from next,react-ssr-prepass,tRPC,NICHE,Python,2024,General
+In tRPC v11.4.0 which link type was upgraded from experimental to unstable,localLink,tRPC,NICHE,Python,2025,API
+In tRPC v11.4.0 which bundler replaced rollup,rolldown,tRPC,NICHE,Python,2025,General
+In TypeORM 0.3.16 what new option was added to SqlServerConnectionOptions,trustServerCertificate,TypeORM,NICHE,Python,2023,API
+In TypeORM 0.3.16 what column data type support was added for mariadb,uuid inet4 inet6,TypeORM,NICHE,Python,2023,General
+In TypeORM 0.3.22 what new column type was added for postgres,macaddr8,TypeORM,NICHE,Python,2025,General
+In TypeORM 0.3.22 which type was added to FindOptionsSelect for object properties,object,TypeORM,NICHE,Python,2025,API
+In SolidJS v1.7.0 which new JSX Element type restriction was introduced,Functions removed,SolidJS,NICHE,Python,2023,API
+In SolidJS v1.7.0 what primitive replaced onError,catchError,SolidJS,NICHE,Python,2023,General
+In Turborepo v1.10.0 what new flag was added to turbo prune,--copy,Turborepo,NICHE,Python,2023,General
+In Turborepo v1.10.0 what new key was added to turbo.json,dotEnv,Turborepo,NICHE,Python,2023,API
+In Turborepo 2.0.0 what was renamed to tasks in turbo.json,pipeline,Turborepo,NICHE,Python,2024,General
+In Turborepo 2.0.0 what field was renamed to outputLogs in turbo.json,outputMode,Turborepo,NICHE,Python,2024,API
+In SolidJS 1.8.0 what hydration marker prefix replaced #,$,SolidJS,NICHE,Python,2024,General
+In SolidJS 1.8.0 what compiler flag enables omitNestedClosingTags,omitNestedClosingTags,SolidJS,NICHE,Python,2024,API
+In Turborepo v2.5.0 what new flag was added to turbo query,--schema,Turborepo,NICHE,Python,2025,General
+In Turborepo v2.5.0 which file extension gained support as turbo.jsonc,JSONC,Turborepo,NICHE,Python,2025,API
+In Prettier 3.0.0 what value became the default for trailingComma,all,Prettier,POPULAR,Python,2023,General
+In Prettier 3.0.0 which method of a printer must now match a new async signature,embed,Prettier,POPULAR,Python,2023,API
+In SolidJS v1.9.0 what attribute namespace was added for boolean attributes,bool:,SolidJS,NICHE,Python,2025,General
+In SolidJS v1.9.0 what field was removed from package.json to fix bundler issues,browser,SolidJS,NICHE,Python,2025,General
+In Prettier 3.5.0 what new CLI flag controls binary operator line breaks,--experimental-operator-position,Prettier,POPULAR,Python,2025,General
+In Prettier 3.5.0 which new config file extension was added,.prettierrc.ts,Prettier,POPULAR,Python,2025,API
+In Cypress 14.4.0 what new diagnostic tool was enabled via DEBUG for webpack component tests,webpack-bundle-analyzer,Cypress,POPULAR,Python,2025,General
+In Cypress 14.4.0 what return type was added to cy.press,Chainable<null>,Cypress,POPULAR,Python,2025,API
+In Chakra-UI 3.0.0-next.17 what new object parameter was added to useSlotRecipe,key,Chakra-UI,NICHE,Python,2024,API
+In Chakra-UI 3.0.0-next.17 which hooks were updated to support inlining recipe,createRecipeContext createSlotRecipeContext,Chakra-UI,NICHE,Python,2024,General
+In date-fns v2.29.0 which new function was added to format distance with intl support,intlFormatDistance,Date-fns,NICHE,Python,2023,API
+In date-fns v2.29.0 which new locale was added for Swiss Italian speakers,it-CH,Date-fns,NICHE,Python,2023,General
+In Axios v1.9.0 which new method was added to AxiosHeaders,getSetCookie,Axios,POPULAR,Python,2025,API
+In Axios v1.9.0 what boundary string is sent for minimal end multipart,--0--,Axios,POPULAR,Python,2025,General
+In Express v5.2.0 which property replaced req.connection,req.socket,Express,POPULAR,Python,2025,API
+In Express v5.2.0 what CVE was fixed by upgrading body-parser,CVE-2025-13466,Express,POPULAR,Python,2025,General
+In Date-fns v4.1.0 which five format functions gained time zone support,format formatISO formatISO9075 formatRelative formatRFC3339,Date-fns,NICHE,Python,2025,API
+In Date-fns v4.1.0 what did constructFrom return on null instead of throwing,Invalid Date or NaN,Date-fns,NICHE,Python,2025,General
+In Day.js 1.11.9 which value was added to min and max plugin return type,null,Day.js,NICHE,Python,2023,API
+In Day.js 1.11.9 what error does dayjs(null) throw instead of returning an invalid date object,Error,Day.js,NICHE,Python,2023,General
+In Sequelize v7.0.0-alpha.46 what new method was added to the sql object,sql.join,Sequelize,POPULAR,Python,2025,API
+In Sequelize v7.0.0-alpha.46 what PostgreSQL version was updated to,postgres 17,Sequelize,POPULAR,Python,2025,General
+In Sequelize 6.32.0 which new attribute was added to NumericType,width,Sequelize,POPULAR,Python,2023,API
+In Sequelize 6.32.0 what was reordered for unsigned numeric type in oracle,check constraint,Sequelize,POPULAR,Python,2023,General
+In NestJS 10.0.0 which new HTTP route handler decorator was added,@Search,NestJS,POPULAR,Python,2023,API
+In NestJS 10.0.0 what is the new required Node version,>= v16,NestJS,POPULAR,Python,2023,General
+In Jest 29.6.0 what new property matcher type was added to jest-snapshot,arrays,Jest,POPULAR,Python,2023,API
+In Jest 29.6.0 which CLI option docs were updated,--runTestsByPath,Jest,POPULAR,Python,2023,General
+In TypeORM 0.3.20 what new Oracle column type was added,json,TypeORM,NICHE,Python,2024,API
+In TypeORM 0.3.20 what new postgres column types were added,multirange,TypeORM,NICHE,Python,2024,General
+In NestJS v11.1.7 what new exception class was added for TCP receive errors,InvalidTcpDataReceptionException,NestJS,POPULAR,Python,2025,General
+In NestJS v11.1.7 what decorator enables manual acknowledgement handling in websockets,@ack,NestJS,POPULAR,Python,2025,API
+In Bun v0.7.0 what new CLI flag reduces memory usage,--smol,Bun,NICHE,Python,2023,General
+In Bun v0.7.0 what method converts ReadableStream to FormData,readableStreamToFormData,Bun,NICHE,Python,2023,API
+In Bun v1.2.15 which new CLI subcommand was added to scan dependencies for security vulnerabilities,bun audit,Bun,NICHE,Python,2025,General
+In Bun v1.2.15 which new function was implemented in node:perf_hooks for creating histograms,createHistogram,Bun,NICHE,Python,2025,API
+In Bun v1.1.19 which option in .npmrc is now supported,_auth,Bun,NICHE,Python,2024,General
+In Bun v1.1.19 what new type can be passed to profile from bun:jsc,Promise,Bun,NICHE,Python,2024,API
+In Storybook v7.0.11 what was exposed in composeStories,story id,Storybook,POPULAR,Python,2023,API
+In Storybook v7.0.11 what does the CLI no longer show on sb init,migration summary,Storybook,POPULAR,Python,2023,General
+In Nx 16.5.0 which new CLI option was added to make --graph work with scoped package names,--graph,Nx,NICHE,Python,2023,General
+In Nx 16.5.0 which new argument was added to the jest executor,--force-exit,Nx,NICHE,Python,2023,API
+In Storybook 8.2.0 what new test hook was added,beforeAll,Storybook,POPULAR,Python,2024,API
+In Storybook 8.2.0 what CLI option was added to init,--no-dev,Storybook,POPULAR,Python,2024,General
+In GraphQL v16.7.0 what new check was added before accessing globalThis.process,globalThis.process,GraphQL,POPULAR,Python,2023,General
+In GraphQL v16.7.0 what crash was fixed when mixing sync/async resolvers,mixing sync/async resolvers,GraphQL,POPULAR,Python,2023,API
+In React-Query 4.32.0 what new utility type was added,WithRequired,React-Query,POPULAR,Python,2023,API
+In React-Query 4.32.0 what became cheaper,WithRequired,React-Query,POPULAR,Python,2023,General
+In React-Query 5.24.2 which prop was removed from suspense queries,placeholderData,React-Query,POPULAR,Python,2024,API
+In React-Query 5.24.2 from which package was noop imported,utils,React-Query,POPULAR,Python,2024,General
+In Svelte 5.39.10 which evaluation value is added before breaking for binding.initial===SnippetBlock,UNKNOWN,Svelte,NICHE,Python,2025,General
+In Svelte 5.39.10 what is the only fix related to $derived private fields on server,correctly transform,Svelte,NICHE,Python,2025,API
+In Cypress 13.13.0 which dependency was updated from 3.4.12 to 3.5.3,memfs,Cypress,POPULAR,Python,2024,General
+In Cypress 13.13.0 what performance option was improved,experimentalSourceRewriting,Cypress,POPULAR,Python,2024,General
+In Elysia 1.3.0 what new validation type was added,t.Form,Elysia,NICHE,Python,2025,API
+In Elysia 1.3.0 what config option was added to mount,config,Elysia,NICHE,Python,2025,General
+In Svelte 5.1.10 what prop declaration issue was fixed for trailing multiline comments,trailing multiline comments,Svelte,NICHE,Python,2024,General
+In Svelte 5.1.10 which duplicate key output was restricted to only the key,each_key_duplicate,Svelte,NICHE,Python,2024,API
+In Axios v1.4.0 what new type was exported,AxiosHeaderValue,Axios,POPULAR,Python,2023,API
+In Axios v1.4.0 which component gained support for a custom lookup function,dns,Axios,POPULAR,Python,2023,General
+In React-Query 5.75.0 what new refetchMode was added to streamedQuery,replace,React-Query,POPULAR,Python,2025,API
+In React-Query 5.75.0 which dependency was updated to v6.2.7 for security,vite,React-Query,POPULAR,Python,2025,General
+In Axios 1.7.5 which property was added to AxiosError,status,Axios,POPULAR,Python,2024,API
+In Axios 1.7.5 what error was fixed for custom environments,ReferenceError navigator is not defined,Axios,POPULAR,Python,2024,General
+In Express 4.18.3 which property was removed from acceptParams,originalIndex,Express,POPULAR,Python,2023,API
+In Express 4.18.3 what protocol replaced git in dependencies,https,Express,POPULAR,Python,2023,General
+In Elysia 1.2.0 what new parser method was introduced,parser,Elysia,NICHE,Python,2024,API
+In Elysia 1.2.0 which runtime adapter entered beta,Node,Elysia,NICHE,Python,2024,General
+In Svelte 4.0.0 what minimum Node version is required,Node 16,Svelte,NICHE,Python,2023,General
+In Svelte 4.0.0 what hook was removed,svelte/register,Svelte,NICHE,Python,2023,General
+In Express v5.0.0 what new default value was set for the extended option in urlencoded,false,Express,POPULAR,Python,2024,General
+In Express v5.0.0 which magic string was removed from the codebase,back,Express,POPULAR,Python,2024,General
+In Chakra-UI Tabs 2.2.0 what new field was added to UseTabOptions,isFocusable,Chakra-UI,NICHE,Python,2023,API
+In Chakra-UI Tabs 2.2.0 what directive was added to all exports,use client,Chakra-UI,NICHE,Python,2023,General
+In Jest 30.0.0 what new CLI flag replaced --waitNextEventLoopTurnForUnhandledRejectionEvents,--waitForUnhandledRejections,Jest,POPULAR,Python,2025,General
+In Jest 30.0.0 which new property was added to TestCaseResultObject within onTestCaseResult,startedAt,Jest,POPULAR,Python,2025,API
+In NestJS 10.4.9 which new feature was added to microservices,emit batch,NestJS,POPULAR,Python,2024,General
+In NestJS 10.4.9 what fallback value was introduced for enum validation in swc builder,empty string,NestJS,POPULAR,Python,2024,API
+In GraphQL v17.0.0-alpha.8 what new argument was added to resolvers,abortSignal,GraphQL,POPULAR,Python,2025,API
+In GraphQL v17.0.0-alpha.8 what was renamed to AbortSignalListener,PromiseCanceller,GraphQL,POPULAR,Python,2025,General
+In Nx 19.4.0 what new generator was added to @nx/rollup,convert-to-inferred,Nx,NICHE,Python,2024,General
+In Nx 19.4.0 what new option was added to nx:run-commands executor for command property,array split,Nx,NICHE,Python,2024,API
+In GraphQL v16.10.0 which new property was exposed on DocumentNode,tokenCount,GraphQL,POPULAR,Python,2024,API
+In GraphQL v16.10.0 what was properly typed in GraphQLFormattedError,extensions,GraphQL,POPULAR,Python,2024,General
+In Nx 22.2.0 what new option was added to the gradle plugin target configuration,targetNamePrefix,Nx,NICHE,Python,2025,API
+In Nx 22.2.0 which template capability was added to create-nx-workspace,template support,Nx,NICHE,Python,2025,General
+In Day.js 1.11.11 what new locale was added to the locale list,ku,Day.js,NICHE,Python,2024,General
+In Day.js 1.11.11 what new static method was added to the Dayjs factory object,isDayjs,Day.js,NICHE,Python,2024,API
+In Sequelize v7.0.0-alpha.43 what new operator was added to Operators,values,Sequelize,POPULAR,Python,2024,API
+In Sequelize v7.0.0-alpha.43 what CLI flag was added to db migrate,values,Sequelize,POPULAR,Python,2024,General
+In Jest v30.0.0-alpha.6 what new method was added to jest-runtime,unstable_unmockModule,Jest,POPULAR,Python,2024,API
+In Jest v30.0.0-alpha.6 which Node.js versions were dropped,14 19 21,Jest,POPULAR,Python,2024,General
+In Date-fns v3.0.0 what is the only new function added,formatDuration,Date-fns,NICHE,Python,2024,API
+In Date-fns v3.0.0 which locale was removed,pt-BR,Date-fns,NICHE,Python,2024,General
+In Storybook 8.6.0 what new API was added to sync state between environments,UniversalStore,Storybook,POPULAR,Python,2025,API
+In Storybook 8.6.0 what new a11y workflow was introduced to fix violations,Accessibility todo,Storybook,POPULAR,Python,2025,General
