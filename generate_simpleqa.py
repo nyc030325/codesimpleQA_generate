@@ -163,7 +163,7 @@ Both the questions you formulate and the answers you provide must be derived dir
 {version}
 
 [Library Release Notes]
-{content[:20000]}
+{content[:30000]}
 
 OUTPUT FORMAT
 Output must be in plain CSV format without any additional text, explanation, or markdown code block markers.
@@ -403,8 +403,8 @@ def main():
     parser.add_argument('-m', '--model', type=str, choices=list(model_configs.keys()), 
                       default=DEFAULT_MODEL, help=f'选择使用的模型，默认为{DEFAULT_MODEL}')
     parser.add_argument('-i', '--input', type=str, 
-                      default='data/specific_library_crawled_data.json', 
-                      help='输入文件路径，默认为data/specific_library_crawled_data.json')
+                      default='data/library_crawled_data_append.json', 
+                      help='输入文件路径，默认为data/library_crawled_data_append.json')
     parser.add_argument('-o', '--output', type=str, 
                       default='data/simpleqa_dataset_new.csv', 
                       help='输出文件路径，默认为data/simpleqa_dataset_new.csv')

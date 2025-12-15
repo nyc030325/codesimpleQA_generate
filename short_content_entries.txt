@@ -1,386 +1,204 @@
 === 条目 1 ===
-库名: Pinia
+库名: Serde
 版本: N/A
-URL: https://github.com/vuejs/pinia/releases/tag/v2.2.0
-长度: 210 字符
+URL: https://github.com/serde-rs/serde/releases/tag/v1.0.197
+长度: 123 字符
 内容:
-2.2.0 (2024-07-26) Bug Fixes types: require unwrapped state in patch (c38fa0d) Features add action helper to consistently $onAction (a8526fc) devtools: expose selected store as global variable (#2692) (e0a7351)
+Fix unused_imports warnings when compiled by rustc 1.78
+Optimize code size of some Display impls (
+#2697
+, thanks
+@nyurik
+)
 
 ==================================================
 
 === 条目 2 ===
-库名: Day.js
+库名: Clap
 版本: N/A
-URL: https://github.com/iamkun/dayjs/releases/tag/v1.11.11
-长度: 281 字符
+URL: https://github.com/clap-rs/clap/releases/tag/v4.5.17
+长度: 130 字符
 内容:
-1.11.11
-(2024-04-28)
-Bug Fixes
-day of week type literal (
-#2630
-) (
-f68d73e
-)
-improve locale "zh-hk" format and meridiem (
-#2419
-) (
-a947a51
-)
-Update 'da' locale to match correct first week of year (
-#2592
-) (
-44b0936
-)
-update locale Bulgarian monthsShort Jan (
-#2538
-) (
-f0c9a41
-)
+[4.5.17] - 2024-09-04
+Fixes
+(help)
+Style required argument groups
+(derive)
+Improve error messages when unsupported fields are used
 
 ==================================================
 
 === 条目 3 ===
-库名: Pinia
+库名: Serde-json
 版本: N/A
-URL: https://github.com/vuejs/pinia/releases/tag/v2.1.4
-长度: 326 字符
+URL: https://github.com/serde-rs/json/releases/tag/v1.0.106
+长度: 149 字符
 内容:
-2.1.0 (2023-05-17) ‼️ This requires Vue 3.3 or latest vue-demi (for Vue 2) Bug Fixes types: use declare module vue (b7f97dd) Features allow app injections in setup stores (6a71019), closes #1784 devtools: allow resetting setup stores from inspector (971dcdb), closes #2189 Reverts Revert "chore: tmp upgrade to beta" (2337130)
+Add
+Value::as_number
+accessor (
+#1069
+, thanks
+@chanced
+)
+Add
+Number::as_str
+accessor under "arbitrary_precision" feature (
+#1067
+, thanks
+@chanced
+)
 
 ==================================================
 
 === 条目 4 ===
-库名: Tailwind CSS
+库名: Tower
 版本: N/A
-URL: https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.4.4
-长度: 326 字符
+URL: https://github.com/tower-rs/tower/releases/tag/tower-0.5.2
+长度: 178 字符
 内容:
-Fixed
-Make it possible to use multiple
-<alpha-value>
-placeholders in a single color definition (
-#13740
+Added
+util
+: Add
+BoxCloneSyncService
+which is a
+Clone + Send + Sync
+boxed
+Service
+(
+#777
 )
-Don't prefix classes in arbitrary values of
-has-*
-,
-group-has-*
-, and
-peer-has-*
-variants (
-#13770
-)
-Support negative values for
-{col,row}-{start,end}
-utilities (
-#13781
-)
-Update embedded browserslist database (
-#13792
+util
+: Add
+BoxCloneSyncServiceLayer
+which is a
+Clone + Send + Sync
+boxed
+Layer
+(
+#802
 )
 
 ==================================================
 
 === 条目 5 ===
-库名: Day.js
+库名: Serde-json
 版本: N/A
-URL: https://github.com/iamkun/dayjs/releases/tag/v1.11.19
-长度: 367 字符
+URL: https://github.com/serde-rs/json/releases/tag/v1.0.132
+长度: 194 字符
 内容:
-1.11.19
-(2025-10-31)
-Bug Fixes
-added usage warnings for diff + updated unit tests (
-#2948
-) (
-269a7a9
+Improve binary size and compile time for JSON array and JSON object deserialization by about 50% (
+#1205
 )
-dont instantiate regexes within ar locale functions to avoid performance overhead (
-#2898
-) (
-af5e9f0
-)
-replace italian locale "un' ora fa" with "un'ora fa", add tests for it (
-#2930
-) (
-9e9f76c
-)
-Updated Belarusian locale with relative time (
-#2656
-) (
-1d8746c
+Improve performance of JSON array and JSON object deserialization by about 8% (
+#1206
 )
 
 ==================================================
 
 === 条目 6 ===
-库名: Fastify
+库名: Serde-json
 版本: N/A
-URL: https://github.com/fastify/fastify/releases/tag/v4.28.0
-长度: 378 字符
+URL: https://github.com/serde-rs/json/releases/tag/v1.0.143
+长度: 222 字符
 内容:
-What's Changed
-test: fix closing - pipelining by
-@climba03003
-in
-#5486
-refactor(backport v4.x): change
-reply.redirect()
-signature (
-#5483
-) by
-@gurgunday
-in
-#5484
-refactor(backport v4.x): hasRoute method comparison with case insensitive by
-@SMNBLMRR
-in
-#5513
-fix: (backport) Type inferrence with auxilliary hook handlers by
-@aadito123
-in
-#5518
-Full Changelog
-:
-v4.27.0...v4.28.0
+Implement Clone and Debug for serde_json::Map iterators (
+#1264
+, thanks
+@xlambein
+)
+Implement Default for CompactFormatter (
+#1268
+, thanks
+@SOF3
+)
+Implement FromStr for serde_json::Map (
+#1271
+, thanks
+@mickvangelderen
+)
 
 ==================================================
 
 === 条目 7 ===
-库名: Svelte
+库名: Clap
 版本: N/A
-URL: https://github.com/sveltejs/svelte/releases/tag/svelte%405.39.10
-长度: 378 字符
+URL: https://github.com/clap-rs/clap/releases/tag/v4.5.47
+长度: 248 字符
 内容:
-Patch Changes
-fix: hydrate each blocks inside element correctly (
-#16908
-)
-fix: allow await in if block consequent and alternate (
-#16890
-)
-fix: don't replace rest props with
-$$props
-for excluded props (
-#16898
-)
-fix: correctly transform
-$derived
-private fields on server (
-#16894
-)
-fix: add
-UNKNOWN
-evaluation value before breaking for
-binding.initial===SnippetBlock
-(
-#16910
-)
+[4.5.47] - 2025-09-02
+Features
+Added
+impl FromArgMatches for ()
+Added
+impl Args for ()
+Added
+impl Subcommand for ()
+Added
+impl FromArgMatches for Infallible
+Added
+impl Subcommand for Infallible
+Fixes
+(derive)
+Update runtime error text to match
+clap
 
 ==================================================
 
 === 条目 8 ===
-库名: GraphQL
+库名: Futures
 版本: N/A
-URL: https://github.com/graphql/graphql-js/releases/tag/v16.7.0
-长度: 401 字符
+URL: https://github.com/rust-lang/futures-rs/releases/tag/0.3.30
+长度: 267 字符
 内容:
-v16.7.0 (2023-06-21)
-New Feature 🚀
-#3887
-check "globalThis.process" before accessing it (
-@kettanaito
+Add
+{BiLock,SplitStream,SplitSink,ReadHalf,WriteHalf}::is_pair_of
+(
+#2797
 )
-Bug Fix 🐞
-#3707
-Fix crash in node when mixing sync/async resolvers (backport of
-#3706
-) (
-@chrskrchr
+Fix panic in
+FuturesUnordered::clear
+(
+#2809
 )
-#3838
-Fix/invalid error propagation custom scalars (backport for 16.x.x) (
-@stenreijers
+Fix panic in
+AsyncBufReadExt::fill_buf
+(
+#2801
+,
+#2812
 )
-Committers: 3
-Artem Zakharchenko(
-@kettanaito
+Improve support for targets without atomic CAS (
+#2811
 )
-Chris Karcher(
-@chrskrchr
-)
-Sten Reijers(
-@stenreijers
+Remove build scripts (
+#2811
 )
 
 ==================================================
 
 === 条目 9 ===
-库名: Sequelize
+库名: Serde
 版本: N/A
-URL: https://github.com/sequelize/sequelize/releases/tag/v6.32.0
-长度: 423 字符
+URL: https://github.com/serde-rs/serde/releases/tag/v1.0.181
+长度: 291 字符
 内容:
-6.32.0
-(2023-06-01)
-Bug Fixes
-move
-types
-condition to the front (
-#16085
-) (
-99c3530
+Make
+serde(alias)
+work in combination with
+flatten
+when using in-place deserialization (
+#2443
+, thanks
+@Mingun
 )
-oracle:
-For Raw queries avoid converting the input parameters passed (
-#16067
-) (
-fd38e79
+Improve the representation of adjacently tagged enums in formats where enum tags are serialized by index, as opposed to by string name (
+#2505
+,
+#2496
+, thanks
+@Baptistemontan
 )
-oracle:
-reordered check constraint for unsigned numeric type (
-#16074
-) (
-5c8250e
-)
-Features
-oracle:
-add new error messages introduced in new driver version (
-#16075
-) (
-e07eefb
-)
-oracle:
-add width support for numerictype (
-#16073
-) (
-af4f0ae
-)
-
-==================================================
-
-=== 条目 10 ===
-库名: Axios
-版本: N/A
-URL: https://github.com/axios/axios/releases/tag/v1.7.5
-长度: 433 字符
-内容:
-Release notes:
-Bug Fixes
-adapter:
-fix undefined reference to hasBrowserEnv (
-#6572
-) (
-7004707
-)
-core:
-add the missed implementation of AxiosError#status property; (
-#6573
-) (
-6700a8a
-)
-core:
-fix
-ReferenceError: navigator is not defined
-for custom environments; (
-#6567
-) (
-fed1a4b
-)
-fetch:
-fix credentials handling in Cloudflare workers (
-#6533
-) (
-550d885
-)
-Contributors to this release
-Dmitriy Mozgovoy
-Antonin Bas
-Hans Otto Wirtz
-
-==================================================
-
-=== 条目 11 ===
-库名: tRPC
-版本: N/A
-URL: https://github.com/trpc/trpc/releases/tag/v11.4.0
-长度: 477 字符
-内容:
-What's Changed
-chore: bump turbo by
-@KATT
-in
-#6818
-Update wsLink.md (documentation) by
-@hmatthieu
-in
-#6813
-refactor: swap rollup with native rolldown (using tsdown) by
-@juliusmarminge
-in
-#6789
-chore: subtree should use
-canary
--tag, not
-next
-by
-@KATT
-in
-#6816
-patch(
-client
-): upgrade
-localLink
-from experimental ->
-unstable
-by
-@KATT
-in
-#6817
-chore(www): fix link by
-@bene
-in
-#6820
-New Contributors
-@bene
-made their first contribution in
-#6820
-Full Changelog
-:
-v11.3.1...v11.4.0
-
-==================================================
-
-=== 条目 12 ===
-库名: Vitest
-版本: N/A
-URL: https://github.com/vitest-dev/vitest/releases/tag/v0.33.0
-长度: 483 字符
-内容:
-🚨 Breaking Changes
-Revert default include patterns  -  by
-@so1ve
-#3729
-0.32.0
-changed the default
-include
-globs to be compatible with Jest. After a discussion with the community, we are reverting this change because it turned out to be non-intuitive.
-🐞 Bug Fixes
-Add missing JSDom living keys  -  by
-@DerZade
-in
-#3702
-(83a86)
-vite-node
-:
-Don't fail when importing Promise module  -  by
-@sheremet-va
-(08192)
-Allow importing node:test  -  by
-@sheremet-va
-(db22c)
-View changes on GitHub
 
 ==================================================
 

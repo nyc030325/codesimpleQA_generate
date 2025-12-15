@@ -1,0 +1,283 @@
+[
+  {
+    "library": "Serde",
+    "entries": [
+      {
+        "library_name": "Serde",
+        "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.197",
+        "version": "v1.0.197",
+        "title": "Release v1.0.197 · serde-rs/serde · GitHub",
+        "release_date": "2024-02-20T00:24:22Z",
+        "content": "Fix unused_imports warnings when compiled by rustc 1.78\nOptimize code size of some Display impls (\n#2697\n, thanks\n@nyurik\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Serde",
+        "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.181",
+        "version": "v1.0.181",
+        "title": "Release v1.0.181 · serde-rs/serde · GitHub",
+        "release_date": "2023-08-04T00:02:43Z",
+        "content": "Make\nserde(alias)\nwork in combination with\nflatten\nwhen using in-place deserialization (\n#2443\n, thanks\n@Mingun\n)\nImprove the representation of adjacently tagged enums in formats where enum tags are serialized by index, as opposed to by string name (\n#2505\n,\n#2496\n, thanks\n@Baptistemontan\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Serde",
+        "url": "https://github.com/serde-rs/serde/releases/tag/v1.0.211",
+        "version": "v1.0.211",
+        "title": "Release v1.0.211 · serde-rs/serde · GitHub",
+        "release_date": "2024-10-22T06:33:16Z",
+        "content": "Improve error reporting about mismatched signature in\nwith\nand\ndefault\nattributes (\n#2558\n, thanks\n@Mingun\n)\nShow variant aliases in error message when variant deserialization fails (\n#2566\n, thanks\n@Mingun\n)\nImprove binary size of untagged enum and internally tagged enum deserialization by about 12% (\n#2821\n)",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2023
+    ],
+    "years_extracted": [
+      2024,
+      2023,
+      2024
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Warp",
+    "entries": [
+      {
+        "library_name": "Warp",
+        "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.6",
+        "version": "v0.3.6",
+        "title": "Release v0.3.6 · seanmonstar/warp · GitHub",
+        "release_date": "2023-09-27T14:18:43Z",
+        "content": "Features\nAdd ability to pass\nNone\nto\nmultipart::form().max_length()\n.\nImplement\nReply\nfor\nResult<impl Reply, impl Reply>\n.\nMake\nmultipart::Part::content_type()\nreturn the full mime string.\nAdd\nTlsServer::try_bind_with_graceful_shutdown()\n.\nFixes\nUpdated tungstenite and rustls dependencies for security fixes.\nNew Contributors\n@jnicholls\nmade their first contribution in\n#717\n@kouta-kun\nmade their first contribution in\n#1044\n@tottoto\nmade their first contribution in\n#1043\n@aedmondson\nmade their first contribution in\n#1046\n@outamaa\nmade their first contribution in\n#919\n@louiseyousre200 made their first contribution in\n#1056\n@nickbp\nmade their first contribution in\n#1061\n@vitorenesduarte\nmade their first contribution in\n#1064\n@AldaronLau\nmade their first contribution in\n#1063\n@belgoking\nmade their first contribution in\n#1062",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Warp",
+        "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.2",
+        "version": "v0.3.2",
+        "title": "Release v0.3.2 · seanmonstar/warp · GitHub",
+        "release_date": "2021-11-09T18:11:15Z",
+        "content": "Features\n:\nAdd\nFilter::then()\n, which is like\nFilter::map()\nin that it's infallible, but is async like\nFilter::and_then()\n.\nAdd\nredirect::found()\nreply helper that returns\n302 Found\n.\nAdd\ncompression-brotli\nand\ncompression-gzip\ncargo features to enable only the compression you need.\nAllow\nHEAD\nrequests to be served to\nfs::dir()\nfilters.\nAllow\npath!()\nwith no arguments.\nFixes\n:\nUpdate private dependencies Tungstenite and Multipart.\nReplaces uses of\nfutures\nwith\nfutures-util\n, which is a smaller dependency.\nNew Contributors\n@viraptor\nmade their first contribution in\n#825\n@zenria\nmade their first contribution in\n#835\n@Aankhen\nmade their first contribution in\n#849\n@FlorianDr\nmade their first contribution in\n#843\n@adamchalmers\nmade their first contribution in\n#858\n@ekzhang\nmade their first contribution in\n#860\n@utkarshkukreti\nmade their first contribution in\n#696\n@johannescpk\nmade their first contribution in\n#861\n@sindreij\nmade their first contribution in\n#864\n@haileys\nmade their first contribution in\n#701\n@In-line\nmade their first contribution in\n#836\n@0xdeafbeef\nmade their first contribution in\n#839\n@emesterhazy\nmade their first contribution in\n#866\n@joseluisq\nmade their first contribution in\n#869\n@JasterV\nmade their first contribution in\n#873\n@aujxn\nmade their first contribution in\n#876\n@simonborje\nmade their first contribution in\n#883\n@yaymukund\nmade their first contribution in\n#885\n@SeanChao\nmade their first contribution in\n#890\n@e-user made their first contribution in\n#877\n@gtsiam\nmade their first contribution in\n#878\n@bkgood\nmade their first contribution in\n#896\n@nylonicious\nmade their first contribution in\n#906\n@some-dood\nmade their first contribution in\n#912",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Warp",
+        "url": "https://github.com/seanmonstar/warp/releases/tag/v0.3.7",
+        "version": "v0.3.7",
+        "title": "Release v0.3.7 · seanmonstar/warp · GitHub",
+        "release_date": "2025-08-01T16:09:15Z",
+        "content": "tl;dr\nFeatures\n:\nAdd ecc private key support to\ntls()\nconfig.\nFixes\n:\nSeveral dependency upgrades.\nWhat's Changed\ndeps: move rustls-pemfile crate to tls feature by\n@tottoto\nin\n#1069\nECC private keys support for\ntls\nfeature by\n@joseluisq\nin\n#1048\nFix\ncargo minimal-versions check\nby\n@Finomnis\nin\n#1078\ndeps: remove unused tokio-stream dependency by\n@tottoto\nin\n#1079\ndeps: update to rustls 0.22 by\n@tottoto\nin\n#1081\nmultipart: fallback to filename as part name by\n@wca\nin\n#1045\ndeps: update tokio-tungstenite, tracing-log and async-compression dependency by\n@tottoto\nin\n#1085\nupdate to use handlebars v5 by\n@campeis\nin\n#1087\nstyle: clean up new rustc warnings by\n@seanmonstar\nin\n#1097\nci: single required job by\n@seanmonstar\nin\n#1098\nNew Contributors\n@Finomnis\nmade their first contribution in\n#1078\n@wca\nmade their first contribution in\n#1045\nFull Changelog\n:\nv0.3.6...v0.3.7",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2025,
+      2023
+    ],
+    "years_extracted": [
+      2023,
+      null,
+      2025
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Rand",
+    "entries": [
+      {
+        "library_name": "Rand",
+        "url": "https://github.com/rust-random/rand/releases/tag/rand_distr-0.5.0-alpha.0",
+        "version": "rand_distr-0.5.0-alpha.0",
+        "title": "Release rand_distr-0.5.0-alpha.0 · rust-random/rand · GitHub",
+        "release_date": "2024-02-18T17:56:14Z",
+        "content": "This is a pre-release. To depend on this version, use\nrand_distr = \"=0.5.0-alpha.0\"\nto prevent automatic updates (which can be expected to include breaking changes).\nAdditions\nMake distributions comparable with\nPartialEq\n(\n#1218\n)\nAdd\nWeightedIndexTree\n(\n#1372\n)\nChanges\nTarget\nrand\nversion\n0.9.0-alpha.0\nRemove unused fields from\nGamma\n,\nNormalInverseGaussian\nand\nZipf\ndistributions (\n#1184\n)\nThis breaks serialization compatibility with older versions.\nDirichlet\nnow uses\nconst\ngenerics, which means that its size is required at compile time (\n#1292\n)\nThe\nDirichlet::new_with_size\nconstructor was removed (\n#1292\n)\nFixes\nFix Knuth's method so\nPoisson\ndoesn't return -1.0 for small lambda (\n#1284\n)\nFix\nPoisson\ndistribution instantiation so it return an error if lambda is infinite (\n#1291\n)\nFix Dirichlet sample for small alpha values to avoid NaN samples (\n#1209\n)\nFix infinite loop in\nBinomial\ndistribution (\n#1325\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Rand",
+        "url": "https://github.com/rust-random/rand/releases/tag/0.9.0-beta.0",
+        "version": "0.9.0-beta.0",
+        "title": "Release 0.9.0-beta.0 · rust-random/rand · GitHub",
+        "release_date": "2024-11-26T13:34:21Z",
+        "content": "This is a pre-release. To depend on this version, use\nrand = \"=0.9.0-beta.0\"\nto prevent automatic updates (which can be expected to include breaking changes).\nSecurity and unsafe\nPolicy: \"rand is not a crypto library\" (\n#1514\n)\nRemove fork-protection from\nReseedingRng\nand\nThreadRng\n. Instead, it is recommended to call\nThreadRng::reseed\non fork. (\n#1379\n)\nUse\nzerocopy\nto replace some\nunsafe\ncode (\n#1349\n,\n#1393\n,\n#1446\n,\n#1502\n)\nCompilation options\nBump the MSRV to 1.63.0 (\n#1207\n,\n#1246\n,\n#1269\n,\n#1341\n,\n#1416\n,\n#1536\n); note that 1.60.0 may work for dependents when using\n--ignore-rust-version\nSupport\nstd\nfeature without\ngetrandom\nor\nrand_chacha\n(\n#1354\n)\nImprove\nthread_rng\nrelated docs (\n#1257\n)\nThe\nserde1\nfeature has been renamed\nserde\n(\n#1477\n)\nThe implicit feature\nrand_chacha\nhas been removed. This is enabled by\nstd_rng\n. (\n#1473\n)\nEnable feature\nsmall_rng\nby default (\n#1455\n)\nRename feature\ngetrandom\nto\nos_rng\n(\n#1537\n)\nInherited changes from\nrand_core\nAdd fn\nRngCore::read_adapter\nimplementing\nstd::io::Read\n(\n#1267\n)\nAdd trait\nCryptoBlockRng: BlockRngCore\n; make\ntrait CryptoRng: RngCore\n(\n#1273\n)\nAdd traits\nTryRngCore\n,\nTryCryptoRng\n(\n#1424\n,\n#1499\n)\nAdd bounds\nClone\nand\nAsRef\nto associated type\nSeedableRng::Seed\n(\n#1491\n)\nRng trait and top-level fns\nRename fn\nrand::thread_rng()\nto\nrand::rng()\n, and remove from the prelude (\n#1506\n)\nAdd top-level fns\nrandom_iter\n,\nrandom_range\n,\nrandom_bool\n,\nrandom_ratio\n,\nfill\n(\n#1488\n)\nRemove fn\nrand::random()\nfrom the prelude (\n#1506\n)\nRe-introduce fn\nRng::gen_iter\nas\nrandom_iter\n(\n#1305\n,\n#1500\n)\nRename fn\nRng::gen\nto\nrandom\nto avoid conflict with the new\ngen\nkeyword in Rust 2024 (\n#1438\n)\nRename fns\nRng::gen_range\nto\nrandom_range\n,\ngen_bool\nto\nrandom_bool\n,\ngen_ratio\nto\nrandom_ratio\n(\n#1505\n)\nAnnotate panicking methods with\n#[track_caller]\n(\n#1442\n,\n#1447\n)\nRNGs\nMake\nReseedingRng::reseed\ndiscard remaining data from the last block generated (\n#1379\n)\nChange fn\nSmallRng::seed_from_u64\nimplementation (\n#1203\n)\nFix\n<SmallRng as SeedableRng>::Seed\nsize to 256 bits (\n#1455\n)\nRemove first parameter (\nrng\n) of\nReseedingRng::new\n(\n#1533\n)\nImprove SmallRng initialization performance (\n#1482\n)\nSequences\nOptimize fn\nsample_floyd\n, affecting output of\nrand::seq::index::sample\nand\nrand::seq::SliceRandom::choose_multiple\n(\n#1277\n)\nNew, faster algorithms for\nIteratorRandom::choose\nand\nchoose_stable\n(\n#1268\n)\nNew, faster algorithms for\nSliceRandom::shuffle\nand\npartial_shuffle\n(\n#1272\n)\nSplit trait\nSliceRandom\ninto\nIndexedRandom\n,\nIndexedMutRandom\n,\nSliceRandom\n(\n#1382\n)\nAdd\nIndexedRandom::choose_multiple_array\n,\nindex::sample_array\n(\n#1453\n,\n#1469\n)\nFix\nIndexdRandom::choose_multiple_weighted\nfor very small seeds and optimize for large input length / low memory (\n#1530\n)\nDistributions\nRename module\nrand::distributions\nto\nrand::distr\n(\n#1470\n)\nRelax\nSized\nbound on\nDistribution<T> for &D\n(\n#1278\n)\nRename distribution\nStandard\nto\nStandardUniform\n(\n#1526\n)\nRemove impl of\nDistribution<Option<T>>\nfor\nStandardUniform\n(\n#1526\n)\nLet distribution\nStandardUniform\nsupport all\nNonZero*\ntypes (\n#1332\n)\nFns\n{Uniform, UniformSampler}::{new, new_inclusive}\nreturn a\nResult\n(instead of potentially panicking) (\n#1229\n)\nDistribution\nUniform\nimplements\nTryFrom\ninstead of\nFrom\nfor ranges (\n#1229\n)\nOptimize distribution\nUniform\n: use Canon's method (single sampling) / Lemire's method (distribution sampling) for faster sampling (breaks value stability;\n#1287\n)\nAdd\nUniformUsize\nand use to make\nUniform\nfor\nusize\nportable (\n#1487\n)\nOptimize fn\nsample_single_inclusive\nfor floats (+~20% perf) (\n#1289\n)\nAllow\nUniformFloat::new\nsamples and\nUniformFloat::sample_single\nto yield\nhigh\n(\n#1462\n)\nAdd impl\nDistString\nfor distributions\nSlice<char>\nand\nUniform<char>\n(\n#1315\n)\nAdd fn\nSlice::num_choices\n(\n#1402\n)\nFix portability of distribution\nSlice\n(\n#1469\n)\nAdd trait\nWeight\n, allowing\nWeightedIndex\nto trap overflow (\n#1353\n)\nAdd fns\nweight, weights, total_weight\nto distribution\nWeightedIndex\n(\n#1420\n)\nRename enum\nWeightedError\nto\nWeightError\n, revising variants (\n#1382\n) and mark as\n#[non_exhaustive]\n(\n#1480\n)\nAdd fn\np()\nfor distribution\nBernoulli\nto access probability (\n#1481\n)\nSIMD\nSwitch to\nstd::simd\n, expand SIMD & docs (\n#1239\n)\nOptimise SIMD widening multiply (\n#1247\n)\nDocumentation\nAdd\nCargo.lock.msrv\nfile (\n#1275\n)\nDocs: enable experimental\n--generate-link-to-definition\nfeature (\n#1327\n)\nBetter doc of crate features, use\ndoc_auto_cfg\n(\n#1411\n,\n#1450\n)\nOther\nReformat with\nrustfmt\nand enforce (\n#1448\n)\nApply Clippy suggestions and enforce (\n#1448\n,\n#1474\n)\nMove all benchmarks to new\nbenches\ncrate (\n#1329\n,\n#1439\n) and migrate to Criterion (\n#1490\n)\nNew Contributors\n@MichaelOwenDyer\nmade their first contribution in\n#1405\n@JustusFluegel\nmade their first contribution in\n#1402\n@acceptacross\nmade their first contribution in\n#1407\n@waywardmonkeys\nmade their first contribution in\n#1472\n@clarfonthey\nmade their first contribution in\n#1491\n@arthurprs\nmade their first contribution in\n#1482\n@marcpabst\nmade their first contribution in\n#1481\n@JamboChen\nmade their first contribution in\n#1504\n@oconnor663\nmade their first contribution in\n#1488\n@ComputerDruid\nmade their first contribution in\n#1534\nFull Changelog\n:\n0.9.0-alpha.0...0.9.0-beta.0",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Rand",
+        "url": "https://github.com/rust-random/rand/releases/tag/0.9.1",
+        "version": "0.9.1",
+        "title": "Release rand v0.9.1 · rust-random/rand · GitHub",
+        "release_date": "2025-04-17T14:40:57Z",
+        "content": "Changelog\nSecurity and unsafe\nRevise \"not a crypto library\" policy again (\n#1565\n)\nRemove\nzerocopy\ndependency from\nrand\n(\n#1579\n)\nFixes\nFix feature\nsimd_support\nfor recent nightly rust (\n#1586\n)\nChanges\nAllow\nfn rand::seq::index::sample_weighted\nand\nfn IndexedRandom::choose_multiple_weighted\nto return fewer than\namount\nresults (\n#1623\n), reverting an undocumented change (\n#1382\n) to the previous release.\nAdditions\nAdd\nrand::distr::Alphabetic\ndistribution. (\n#1587\n)\nRe-export\nrand_core\n(\n#1604\n)\nNew Contributors\n@yttersian\nmade their first contribution in\n#1567\n@sorairolake\nmade their first contribution in\n#1583\n@1Git2Clone\nmade their first contribution in\n#1587\n@baloo\nmade their first contribution in\n#1589\n@fjarri\nmade their first contribution in\n#1593\n@Raymi306\nmade their first contribution in\n#1616\n@hashcatHitman\nmade their first contribution in\n#1627\nFull Changelog\n:\n0.9.0...0.9.1",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2025
+    ],
+    "years_extracted": [
+      2024,
+      2024,
+      2025
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Futures",
+    "entries": [
+      {
+        "library_name": "Futures",
+        "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.30",
+        "version": "0.3.30",
+        "title": "Release 0.3.30 · rust-lang/futures-rs · GitHub",
+        "release_date": "2023-12-24T14:41:39Z",
+        "content": "Add\n{BiLock,SplitStream,SplitSink,ReadHalf,WriteHalf}::is_pair_of\n(\n#2797\n)\nFix panic in\nFuturesUnordered::clear\n(\n#2809\n)\nFix panic in\nAsyncBufReadExt::fill_buf\n(\n#2801\n,\n#2812\n)\nImprove support for targets without atomic CAS (\n#2811\n)\nRemove build scripts (\n#2811\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Futures",
+        "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.31",
+        "version": "0.3.31",
+        "title": "Release 0.3.31 · rust-lang/futures-rs · GitHub",
+        "release_date": "2024-10-05T07:08:21Z",
+        "content": "Fix use after free of task in\nFuturesUnordered\nwhen dropped future panics (\n#2886\n)\nFix soundness bug in\ntask::waker_ref\n(\n#2830\n)\nThis is a breaking change but allowed because it is soundness bug fix.\nFix bugs in\nAsyncBufRead::read_line\nand\nAsyncBufReadExt::lines\n(\n#2884\n)\nFix parsing issue in\nselect!\n/\nselect_biased!\n(\n#2832\n)\nThis is technically a breaking change as it will now reject a very odd undocumented syntax that was previously accidentally accepted.\nWork around issue due to upstream\nWaker::will_wake\nchange (\n#2865\n)\nAdd\nstream::Iter::{get_ref,get_mut,into_inner}\n(\n#2875\n)\nAdd\nfuture::AlwaysReady\n(\n#2825\n)\nRelax trait bound on non-constructor methods of\nio::{BufReader,BufWriter}\n(\n#2848\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Futures",
+        "url": "https://github.com/rust-lang/futures-rs/releases/tag/0.3.26",
+        "version": "0.3.26",
+        "title": "Release 0.3.26 · rust-lang/futures-rs · GitHub",
+        "release_date": "2023-01-30T16:16:33Z",
+        "content": "Add\nEither::as_pin_mut\nand\nEither::as_pin_ref\n(\n#2691\n)\nAdd\nShared::ptr_eq\nand\nShared::ptr_hash\n(\n#2691\n)\nImplement\nFusedStream\nfor\nBuffered\n(\n#2676\n)\nImplement\nFusedStream\nfor all streams in\nReadyChunks\n(\n#2693\n)\nFix bug in\nFuturesOrdered::push_front\n(\n#2664\n)\nRemove\nFut::Output: Clone\nbounds from some\nShared\nmethods (\n#2662\n)\nRemove\nT: Debug\nbounds from\nDebug\nimplementations of\nmpsc\nand\noneshot\ntypes (\n#2666\n,\n#2667\n)",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2023
+    ],
+    "years_extracted": [
+      2023,
+      2024,
+      2023
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Tower",
+    "entries": [
+      {
+        "library_name": "Tower",
+        "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.4.13",
+        "version": "tower-0.4.13",
+        "title": "Release tower 0.4.13 · tower-rs/tower · GitHub",
+        "release_date": "2022-06-17T19:48:18Z",
+        "content": "Added\nload_shed\n: Public constructor for\nOverloaded\nerror (\n#661\n)\nFixed\nutil\n: Fix hang with\ncall_all\nwhen the\nStream\nof requests is pending\n(\n#656\n)\nready_cache\n: Ensure cancelation is observed by pending services (\n#668\n,\nfixes\n#415\n)\ndocs\n: Fix a missing section header due to a typo (\n#646\n)\ndocs\n: Fix broken links to\nService\ntrait (\n#659\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Tower",
+        "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.5.2",
+        "version": "tower-0.5.2",
+        "title": "Release tower 0.5.2 · tower-rs/tower · GitHub",
+        "release_date": "2024-12-11T13:27:06Z",
+        "content": "Added\nutil\n: Add\nBoxCloneSyncService\nwhich is a\nClone + Send + Sync\nboxed\nService\n(\n#777\n)\nutil\n: Add\nBoxCloneSyncServiceLayer\nwhich is a\nClone + Send + Sync\nboxed\nLayer\n(\n#802\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Tower",
+        "url": "https://github.com/tower-rs/tower/releases/tag/tower-0.5.0",
+        "version": "tower-0.5.0",
+        "title": "Release tower 0.5.0 · tower-rs/tower · GitHub",
+        "release_date": "2024-08-13T16:50:10Z",
+        "content": "Fixed\nutil\n:\nBoxService\nis now\nSync\n(\n#702\n)\nChanged\nutil\n: Removed deprecated\nServiceExt::ready_and\nmethod and\nReadyAnd\nfuture (\n#652\n)\nretry\n:\nBreaking Change\nretry::Policy::retry\nnow accepts\n&mut Req\nand\n&mut Res\ninstead of the previous mutable versions. This\nincreases the flexibility of the retry policy. To update, update your method signature to include\nmut\nfor both parameters. (\n#584\n)\nretry\n:\nBreaking Change\nChange Policy to accept &mut self (\n#681\n)\nretry\n: Add generic backoff utilities (\n#685\n)\nretry\n: Add Budget trait. This allows end-users to implement their own budget and bucket implementations. (\n#703\n)\nreconnect\n:\nBreaking Change\nRemove unused generic parameter from\nReconnect::new\n(\n#755\n)\nready-cache\n: Allow iteration over ready services (\n#700\n)\ndiscover\n: Implement\nClone\nfor Change (\n#701\n)\nutil\n: Add a BoxCloneServiceLayer (\n#708\n)\nrng\n: use a simpler random 2-sampler (\n#716\n)\nfilter\n: Derive\nClone\nfor\nAsyncFilterLayer\n(\n#731\n)\ngeneral\n: Update IndexMap (\n#741\n)\nMSRV\n: Increase MSRV to 1.63.0 (\n#741\n)",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024
+    ],
+    "years_extracted": [
+      null,
+      2024,
+      2024
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Tonic",
+    "entries": [
+      {
+        "library_name": "Tonic",
+        "url": "https://github.com/hyperium/tonic/releases/tag/v0.12.0",
+        "version": "v0.12.0",
+        "title": "Release v0.12.0 · hyperium/tonic · GitHub",
+        "release_date": "2024-07-08T17:59:49Z",
+        "content": "v0.12.0\n(2024-07-08)\nThis breaking release updates tonic to the hyper\n1.0\necosystem and also updates\nto prost\nv0.13.0\n.\nFeatures\nbuild:\nCustom codecs for generated code (\n#1599\n) (\n18a2b30\n)\nchannel:\nMake channel feature additive (\n#1574\n) (\nb947e1a\n)\ncodec:\nMake error when not utf8 value in compression encoding (\n#1768\n) (\nf8e1f87\n)\nImplement http_body::Body::size_hint for custom body (\n#1713\n) (\n9728c01\n)\nMake boxed function public (\n#1754\n) (\n2cc868f\n)\nRelax GrpcMethod lifetime (\n#1598\n) (\n68bf17d\n)\ntls:\nAdd ability to add multiple ca certificates (\n#1724\n) (\n3457f92\n)\ntls:\nUse rustls_pki_types::CertificateDer to describe DER encoded certificate (\n#1707\n) (\n96a8cbc\n)\ntls:\nRemove tls roots implicit configuration (\n#1731\n) (\nde73617\n)\ntransport:\nMake service router independent from transport (\n#1572\n) (\nda48235\n)\ntransport:\nMake transport server and channel independent (\n#1630\n) (\n654289f\n)\ntransport:\nRename reexported axum body (\n#1752\n) (\n5d7bfc2\n)\nUse http::Extensions directly (\n#1710\n) (\ned95d27\n)\nBug Fixes\ntonic:\nflush accumulated ready messages when status received (\n#1756\n) (\nd312dcc\n), closes\n#1423\nBREAKING CHANGES\ntonic\nand crates updated to hyper 1.0 (\n#1670\n)\ntonic\nand crates updated to prost 0.13 (\n#1779\n)\ntonic_reflection::server\nis updated to use the generated\ntonic_reflection::pb::v1\ncode.\nMake compression encoding configuration more malleable (\n#1757\n)",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Tonic",
+        "url": "https://github.com/hyperium/tonic/releases/tag/v0.13.0",
+        "version": "v0.13.0",
+        "title": "Release v0.13.0 · hyperium/tonic · GitHub",
+        "release_date": "2025-03-25T19:21:57Z",
+        "content": "This release is a breaking release and thus there are many changes include axum version and a few other crates. There are some additionally exposed APIs. At the moment this release is planned to be a long term release as the project shifts some of its resources to implementing a new transport module and to align itself better with other gPRC projects. More to be announced on this later.\nWhat's Changed\nfeat(router): Implement From Routes and axum::Router for RoutesBuilder by\n@tottoto\nin\n#1957\nfeat(service): Add Layered service to propagate NamedService implementation by\n@tottoto\nin\n#1966\nfeat(router): Add method to get mutable reference to axum::Router by\n@tottoto\nin\n#1980\nfix(tls): do not shutdown the server on connection timeout errors by\n@krispraws\nin\n#1972\nMake\nStatus::into_http()\ngeneric over any kind of\nDefault\n-able Body by\n@shikhar\nin\n#1978\nfeat(web): Remove unnecessary Bytes type from GrpcWebCall body type by\n@tottoto\nin\n#1985\nfeat(web): Remove enable api by\n@tottoto\nin\n#1982\nfeat(router): Remove unnecessary BoxBody from response body by\n@tottoto\nin\n#1994\nfeat: Add tcp setting getters to endpoint by\n@Benjscho\nin\n#1983\nserver: swallow TLS errors in the accept loop by\n@PDXKimani\nin\n#1990\nfeat(interceptor): Change InterceptorLayer constructor associated function by\n@tottoto\nin\n#2005\nfeat(build): Make cleanup-markdown feature additive by\n@tottoto\nin\n#1952\nfeat: make pub\nChannel\nfns that allow creating it from a custom connector by\n@shikhar\nin\n#2015\nfeat(tls): AWS Libcrypto Support by\n@jenr24-architect\nin\n#2008\nfeat(server): Remove into_service api by\n@tottoto\nin\n#1996\nuse ring if no default crypto provider is found by\n@conradludgate\nin\n#2034\nfeat(transport): Make tower internal dependency by\n@tottoto\nin\n#1947\nfeat(web): Relax GrpcWebService request body type by\n@tottoto\nin\n#2016\nfeat!: Add Body type by\n@tottoto\nin\n#2013\nfeat(reflection): Expose ReflectionService by\n@tottoto\nin\n#2066\nfeat(web): Implement Debug for ResponseFuture by\n@tottoto\nin\n#2068\nfix(server): Use Status::into_http api in recover error service by\n@tottoto\nin\n#2099\nfeat(health): Add WatchStream type for health service by\n@tottoto\nin\n#2108\nAdd deflate compression support by\n@a1ien\nin\n#2117\nfeat(tls): Add support for rustls ignore_client_order by\n@emuellen\nin\n#2042\nfeat(health): Remove unnecessary transport feature by\n@tottoto\nin\n#2130\nfeat(channel): Add local_address as an option Endpoint builder by\n@jparris\nin\n#1567\nfix(test): Use github endpoint to fix flaky test by\n@tottoto\nin\n#2148\nfix(test): Use test domain for test url by\n@tottoto\nin\n#2150\nfeat(server): Add serve api to server by\n@tottoto\nin\n#2152\nfeat(server): Allow server used independently of router by\n@tottoto\nin\n#2154\nfix(client): improve gRPC-Web client behavior with trailers with a space after the colon by\n@sudorandom\nin\n#2053\nFix percent-encoding of percent sign in\ngrpc-message\nheader by\n@AndiDog\nin\n#2107\nfeat: Expose recover error service by\n@tottoto\nin\n#2159\nfeat(metadata): Implement AsRef and AsMut traits for MetadataMap by\n@hr567\nin\n#2161\nAdd From for Response by\n@amrhassan\nin\n#1064\nfeat: optional\nSSLKEYLOGFILE\nsupport by\n@crepererum\nin\n#1539\nfeat: Allow convert i32 to Code in const context by\n@tottoto\nin\n#2195\nfeat(tonic): Exclude benches-disabled to remove Apache-2.0 resource by\n@tottoto\nin\n#2204\nfeat: Add proto header to generated code by\n@tottoto\nin\n#2205\nfeat(router): Use infallible as error type by\n@tottoto\nin\n#2232\nfeat(transport): add support for uds, unix domain socket\n#2218\nfix(streaming): tonic::Streaming enters infinite loop on response error\n#2199\nNew Contributors\n@shikhar\nmade their first contribution in\n#1979\n@krispraws\nmade their first contribution in\n#1972\n@PDXKimani\nmade their first contribution in\n#1990\n@jenr24-architect\nmade their first contribution in\n#2008\n@easwars\nmade their first contribution in\n#2047\n@arjan-bal\nmade their first contribution in\n#2076\n@allan2\nmade their first contribution in\n#2105\n@a1ien\nmade their first contribution in\n#2117\n@emuellen\nmade their first contribution in\n#2042\n@jparris\nmade their first contribution in\n#1567\n@sudorandom\nmade their first contribution in\n#2053\n@AndiDog\nmade their first contribution in\n#2107\n@hr567\nmade their first contribution in\n#2161\n@maximevtush\nmade their first contribution in\n#2167\n@dakaizou\nmade their first contribution in\n#2219\n@jimmycathy\nmade their first contribution in\n#2224\nFull Changelog\n:\nv0.12.3...v0.13.0",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Tonic",
+        "url": "https://github.com/hyperium/tonic/releases/tag/v0.14.0",
+        "version": "v0.14.0",
+        "title": "Release v0.14.0 · hyperium/tonic · GitHub",
+        "release_date": "2025-07-28T15:30:19Z",
+        "content": "This release marks an important milestone for tonic, \"hopefully\" this will be the last major breaking release of Tonic before we start to transition work into bringing the community a joint-effort\ngrpc-rust\nimplementation. For the moment, any new features for the core of tonic that are not related to the work towards\ngrpc-rust\nwill not be accepted (I believe tonic to be in quite a good spot, security features of course will be handled with the upmost importance). Stay tuned there will be more information the coming months on what is going on with the new project but you can already see some of the code in the\ngrpc\ncrate within the\ntonic\nrepository.\nYou can always watch\nthis video\nfor more info on\ngrpc-rust\n.\nBreaking Changes\nProst updated to v0.14\nProst has been extracted to their own crates\nMigration guide\nTo migrate between\n<=v0.13.1\nto\nv0.14\nanything that used prost has now been moved into either\ntonic-prost\nor\ntonic-prost-build\n. All the previous types are still available but under these two new crates.\nWhat's Changed\nadd support for tower's load-shed layer by\n@joeroback\nin\n#2189\nBox Status contents to reduce enum size (\n#2253\n) by\n@tustvold\nin\n#2282\nUpdate to prost 0.14 by\n@tottoto\nin\n#2300\nUpdate generated code to\nerror_details.proto\na56cbf3b\nby\n@kriswuollett\nin\n#2306\nfeat(transport): Allow setting TCP_KEEPINTVL and TCP_KEEPCNT by\n@xmakro\nin\n#2299\nfix(tonic): make\nStreaming\nSync\nagain by\n@Twey\nin\n#2293\nfeat: preserve user-agent header (for real) by\n@dbolduc\nin\n#2290\nfeat(tls): Add tls handshake timeout support by\n@honsunrise\nin\n#2309\nUpdate socket2 to v0.6 by\n@Thomasdezeeuw\nin\n#2329\nfeat: Extract prost into its own tonic based crates by\n@LucioFranco\nin\n#2321\nfeat(build): allow to specify trait attributes by\n@ya7on\nin\n#2348\nNew Contributors\n@joeroback\nmade their first contribution in\n#2189\n@tustvold\nmade their first contribution in\n#2282\n@darrasse\nmade their first contribution in\n#2297\n@ADSteele916\nmade their first contribution in\n#2291\n@kriswuollett\nmade their first contribution in\n#2306\n@xmakro\nmade their first contribution in\n#2299\n@Twey\nmade their first contribution in\n#2293\n@honsunrise\nmade their first contribution in\n#2309\n@CommanderStorm\nmade their first contribution in\n#2308\n@ya7on\nmade their first contribution in\n#2348\nFull Changelog\n:\nv0.13.1...v0.14.0",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2025
+    ],
+    "years_extracted": [
+      2024,
+      2025,
+      2025
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  }
+]

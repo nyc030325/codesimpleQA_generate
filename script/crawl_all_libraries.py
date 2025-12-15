@@ -460,7 +460,7 @@ def main():
     print(f"总共需要爬取 {len(tasks)} 个URL")
     
     # 使用线程池并行爬取
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         # 提交所有任务并显示进度条
         future_to_task = {
             executor.submit(crawl_url, url, library_name): (url, library_name) 

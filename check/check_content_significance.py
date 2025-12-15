@@ -8,7 +8,9 @@
 import json
 import os
 import time
+import random
 import traceback
+import concurrent.futures
 from openai import AzureOpenAI
 from tqdm import tqdm
 
@@ -35,7 +37,7 @@ def create_client():
 
 def check_content_significance(client, content, library_name, version):
     """
-    使用kimi-k2模型检查content是否有意义
+    使用kimi-k2模型检查content是否有意义，带重试机制
     
     参数：
         client: Azure OpenAI客户端
@@ -67,47 +69,99 @@ def check_content_significance(client, content, library_name, version):
     仅输出单个数字，1或0，不要添加任何其他文字或解释。
     """
     
-    try:
-        # 构建API调用参数
-        api_params = {
-            "model": model_config["model_name"],
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            "max_tokens": model_config["max_tokens"],
-            "stream": False,
-            "extra_headers": {
-                "X-TT-LOGID": "${your_logid}"
-            }
-        }
-        
-        # 调用API
-        response = client.chat.completions.create(**api_params)
-        
-        # 解析响应
-        response_text = ""
-        if hasattr(response, 'choices') and response.choices:
-            choice = response.choices[0]
-            if hasattr(choice, 'message') and hasattr(choice.message, 'content'):
-                response_text = choice.message.content.strip()
-        
-        # 确保返回值是1或0
-        if response_text == "1":
-            return 1
-        elif response_text == "0":
-            return 0
-        else:
-            # 如果模型输出不符合预期，默认返回0
-            print(f"警告：模型返回非预期值 '{response_text}'，默认返回0")
-            return 0
+    max_retries = 3
+    retry_delay = 1.0  # 初始重试延迟
+    
+    for attempt in range(max_retries):
+        try:
+            # 添加随机延迟，避免请求峰值
+            time.sleep(random.uniform(0.1, 0.5))
             
+            # 构建API调用参数
+            api_params = {
+                "model": model_config["model_name"],
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                "max_tokens": model_config["max_tokens"],
+                "stream": False,
+                "extra_headers": {
+                    "X-TT-LOGID": "${your_logid}"
+                }
+            }
+            
+            # 调用API
+            response = client.chat.completions.create(**api_params)
+            
+            # 解析响应
+            response_text = ""
+            if hasattr(response, 'choices') and response.choices:
+                choice = response.choices[0]
+                if hasattr(choice, 'message') and hasattr(choice.message, 'content'):
+                    response_text = choice.message.content.strip()
+            
+            # 确保返回值是1或0
+            if response_text == "1":
+                return 1
+            elif response_text == "0":
+                return 0
+            else:
+                # 如果模型输出不符合预期，默认返回0
+                print(f"警告：模型返回非预期值 '{response_text}'，默认返回0")
+                return 0
+                
+        except Exception as e:
+            print(f"错误：检查内容时发生异常（第{attempt+1}/{max_retries}次尝试）- {e}")
+            if attempt < max_retries - 1:
+                print(f"{retry_delay}秒后重试...")
+                time.sleep(retry_delay)
+                retry_delay *= 2  # 指数退避
+            else:
+                print(f"已达到最大重试次数，处理失败")
+                traceback.print_exc()
+                return 0
+
+def process_item(item):
+    """
+    处理单个数据项，创建客户端并检查内容意义
+    
+    参数：
+        item: 要处理的数据项
+    
+    返回：
+        dict: 处理结果
+    """
+    content = item.get('content', '')
+    library_name = item.get('library_name', '')
+    version = item.get('version', '')
+    url = item.get('url', '')
+    
+    # 为每个线程创建独立的客户端，避免并发冲突
+    client = create_client()
+    
+    try:
+        significance = check_content_significance(client, content, library_name, version)
+        return {
+            "library_name": library_name,
+            "version": version,
+            "url": url,
+            "content_length": len(content),
+            "significance": significance
+        }
     except Exception as e:
-        print(f"错误：检查内容时发生异常 - {e}")
+        print(f"处理 {library_name} {version} 时发生异常: {e}")
         traceback.print_exc()
-        return 0
+        return {
+            "library_name": library_name,
+            "version": version,
+            "url": url,
+            "content_length": len(content),
+            "significance": 0
+        }
+
 
 def main():
     input_file = '/Users/bytedance/codesimpleQA_generate-2/data/library_crawled_data_append.json'
@@ -125,29 +179,23 @@ def main():
         
         print(f"读取文件成功，共有 {len(data)} 条记录")
         
-        # 创建客户端
-        client = create_client()
-        
-        # 检查每个content的意义
+        # 并发处理数据，设置并发度为16
         results = []
-        for item in tqdm(data, desc="检查内容意义"):
-            content = item.get('content', '')
-            library_name = item.get('library_name', '')
-            version = item.get('version', '')
-            url = item.get('url', '')
+        concurrency = 16
+        
+        with concurrent.futures.ThreadPoolExecutor(max_workers=concurrency) as executor:
+            # 提交所有任务
+            future_to_item = {executor.submit(process_item, item): item for item in data}
             
-            significance = check_content_significance(client, content, library_name, version)
-            
-            results.append({
-                "library_name": library_name,
-                "version": version,
-                "url": url,
-                "content_length": len(content),
-                "significance": significance
-            })
-            
-            # 避免API调用过于频繁
-            time.sleep(0.5)
+            # 处理完成的任务
+            for future in tqdm(concurrent.futures.as_completed(future_to_item), 
+                              total=len(data), desc="检查内容意义"):
+                try:
+                    result = future.result()
+                    results.append(result)
+                except Exception as e:
+                    print(f"获取任务结果时发生异常: {e}")
+                    traceback.print_exc()
         
         # 保存结果
         with open(output_file, 'w', encoding='utf-8') as f:

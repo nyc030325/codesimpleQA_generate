@@ -2,7 +2,7 @@ import json
 import os
 
 # 定义文件路径
-file_path = "../data/library_crawled_data_append.json"
+file_path = "data/library_crawled_data_append.json"
 
 # 检查文件是否存在
 if not os.path.exists(file_path):
@@ -36,8 +36,8 @@ for index, item in enumerate(data):
 
 # 定义长度区间（可以根据实际情况调整）
 intervals = [
-    (0, 500),
-    (500, 1000),
+    (0, 300),
+    (300, 1000),
     (1000, 5000),
     (5000, 10000),
     (10000, 20000),
@@ -75,7 +75,7 @@ for interval, count in distribution.items():
     print(f"{interval}: {count} 个 ({percentage:.1f}%)")
 
 # 打印所有500字符以内的具体长度值，并将内容保存到文件
-short_content_entries = [item for item in content_info if item['length'] < 500]
+short_content_entries = [item for item in content_info if item['length'] < 300]
 if short_content_entries:
     print("\n500字符以内的具体长度值:")
     print("-" * 30)
@@ -119,7 +119,7 @@ else:
 # 打印所有小于500字符的content完整信息
 print("\n所有小于500字符的content信息:")
 print("=" * 50)
-short_items = [item for item in content_info if item['length'] < 500]
+short_items = [item for item in content_info if item['length'] < 300]
 if short_items:
     for item in short_items:
         print(f"\n索引: {item['index']}")
