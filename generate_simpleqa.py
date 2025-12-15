@@ -136,10 +136,13 @@ Follow these examples, which are derived from the source text, to understand the
 
 *   **Unique, Unambiguous Answer:** The question must be precise.
 *   **Timelessness via Versioning:** Every question MUST specify the exact library version.
-    *   ❌ Bad: "In Pre-commit what new command line option was added to pre-commit run to stop immediately on failure?" (No version specified, answer may vary across versions.)
-    *   ✅ Good: "In Pre-commit 4.4.0 what new command line option was added to pre-commit run to stop immediately on failure?" (Version-specific, answer is tied to this exact release.)
+    *   ❌ Bad: "In Pre-commit what new command line option was added to pre-commit run" (No version specified, answer may vary across versions.)
+    *   ✅ Good: "In Pre-commit 4.4.0 what new command line option was added to pre-commit run" (Version-specific, answer is tied to this exact release.)
 *   **Specific, Non-Binary Answers:** The answer must be a specific term, not "Yes/No".
 *   **No Answer in Question:** The question text must not contain the exact answer.
+*   **Target Singular Changes to Omit Description (ULTIMATE HARD MODE):** Prefer to ask about a change that is the only one of its kind in the update (e.g., the only new parameter to a function, the only new command-line option). This allows you to omit the functional description, creating the hardest type of question. **This 'ULTIMATE HARD MODE' rule is the most critical principle for question generation; you must actively seek and prioritize opportunities to apply it.**
+    *   ❌ Bad: "In Pre-commit 4.4.0 what new command line option was added to pre-commit run to stop immediately on failure?" (The description "stop immediately on failure" is a dead giveaway for --fail-fast.)
+    *   ✅ Good (if it's the only new option): "In Pre-commit 4.4.0 what new command line option was added to pre-commit run" (Extremely difficult. This is only a valid question if it was the single new option, forcing the model to identify this unique fact from the notes, not guess from a description.)
 
 PROBLEM TYPE DEFINITIONS:
 - API: Questions concerning specific code signatures, such as function arguments, method names, class attributes, or return types.
@@ -160,7 +163,7 @@ Both the questions you formulate and the answers you provide must be derived dir
 {version}
 
 [Library Release Notes]
-{content[:20000]}
+{content[:30000]}
 
 OUTPUT FORMAT
 Output must be in plain CSV format without any additional text, explanation, or markdown code block markers.
@@ -183,11 +186,12 @@ Columns:
 
 Example Output:
 problem,answer,library_name,tag,language,year,problem_type
-In Pre-commit 4.4.0 what new command line option was added to pre-commit run to stop immediately on failure?,--fail-fast,Pre-commit,NICHE,Python,2025,General
+In Pre-commit 4.4.0 what new command line option was added to pre-commit run,--fail-fast,Pre-commit,NICHE,Python,2025,General
 
 FINAL REMINDERS:
 1. Generate ONLY the CSV output without any additional text, explanation, or markdown code block markers.
 2. Generate questions that are as challenging as possible. Ideally, the answers should only apply to the current specific version, rather than long-standing facts about the library. This ensures that the questions truly test understanding of the provided version descriptions.
+3. Strictly adhere to the Target Singular Changes to Omit Description rule.
 """
 
             # 构建API调用参数
