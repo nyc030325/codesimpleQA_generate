@@ -1,127 +1,102 @@
 {
-  "ASP.NET-Core": [
-    "https://github.com/dotnet/aspnetcore/releases/tag/v8.0.0",
-    "https://github.com/dotnet/aspnetcore/releases/tag/v9.0.0",
-    "https://github.com/dotnet/aspnetcore/releases/tag/v10.0.0"
+  "cURL": [
+    "https://github.com/curl/curl/releases/tag/curl-8_1_2",
+    "https://github.com/curl/curl/releases/tag/curl-8_8_0",
+    "https://github.com/curl/curl/releases/tag/curl-8_14_0"
   ],
-  "Newtonsoft.Json": [
-    "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.2",
-    "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3",
-    "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.4"
+  "OpenSSL": [
+    "https://github.com/openssl/openssl/releases/tag/openssl-3.2.0",
+    "https://github.com/openssl/openssl/releases/tag/openssl-3.3.0",
+    "https://github.com/openssl/openssl/releases/tag/openssl-3.5.0"
   ],
-  "AutoMapper": [
-    "https://github.com/AutoMapper/AutoMapper/releases/tag/v12.0.0",
-    "https://github.com/AutoMapper/AutoMapper/releases/tag/v13.0.0",
-    "https://github.com/AutoMapper/AutoMapper/releases/tag/v14.0.0"
+  "zlib": [
+    "https://github.com/madler/zlib/releases/tag/v1.2.13",
+    "https://github.com/madler/zlib/releases/tag/v1.3",
+    "https://github.com/madler/zlib/releases/tag/v1.3.1"
   ],
-  "Dapper": [
-    "https://github.com/DapperLib/Dapper/releases/tag/2.1.11",
-    "https://github.com/DapperLib/Dapper/releases/tag/2.1.35",
-    "https://github.com/DapperLib/Dapper/releases/tag/2.1.66"
+  "libuv": [
+    "https://github.com/libuv/libuv/releases/tag/v1.46.0",
+    "https://github.com/libuv/libuv/releases/tag/v1.49.0",
+    "https://github.com/libuv/libuv/releases/tag/v1.51.0"
   ],
-  "MediatR": [
-    "https://github.com/jbogard/MediatR/releases/tag/v12.1.0",
-    "https://github.com/jbogard/MediatR/releases/tag/v12.3.0",
-    "https://github.com/jbogard/MediatR/releases/tag/v12.5.0"
+  "Redis": [
+    "https://github.com/redis/redis/releases/tag/7.0.12",
+    "https://github.com/redis/redis/releases/tag/7.4-rc1",
+    "https://github.com/redis/redis/releases/tag/8.0.0"
   ],
-  "FluentValidation": [
-    "https://github.com/FluentValidation/FluentValidation/releases/tag/11.5.0",
-    "https://github.com/FluentValidation/FluentValidation/releases/tag/11.10.0",
-    "https://github.com/FluentValidation/FluentValidation/releases/tag/12.0.0"
+  "libjpeg-turbo": [
+    "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/tag/3.0.0",
+    "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/tag/3.0.4",
+    "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/tag/3.1.2"
   ],
-  "Serilog": [
-    "https://github.com/serilog/serilog/releases/tag/v3.0.0",
-    "https://github.com/serilog/serilog/releases/tag/v4.0.0",
-    "https://github.com/serilog/serilog/releases/tag/v4.3.0"
+  "libwebp": [
+    "https://github.com/webmproject/libwebp/releases/tag/v1.3.1",
+    "https://github.com/webmproject/libwebp/releases/tag/v1.4.0",
+    "https://github.com/webmproject/libwebp/releases/tag/v1.5.0"
   ],
-  "NLog": [
-    "https://github.com/NLog/NLog/releases/tag/v5.2.5",
-    "https://github.com/NLog/NLog/releases/tag/v5.3.3",
-    "https://github.com/NLog/NLog/releases/tag/v6.0.0"
+  "Linux-Kernel": [
+    "https://kernelnewbies.org/Linux_6.4",
+    "https://kernelnewbies.org/Linux_6.9",
+    "https://kernelnewbies.org/Linux_6.15"
   ],
-  "NUnit": [
-    "https://github.com/nunit/nunit/releases/tag/v4.0.0",
-    "https://github.com/nunit/nunit/releases/tag/4.2.0",
-    "https://github.com/nunit/nunit/releases/tag/4.4.0"
+  "SQLite": [
+    "https://www.sqlite.org/releaselog/3_42_0.html",
+    "https://www.sqlite.org/releaselog/3_46_0.html",
+    "https://www.sqlite.org/releaselog/3_50_0.html"
   ],
-  "Polly": [
-    "https://github.com/App-vNext/Polly/releases/tag/8.0.0",
-    "https://github.com/App-vNext/Polly/releases/tag/8.4.0",
-    "https://github.com/App-vNext/Polly/releases/tag/8.6.0"
+  "Nginx": [
+    "https://nginx.org/en/CHANGES-1.24",
+    "https://nginx.org/en/CHANGES-1.26",
+    "https://nginx.org/en/CHANGES-1.28"
   ],
-  "Hangfire": [
-    "https://github.com/HangfireIO/Hangfire/releases/tag/v1.8.7",
-    "https://github.com/HangfireIO/Hangfire/releases/tag/v1.8.15",
-    "https://github.com/HangfireIO/Hangfire/releases/tag/v1.8.22"
+  "PostgreSQL": [
+    "https://www.postgresql.org/docs/release/15.3/",
+    "https://www.postgresql.org/docs/release/16.3/",
+    "https://www.postgresql.org/docs/release/17.5/"
   ],
-  "Quartz.NET": [
-    "https://github.com/quartznet/quartznet/releases/tag/v3.7.0",
-    "https://github.com/quartznet/quartznet/releases/tag/v3.11.0",
-    "https://github.com/quartznet/quartznet/releases/tag/v3.15.0"
+  "GLib": [
+    "https://gitlab.gnome.org/GNOME/glib/-/releases/2.76.4",
+    "https://gitlab.gnome.org/GNOME/glib/-/releases/2.80.3",
+    "https://gitlab.gnome.org/GNOME/glib/-/releases/2.84.1"
   ],
-  "StackExchange.Redis": [
-    "https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.6.122",
-    "https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.8.0",
-    "https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.9.11"
+  "cJSON": [
+    "https://github.com/DaveGamble/cJSON/releases/tag/v1.7.16",
+    "https://github.com/DaveGamble/cJSON/releases/tag/v1.7.18",
+    "https://github.com/DaveGamble/cJSON/releases/tag/v1.7.19"
   ],
-  "RestSharp": [
-    "https://github.com/restsharp/RestSharp/releases/tag/110.0.0",
-    "https://github.com/restsharp/RestSharp/releases/tag/111.0.0",
-    "https://github.com/restsharp/RestSharp/releases/tag/113.0.0"
+  "mbedTLS": [
+    "https://github.com/Mbed-TLS/mbedtls/releases/tag/v3.4.0",
+    "https://github.com/Mbed-TLS/mbedtls/releases/tag/mbedtls-3.6.1",
+    "https://github.com/Mbed-TLS/mbedtls/releases/tag/mbedtls-4.0.0"
   ],
-  "Swashbuckle": [
-    "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.6.0",
-    "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v7.1.0",
-    "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v8.0.0"
+  "libxml2": [
+    "https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.11.4",
+    "https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.13.2",
+    "https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.14.2"
   ],
-  "NSwag": [
-    "https://github.com/RicoSuter/NSwag/releases/tag/v13.17.0",
-    "https://github.com/RicoSuter/NSwag/releases/tag/v14.1.0",
-    "https://github.com/RicoSuter/NSwag/releases/tag/v14.5.0"
+  "mongoose": [
+    "https://github.com/cesanta/mongoose/releases/tag/7.11",
+    "https://github.com/cesanta/mongoose/releases/tag/7.15",
+    "https://github.com/cesanta/mongoose/releases/tag/7.19"
   ],
-  "YARP": [
-    "https://github.com/microsoft/reverse-proxy/releases/tag/v2.1.0",
-    "https://github.com/microsoft/reverse-proxy/releases/tag/v2.2.0",
-    "https://github.com/microsoft/reverse-proxy/releases/tag/v2.3.0"
+  "raylib": [
+    "https://github.com/raysan5/raylib/releases/tag/4.5.0",
+    "https://github.com/raysan5/raylib/releases/tag/5.0",
+    "https://github.com/raysan5/raylib/releases/tag/5.5"
   ],
-  "BenchmarkDotNet": [
-    "https://github.com/dotnet/BenchmarkDotNet/releases/tag/v0.13.9",
-    "https://github.com/dotnet/BenchmarkDotNet/releases/tag/v0.14.0",
-    "https://github.com/dotnet/BenchmarkDotNet/releases/tag/v0.15.3"
+  "SDL": [
+    "https://github.com/libsdl-org/SDL/releases/tag/release-2.28.2",
+    "https://github.com/libsdl-org/SDL/releases/tag/release-2.30.5",
+    "https://github.com/libsdl-org/SDL/releases/tag/release-3.2.18"
   ],
-  "FluentAssertions": [
-    "https://github.com/fluentassertions/fluentassertions/releases/tag/6.11.0",
-    "https://github.com/fluentassertions/fluentassertions/releases/tag/6.12.1",
-    "https://github.com/fluentassertions/fluentassertions/releases/tag/8.0.0"
+    "hiredis": [
+    "https://github.com/redis/hiredis/releases/tag/v1.1.0",
+    "https://github.com/redis/hiredis/releases/tag/v1.2.0",
+    "https://github.com/redis/hiredis/releases/tag/v1.3.0"
   ],
-  "Refit": [
-    "https://github.com/reactiveui/refit/releases/tag/6.4.1",
-    "https://github.com/reactiveui/refit/releases/tag/8.0.0",
-    "https://github.com/reactiveui/refit/releases/tag/9.0.2"
-  ],
-  "MAUI": [
-    "https://github.com/dotnet/maui/releases/tag/7.0.96",
-    "https://github.com/dotnet/maui/releases/tag/9.0.0",
-    "https://github.com/dotnet/maui/releases/tag/10.0.0"
-  ],
-  "Avalonia": [
-    "https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.0",
-    "https://github.com/AvaloniaUI/Avalonia/releases/tag/11.1.0",
-    "https://github.com/AvaloniaUI/Avalonia/releases/tag/11.3.0"
-  ],
-  "Orleans": [
-    "https://github.com/dotnet/orleans/releases/tag/v7.2.0",
-    "https://github.com/dotnet/orleans/releases/tag/v8.0.0",
-    "https://github.com/dotnet/orleans/releases/tag/v9.2.0"
-  ],
-  "Akka.NET": [
-    "https://github.com/akkadotnet/akka.net/releases/tag/1.5.13",
-    "https://github.com/akkadotnet/akka.net/releases/tag/1.5.25",
-    "https://github.com/akkadotnet/akka.net/releases/tag/1.5.43"
-  ],
-  "Testcontainers": [
-    "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/3.3.0",
-    "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/3.9.0",
-    "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/4.5.0"
+  "zstd": [
+    "https://github.com/facebook/zstd/releases/tag/v1.5.5",
+    "https://github.com/facebook/zstd/releases/tag/v1.5.6",
+    "https://github.com/facebook/zstd/releases/tag/v1.5.7"
   ]
 }

@@ -1,22 +1,48 @@
 === 条目 1 ===
-库名: Newtonsoft.Json
+库名: OpenSSL
 版本: N/A
-URL: https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3
-长度: 188 字符
+URL: https://github.com/openssl/openssl/releases/tag/openssl-3.2.0
+长度: 100 字符
 内容:
-Fix - Fixed parsed zero decimals losing trailing zeroes
-Fix - Fixed parsed negative zero double losing negative
-Fix - Fixed null string being reported as String rather than JTokenType.Null
+OpenSSL 3.2.0 has been released. You can find more details about this release in the
+release notes
+.
 
 ==================================================
 
 === 条目 2 ===
-库名: FluentValidation
+库名: OpenSSL
 版本: N/A
-URL: https://github.com/FluentValidation/FluentValidation/releases/tag/11.10.0
-长度: 206 字符
+URL: https://github.com/openssl/openssl/releases/tag/openssl-3.3.0
+长度: 100 字符
 内容:
-Changes in 11.10.0 Add WhereAsync as conterpart to Where on collection rules (#2240) Create IEnumValidator to expose the targeted Enum type of EnumValidator (#2244) Add Romansh language translations (#2239)
+OpenSSL 3.3.0 has been released. You can find more details about this release in the
+release notes
+.
+
+==================================================
+
+=== 条目 3 ===
+库名: libuv
+版本: N/A
+URL: https://github.com/libuv/libuv/releases/tag/v1.46.0
+长度: 299 字符
+内容:
+See
+#4077
+for details.
+Dist files at
+https://dist.libuv.org/dist/v1.46.0/
+Notable changes
+fs: use WTF-8 on Windows
+#2970
+linux: add some more iouring backed fs ops
+#4012
+Important bugs fixed
+linux: work around io_uring IORING_OP_CLOSE bug
+#4059
+src: don't run timers if loop is stopped/unref'd
+#4048
 
 ==================================================
 
