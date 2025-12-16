@@ -1,29 +1,29 @@
 [
   {
-    "library_name": "Laravel-Horizon",
-    "url": "https://github.com/laravel/horizon/releases/tag/v5.18.0",
-    "version": "v5.18.0",
-    "title": "Release v5.18.0 · laravel/horizon · GitHub",
-    "release_date": "2023-07-11T14:55:14Z",
-    "content": "Fix supervisor reprovisioning by\n@PrinsFrank\nin\n#1288\nDisplay inactive supervisors in dashboard by\n@PrinsFrank\nin\n#1286\nFix autoscaler scaling down below zero when (nr. of queues * minProcesses) is higher than maxProcesses by\n@PrinsFrank\nin\n#1292",
+    "library_name": "Testcontainers",
+    "url": "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/4.5.0",
+    "version": "4.5.0",
+    "title": "Release 4.5.0 · testcontainers/testcontainers-dotnet · GitHub",
+    "release_date": "2025-06-05T15:59:46Z",
+    "content": "What's Changed\nBig thanks to everyone who contributed to this release 🤜🤛.\n🚀 Features\nfeat: Add OpenSearch module (\n#1395\n)\n@digital88\nfeat: Add Typesense module (\n#1446\n)\n@brainded\nfeat: Add\nTask<ExecResult>\nextension method\nThrowOnFailure\n(\n#1448\n)\n@HofmeisterAn\nfeat: Throw\nDockerUnavailableException\nwhen Docker is not available (\n#1308\n)\n@0xced\nfeat: Improve error reporting when loading the Docker configuration file (\n#1263\n)\n@0xced\nfeat: Add a wait strategy that waits until the ADO.NET database is available (\n#1401\n)\n@0xced\nfeat: Add Ollama module (\n#1099\n)\n@frankhaugen\nfeat: Allow canceling container start in xUnit.net v3 fixtures (\n#1431\n)\n@TheConstructor\nfix(EventHubs): Support default consumer group name (\n#1432\n)\n@scrocquesel-ml150\nfeat: Add Lowkey Vault module (\n#1344\n)\n@Xor-el\nfeat(ServiceBus): Add builder API to upload config file (\n#1424\n)\n@chasewallis\n🐛 Bug Fixes\nfix: Set container created, started, stopped time from inspect response (\n#1455\n)\n@HofmeisterAn\nfix(EventHubs): Change predicate that it does not always evaluate to true (\n#1433\n)\n@HofmeisterAn\nfix(EventHubs): Support default consumer group name (\n#1432\n)\n@scrocquesel-ml150\n📖 Documentation\ndocs(ClickHouse): Add example (\n#1421\n)\n@digital88\ndocs: Mention the xUnit.net v3 module (package) (\n#1442\n)\n@TheConstructor\n🧹 Housekeeping\nchore: Add ExecResult serializable test data (\n#1456\n)\n@HofmeisterAn\nchore: Remove Sonar findings (\n#1450\n)\n@HofmeisterAn\nchore: Replace Cake .NET Tool with Cake Frosting (\n#1437\n)\n@0xced\nchore: Update test-framework to xUnit.net v3 (\n#1441\n)\n@TheConstructor\nchore: Bump Docker.DotNet version to\n3.128.1\n(\n#1443\n)\n@HofmeisterAn\nchore: Add xUnit.net v3 tests (\n#1430\n)\n@TheConstructor\nchore: Bump CI .NET SDK and Cake version (\n#1434\n)\n@HofmeisterAn",
     "crawl_status": "success"
   },
   {
-    "library_name": "Laravel-Horizon",
-    "url": "https://github.com/laravel/horizon/releases/tag/v5.33.5",
-    "version": "v5.33.5",
-    "title": "Release v5.33.5 · laravel/horizon · GitHub",
-    "release_date": "2025-09-02T15:49:07Z",
-    "content": "[5.x] Fix batches infinite loading by\n@amirhshokri\nin\n#1589\n[5.x] Make \"no jobs\" messages consistent across job types in Horizon panel by\n@amirhshokri\nin\n#1590\n[5.x] standardize multiline constructor parameters by\n@browner12\nin\n#1593\n[5.x] fix ternary newline indentation by\n@browner12\nin\n#1592\n[5.x] use normal formatting for method signature by\n@browner12\nin\n#1596\n[5.x] consistent multiline chaining by\n@browner12\nin\n#1594\n[5.x] use single indentation by\n@browner12\nin\n#1595\n[5.x] use promoted properties for\nJobs\ndirectory by\n@browner12\nin\n#1597",
+    "library_name": "Testcontainers",
+    "url": "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/3.9.0",
+    "version": "3.9.0",
+    "title": "Release 3.9.0 · testcontainers/testcontainers-dotnet · GitHub",
+    "release_date": "2024-06-17T04:56:30Z",
+    "content": "Thank you to everyone whose contributions made this release possible.\nWhat's Changed\n⚠️\nBreaking Changes\nThe\nUntilOperationIsSucceeded(Func<bool>, int, Action<IWaitStrategy>)\nwait strategy is obsolete. Instead of this wait strategy, use any other wait strategy that matches your use case and configure the retry behavior accordingly (\nwait strategy options\n).\nUsing reuse together with the container builder method\nWithName(string)\nwill generate a new reuse hash the first time you use the configuration. The container name was not included in calculating the reuse hash previously.\nfeat: Add wait strategy options (\n#1168\n)\n@HofmeisterAn\nfeat: Include the container name in the reuse hash (\n#1162\n)\n@0xced\n🚀 Features\nfeat: Add Apache Pulsar module (\n#1103\n)\n@entvex\nfeat: Add custom configuration for retries, interval and timeout (\n#1169\n)\n@HofmeisterAn\nfeat: Add wait strategy options (\n#1168\n)\n@HofmeisterAn\nfeat: Include the container name in the reuse hash (\n#1162\n)\n@0xced\n🐛 Bug Fixes\nfix: Add default file permission (755 for image build) (\n#1176\n)\n@HofmeisterAn\nfix(MySql): Create an empty\n/var/lib/mysql-files\ndirectory to prevent older versions from failing to start (\n#1144\n)\n@0xced\n📖 Documentation\ndocs: Add reading file from a container (\n#1151\n)\n@HofmeisterAn\n🧹 Housekeeping\nchore: Remove PulsarContainer.CreateAuthenticationTokenAsync(TimeSpan) default arg (\n#1195\n)\n@entvex\nchore : Do not block async context on acquire lock (\n#1188\n)\n@HofmeisterAn\nchore: Prevent ReusableResourceTest from leaking resources (\n#1164\n)\n@0xced\nrefactor: Replace Azure SQL Edge with PostgreSQL (\n#1156\n)\n@HofmeisterAn\nchore: Remove obsolete members (\n#1146\n)\n@HofmeisterAn\n📦 Dependency Updates\nchore: Bump BouncyCastle.Cryptography (\n#1179\n)\n@marco-carvalho\nchore: Use new sshd:1.2.0 image (\n#1160\n)\n@mdelapenya",
     "crawl_status": "success"
   },
   {
-    "library_name": "Laravel-Horizon",
-    "url": "https://github.com/laravel/horizon/releases/tag/v5.28.0",
-    "version": "v5.28.0",
-    "title": "Release v5.28.0 · laravel/horizon · GitHub",
-    "release_date": "2024-09-03T14:53:54Z",
-    "content": "Create status command for individual supervisors by\n@mfrieswyk\nin\n#1467\n[5.x] Use\nmatch\nexpression by\n@xurshudyan\nin\n#1487\nFIX\n#1488\n: Focused line gets hightlighted [remove .vjs-tree-node:hover] by\n@srennou\nin\n#1492",
+    "library_name": "Testcontainers",
+    "url": "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/3.3.0",
+    "version": "3.3.0",
+    "title": "Release 3.3.0 · testcontainers/testcontainers-dotnet · GitHub",
+    "release_date": "2023-06-27T11:19:24Z",
+    "content": "What's Changed\n🚀 Features\nfeat: Add support for copying directories and files to a container (\n#913\n)\n@HofmeisterAn\nfeat: Change access modifier of OracleBuilder.WithUsername(string) to public (\n#923\n)\n@0xced\nfeat: Add UsingHttpMessageHandler(HttpMessageHandler) to HttpWaitStrategy (\n#910\n)\n@mkstephenson\n🐛 Bug Fixes\nfix: Use the actual Docker endpoint to extract the socket path for the Resource Reaper (\n#930\n)\n@HofmeisterAn\nfix: Ensure site_url is set in the MkDocs config to prevent None in sitemap generation (\n#927\n)\n@leocross\nfix: Remove cref from inheritdoc (\n#922\n)\n@HofmeisterAn\nfix: Add Docker Desktop (for Linux / macOS) authentication provider (\n#911\n)\n@HofmeisterAn\n📖 Documentation\ndocs: Fix typo in Testcontainers properties file path (\n#935\n)\n@HofmeisterAn\ndocs: Update Testcontainers for Java docs url (\n#916\n)\n@leocross\ndocs: Add RabbitMQ module documentation incl. an example (\n#918\n)\n@annaerdi\ndocs: Replace \"mess up\" with \"clutter up\" in the best practices (\n#905\n)\n@gurry\n🧹 Housekeeping\nchore: Add DebugLogLevelEnabled property to default logger implementation (\n#928\n)\n@HofmeisterAn\nchore: Set ContinuousIntegrationBuild and EmbedUntrackedSources MSBuild propery (\n#926\n)\n@HofmeisterAn\nfix: Prefer indexing instead of Enumerable methods (\n#912\n)\n@HofmeisterAn\nfix: Refactor tests to support Podman container runtime (\n#906\n)\n@HofmeisterAn\nchore: Update WeatherForecast example (\n#904\n)\n@HofmeisterAn\nchore: Refactor legacy TestcontainersContainerTest class (\n#901\n)\n@HofmeisterAn",
     "crawl_status": "success"
   }
 ]

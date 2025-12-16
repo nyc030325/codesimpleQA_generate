@@ -1,32 +1,32 @@
 [
   {
-    "library": "PHPUnit",
+    "library": "Newtonsoft.Json",
     "entries": [
       {
-        "library_name": "PHPUnit",
-        "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.1.0",
-        "version": "11.1.0",
-        "title": "Release PHPUnit 11.1.0 · sebastianbergmann/phpunit · GitHub",
-        "release_date": "2024-04-05T04:45:50Z",
-        "content": "Added\n#5689\n: Distinguish between self, direct and indirect deprecations\n#5696\n:\n#[DisableReturnValueGenerationForTestDoubles]\nattribute for disabling return value generation for test doubles created using\ncreateMock()\n,\ncreateMockForIntersectionOfInterfaces()\n,\ncreatePartialMock()\n,\ncreateStub()\n, and\ncreateStubForIntersectionOfInterfaces()\n#5175\n:\n#[CoversMethod]\nand\n#[UsesMethod]\nattributes for more fine-grained code coverage targeting\n#5720\n: Support filtering using\n--filter\n,\n--exclude-filter\n,\n--group\n, and\n--exclude-group\nwhen listing tests using\n--list-tests\nand\n--list-tests-xml\nas well as listing groups with\n--list-groups\n#5733\n: Implicitly include (abstract) parent class(es) with\n#[CoversClass]\nand\n#[UsesClass]\nattributes\n--only-summary-for-coverage-text\nCLI option to reduce the code coverage report in text format to a summary\n--show-uncovered-for-coverage-text\nCLI option to expand the code coverage report in text format to include a list of uncovered files\nChanged\n#5689\n: The XML configuration file generated using\n--generate-configuration\nnow generates\n<source ignoreIndirectDeprecations=\"true\" restrictNotices=\"true\" restrictWarnings=\"true\">\ninstead of\n<source restrictDeprecations=\"true\" restrictNotices=\"true\" restrictWarnings=\"true\">\n#5708\n: Allow the\n--group\n,\n--exclude-group\n,\n--covers\n,\n--uses\n, and\n--test-suffix\nCLI options to be used multiple times\nPHPUnit\\Framework\\TestCase::__construct()\nis now annotated to be final in preparation for declaring it\nfinal\nin PHPUnit 12\nChanged how the\nDeprecationTriggered\n,\nErrorTriggered\n,\nNoticeTriggered\n,\nPhpDeprecationTriggered\n,\nPhpNoticeTriggered\n,\nPhpWarningTriggered\n, and\nWarningTriggered\nevents are represented as text\nDeprecated\n#5689\n: The\nrestrictDeprecations\nattribute on the\n<source>\nelement of the XML configuration file is now deprecated in favor of the\nignoreSelfDeprecations\n,\nignoreDirectDeprecations\n, and\nignoreIndirectDeprecations\nattributes\n#5709\n: Deprecate support for using comma-separated values with the\n--group\n,\n--exclude-group\n,\n--covers\n,\n--uses\n, and\n--test-suffix\nCLI options\nHow to install or update PHPUnit",
+        "library_name": "Newtonsoft.Json",
+        "url": "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.4",
+        "version": "13.0.4",
+        "title": "Release 13.0.4 · JamesNK/Newtonsoft.Json · GitHub",
+        "release_date": "2025-09-17T01:37:08Z",
+        "content": "New feature - Annotated for trim/AOT (in)compatibility\nNew feature - Added support for using Index with JArray\nChange - Avoid LINQ expression trees in .NET 6+ reflection\nFix - Fixed handling of empty constructor names\nFix - Fixed XML convert duplicate attribute error on nested arrays with writeArrayAttribute set to true\nFix - Fixed XML convert array attribute is not set for properties with special characters\nFix - Fixed TimeOnly deserialization to support more formats",
         "crawl_status": "success"
       },
       {
-        "library_name": "PHPUnit",
-        "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/12.2.0",
-        "version": "12.2.0",
-        "title": "Release PHPUnit 12.2.0 · sebastianbergmann/phpunit · GitHub",
-        "release_date": "2025-06-06T02:59:30Z",
-        "content": "Added\nExperimental Support for Open Test Reporting XML\nPHPUnit has supported reporting test results in the JUnit XML format for a long time. Unfortunately, there has never been a standard schema for the JUnit XML format. Common consumers of Clover XML log files interpret these files differently, which has led to frequent problems.\nTo address this, the JUnit team started the\nOpen Test Reporting project\n, creating and maintaining language-agnostic XML and HTML test reporting formats. Unlike JUnit XML, Open Test Reporting's XML formats are extensible.\nLogging in the Open Test Reporting XML format is controlled by the new\n--log-otr\nCLI option and the new\n<otr>\nXML configuration element.\nThis feature is experimental and the generated XML may change in order to enhance compliance with the Open Test Reporting project's XML schema definitions. The same applies to the XML schema definitions for information that is specific for PHP and PHPUnit. Please note that such changes may occur in bugfix or minor releases and could potentially break backwards compatibility.\nExperimental Support for OpenClover XML\nPHPUnit has supported reporting code coverage information in the Clover XML format for a long time. Unfortunately, there has never been a standard schema for the Clover XML format. Common consumers of Clover XML log files interpret these files differently, which leads to frequent problems.\nThe original commercial Clover project has been superseded by the Open Source OpenClover project, which provides an XML schema for its OpenClover XML format. Rather than modifying the existing Clover XML reporter to comply with the OpenClover XML schema, thereby breaking backward compatibility, a new OpenClover XML reporter has been introduced.\nThis new reporter is controlled by the new CLI option,\n--coverage-openclover\n, and the new XML configuration element,\n<openclover>\n. This code coverage reporter generates XML documents that validate against the OpenClover project's XML schema definition, with one exception: the\n<testproject>\nelement is not generated.\nThe existing Clover XML reporter, controlled by the\n--coverage-clover\nCLI option and the\n<clover>\nXML configuration element, remains unchanged.\nThis feature is experimental and the generated XML may change to enhance compliance with the OpenClover XML schema definition. Please note that such changes may occur in bugfix or minor releases and could potentially break backwards compatibility.\nMiscellaneous\n--with-telemetry\nCLI option that can be used together with\n--debug\nto print debugging information that includes telemetry information\nThe\nTestCase::provideAdditionalInformation()\nmethod can now be used to emit a\nTest\\AdditionalInformationProvided\nevent\nThe new\nTest\\AfterLastTestMethodFailed\n,\nTest\\AfterTestMethodFailed\n,\nTest\\BeforeFirstTestMethodFailed\n,\nTest\\BeforeTestMethodFailed\n,\nTest\\PostConditionFailed\n,\nTest\\PreConditionFailed\nevents are now emitted instead of\nTest\\AfterLastTestMethodErrored\n,\nTest\\AfterTestMethodErrored\n,\nTest\\BeforeFirstTestMethodErrored\n,\nTest\\BeforeTestMethodErrored\n,\nTest\\PostConditionErrored\n,\nTest\\PreConditionErrored\nwhen the\nThrowable\nextends\nAssertionFailedError\nto distinguish between errors and failures triggered in hook methods\nThe new\nTest\\PreparationErrored\nevent is now emitted instead of\nTest\\PreparationFailed\nwhen the\nThrowable\ndoes not extend\nAssertionFailedError\nto distinguish between errors and failures triggered during test preparation\nTest\\PreparationFailed::throwable()\nChanged\n#6165\n: Collect deprecations triggered by autoloading while loading/building the test suite\nDo not treat warnings differently than other issues in summary section of default output\nA warning is now emitted when both\n#[CoversNothing]\nand\n#[Covers*]\n(or\n#[Uses*]\n) are used on a test class\nA warning is now emitted when the same\n#[Covers*]\n(or\n#[Uses*]\n) attribute is used multiple times on a test class\nA warning is now emitted when the same code is targeted by both\n#[Covers*]\nand\n#[Uses*]\nattributes\nA warning is now emitted when a hook method such as\nsetUp()\n, for example has a\n#[Test]\nattribute\nA warning is now emitted when more than one of\n#[Small]\n,\n#[Medium]\n, or\n#[Large]\nis used on a test class\nA warning is now emitted when a data provider provides data sets that have more values than the test method consumes using arguments\nHow to install or update PHPUnit",
+        "library_name": "Newtonsoft.Json",
+        "url": "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.2",
+        "version": "13.0.2",
+        "title": "Release 13.0.2 · JamesNK/Newtonsoft.Json · GitHub",
+        "release_date": "2022-11-24T03:14:45Z",
+        "content": "New feature - Add support for DateOnly and TimeOnly\nNew feature - Add UnixDateTimeConverter.AllowPreEpoch property\nNew feature - Add copy constructor to JsonSerializerSettings\nNew feature - Add JsonCloneSettings with property to disable copying annotations\nChange - Add nullable annotation to JToken.ToObject(Type, JsonSerializer)\nChange - Reduced allocations by reusing boxed values\nFix - Fixed MaxDepth when used with ToObject inside of a JsonConverter\nFix - Fixed deserializing mismatched JToken types in properties\nFix - Fixed merging enumerable content and validate content\nFix - Fixed using $type with arrays of more than two dimensions\nFix - Fixed rare race condition in name table when deserializing on device with ARM processors\nFix - Fixed deserializing via constructor with ignored base type properties\nFix - Fixed MaxDepth not being used with ISerializable deserialization",
         "crawl_status": "success"
       },
       {
-        "library_name": "PHPUnit",
-        "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.4.0",
-        "version": "11.4.0",
-        "title": "Release PHPUnit 11.4.0 · sebastianbergmann/phpunit · GitHub",
-        "release_date": "2024-10-05T08:42:38Z",
-        "content": "Changed\n#5915\n: Bootstrap extensions before building test suite\n#5917\n: Seal event facade before loading the test suite\n#5923\n: Filter configured deprecation triggers when displaying deprecation details\n#5927\n:\n#[RequiresPhpunitExtension]\nattribute\n#5928\n: Filter tests based on the PHP extensions they require\n#5964\n: Better error message when data provider is invalid\nThe XML configuration file generator now references\nvendor/phpunit/phpunit/phpunit.xsd\n(instead of\nhttps://schema.phpunit.de/X.Y/phpunit.xsd\n) when PHPUnit was installed using Composer and\nphpunit --generate-configuration\nwas invoked in the directory where\nvendor\nis located\nThe\n--migrate-configuration\ncommand no longer replaces\nvendor/phpunit/phpunit/phpunit.xsd\nwith\nhttps://schema.phpunit.de/X.Y/phpunit.xsd\nThe output of\n--list-groups\nnow shows how many tests a group contains\nThe output of\n--list-suites\nnow shows how many tests a test suite contains\nDeprecated\n#5951\n:\nincludeUncoveredFiles\nconfiguration option\n#5958\n: Support for\n#[CoversTrait]\nand\n#[UsesTrait]\nattributes\n#5960\n: Support for targeting trait methods with the\n#[CoversMethod]\nand\n#[UsesMethod]\nattributes (and respective annotations)\nHow to install or update PHPUnit",
+        "library_name": "Newtonsoft.Json",
+        "url": "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3",
+        "version": "13.0.3",
+        "title": "Release 13.0.3 · JamesNK/Newtonsoft.Json · GitHub",
+        "release_date": "2023-03-08T14:22:45Z",
+        "content": "Fix - Fixed parsed zero decimals losing trailing zeroes\nFix - Fixed parsed negative zero double losing negative\nFix - Fixed null string being reported as String rather than JTokenType.Null",
         "crawl_status": "success"
       }
     ],
@@ -36,154 +36,154 @@
       2023
     ],
     "actual_years": [
-      2024,
-      2025
-    ],
-    "years_extracted": [
-      2024,
-      2025,
-      2024
-    ],
-    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
-  },
-  {
-    "library": "Slim",
-    "entries": [
-      {
-        "library_name": "Slim",
-        "url": "https://github.com/slimphp/Slim/releases/tag/4.12.0",
-        "version": "4.12.0",
-        "title": "Release 4.12.0 · slimphp/Slim · GitHub",
-        "release_date": "2023-07-23T04:56:59Z",
-        "content": "Total issues resolved:\n18\n3220: Refactor\nthanks to\n@amirkhodabande\n3237: Update phpstan/phpstan requirement from ^1.8 to ^1.9\nthanks to\n@dependabot\n[bot]\n3238: Update slim/http requirement from ^1.2 to ^1.3\nthanks to\n@dependabot\n[bot]\n3239: Update slim/psr7 requirement from ^1.5 to ^1.6\nthanks to\n@dependabot\n[bot]\n3240: Update phpspec/prophecy requirement from ^1.15 to ^1.16\nthanks to\n@dependabot\n[bot]\n3241: Update adriansuter/php-autoload-override requirement from ^1.3 to ^1.4\nthanks to\n@dependabot\n[bot]\n3245: New ability to override RouteGroupInterface in the Route class\nthanks to\n@githubjeka\n3253: Fix HttpBadRequestException description\nthanks to\n@jsanahuja\n3254: Update phpunit/phpunit requirement from ^9.5 to ^9.6\nthanks to\n@dependabot\n[bot]\n3255: Update phpstan/phpstan requirement from ^1.9 to ^1.10\nthanks to\n@dependabot\n[bot]\n3256: Update phpspec/prophecy requirement from ^1.16 to ^1.17\nthanks to\n@dependabot\n[bot]\n3264: Update psr/http-message requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3265: Update nyholm/psr7 requirement from ^1.5 to ^1.7\nthanks to\n@dependabot\n[bot]\n3266: Update guzzlehttp/psr7 requirement from ^2.4 to ^2.5\nthanks to\n@dependabot\n[bot]\n3267: Update nyholm/psr7 requirement from ^1.7 to ^1.8\nthanks to\n@dependabot\n[bot]\n3269: Update httpsoft/http-server-request requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3270: Update httpsoft/http-message requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3271: prevent multiple entries of same methode in FastRouteDispatcher\nthanks to\n@papparazzo",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Slim",
-        "url": "https://github.com/slimphp/Slim/releases/tag/4.13.0",
-        "version": "4.13.0",
-        "title": "Release 4.13.0 · slimphp/Slim · GitHub",
-        "release_date": "2024-03-03T21:35:10Z",
-        "content": "Total issues resolved:\n16\n3277: Create HttpTooManyRequestsException.php\nthanks to\n@flavioheleno\n3278: Remove HttpGoneException executable flag\nthanks to\n@flavioheleno\n3285: Update guzzlehttp/psr7 requirement from ^2.5 to ^2.6\nthanks to\n@dependabot\n[bot]\n3290: Bump actions/checkout from 3 to 4\nthanks to\n@dependabot\n[bot]\n3291: Fix line length\nthanks to\n@l0gicgate\n3296: PSR 7 http-message version requirement\nthanks to\n@rotexdegba\n3297: Allow Diactoros 3\nthanks to\n@derrabus\n3299: Update tests and add PHP 8.3 to the CI matrix\nthanks to\n@akrabat\n3301: Update nyholm/psr7-server requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3302: Add support for psr/http-message ^2.0\nthanks to\n@rotexdegba\n3305: Update phpspec/prophecy-phpunit requirement from ^2.0 to ^2.1\nthanks to\n@dependabot\n[bot]\n3306: Update phpspec/prophecy requirement from ^1.17 to ^1.18\nthanks to\n@dependabot\n[bot]\n3308: Update squizlabs/php_codesniffer requirement from ^3.7 to ^3.8\nthanks to\n@dependabot\n[bot]\n3313: Bump ramsey/composer-install from 2 to 3\nthanks to\n@dependabot\n[bot]\n3314: Update phpspec/prophecy requirement from ^1.18 to ^1.19\nthanks to\n@dependabot\n[bot]\n3315: Update squizlabs/php_codesniffer requirement from ^3.8 to ^3.9\nthanks to\n@dependabot\n[bot]",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Slim",
-        "url": "https://github.com/slimphp/Slim/releases/tag/4.14.0",
-        "version": "4.14.0",
-        "title": "Release 4.14.0 · slimphp/Slim · GitHub",
-        "release_date": "2024-06-13T09:37:43Z",
-        "content": "What's Changed\nDo not HTML entity encode in PlainTextErrorRenderer by\n@akrabat\nin\n#3319\nOnly render tip to error log if plain text renderer is used by\n@akrabat\nin\n#3321\nAdd template generics for PSR-11 implementations in PHPStan and Psalm by\n@limarkxx\nin\n#3322\nUpdate squizlabs/php_codesniffer requirement from ^3.9 to ^3.10 by\n@dependabot\nin\n#3324\nUpdate phpstan/phpstan requirement from ^1.10 to ^1.11 by\n@dependabot\nin\n#3325\nUpdate psr/http-factory requirement from ^1.0 to ^1.1 by\n@dependabot\nin\n#3326\nType hinting with template generics\nWith the introduction of template generics, if you type-hint\nSlim\\App\ninstance variable using\n/** @var \\Slim\\App $app */\n, then you will need to change it to either:\n/** @var \\Slim\\App<null> $app */\nif you are not using a DI container, or\n/** @var \\Slim\\App<\\Psr\\Container\\ContainerInterface> $app */\nif you are\nYou can also type-hint to the concrete instance of the container you are using too. For example, if you are using\nPHP-DI\n, then you can use:\n/** @var \\Slim\\App<DI\\Container> $app */\n.\nNew Contributors\n@limarkxx\nmade their first contribution in\n#3322\nFull Changelog\n:\n4.13.0...4.14.0",
-        "crawl_status": "success"
-      }
-    ],
-    "expected_years": [
-      2024,
       2025,
       2023
-    ],
-    "actual_years": [
-      2024,
-      2023
-    ],
-    "years_extracted": [
-      2023,
-      2024,
-      2024
-    ],
-    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
-  },
-  {
-    "library": "PHP-Parser",
-    "entries": [
-      {
-        "library_name": "PHP-Parser",
-        "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.7.0",
-        "version": "v5.7.0",
-        "title": "Release PHP-Parser 5.7.0 · nikic/PHP-Parser · GitHub",
-        "release_date": "2025-12-06T11:57:25Z",
-        "content": "Fixed\nFixed changing modifier on anonymous class with formatting preserving pretty printer.\nEmit an error for unparenthesized arrow functions in pipe operator, and print necessary parentheses in the pretty printer.\nFix PHP 8.5 deprecation warning in php-parse binary.\nChanged\nWhen targeting PHP 8.4 or newer, omit parentheses around immediately dereferenced new expressions.\nAdded\nAdded\nshouldPrintRawValue\nattribute to\nScalar\\Int_\n, which makes the pretty printer use the\nrawValue\nof the node. This can be used to print integers with separators.",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "PHP-Parser",
-        "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.3.0",
-        "version": "v5.3.0",
-        "title": "Release PHP-Parser 5.3.0 · nikic/PHP-Parser · GitHub",
-        "release_date": "2024-09-29T13:59:38Z",
-        "content": "Added\nAdded\nindent\noption to pretty printer, which can be used to specify the indentation to use (defaulting to four spaces). This also allows using tab indentation.\nFixed\nResolve names in\nPropertyHook\ns in the\nNameResolver\n.\nInclude the trailing semicolon inside\nStmt\\GroupUse\nnodes, making them consistent with\nStmt\\Use_\nnodes.\nFixed indentation sometimes becoming negative in formatting-preserving pretty printer, resulting in\nValueError\ns.",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "PHP-Parser",
-        "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.0.0",
-        "version": "v5.0.0",
-        "title": "Release PHP-Parser 5.0.0 · nikic/PHP-Parser · GitHub",
-        "release_date": "2024-01-07T17:32:55Z",
-        "content": "See the\nupgrading guide\nfor detailed migration instructions. The changelog is relative to PHP-Parser 4.18.0.\nAdded\nAdded\nPhpVersion\nclass, which is accepted in a number of places (e.g. ParserFactory, Parser, Lexer, PrettyPrinter) and gives more precise control over the PHP version being targeted.\nAdded PHP 8 parser though it only differs from the PHP 7 parser in concatenation precedence.\nAdded\nParser::getTokens()\nmethod.\nAdded a\nModifiers\nclass, as a replacement for\nStmt\\Class_::MODIFIER_*\n.\nAdded support for returning an array or\nREMOVE_NODE\nfrom\nNodeVisitor::enterNode()\n.\nAdded many additional type annotations. PhpStan is now used.\nAdded a fuzzing target for PHP-Fuzzer, which was how a lot of pretty printer bugs were found.\nAdded\nisPromoted()\n,\nisPublic()\n,\nisProtected()\n,\nisPrivate()\nand\nisReadonly()\nmethods on\nParam\n.\nAdded support for class constants in trait builder.\nAdded\nPrettyPrinter\ninterface.\nAdded support for formatting preservation when toggling static modifiers.\nThe\nphp-parse\nbinary now accepts\n-\nas the file name, in which case it will read from stdin.\nAdded support for\nNodeVisitor::REPLACE_WITH_NULL\n.\nAdded support for CRLF newlines in the pretty printer, using the new\nnewline\noption.\nVisitors can now be passed directly to the\nNodeTraverser\nconstructor. A separate call to\naddVisitor()\nis no longer required.\nAdded support for printing additional attributes (like\nkind\n) in\nNodeDumper\n.\nAdded\nrawValue\nattribute to\nInterpolatedStringPart\nand heredoc/nowdoc\nString_\ns, which provides the original, unparsed value. It was previously only available for non-interpolated single/double quoted strings.\nAdded\nStmt\\Block\nto represent\n{}\ncode blocks. Previously, such code blocks were flattened into the parent statements array.\nStmt\\Block\nwill not be created for structures that are typically used with code blocks, for example\nif ($x) { $y; }\nwill be represented as previously, while\nif ($x) { { $x; } }\nwill have an extra\nStmt\\Block\nwrapper.\nChanged\nPHP 7.4 is now required to run PHP-Parser.\nProperty types have been added where possible.\nFormatting of the standard pretty printer has been adjusted to match PSR-12 more closely.\nThe internal token representation now uses a\nPhpParser\\Token\nclass, which is compatible with PHP 8 token representation (\nPhpToken\n).\nArray destructuring is now always represented using\nExpr\\List_\nnodes, even if it uses\n[]\nsyntax.\nRenamed a number of node classes, and moved things that were not real expressions/statements outside the\nExpr\n/\nStmt\nhierarchy. Compatibility shims for the old names have been retained.\nThe pretty printer no longer unconditionally wraps\nyield\nin parentheses, unless the target version is set to older than PHP 7.0.\nThe pretty printer now defaults to PHP 7.4 as the target version.\nPrint\nelse if { }\ninstead of\nelse { if { } }\n.\nThe\nleaveNode()\nmethod on visitors is now invoked in reverse order of\nenterNode()\n.\nMoved\nNodeTraverser::REMOVE_NODE\netc. to\nNodeVisitor::REMOVE_NODE\n. The old constants are still available for compatibility.\nThe\nName\nsubnode\nparts\nhas been replaced by\nname\n, which stores the name as a string rather than an array of parts separated by namespace separators. The\ngetParts()\nmethod returns the old representation.\nNo longer accept strings for types in Node constructors. Instead, either an\nIdentifier\n,\nName\nor\nComplexType\nmust be passed.\nComment::getReformattedText()\nnow normalizes CRLF newlines to LF newlines.\nThe\nLexer\nno longer accepts options.\nLexer\\Emulative\nonly accepts a\nPhpVersion\n. The\nstartLexing()\n,\ngetTokens()\nand\nhandleHaltCompiler()\nmethods have been removed. Instead, there is a single method\ntokenize()\nreturning the tokens.\nAttribute handling has been moved from the lexer to the parser, and is no longer configurable. The comments, startLine, endLine, startTokenPos, endTokenPos, startFilePos, and endFilePos attributes will always be added.\nThe pretty printer now indents heredoc/nowdoc strings if the target version is >= 7.3 (flexible heredoc/nowdoc).\nUse visitor to assign comments. This fixes the long-standing issue where comments were assigned to all nodes sharing a starting position. Now only the outer-most node will hold the comments.\nImprove NodeDumper performance for large dumps.\nRemoved\nThe PHP 5 parser has been removed. The PHP 7 parser has been adjusted to deal with PHP 5 code more gracefully.\nRemoved deprecated\nError\nconstructor taking a line number instead of an attributes array.\nThe deprecated\nComment::getLine()\n,\nComment::getTokenPos()\nand\nComment::getFilePos()\nmethods have been removed. Use\nComment::getStartLine()\n,\nComment::getStartTokenPos()\nand\nComment::getStartFilePos()\ninstead.\nRemoved\nStmt\\Throw_\nnode, use\nExpr\\Throw_\ninside\nStmt\\Expression\ninstead.\nRemoved\nParserFactory::create()\n.\nFixed\nThe pretty printer now uses a more accurate treatment of unary operator precedence, and will only wrap them in parentheses if required. This allowed fixing a number of other precedence related bugs.\nThe pretty printer now respects the precedence of\nclone\n,\nthrow\nand arrow functions.\nFixed formatting preservation for alternative elseif/else syntax.\nFixed checks for when it is safe to print strings as heredoc/nowdoc to accommodate flexible doc string semantics.\nFixed various cases where\n\\r\nat the end of a doc string could be incorrectly merged into a CRLF sequence with a following\n\\n\n.\n__halt_compiler\nis no longer recognized as a semi-reserved keyword, in line with PHP behavior.\n<?=\nis no longer recognized as a semi-reserved keyword.\nFix handling of very large overflowing\n\\u\nescape sequences.\nDon't trim leading whitespace in formatting preserving printer.\nTreat DEL as a label character in the formatting preserving printer depending on the targeted PHP version.\nFix error reporting in emulative lexer without explicitly specified error handler.\nGracefully handle non-contiguous array indices in the\nDiffer\n.\nDeprecated\nThe\nNode::getLine()\nmethod has been deprecated. Use\nNode::getStartLine()\ninstead.",
-        "crawl_status": "success"
-      }
-    ],
-    "expected_years": [
-      2024,
-      2025,
-      2023
-    ],
-    "actual_years": [
-      2024,
-      2025
-    ],
-    "years_extracted": [
-      2025,
-      2024,
-      2024
-    ],
-    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
-  },
-  {
-    "library": "Laravel-Excel",
-    "entries": [
-      {
-        "library_name": "Laravel-Excel",
-        "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.63",
-        "version": "3.1.63",
-        "title": "Release 3.1.63 · SpartnerNL/Laravel-Excel · GitHub",
-        "release_date": "2025-02-19T14:25:19Z",
-        "content": "What's Changed\nUpdate phpspreadsheet to 1.29.8 to tackle CVE issue by\n@brdv\nin\n#4264\nSupport for Laravel 12 by\n@pascalbaljet\nin\n#4269\nAvoid calling query() twice by adding a local var, fixes\n#4133\nand\n#4140\nby\n@Synchro\nin\n#4221\nExclude heading row when limiting imported rows by\n@jivanf\nin\n#4217\nFormat rule for required_without by\n@rust17\nin\n#4196\nNew Contributors\n@brdv\nmade their first contribution in\n#4264\n@pascalbaljet\nmade their first contribution in\n#4269\n@Synchro\nmade their first contribution in\n#4221\n@jivanf\nmade their first contribution in\n#4217\n@rust17\nmade their first contribution in\n#4196\nFull Changelog\n:\n3.1.62...3.1.63",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Laravel-Excel",
-        "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.41",
-        "version": "3.1.41",
-        "title": "Release 3.1.41 · SpartnerNL/Laravel-Excel · GitHub",
-        "release_date": "2022-09-26T14:56:02Z",
-        "content": "What's Changed\nFix typo in excel.php file by\n@guiassemany\nin\n#3613\nFix testing for multiple stored files by regex by\n@keithbrink\nin\n#3631\nFix local temp file cleanup by\n@FrancisMawn\nin\n#3628\nAllow validations with toArray by\n@ahmedash95\nin\n#3641\nSimplify validations by using only one concern by\n@ahmedash95\nin\n#3642\nCast empty headers to int by\n@ahmedash95\nin\n#3646\nIs empty when by\n@ibrahimeldesoki\nin\n#3645\nSupport required_unless (and other required_*) rules by\n@RobertWeideKyos\nin\n#3660\nPrevent install of psr/simplecache 3.0 by\n@ziming\nin\n#3735\nNew Contributors\n@guiassemany\nmade their first contribution in\n#3613\n@keithbrink\nmade their first contribution in\n#3631\n@FrancisMawn\nmade their first contribution in\n#3628\n@ahmedash95\nmade their first contribution in\n#3641\n@ibrahimeldesoki\nmade their first contribution in\n#3645\n@RobertWeideKyos\nmade their first contribution in\n#3660\n@ziming\nmade their first contribution in\n#3735\nFull Changelog\n:\n3.1.40...3.1.41",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Laravel-Excel",
-        "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.52",
-        "version": "3.1.52",
-        "title": "Release 3.1.52 · SpartnerNL/Laravel-Excel · GitHub",
-        "release_date": "2024-01-16T10:50:11Z",
-        "content": "What's Changed\nFix mkdir recursive flag placement by\n@iftaras\nin\n#4054\nUse regex lazy quantifier to match first occurrence in combined validation rules by\n@kenfai\nin\n#4049\nMemory exhaust 1024M in queued export with FromQuery method by\n@sebestenyb\nin\n#4044\nAdd AfterChunk event for chunked exports by\n@sebestenyb\nin\n#4037\nCell Value Middleware / Trim cells by default by\n@joelharkes\nin\n#4050\nFix facade diskName by\n@SanderMuller\nin\n#4020\nNew Contributors\n@kenfai\nmade their first contribution in\n#4049\n@sebestenyb\nmade their first contribution in\n#4044\nFull Changelog\n:\n3.1.51...3.1.52",
-        "crawl_status": "success"
-      }
-    ],
-    "expected_years": [
-      2024,
-      2025,
-      2023
-    ],
-    "actual_years": [
-      2024,
-      2025
     ],
     "years_extracted": [
       2025,
       null,
+      2023
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "AutoMapper",
+    "entries": [
+      {
+        "library_name": "AutoMapper",
+        "url": "https://github.com/AutoMapper/AutoMapper/releases/tag/v12.0.0",
+        "version": "v12.0.0",
+        "title": "Release v12.0.0 · LuckyPennySoftware/AutoMapper · GitHub",
+        "release_date": "2022-09-30T09:44:25Z",
+        "content": "What's Changed\nPrefer derived interfaces by\n@lbargaoanu\nin\n#3887\nConverting integration tests to EF Core by\n@jbogard\nin\n#3881\nUse TypePair.ContainsGenericParameters by\n@lbargaoanu\nin\n#3918\nallow building on Linux (and probably macOS) by\n@adamralph\nin\n#3938\nContinue chaining after AsProxy by\n@korser1\nin\n#3895\nchore: Set permissions for GitHub actions by\n@naveensrinivasan\nin\n#3987\nSuppress generic constraint exceptions in GetPublicNoArgExtensionMethods by\n@stephentoub\nin\n#3999\nDefault implementation for GetSubQueryMarker by\n@lbargaoanu\nin\n#3920\ninstall command from cli is added in README.md by\n@nameson2672\nin\n#3982\nConsider member value resolvers and value converters for source valid… by\n@lbargaoanu\nin\n#4011\nUse Enum.Parse by\n@lbargaoanu\nin\n#4032\nNew Contributors\n@naveensrinivasan\nmade their first contribution in\n#3987\n@stephentoub\nmade their first contribution in\n#3999\n@nameson2672\nmade their first contribution in\n#3982\nFull Changelog\n:\nv11.0.1...v12.0.0\nUpgrade Guide\n:\nhttps://docs.automapper.org/en/latest/12.0-Upgrade-Guide.html",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "AutoMapper",
+        "url": "https://github.com/AutoMapper/AutoMapper/releases/tag/v13.0.0",
+        "version": "v13.0.0",
+        "title": "Release v13.0.0 · LuckyPennySoftware/AutoMapper · GitHub",
+        "release_date": "2024-02-05T16:15:26Z",
+        "content": "What's Changed\nEmphasized the ProjectTo method call location by\n@jbogard\nin\n#4105\nTarget .NET 6 by\n@lbargaoanu\nin\n#4202\nAdd the DI code by\n@lbargaoanu\nin\n#4278\nSupport mapping of polymorphic collection with abstract parent type by\n@kvpt\nin\n#4304\nConstructor mapping inheritance by\n@rubengonzalezlodeiro\nin\n#4314\nAdd integration test case by\n@kvpt\nin\n#4320\nadd options to disable and override ExplicitExpansion by\n@Angelinsky7\nin\n#4327\nProjectTo runtime polymorphic mapping with Include/IncludeBase by\n@lbargaoanu\nin\n#4280\nNew Contributors\n@kvpt\nmade their first contribution in\n#4304\n@rubengonzalezlodeiro\nmade their first contribution in\n#4314\n@Angelinsky7\nmade their first contribution in\n#4327\nFull Changelog\n:\nv12.0.1...v13.0.0",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "AutoMapper",
+        "url": "https://github.com/AutoMapper/AutoMapper/releases/tag/v14.0.0",
+        "version": "v14.0.0",
+        "title": "Release v14.0.0 · LuckyPennySoftware/AutoMapper · GitHub",
+        "release_date": "2025-02-14T21:02:10Z",
+        "content": "What's Changed\nReverted the nullable annotations by\n@lbargaoanu\nin\n#4390\nFix polymorphic mapping when some derived types have explicit mappings and others do not by\n@kev-andrews\nin\n#4402\nThe default naming conventions for a profile should come from the glo… by\n@lbargaoanu\nin\n#4428\nFix Issue\n#4502\n- Confusing exception when trying to map types with … by\n@Biotronic\nin\n#4503\nTarget .net 8 and seal more classes by\n@lbargaoanu\nin\n#4474\nTarget .Net 9 in tests by\n@lbargaoanu\nin\n#4507\nChanged lock-threads parameters by\n@lbargaoanu\nin\n#4516\nDon't throw and catch on validation by\n@lbargaoanu\nin\n#4526\nNew Contributors\n@kev-andrews\nmade their first contribution in\n#4402\n@Biotronic\nmade their first contribution in\n#4503\nFull Changelog\n:\nv13.0.1...v14.0.0",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2025
+    ],
+    "years_extracted": [
+      null,
+      2024,
+      2025
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Swashbuckle",
+    "entries": [
+      {
+        "library_name": "Swashbuckle",
+        "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v8.0.0",
+        "version": "v8.0.0",
+        "title": "Release v8.0.0 · domaindrivendev/Swashbuckle.AspNetCore · GitHub",
+        "release_date": "2025-03-18T18:07:20Z",
+        "content": "Important\nSwashbuckle.AspNetCore drops support for .NET 6.\nSwashbuckle.AspNetCore v8.0.0 makes the following notable changes:\nDrops support for\nnet6.0\n.\nThe\nnetstandard2.0\nTFM now depends on\nASP.NET Core 2.3\ninstead of ASP.NET Core 2.1.\nUpdates Microsoft.OpenApi to\nv1.6.23\n. This update requires the use of swagger-ui\nv5.19.0\nor later (\nv5.20.1\nis included in the Swashbuckle.AspNetCore.SwaggerUI NuGet package). You may need to clear your browser's cache to pick up the latest JavaScript files for swagger-ui.\nTo prepare for future support for OpenAPI 3.1 documents, deprecates the\nSerializeAsV2\nproperty by marking it as\n[Obsolete]\n. Users should update their code as illustrated below, depending on their use case:\n-\noptions.SerializeAsV2 = true;\n+\noptions.OpenApiVersion = Microsoft.OpenApi.OpenApiSpecVersion.OpenApi2_0;\n// or if explicitly disabling (the same as the default behaviour)\n-\noptions.SerializeAsV2 = false;\n+\noptions.OpenApiVersion = Microsoft.OpenApi.OpenApiSpecVersion.OpenApi3_0;\nTo prepare for future support for OpenAPI 3.1 documents, the\nSwashbuckle.AspNetCore.Cli\ntool has deprecated the\n--serializeasv2\noption and logs a warning to the console. Users should update their usage as illustrated below, depending on their use case:\n-\nswagger tofile --output [output] [startupassembly] [swaggerdoc] --serializeasv2\n+\nswagger tofile --output [output] [startupassembly] [swaggerdoc] --openapiversion \"2.0\"\nWhat's Changed\nMore reliable coverage by\n@martincostello\nin\n#3294\nApply IDE refactoring suggestions by\n@martincostello\nin\n#3254\n.NET 10 preparation by\n@martincostello\nin\n#3285\nMove snapshots by\n@martincostello\nin\n#3314\nSnapshot OpenApiDocument as JSON by\n@martincostello\nin\n#3315\nEnable implicit usings by\n@martincostello\nin\n#3316\nDrop .NET 6 by\n@martincostello\nin\n#3183\nDeprecate\nSerializeAsV2\nby\n@martincostello\nin\n#3286\nImprove release automation by\n@martincostello\nin\n#3317\nBump NuGet packages by\n@martincostello\nin\n#3319\nFull Changelog\n:\nv7.3.2...v8.0.0",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Swashbuckle",
+        "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.6.0",
+        "version": "v6.6.0",
+        "title": "Release v6.6.0 · domaindrivendev/Swashbuckle.AspNetCore · GitHub",
+        "release_date": "2024-05-14T07:54:16Z",
+        "content": "What's Changed\nModernise build and migrate to GitHub Actions for CI by\n@martincostello\nin\n#2775\nUpdate Redoc spelling in docs by\n@Quppa\nin\n#2568\nC# 9 Record - Read example/summary from positional record by\n@pixellos\nin\n#2546\nGrammatical correction of some comments by\n@mokarchi\nin\n#2768\nUpdate README.md for nested types custom schemaId support by\n@antmeehan\nin\n#2746\nAdd support for\nWithSummary\nand\nWithDescription\nmetadata by\n@hwoodiwiss\nin\n#2414\nUpdate README.md - Fix\nAdd Security Definitions and Requirements for Bearer auth\nURL by\n@Saibamen\nin\n#2705\nReplace text with Markdown link format by\n@mburumaxwell\nin\n#2392\nAdd support for required keyword by\n@keahpeters\nin\n#2810\nResolves\n#2717\nby\n@MerickOWA\nin\n#2718\nObserve the route template constraints in the Swagger middleware by\n@0xced\nin\n#2418\nAdded Swashbuckle.AspNetCore.Annotations.SwaggerIgnoreAttribute by\n@jcracknell\nin\n#2610\nFix schema generation with allOf inheritance by\n@bkoelman\nin\n#2815\navoid triple enumeration of formParameters by\n@SimonCropp\nin\n#2823\nreduce some linq allocation by\n@SimonCropp\nin\n#2819\nremove some duplicate dictionary lookups by\n@SimonCropp\nin\n#2822\nremove redundant any check in InferRequestContentTypes by\n@SimonCropp\nin\n#2824\nCorrectly respect interfaces in\nGetInheritanceChain\nby\n@angelaki\nin\n#2826\nGenerate Enum-Dictionary-Keys (analogous to Newtonsoft) by\n@angelaki\nin\n#2825\nFix build badge by\n@martincostello\nin\n#2782\nFix preview package versions by\n@martincostello\nin\n#2783\nHandle Stream and PipeReader content types correctly by\n@martincostello\nin\n#2784\nAdd NuGet package READMEs by\n@martincostello\nin\n#2808\nBump redoc to 2.1.3 by\n@martincostello\nin\n#2807\nSort system usings first by\n@martincostello\nin\n#2790\nThrow if unsupported HTTP method used by\n@martincostello\nin\n#2797\nFix configuration properties not being copied by\n@martincostello\nin\n#2796\nAdd security policy by\n@martincostello\nin\n#2785\nBump Microsoft.OpenApi by\n@martincostello\nin\n#2795\nUpdate to Swagger UI v5 by\n@martincostello\nin\n#2806\nAdd customized document serialization support by\n@remcolam\nin\n#2677\nAdded documentation for ISwaggerDocumentSerializer by\n@remcolam\nin\n#2837\nFix flaky tests by locking on the statup type by\n@remcolam\nin\n#2838\n#2765\nAllow Filter instance reuse by\n@remcolam\nin\n#2839\nThrow an error when a user uses FromForm attribute with IFormFile in … by\n@nikunjbhargava\nin\n#2840\nFilter illegal header fields by\n@keahpeters\nin\n#2842\nFix handling of FileResult's with content types by\n@IGx89\nin\n#2841\nAdding additional responses when 5XX errors are thrown. by\n@say25\nin\n#2852\nFix that XML comment examples do not show up if the type is string and the example contains quotation marks by\n@dldl-cmd\nin\n#2727\nExclude unused Swagger-UI files by\n@martincostello\nin\n#2851\nFix RequestBodyFilters not being deep copied by\n@martincostello\nin\n#2850\nAvoid GitHub step summary file write conflicts by\n@martincostello\nin\n#2848\nExtend built-in supported types by\n@martincostello\nin\n#2804\nUpdate compatibility table by\n@martincostello\nin\n#2856\nAdd GitHub issue and PR templates by\n@martincostello\nin\n#2788\nFix stale permissions by\n@martincostello\nin\n#2855\nAdd .NET 8 support by\n@martincostello\nin\n#2799\nRelease automation workflows by\n@martincostello\nin\n#2809\nSupport native AoT with SwaggerUI by\n@martincostello\nin\n#2800\nBump some NuGet packages by\n@martincostello\nin\n#2868\nFix stale permissions by\n@martincostello\nin\n#2863\nAttestation by\n@martincostello\nin\n#2869\nAdd descriptions for more HTTP status codes by\n@cremor\nin\n#2872\nOnly attest packages by\n@martincostello\nin\n#2870\nNew Contributors\n@mokarchi\nmade their first contribution in\n#2768\n@hwoodiwiss\nmade their first contribution in\n#2414\n@Saibamen\nmade their first contribution in\n#2705\n@keahpeters\nmade their first contribution in\n#2810\n@MerickOWA\nmade their first contribution in\n#2718\n@0xced\nmade their first contribution in\n#2418\n@jcracknell\nmade their first contribution in\n#2610\n@bkoelman\nmade their first contribution in\n#2815\n@angelaki\nmade their first contribution in\n#2826\n@remcolam\nmade their first contribution in\n#2677\n@nikunjbhargava\nmade their first contribution in\n#2840\n@IGx89\nmade their first contribution in\n#2841\n@dldl-cmd\nmade their first contribution in\n#2727\n@cremor\nmade their first contribution in\n#2872\nFull Changelog\n:\nv6.5.0...v6.6.0",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Swashbuckle",
+        "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v7.1.0",
+        "version": "v7.1.0",
+        "title": "Release v7.1.0 · domaindrivendev/Swashbuckle.AspNetCore · GitHub",
+        "release_date": "2024-11-25T11:23:13Z",
+        "content": "What's Changed\nUpdate some nugets by\n@Saibamen\nin\n#3143\nRecreate package lock files by\n@Saibamen\nin\n#3146\nMore asserts for\nSwaggerGeneratorTests\nby\n@Saibamen\nin\n#3147\nAdd more HTTP codes to\nResponseDescriptionMap\nby\n@Saibamen\nin\n#3148\nTest more WebAPI examples by\n@Saibamen\nin\n#3149\nFix issue with\n[FromForm]\nand enums for Controllers by\n@jgarciadelanoceda\nin\n#3164\nSupport\n[Description]\nand\n[ReadOnly]\nby\n@jgarciadelanoceda\nin\n#3162\nSecond level inheritance for\nUseOneOfForPolymorphism\nby\n@k0ka\nin\n#3155\nAvoid exception checking nullability by\n@martincostello\nin\n#3119\nFix\nNotSupportedException\nin AoT test project by\n@martincostello\nin\n#3171\nCreate\nsnupkg\nfiles by\n@martincostello\nin\n#3168\nSupport of\n[JsonPolymorphic]\nand\n[JsonDerivedType]\nattributes by\n@k0ka\nin\n#3170\nNew Contributors\n@k0ka\nmade their first contribution in\n#3155\nFull Changelog\n:\nv7.0.0...v7.1.0",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2025
+    ],
+    "years_extracted": [
+      2025,
+      2024,
       2024
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "NSwag",
+    "entries": [
+      {
+        "library_name": "NSwag",
+        "url": "https://github.com/RicoSuter/NSwag/releases/tag/v14.1.0",
+        "version": "v14.1.0",
+        "title": "Release NSwag v14.1.0 · RicoSuter/NSwag · GitHub",
+        "release_date": "2024-07-17T15:11:37Z",
+        "content": "What's Changed\nUpdated to NJsonSchema\nv11.0.2\nFixed: impossible to generate exception classes for non-first client by\n@bkoelman\nin\n#4891\nRestores support for instance-based JSON serializer settings in a non-breaking way by\n@bkoelman\nin\n#4888\nOnly reference Microsoft.Extensions.PlatformAbstractions in .NET 6+ b… by\n@Numpsy\nin\n#4785\nMight be breaking change:\nRemove NET 7 support by\n@lahma\nin\n#4896\nNew Contributors\n@bkoelman\nmade their first contribution in\n#4891\nFull Changelog\n:\nv14.0.8...v14.1.0",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "NSwag",
+        "url": "https://github.com/RicoSuter/NSwag/releases/tag/v14.5.0",
+        "version": "v14.5.0",
+        "title": "Release NSwag v14.5.0 (NJsonSchema v11.4.0) · RicoSuter/NSwag · GitHub",
+        "release_date": "2025-08-02T22:36:17Z",
+        "content": "What's Changed\nBetter support for reading yaml from a stream by\n@simonthum\nin\n#5170\n#4821\nCleanup packages to use those provided by framework by\n@thompson-tomo\nin\n#4831\nSet GH actions target .NET SDK to 9.0.204 by\n@lahma\nin\n#5172\nBetter support for reading yaml from a stream (part two) by\n@simonthum\nin\n#5171\nAvoid multiple enumeration of array typed path parameters by\n@Khyalis\nin\n#5149\nRestores all disabled compiler warnings. 649 and 8765 were missing. by\n@carlbjorknas\nin\n#4962\nFix to explode array parameters implicitly when SchemaType is OpenAPI 3.0 by\n@Phoosha\nin\n#5176\nAdding cancellationToken to all calls to ReadAsStringAsync() and ReadAsStreamAsync() by\n@arshrp\nin\n#5187\nRemove requirement for specific NET SDK in GH Actions by\n@lahma\nin\n#5188\nAdjusted cancellationToken to work for all NSwag supported frameworks by\n@arshrp\nin\n#5190\nAllow setting of the client interface access modifier based on the model access modifier by\n@pbolduc\nin\n#4820\nPrioritize wildcard over json over first entry for accept content-type by\n@mdi1984\nin\n#5198\nReduce interface dispatch to improve performance by\n@lahma\nin\n#5199\nSurface ExtensionData in CSharpControllerTemplateModel by\n@hirudan\nin\n#5204\nExpose the UseRequiredKeyword on CSharpClientGeneratorSettings for CSharp client generator by\n@r-englund\nin\n#5205\nFix to expose an optional param for AbortSignal (for axios) / CancelToken (for fetch) when GenerateClientInterfaces = true by\n@tomvdk\nin\n#5202\nSort client operation responses by status code by\n@lahma\nin\n#5206\nTSC UpdateUseDtoClassAndDataConversionCodeProperties cleanup by\n@lahma\nin\n#5212\nUpdate Microsoft.AspNetCore.* references to target 2.3.0 by\n@lahma\nin\n#5214\nConvert to using Central Package Management by\n@lahma\nin\n#5217\nConvert NSwagStudio setup to use WiX 6 by\n@lahma\nin\n#5218\nAdd support for TypeScript compilation testing by\n@lahma\nin\n#5219\nReplace TypeScript string contain asserts with Verify tests by\n@lahma\nin\n#5220\nReplace C# string contain asserts with Verify tests by\n@lahma\nin\n#5221\nRemove deprecated tslint suppression by\n@CaringDev\nin\n#5020\nFix empty enumerable parameter handling in C# client by\n@lahma\nin\n#5222\nFix: C# Code Generation generates method with return default(void) by\n@nzeemin\nin\n#4826\nOptimize DefaultParameterNameGenerator and add some more char cleanup by\n@lahma\nin\n#5223\nConvert more tests to use verify by\n@lahma\nin\n#5224\nConvert to xUnit v3 by\n@lahma\nin\n#5225\nEnsure operation names start with alphanumeric character by\n@lahma\nin\n#5227\nChange GenerateSampleSpecificationTests to auto verify mode by\n@lahma\nin\n#5228\nShow DisplayName for conflicting actions by\n@Saibamen\nin\n#5057\nFix: When generated TS class name is \"Error\", it is conflicting with TS Error class by\n@doruk-info\nin\n#5032\nUpdate NJsonSchema to 11.4.0, update testsuite to reflect a change in class name generation by\n@WolfgangHG\nin\n#5177\nImprove nswag.js parameter handling by\n@KaterSchnurz\nin\n#5232\nUse TypeScript 4.3 as default testing version by\n@lahma\nin\n#5234\nv14.5.0 by\n@RicoSuter\nin\n#5236\nNew Contributors\n@simonthum\nmade their first contribution in\n#5170\n@thompson-tomo\nmade their first contribution in\n#4831\n@Khyalis\nmade their first contribution in\n#5149\n@carlbjorknas\nmade their first contribution in\n#4962\n@Phoosha\nmade their first contribution in\n#5176\n@arshrp\nmade their first contribution in\n#5187\n@pbolduc\nmade their first contribution in\n#4820\n@mdi1984\nmade their first contribution in\n#5198\n@hirudan\nmade their first contribution in\n#5204\n@r-englund\nmade their first contribution in\n#5205\n@CaringDev\nmade their first contribution in\n#5020\n@nzeemin\nmade their first contribution in\n#4826\n@doruk-info\nmade their first contribution in\n#5032\n@WolfgangHG\nmade their first contribution in\n#5177\n@KaterSchnurz\nmade their first contribution in\n#5232\nFull Changelog\n:\nv14.4.0...v14.5.0",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "NSwag",
+        "url": "https://github.com/RicoSuter/NSwag/releases/tag/v13.17.0",
+        "version": "v13.17.0",
+        "title": "Release NSwag v13.17.0 · RicoSuter/NSwag · GitHub",
+        "release_date": "2022-09-16T17:14:46Z",
+        "content": "Dependencies\nUpdate NJS to\nv10.8.0\nUpdate Namotion.Reflection to v2.1.0\nWhat's Changed\nAdd support for System.Web.Mvc.AcceptVerbsAttribute to WebApiOpenApiDocumentGenerator by\n@andreasbalzer\nin\n#4104\nSupport filename downloads with special characters by\n@knoepdan\nin\n#4097\nMiddleMouseClickTabControlQoL by\n@Sossenbinder\nin\n#4096\nExpose AllowEmptyValue in ParameterModelBase by\n@JoshWoodArup\nin\n#4145\nadd new MultipleClientsFromFirstTagAndOperationNameGenerator by\n@mw-survit\nin\n#4143\nClient code generation in Console app fails with NullReferenceException by\n@rpbeukes\nin\n#4140\nFeature/\n#4131\nstore serialized json in separate variable for easy inspection by\n@dlidstrom\nin\n#4136\nWebApiOpenApiDocumentGenerator: Support multiple Route-attributes on Controller level by\n@andreasbalzer\nin\n#4129\nAllow both the summary and description from OpenAPI to be added as summary and remarks in c# generated code by\n@codecooper\nin\n#4105\nAdding in better handling for plain text body by\n@JonruAlveus\nin\n#4086\nChange static read-only properties of OpenApiOperationMethod to constants by\n@PatrickHofman\nin\n#4049\nNew Contributors\n@andreasbalzer\nmade their first contribution in\n#4104\n@Sossenbinder\nmade their first contribution in\n#4096\n@JoshWoodArup\nmade their first contribution in\n#4145\n@mw-survit\nmade their first contribution in\n#4143\n@rpbeukes\nmade their first contribution in\n#4140\n@dlidstrom\nmade their first contribution in\n#4136\n@codecooper\nmade their first contribution in\n#4105\n@JonruAlveus\nmade their first contribution in\n#4086\n@PatrickHofman\nmade their first contribution in\n#4049\nFull Changelog\n:\nv13.16.1...v13.17.0",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2025
+    ],
+    "years_extracted": [
+      2024,
+      2025,
+      null
     ],
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   }

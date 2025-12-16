@@ -1,452 +1,587 @@
 [
   {
-    "library_name": "Doctrine-DBAL",
-    "url": "https://github.com/doctrine/dbal/releases/tag/3.7.0",
+    "library_name": "Newtonsoft.Json",
+    "url": "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3",
     "is_corresponding": true
   },
   {
-    "library_name": "Doctrine-ORM",
-    "url": "https://github.com/doctrine/orm/releases/tag/3.4.0",
+    "library_name": "Dapper",
+    "url": "https://github.com/DapperLib/Dapper/releases/tag/2.0.143",
     "is_corresponding": true
   },
   {
-    "library_name": "PHPUnit",
-    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.1.0",
+    "library_name": "Newtonsoft.Json",
+    "url": "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3",
     "is_corresponding": true
   },
   {
-    "library_name": "Symfony",
-    "url": "https://github.com/symfony/symfony/releases/tag/v7.1.0",
+    "library_name": "AutoMapper",
+    "url": "https://github.com/AutoMapper/AutoMapper/releases/tag/v14.0.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Symfony",
-    "url": "https://github.com/symfony/symfony/releases/tag/v6.3.0",
+    "library_name": "MediatR",
+    "url": "https://github.com/jbogard/MediatR/releases/tag/v12.1.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Symfony",
-    "url": "https://github.com/symfony/symfony/releases/tag/v7.4.0",
+    "library_name": "ASP.NET-Core",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v8.0.6",
     "is_corresponding": true
   },
   {
-    "library_name": "Composer",
-    "url": "https://github.com/composer/composer/releases/tag/2.9.0",
+    "library_name": "ASP.NET-Core",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v9.0.5",
     "is_corresponding": true
   },
   {
-    "library_name": "Composer",
-    "url": "https://github.com/composer/composer/releases/tag/2.8.0",
+    "library_name": "Entity-Framework-Core",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v7.0.9",
     "is_corresponding": true
   },
   {
-    "library_name": "Composer",
-    "url": "https://github.com/composer/composer/releases/tag/2.6.0",
+    "library_name": "Entity-Framework-Core",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v9.0.5",
     "is_corresponding": true
   },
   {
-    "library_name": "Doctrine-ORM",
-    "url": "https://github.com/doctrine/orm/releases/tag/3.3.0",
+    "library_name": "AutoMapper",
+    "url": "https://github.com/AutoMapper/AutoMapper/releases/tag/v13.0.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel",
-    "url": "https://github.com/laravel/laravel/releases/tag/v11.0.4",
+    "library_name": "AutoMapper",
+    "url": "https://github.com/AutoMapper/AutoMapper/releases/tag/v12.0.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel",
-    "url": "https://github.com/laravel/laravel/releases/tag/v10.2.7",
+    "library_name": "Dapper",
+    "url": "https://github.com/DapperLib/Dapper/releases/tag/2.1.35",
     "is_corresponding": true
   },
   {
-    "library_name": "PHPUnit",
-    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.4.0",
+    "library_name": "Newtonsoft.Json",
+    "url": "https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3",
     "is_corresponding": true
   },
   {
-    "library_name": "PHPUnit",
-    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/12.2.0",
+    "library_name": "Dapper",
+    "url": "https://github.com/DapperLib/Dapper/releases/tag/2.1.66",
     "is_corresponding": true
   },
   {
-    "library_name": "Doctrine-ORM",
-    "url": "https://github.com/doctrine/orm/releases/tag/2.16.0",
+    "library_name": "ASP.NET-Core",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v7.0.9",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel",
-    "url": "https://github.com/laravel/laravel/releases/tag/v12.0.0",
+    "library_name": "Entity-Framework-Core",
+    "url": "https://github.com/dotnet/efcore/releases/tag/v8.0.6",
     "is_corresponding": true
   },
   {
-    "library_name": "Doctrine-DBAL",
-    "url": "https://github.com/doctrine/dbal/releases/tag/4.1.0",
+    "library_name": "MediatR",
+    "url": "https://github.com/jbogard/MediatR/releases/tag/v12.3.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Monolog",
-    "url": "https://github.com/Seldaek/monolog/releases/tag/3.4.0",
+    "library_name": "FluentValidation",
+    "url": "https://github.com/FluentValidation/FluentValidation/releases/tag/11.11.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Guzzle",
-    "url": "https://github.com/guzzle/guzzle/releases/tag/7.9.0",
+    "library_name": "MediatR",
+    "url": "https://github.com/jbogard/MediatR/releases/tag/v12.5.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Doctrine-DBAL",
-    "url": "https://github.com/doctrine/dbal/releases/tag/4.3.0",
+    "library_name": "FluentValidation",
+    "url": "https://github.com/FluentValidation/FluentValidation/releases/tag/11.6.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Guzzle",
-    "url": "https://github.com/guzzle/guzzle/releases/tag/7.9.3",
+    "library_name": "FluentValidation",
+    "url": "https://github.com/FluentValidation/FluentValidation/releases/tag/11.9.2",
     "is_corresponding": true
   },
   {
-    "library_name": "Carbon",
-    "url": "https://github.com/briannesbitt/Carbon/releases/tag/3.10.0",
+    "library_name": "NLog",
+    "url": "https://github.com/NLog/NLog/releases/tag/v5.2.2",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-CS-Fixer",
-    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.85.0",
+    "library_name": "Serilog",
+    "url": "https://github.com/serilog/serilog/releases/tag/v4.0.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Carbon",
-    "url": "https://github.com/briannesbitt/Carbon/releases/tag/3.8.0",
+    "library_name": "xUnit",
+    "url": "https://github.com/xunit/xunit/releases/tag/2.8.0",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-CS-Fixer",
-    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.60.0",
+    "library_name": "Serilog",
+    "url": "https://github.com/serilog/serilog/releases/tag/v3.0.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Carbon",
-    "url": "https://github.com/briannesbitt/Carbon/releases/tag/2.68.0",
+    "library_name": "NLog",
+    "url": "https://github.com/NLog/NLog/releases/tag/v5.4.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Guzzle",
-    "url": "https://github.com/guzzle/guzzle/releases/tag/7.8.0",
+    "library_name": "Serilog",
+    "url": "https://github.com/serilog/serilog/releases/tag/v4.2.0",
     "is_corresponding": true
   },
   {
-    "library_name": "PHPStan",
-    "url": "https://github.com/phpstan/phpstan/releases/tag/1.11.5",
+    "library_name": "xUnit",
+    "url": "https://github.com/xunit/xunit/releases/tag/2.5.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Monolog",
-    "url": "https://github.com/Seldaek/monolog/releases/tag/3.6.0",
+    "library_name": "NLog",
+    "url": "https://github.com/NLog/NLog/releases/tag/v5.3.2",
     "is_corresponding": true
   },
   {
-    "library_name": "PHPStan",
-    "url": "https://github.com/phpstan/phpstan/releases/tag/1.10.30",
+    "library_name": "xUnit",
+    "url": "https://github.com/xunit/xunit/releases/tag/2.9.3",
     "is_corresponding": true
   },
   {
-    "library_name": "Monolog",
-    "url": "https://github.com/Seldaek/monolog/releases/tag/3.9.0",
+    "library_name": "NUnit",
+    "url": "https://github.com/nunit/nunit/releases/tag/v3.13.3",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-CS-Fixer",
-    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.21.0",
+    "library_name": "NUnit",
+    "url": "https://github.com/nunit/nunit/releases/tag/v4.1.0",
     "is_corresponding": true
   },
   {
-    "library_name": "PHPStan",
-    "url": "https://github.com/phpstan/phpstan/releases/tag/2.1.17",
+    "library_name": "Polly",
+    "url": "https://github.com/App-vNext/Polly/releases/tag/8.4.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Psalm",
-    "url": "https://github.com/vimeo/psalm/releases/tag/5.25.0",
+    "library_name": "Moq",
+    "url": "https://github.com/moq/moq4/releases/tag/v4.20.72",
     "is_corresponding": true
   },
   {
-    "library_name": "Psalm",
-    "url": "https://github.com/vimeo/psalm/releases/tag/5.13.0",
+    "library_name": "Moq",
+    "url": "https://github.com/moq/moq4/releases/tag/v4.18.4",
     "is_corresponding": true
   },
   {
-    "library_name": "Inertia",
-    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.0",
+    "library_name": "Moq",
+    "url": "https://github.com/moq/moq4/releases/tag/v4.20.70",
     "is_corresponding": true
   },
   {
-    "library_name": "Filament",
-    "url": "https://github.com/filamentphp/filament/releases/tag/v3.2.80",
+    "library_name": "Polly",
+    "url": "https://github.com/App-vNext/Polly/releases/tag/7.2.4",
     "is_corresponding": true
   },
   {
-    "library_name": "Livewire",
-    "url": "https://github.com/livewire/livewire/releases/tag/v3.0.0",
+    "library_name": "NUnit",
+    "url": "https://github.com/nunit/nunit/releases/tag/v4.3.2",
     "is_corresponding": true
   },
   {
-    "library_name": "Psalm",
-    "url": "https://github.com/vimeo/psalm/releases/tag/6.12.0",
+    "library_name": "Hangfire",
+    "url": "https://github.com/HangfireIO/Hangfire/releases/tag/v1.8.3",
     "is_corresponding": true
   },
   {
-    "library_name": "Livewire",
-    "url": "https://github.com/livewire/livewire/releases/tag/v3.7.0",
+    "library_name": "Quartz.NET",
+    "url": "https://github.com/quartznet/quartznet/releases/tag/v3.7.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Inertia",
-    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.4",
+    "library_name": "Hangfire",
+    "url": "https://github.com/HangfireIO/Hangfire/releases/tag/v1.8.17",
     "is_corresponding": true
   },
   {
-    "library_name": "Livewire",
-    "url": "https://github.com/livewire/livewire/releases/tag/v3.5.0",
+    "library_name": "Polly",
+    "url": "https://github.com/App-vNext/Polly/releases/tag/8.6.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Inertia",
-    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v0.6.10",
+    "library_name": "Hangfire",
+    "url": "https://github.com/HangfireIO/Hangfire/releases/tag/v1.8.12",
     "is_corresponding": true
   },
   {
-    "library_name": "Filament",
-    "url": "https://github.com/filamentphp/filament/releases/tag/v3.0.0",
+    "library_name": "Quartz.NET",
+    "url": "https://github.com/quartznet/quartznet/releases/tag/v3.13.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Filament",
-    "url": "https://github.com/filamentphp/filament/releases/tag/v4.1.0",
+    "library_name": "Quartz.NET",
+    "url": "https://github.com/quartznet/quartznet/releases/tag/v3.9.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Spatie-Laravel-Permission",
-    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.10.0",
+    "library_name": "MassTransit",
+    "url": "https://github.com/MassTransit/MassTransit/releases/tag/v8.0.16",
     "is_corresponding": true
   },
   {
-    "library_name": "Spatie-Laravel-Permission",
-    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.0.0",
+    "library_name": "MassTransit",
+    "url": "https://github.com/MassTransit/MassTransit/releases/tag/v8.4.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Spatie-Laravel-Permission",
-    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.18.0",
+    "library_name": "MassTransit",
+    "url": "https://github.com/MassTransit/MassTransit/releases/tag/v8.2.3",
     "is_corresponding": true
   },
   {
-    "library_name": "Spatie-Laravel-Medialibrary",
-    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/11.10.0",
+    "library_name": "dotnet-aspnetcore",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v7.0.9",
     "is_corresponding": true
   },
   {
-    "library_name": "Spatie-Laravel-Medialibrary",
-    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/10.10.2",
+    "library_name": "StackExchange.Redis",
+    "url": "https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.8.24",
     "is_corresponding": true
   },
   {
-    "library_name": "League-CSV",
-    "url": "https://github.com/thephpleague/csv/releases/tag/9.16.0",
+    "library_name": "StackExchange.Redis",
+    "url": "https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.7.33",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-Mailer",
-    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.1",
+    "library_name": "dotnet-aspnetcore",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v8.0.6",
     "is_corresponding": true
   },
   {
-    "library_name": "Spatie-Laravel-Medialibrary",
-    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/11.17.0",
+    "library_name": "StackExchange.Redis",
+    "url": "https://github.com/StackExchange/StackExchange.Redis/releases/tag/2.6.122",
     "is_corresponding": true
   },
   {
-    "library_name": "League-CSV",
-    "url": "https://github.com/thephpleague/csv/releases/tag/9.22.0",
+    "library_name": "RestSharp",
+    "url": "https://github.com/restsharp/RestSharp/releases/tag/111.3.0",
     "is_corresponding": true
   },
   {
-    "library_name": "League-CSV",
-    "url": "https://github.com/thephpleague/csv/releases/tag/9.9.0",
+    "library_name": "dotnet-aspnetcore",
+    "url": "https://github.com/dotnet/aspnetcore/releases/tag/v9.0.5",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-Mailer",
-    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.11.0",
+    "library_name": "RestSharp",
+    "url": "https://github.com/restsharp/RestSharp/releases/tag/112.1.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Swoole",
-    "url": "https://github.com/swoole/swoole-src/releases/tag/v5.1.0",
+    "library_name": "RestSharp",
+    "url": "https://github.com/restsharp/RestSharp/releases/tag/110.2.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Predis",
-    "url": "https://github.com/predis/predis/releases/tag/v2.3.0",
+    "library_name": "runtime",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v8.0.6",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-Mailer",
-    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.2",
+    "library_name": "Swashbuckle",
+    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.5.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Predis",
-    "url": "https://github.com/predis/predis/releases/tag/v2.2.0",
+    "library_name": "runtime",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v9.0.5",
     "is_corresponding": true
   },
   {
-    "library_name": "Swoole",
-    "url": "https://github.com/swoole/swoole-src/releases/tag/v6.0.0",
+    "library_name": "runtime",
+    "url": "https://github.com/dotnet/runtime/releases/tag/v7.0.9",
     "is_corresponding": true
   },
   {
-    "library_name": "Swoole",
-    "url": "https://github.com/swoole/swoole-src/releases/tag/v6.1.0",
+    "library_name": "NSwag",
+    "url": "https://github.com/RicoSuter/NSwag/releases/tag/v13.20.0",
     "is_corresponding": true
   },
   {
-    "library_name": "RoadRunner",
-    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2023.2.0",
+    "library_name": "Swashbuckle",
+    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.6.2",
     "is_corresponding": true
   },
   {
-    "library_name": "RoadRunner",
-    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2024.3.0",
+    "library_name": "NSwag",
+    "url": "https://github.com/RicoSuter/NSwag/releases/tag/v14.0.8",
     "is_corresponding": true
   },
   {
-    "library_name": "RoadRunner",
-    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2025.1.0",
+    "library_name": "IdentityServer",
+    "url": "https://github.com/DuendeSoftware/IdentityServer/releases/tag/6.3.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Horizon",
-    "url": "https://github.com/laravel/horizon/releases/tag/v5.28.0",
+    "library_name": "IdentityServer",
+    "url": "https://github.com/DuendeSoftware/IdentityServer/releases/tag/7.0.4",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Passport",
-    "url": "https://github.com/laravel/passport/releases/tag/v11.6.0",
+    "library_name": "YARP",
+    "url": "https://github.com/microsoft/reverse-proxy/releases/tag/v2.0.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Horizon",
-    "url": "https://github.com/laravel/horizon/releases/tag/v5.33.5",
+    "library_name": "YARP",
+    "url": "https://github.com/microsoft/reverse-proxy/releases/tag/v2.1.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Horizon",
-    "url": "https://github.com/laravel/horizon/releases/tag/v5.18.0",
+    "library_name": "IdentityServer",
+    "url": "https://github.com/DuendeSoftware/IdentityServer/releases/tag/7.1.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Passport",
-    "url": "https://github.com/laravel/passport/releases/tag/v12.0.0",
+    "library_name": "NSwag",
+    "url": "https://github.com/RicoSuter/NSwag/releases/tag/v14.2.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Passport",
-    "url": "https://github.com/laravel/passport/releases/tag/v13.0.0",
+    "library_name": "YARP",
+    "url": "https://github.com/microsoft/reverse-proxy/releases/tag/v2.2.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Slim",
-    "url": "https://github.com/slimphp/Slim/releases/tag/4.13.0",
+    "library_name": "BenchmarkDotNet",
+    "url": "https://github.com/dotnet/BenchmarkDotNet/releases/tag/v0.13.6",
     "is_corresponding": true
   },
   {
-    "library_name": "Slim",
-    "url": "https://github.com/slimphp/Slim/releases/tag/4.12.0",
+    "library_name": "BenchmarkDotNet",
+    "url": "https://github.com/dotnet/BenchmarkDotNet/releases/tag/v0.13.12",
     "is_corresponding": true
   },
   {
-    "library_name": "Slim",
-    "url": "https://github.com/slimphp/Slim/releases/tag/4.14.0",
+    "library_name": "Swashbuckle",
+    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore/releases/tag/v6.9.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Predis",
-    "url": "https://github.com/predis/predis/releases/tag/v2.4.0",
+    "library_name": "FluentAssertions",
+    "url": "https://github.com/fluentassertions/fluentassertions/releases/tag/7.2.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Framework",
-    "url": "https://github.com/laravel/framework/releases/tag/v10.15.0",
+    "library_name": "Bogus",
+    "url": "https://github.com/bchavez/Bogus/releases/tag/v34.0.2",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Framework",
-    "url": "https://github.com/laravel/framework/releases/tag/v11.10.0",
+    "library_name": "BenchmarkDotNet",
+    "url": "https://github.com/dotnet/BenchmarkDotNet/releases/tag/v0.14.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Rector",
-    "url": "https://github.com/rectorphp/rector/releases/tag/0.17.6",
+    "library_name": "FluentAssertions",
+    "url": "https://github.com/fluentassertions/fluentassertions/releases/tag/6.11.0",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-Parser",
-    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.7.0",
+    "library_name": "FluentAssertions",
+    "url": "https://github.com/fluentassertions/fluentassertions/releases/tag/6.12.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Framework",
-    "url": "https://github.com/laravel/framework/releases/tag/v12.20.0",
+    "library_name": "Bogus",
+    "url": "https://github.com/bchavez/Bogus/releases/tag/v35.6.1",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-Parser",
-    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.3.0",
+    "library_name": "Refit",
+    "url": "https://github.com/reactiveui/refit/releases/tag/v7.0.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Excel",
-    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.41",
+    "library_name": "Mapster",
+    "url": "https://github.com/MapsterMapper/Mapster/releases/tag/v7.4.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Rector",
-    "url": "https://github.com/rectorphp/rector/releases/tag/2.1.0",
+    "library_name": "Refit",
+    "url": "https://github.com/reactiveui/refit/releases/tag/v7.1.2",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Excel",
-    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.52",
+    "library_name": "Bogus",
+    "url": "https://github.com/bchavez/Bogus/releases/tag/v35.5.0",
     "is_corresponding": true
   },
   {
-    "library_name": "PHP-Parser",
-    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.0.0",
+    "library_name": "Refit",
+    "url": "https://github.com/reactiveui/refit/releases/tag/v8.0.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Rector",
-    "url": "https://github.com/rectorphp/rector/releases/tag/1.2.0",
+    "library_name": "Mapster",
+    "url": "https://github.com/MapsterMapper/Mapster/releases/tag/v7.4.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Frankenphp",
-    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.2.0",
+    "library_name": "CsvHelper",
+    "url": "https://github.com/JoshClose/CsvHelper/releases/tag/30.0.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Frankenphp",
-    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.8.0",
+    "library_name": "CsvHelper",
+    "url": "https://github.com/JoshClose/CsvHelper/releases/tag/33.0.1",
     "is_corresponding": true
   },
   {
-    "library_name": "Laravel-Excel",
-    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.63",
+    "library_name": "Mapster",
+    "url": "https://github.com/MapsterMapper/Mapster/releases/tag/v7.4.0",
     "is_corresponding": true
   },
   {
-    "library_name": "Frankenphp",
-    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.0.0",
+    "library_name": "CsvHelper",
+    "url": "https://github.com/JoshClose/CsvHelper/releases/tag/31.0.4",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "ImageSharp",
+    "url": "https://github.com/SixLabors/ImageSharp/releases/tag/v3.0.1",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "ImageSharp",
+    "url": "https://github.com/SixLabors/ImageSharp/releases/tag/v3.1.4",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "EPPlus",
+    "url": "https://github.com/EPPlusSoftware/EPPlus/releases/tag/7.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "ImageSharp",
+    "url": "https://github.com/SixLabors/ImageSharp/releases/tag/v3.1.7",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "MailKit",
+    "url": "https://github.com/jstedfast/MailKit/releases/tag/4.6.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "EPPlus",
+    "url": "https://github.com/EPPlusSoftware/EPPlus/releases/tag/7.5.2",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "EPPlus",
+    "url": "https://github.com/EPPlusSoftware/EPPlus/releases/tag/7.2.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "MAUI",
+    "url": "https://github.com/dotnet/maui/releases/tag/v8.0.40",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "MAUI",
+    "url": "https://github.com/dotnet/maui/releases/tag/v7.0.92",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "MailKit",
+    "url": "https://github.com/jstedfast/MailKit/releases/tag/4.10.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "MailKit",
+    "url": "https://github.com/jstedfast/MailKit/releases/tag/4.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "MAUI",
+    "url": "https://github.com/dotnet/maui/releases/tag/v9.0.50",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Avalonia",
+    "url": "https://github.com/AvaloniaUI/Avalonia/releases/tag/11.0.2",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Avalonia",
+    "url": "https://github.com/AvaloniaUI/Avalonia/releases/tag/11.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Avalonia",
+    "url": "https://github.com/AvaloniaUI/Avalonia/releases/tag/11.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Orleans",
+    "url": "https://github.com/dotnet/orleans/releases/tag/v9.0.1",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Orleans",
+    "url": "https://github.com/dotnet/orleans/releases/tag/v8.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Orleans",
+    "url": "https://github.com/dotnet/orleans/releases/tag/v7.2.1",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Akka.NET",
+    "url": "https://github.com/akkadotnet/akka.net/releases/tag/1.5.13",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Akka.NET",
+    "url": "https://github.com/akkadotnet/akka.net/releases/tag/1.5.37",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Scrutor",
+    "url": "https://github.com/khellang/Scrutor/releases/tag/v4.2.2",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Akka.NET",
+    "url": "https://github.com/akkadotnet/akka.net/releases/tag/1.5.25",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Scrutor",
+    "url": "https://github.com/khellang/Scrutor/releases/tag/v4.2.2",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Scrutor",
+    "url": "https://github.com/khellang/Scrutor/releases/tag/v5.0.1",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Testcontainers",
+    "url": "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/3.9.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Testcontainers",
+    "url": "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/4.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Testcontainers",
+    "url": "https://github.com/testcontainers/testcontainers-dotnet/releases/tag/3.3.0",
     "is_corresponding": true
   }
 ]
