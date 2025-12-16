@@ -1,18 +1,121 @@
 === 条目 1 ===
-库名: STTP
+库名: Guzzle
 版本: N/A
-URL: https://github.com/softwaremill/sttp/releases/tag/v3.9.4
-长度: 209 字符
+URL: https://github.com/guzzle/guzzle/releases/tag/7.9.3
+长度: 127 字符
 内容:
-What’s Changed
-Suspend the evaluation of the SttpBackendStub.send() effect in the target monad (
-#2099
+Changed
+Remove explicit content-length header for GET requests
+Improve compatibility with bad servers for boolean cookie values
+
+==================================================
+
+=== 条目 2 ===
+库名: Guzzle
+版本: N/A
+URL: https://github.com/guzzle/guzzle/releases/tag/7.8.0
+长度: 174 字符
+内容:
+7.5.2 - 2023-05-14 Fixed Fixed set cookie constructor validation Fixed handling of files with '0' body Changed Corrected docs and default connect timeout value to 300 seconds
+
+==================================================
+
+=== 条目 3 ===
+库名: Laravel-Passport
+版本: N/A
+URL: https://github.com/laravel/passport/releases/tag/v11.6.0
+长度: 204 字符
+内容:
+Changed
+Update ClientCommand.php's user_id description by
+@Smoggert
+in
+#1619
+Get model PK instead of forcibly id column by
+@lucaspanik
+in
+#1626
+Fixed
+Fix doc block for
+withAccessToken()
+by
+@axlon
+in
+#1620
+
+==================================================
+
+=== 条目 4 ===
+库名: Inertia
+版本: N/A
+URL: https://github.com/inertiajs/inertia-laravel/releases/tag/v0.6.10
+长度: 212 字符
+内容:
+Add
+inertia_location
+helper function (
+#491
 )
-@adamw
-Improve proxy authentication preventing NPE and allow Basic Authentication (v3) (
-#2088
+Add
+Route::inertia()
+IDE helper (
+#413
 )
-@DybekK
+Automatically update Facade docblocks (
+#538
+)
+Restore request and session on redirects (
+#539
+)
+Add PHP 8.3 support (
+#540
+)
+
+==================================================
+
+=== 条目 5 ===
+库名: Laravel-Horizon
+版本: N/A
+URL: https://github.com/laravel/horizon/releases/tag/v5.28.0
+长度: 216 字符
+内容:
+Create status command for individual supervisors by
+@mfrieswyk
+in
+#1467
+[5.x] Use
+match
+expression by
+@xurshudyan
+in
+#1487
+FIX
+#1488
+: Focused line gets hightlighted [remove .vjs-tree-node:hover] by
+@srennou
+in
+#1492
+
+==================================================
+
+=== 条目 6 ===
+库名: Laravel-Horizon
+版本: N/A
+URL: https://github.com/laravel/horizon/releases/tag/v5.18.0
+长度: 246 字符
+内容:
+Fix supervisor reprovisioning by
+@PrinsFrank
+in
+#1288
+Display inactive supervisors in dashboard by
+@PrinsFrank
+in
+#1286
+Fix autoscaler scaling down below zero when (nr. of queues * minProcesses) is higher than maxProcesses by
+@PrinsFrank
+in
+#1292
 
 ==================================================
 

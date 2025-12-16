@@ -1,0 +1,452 @@
+[
+  {
+    "library_name": "Doctrine-DBAL",
+    "url": "https://github.com/doctrine/dbal/releases/tag/3.7.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Doctrine-ORM",
+    "url": "https://github.com/doctrine/orm/releases/tag/3.4.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHPUnit",
+    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Symfony",
+    "url": "https://github.com/symfony/symfony/releases/tag/v7.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Symfony",
+    "url": "https://github.com/symfony/symfony/releases/tag/v6.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Symfony",
+    "url": "https://github.com/symfony/symfony/releases/tag/v7.4.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Composer",
+    "url": "https://github.com/composer/composer/releases/tag/2.9.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Composer",
+    "url": "https://github.com/composer/composer/releases/tag/2.8.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Composer",
+    "url": "https://github.com/composer/composer/releases/tag/2.6.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Doctrine-ORM",
+    "url": "https://github.com/doctrine/orm/releases/tag/3.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel",
+    "url": "https://github.com/laravel/laravel/releases/tag/v11.0.4",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel",
+    "url": "https://github.com/laravel/laravel/releases/tag/v10.2.7",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHPUnit",
+    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.4.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHPUnit",
+    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/12.2.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Doctrine-ORM",
+    "url": "https://github.com/doctrine/orm/releases/tag/2.16.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel",
+    "url": "https://github.com/laravel/laravel/releases/tag/v12.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Doctrine-DBAL",
+    "url": "https://github.com/doctrine/dbal/releases/tag/4.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Monolog",
+    "url": "https://github.com/Seldaek/monolog/releases/tag/3.4.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Guzzle",
+    "url": "https://github.com/guzzle/guzzle/releases/tag/7.9.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Doctrine-DBAL",
+    "url": "https://github.com/doctrine/dbal/releases/tag/4.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Guzzle",
+    "url": "https://github.com/guzzle/guzzle/releases/tag/7.9.3",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Carbon",
+    "url": "https://github.com/briannesbitt/Carbon/releases/tag/3.10.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-CS-Fixer",
+    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.85.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Carbon",
+    "url": "https://github.com/briannesbitt/Carbon/releases/tag/3.8.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-CS-Fixer",
+    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.60.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Carbon",
+    "url": "https://github.com/briannesbitt/Carbon/releases/tag/2.68.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Guzzle",
+    "url": "https://github.com/guzzle/guzzle/releases/tag/7.8.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHPStan",
+    "url": "https://github.com/phpstan/phpstan/releases/tag/1.11.5",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Monolog",
+    "url": "https://github.com/Seldaek/monolog/releases/tag/3.6.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHPStan",
+    "url": "https://github.com/phpstan/phpstan/releases/tag/1.10.30",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Monolog",
+    "url": "https://github.com/Seldaek/monolog/releases/tag/3.9.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-CS-Fixer",
+    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.21.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHPStan",
+    "url": "https://github.com/phpstan/phpstan/releases/tag/2.1.17",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Psalm",
+    "url": "https://github.com/vimeo/psalm/releases/tag/5.25.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Psalm",
+    "url": "https://github.com/vimeo/psalm/releases/tag/5.13.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Inertia",
+    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Filament",
+    "url": "https://github.com/filamentphp/filament/releases/tag/v3.2.80",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Livewire",
+    "url": "https://github.com/livewire/livewire/releases/tag/v3.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Psalm",
+    "url": "https://github.com/vimeo/psalm/releases/tag/6.12.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Livewire",
+    "url": "https://github.com/livewire/livewire/releases/tag/v3.7.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Inertia",
+    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.4",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Livewire",
+    "url": "https://github.com/livewire/livewire/releases/tag/v3.5.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Inertia",
+    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v0.6.10",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Filament",
+    "url": "https://github.com/filamentphp/filament/releases/tag/v3.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Filament",
+    "url": "https://github.com/filamentphp/filament/releases/tag/v4.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Spatie-Laravel-Permission",
+    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.10.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Spatie-Laravel-Permission",
+    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Spatie-Laravel-Permission",
+    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.18.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Spatie-Laravel-Medialibrary",
+    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/11.10.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Spatie-Laravel-Medialibrary",
+    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/10.10.2",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "League-CSV",
+    "url": "https://github.com/thephpleague/csv/releases/tag/9.16.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-Mailer",
+    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.1",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Spatie-Laravel-Medialibrary",
+    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/11.17.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "League-CSV",
+    "url": "https://github.com/thephpleague/csv/releases/tag/9.22.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "League-CSV",
+    "url": "https://github.com/thephpleague/csv/releases/tag/9.9.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-Mailer",
+    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.11.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Swoole",
+    "url": "https://github.com/swoole/swoole-src/releases/tag/v5.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Predis",
+    "url": "https://github.com/predis/predis/releases/tag/v2.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-Mailer",
+    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.2",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Predis",
+    "url": "https://github.com/predis/predis/releases/tag/v2.2.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Swoole",
+    "url": "https://github.com/swoole/swoole-src/releases/tag/v6.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Swoole",
+    "url": "https://github.com/swoole/swoole-src/releases/tag/v6.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "RoadRunner",
+    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2023.2.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "RoadRunner",
+    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2024.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "RoadRunner",
+    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2025.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Horizon",
+    "url": "https://github.com/laravel/horizon/releases/tag/v5.28.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Passport",
+    "url": "https://github.com/laravel/passport/releases/tag/v11.6.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Horizon",
+    "url": "https://github.com/laravel/horizon/releases/tag/v5.33.5",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Horizon",
+    "url": "https://github.com/laravel/horizon/releases/tag/v5.18.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Passport",
+    "url": "https://github.com/laravel/passport/releases/tag/v12.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Passport",
+    "url": "https://github.com/laravel/passport/releases/tag/v13.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Slim",
+    "url": "https://github.com/slimphp/Slim/releases/tag/4.13.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Slim",
+    "url": "https://github.com/slimphp/Slim/releases/tag/4.12.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Slim",
+    "url": "https://github.com/slimphp/Slim/releases/tag/4.14.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Predis",
+    "url": "https://github.com/predis/predis/releases/tag/v2.4.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Framework",
+    "url": "https://github.com/laravel/framework/releases/tag/v10.15.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Framework",
+    "url": "https://github.com/laravel/framework/releases/tag/v11.10.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Rector",
+    "url": "https://github.com/rectorphp/rector/releases/tag/0.17.6",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-Parser",
+    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.7.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Framework",
+    "url": "https://github.com/laravel/framework/releases/tag/v12.20.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-Parser",
+    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.3.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Excel",
+    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.41",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Rector",
+    "url": "https://github.com/rectorphp/rector/releases/tag/2.1.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Excel",
+    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.52",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "PHP-Parser",
+    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.0.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Rector",
+    "url": "https://github.com/rectorphp/rector/releases/tag/1.2.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Frankenphp",
+    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.2.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Frankenphp",
+    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.8.0",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Laravel-Excel",
+    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.63",
+    "is_corresponding": true
+  },
+  {
+    "library_name": "Frankenphp",
+    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.0.0",
+    "is_corresponding": true
+  }
+]

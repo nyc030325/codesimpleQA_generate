@@ -1,32 +1,32 @@
 [
   {
-    "library": "ScalaTest",
+    "library": "PHPUnit",
     "entries": [
       {
-        "library_name": "ScalaTest",
-        "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.14",
-        "version": "release-3.2.14",
-        "title": "Release 3.2.14 · scalatest/scalatest · GitHub",
-        "release_date": "2022-09-29T13:55:15Z",
-        "content": "Scalactic/ScalaTest 3.2.14 is a point release that makes a few enhancements.\nChanges included:\nSet sorting reporter as complete if test run failed unexpected. (\n#2161\n)\nFixed serialization problem for TestFailedException thrown from EitherValues. (\n#2159\n)\nEnabled scaladoc artifact for Scala 3 build. (\n#2163\n)\nMarked matchers DSL with Scala 3 infix keyword. (\n#2158\n)\nEnhanced pretty print support for case classes. (\n#2155\n)\nEnhanced pretty print support for tuples. (\n#2160\n)\nChanged the remaining GenTraversable in Prettifier to Iterable. (\n#2156\n)\nWhenever possible call .hasDefiniteSize first before calling .size on collection. (\n#2156\n)\nMatthew de Detrich (\nhttps://github.com/mdedetrich\n)\nNima Taheri (\nhttps://github.com/nimatrueway\nChua Chee Seng (\nhttps://github.com/cheeseng\n)\nBill Venners (\nhttps://github.com/bvenners\n)",
+        "library_name": "PHPUnit",
+        "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.1.0",
+        "version": "11.1.0",
+        "title": "Release PHPUnit 11.1.0 · sebastianbergmann/phpunit · GitHub",
+        "release_date": "2024-04-05T04:45:50Z",
+        "content": "Added\n#5689\n: Distinguish between self, direct and indirect deprecations\n#5696\n:\n#[DisableReturnValueGenerationForTestDoubles]\nattribute for disabling return value generation for test doubles created using\ncreateMock()\n,\ncreateMockForIntersectionOfInterfaces()\n,\ncreatePartialMock()\n,\ncreateStub()\n, and\ncreateStubForIntersectionOfInterfaces()\n#5175\n:\n#[CoversMethod]\nand\n#[UsesMethod]\nattributes for more fine-grained code coverage targeting\n#5720\n: Support filtering using\n--filter\n,\n--exclude-filter\n,\n--group\n, and\n--exclude-group\nwhen listing tests using\n--list-tests\nand\n--list-tests-xml\nas well as listing groups with\n--list-groups\n#5733\n: Implicitly include (abstract) parent class(es) with\n#[CoversClass]\nand\n#[UsesClass]\nattributes\n--only-summary-for-coverage-text\nCLI option to reduce the code coverage report in text format to a summary\n--show-uncovered-for-coverage-text\nCLI option to expand the code coverage report in text format to include a list of uncovered files\nChanged\n#5689\n: The XML configuration file generated using\n--generate-configuration\nnow generates\n<source ignoreIndirectDeprecations=\"true\" restrictNotices=\"true\" restrictWarnings=\"true\">\ninstead of\n<source restrictDeprecations=\"true\" restrictNotices=\"true\" restrictWarnings=\"true\">\n#5708\n: Allow the\n--group\n,\n--exclude-group\n,\n--covers\n,\n--uses\n, and\n--test-suffix\nCLI options to be used multiple times\nPHPUnit\\Framework\\TestCase::__construct()\nis now annotated to be final in preparation for declaring it\nfinal\nin PHPUnit 12\nChanged how the\nDeprecationTriggered\n,\nErrorTriggered\n,\nNoticeTriggered\n,\nPhpDeprecationTriggered\n,\nPhpNoticeTriggered\n,\nPhpWarningTriggered\n, and\nWarningTriggered\nevents are represented as text\nDeprecated\n#5689\n: The\nrestrictDeprecations\nattribute on the\n<source>\nelement of the XML configuration file is now deprecated in favor of the\nignoreSelfDeprecations\n,\nignoreDirectDeprecations\n, and\nignoreIndirectDeprecations\nattributes\n#5709\n: Deprecate support for using comma-separated values with the\n--group\n,\n--exclude-group\n,\n--covers\n,\n--uses\n, and\n--test-suffix\nCLI options\nHow to install or update PHPUnit",
         "crawl_status": "success"
       },
       {
-        "library_name": "ScalaTest",
-        "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.16",
-        "version": "release-3.2.16",
-        "title": "Release 3.2.16 · scalatest/scalatest · GitHub",
-        "release_date": "2023-05-15T13:46:58Z",
-        "content": "Scalactic/ScalaTest 3.2.16 is a point release that makes a few enhancements.\nChanges included:\nAdded overridable differ to Prettifier trait, and added functions to create prettifier instance with supplied Differ. (\n#2221\n).\nRecognize -S as a valid argument in checkArgsForValidity, used by Runner. (\n#2222\n).\nDeprecated NoArg as scala.DelayedInit is dropped from Scala 3, updated ScalaDoc. (\n#2228\n).\nFixed compiler warning in expanded code when the size or length method call contains empty bracket. (\n#2230\n).\nFixed \"SuiteAborted.this.message was null\" error (\n#2236\n).\nThanks to the contributors for the Scalactic/ScalaTest 3.2.16 release:\nAvatar Georgiy Kargapolov (\nhttps://github.com/inmost-light\n)\nshawjef3 (\nhttps://github.com/shawjef3\n)\nChua Chee Seng (\nhttps://github.com/cheeseng\n)\nBill Venners (\nhttps://github.com/bvenners\n)",
+        "library_name": "PHPUnit",
+        "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/12.2.0",
+        "version": "12.2.0",
+        "title": "Release PHPUnit 12.2.0 · sebastianbergmann/phpunit · GitHub",
+        "release_date": "2025-06-06T02:59:30Z",
+        "content": "Added\nExperimental Support for Open Test Reporting XML\nPHPUnit has supported reporting test results in the JUnit XML format for a long time. Unfortunately, there has never been a standard schema for the JUnit XML format. Common consumers of Clover XML log files interpret these files differently, which has led to frequent problems.\nTo address this, the JUnit team started the\nOpen Test Reporting project\n, creating and maintaining language-agnostic XML and HTML test reporting formats. Unlike JUnit XML, Open Test Reporting's XML formats are extensible.\nLogging in the Open Test Reporting XML format is controlled by the new\n--log-otr\nCLI option and the new\n<otr>\nXML configuration element.\nThis feature is experimental and the generated XML may change in order to enhance compliance with the Open Test Reporting project's XML schema definitions. The same applies to the XML schema definitions for information that is specific for PHP and PHPUnit. Please note that such changes may occur in bugfix or minor releases and could potentially break backwards compatibility.\nExperimental Support for OpenClover XML\nPHPUnit has supported reporting code coverage information in the Clover XML format for a long time. Unfortunately, there has never been a standard schema for the Clover XML format. Common consumers of Clover XML log files interpret these files differently, which leads to frequent problems.\nThe original commercial Clover project has been superseded by the Open Source OpenClover project, which provides an XML schema for its OpenClover XML format. Rather than modifying the existing Clover XML reporter to comply with the OpenClover XML schema, thereby breaking backward compatibility, a new OpenClover XML reporter has been introduced.\nThis new reporter is controlled by the new CLI option,\n--coverage-openclover\n, and the new XML configuration element,\n<openclover>\n. This code coverage reporter generates XML documents that validate against the OpenClover project's XML schema definition, with one exception: the\n<testproject>\nelement is not generated.\nThe existing Clover XML reporter, controlled by the\n--coverage-clover\nCLI option and the\n<clover>\nXML configuration element, remains unchanged.\nThis feature is experimental and the generated XML may change to enhance compliance with the OpenClover XML schema definition. Please note that such changes may occur in bugfix or minor releases and could potentially break backwards compatibility.\nMiscellaneous\n--with-telemetry\nCLI option that can be used together with\n--debug\nto print debugging information that includes telemetry information\nThe\nTestCase::provideAdditionalInformation()\nmethod can now be used to emit a\nTest\\AdditionalInformationProvided\nevent\nThe new\nTest\\AfterLastTestMethodFailed\n,\nTest\\AfterTestMethodFailed\n,\nTest\\BeforeFirstTestMethodFailed\n,\nTest\\BeforeTestMethodFailed\n,\nTest\\PostConditionFailed\n,\nTest\\PreConditionFailed\nevents are now emitted instead of\nTest\\AfterLastTestMethodErrored\n,\nTest\\AfterTestMethodErrored\n,\nTest\\BeforeFirstTestMethodErrored\n,\nTest\\BeforeTestMethodErrored\n,\nTest\\PostConditionErrored\n,\nTest\\PreConditionErrored\nwhen the\nThrowable\nextends\nAssertionFailedError\nto distinguish between errors and failures triggered in hook methods\nThe new\nTest\\PreparationErrored\nevent is now emitted instead of\nTest\\PreparationFailed\nwhen the\nThrowable\ndoes not extend\nAssertionFailedError\nto distinguish between errors and failures triggered during test preparation\nTest\\PreparationFailed::throwable()\nChanged\n#6165\n: Collect deprecations triggered by autoloading while loading/building the test suite\nDo not treat warnings differently than other issues in summary section of default output\nA warning is now emitted when both\n#[CoversNothing]\nand\n#[Covers*]\n(or\n#[Uses*]\n) are used on a test class\nA warning is now emitted when the same\n#[Covers*]\n(or\n#[Uses*]\n) attribute is used multiple times on a test class\nA warning is now emitted when the same code is targeted by both\n#[Covers*]\nand\n#[Uses*]\nattributes\nA warning is now emitted when a hook method such as\nsetUp()\n, for example has a\n#[Test]\nattribute\nA warning is now emitted when more than one of\n#[Small]\n,\n#[Medium]\n, or\n#[Large]\nis used on a test class\nA warning is now emitted when a data provider provides data sets that have more values than the test method consumes using arguments\nHow to install or update PHPUnit",
         "crawl_status": "success"
       },
       {
-        "library_name": "ScalaTest",
-        "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.19",
-        "version": "release-3.2.19",
-        "title": "Release 3.2.19 · scalatest/scalatest · GitHub",
-        "release_date": "2024-06-26T00:41:22Z",
-        "content": "Scalactic/ScalaTest 3.2.19 is a point release that makes a bug fixes and few enhancements.\nChanges included:\nFixed remaining Scala 3 infix warnings in method used in DSL. (\n#2315\n)\nUpgraded to Scala Native 0.5. (\n#2322\n)\nScalaTest+JUnit5\nAdded support to run tests with dynamic test name when running a suite. (\nscalatest/scalatestplus-junit5#19\n)\nAdded support for ParallelTestExecution. (\nscalatest/scalatestplus-junit5#18\n)\nFixed a bug when extracting payload from throwable. (\nscalatest/scalatestplus-junit5#16\n)\nAdded wait for tests to finish before continuing. (\nscalatest/scalatestplus-junit5#15\n)\nUpdated JUnitSuite example. (\nscalatest/scalatestplus-junit5#14\n)\nUpgraded JUnit version to 5.10.2 in ScalaTest+JUnit5.\nScalaTest+JUnit\nMade JUnitRunner Filterable. (\nscalatest/scalatestplus-junit#8\n)\nTranslate TestCanceled to fireAssumptionFailed. (\nscalatest/scalatestplus-junit#28\n)\nScalaTest+ScalaCheck\nUpgraded ScalaCheck version to 1.18 in ScalaTest+ScalaCheck (\nscalatest/scalatestplus-scalacheck#66\n)\nReport original arg value if it was shrunk. (\nscalatest/scalatestplus-scalacheck#12\n)\nScalaTest+Mockito\nAdd convient methods for ArgumentCaptor. (\nscalatest/scalatestplus-mockito#27\n)\nUpgraded Mockito version to 5.12 in ScalaTest+Mockito.\nScalaTest+Selenium\nUpgraded Selenium version to 4.21 in ScalaTest+Selenium.\nScalaTest+TestNG\nUpgraded TestNG version to 7.10 in ScalaTest+TestNG.\nScalaTest+JMock\nUpgraded JMock version to 2.13 in ScalaTest+JMock.\nScalaTest+EasyMock\nUpgraded EasyMock version to 5.3 in ScalaTest+EasyMock.",
+        "library_name": "PHPUnit",
+        "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.4.0",
+        "version": "11.4.0",
+        "title": "Release PHPUnit 11.4.0 · sebastianbergmann/phpunit · GitHub",
+        "release_date": "2024-10-05T08:42:38Z",
+        "content": "Changed\n#5915\n: Bootstrap extensions before building test suite\n#5917\n: Seal event facade before loading the test suite\n#5923\n: Filter configured deprecation triggers when displaying deprecation details\n#5927\n:\n#[RequiresPhpunitExtension]\nattribute\n#5928\n: Filter tests based on the PHP extensions they require\n#5964\n: Better error message when data provider is invalid\nThe XML configuration file generator now references\nvendor/phpunit/phpunit/phpunit.xsd\n(instead of\nhttps://schema.phpunit.de/X.Y/phpunit.xsd\n) when PHPUnit was installed using Composer and\nphpunit --generate-configuration\nwas invoked in the directory where\nvendor\nis located\nThe\n--migrate-configuration\ncommand no longer replaces\nvendor/phpunit/phpunit/phpunit.xsd\nwith\nhttps://schema.phpunit.de/X.Y/phpunit.xsd\nThe output of\n--list-groups\nnow shows how many tests a group contains\nThe output of\n--list-suites\nnow shows how many tests a test suite contains\nDeprecated\n#5951\n:\nincludeUncoveredFiles\nconfiguration option\n#5958\n: Support for\n#[CoversTrait]\nand\n#[UsesTrait]\nattributes\n#5960\n: Support for targeting trait methods with the\n#[CoversMethod]\nand\n#[UsesMethod]\nattributes (and respective annotations)\nHow to install or update PHPUnit",
         "crawl_status": "success"
       }
     ],
@@ -37,137 +37,43 @@
     ],
     "actual_years": [
       2024,
-      2023
+      2025
     ],
     "years_extracted": [
-      null,
-      2023,
+      2024,
+      2025,
       2024
     ],
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   },
   {
-    "library": "ScalaCheck",
+    "library": "Slim",
     "entries": [
       {
-        "library_name": "ScalaCheck",
-        "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.17.0",
-        "version": "v1.17.0",
-        "title": "Release ScalaCheck v1.17.0 · typelevel/scalacheck · GitHub",
-        "release_date": "2022-09-15T23:24:43Z",
-        "content": "Highlights\nKeep the same error type while shrinking by\n@AurelienRichez\nin\n#838\nFix the cross-platform time arbitraries, again by\n@armanbilge\nin\n#889\n[Commands] Fix MatchError when using multiple workers by\n@yannkaiser-asana\nin\n#894\nfix wrong match in shrinker (fixes\n#909\n) by\n@AurelienRichez\nin\n#910\nDeterministically vary the number of seed slides in Test.check by\n@leviramsey\nin\n#911\nNew Contributors\n@yannkaiser-asana\nmade their first contribution in\n#894\n@AurelienRichez\nmade their first contribution in\n#838\nFull Changelog\n:\nv1.16.0...v1.17.0",
+        "library_name": "Slim",
+        "url": "https://github.com/slimphp/Slim/releases/tag/4.12.0",
+        "version": "4.12.0",
+        "title": "Release 4.12.0 · slimphp/Slim · GitHub",
+        "release_date": "2023-07-23T04:56:59Z",
+        "content": "Total issues resolved:\n18\n3220: Refactor\nthanks to\n@amirkhodabande\n3237: Update phpstan/phpstan requirement from ^1.8 to ^1.9\nthanks to\n@dependabot\n[bot]\n3238: Update slim/http requirement from ^1.2 to ^1.3\nthanks to\n@dependabot\n[bot]\n3239: Update slim/psr7 requirement from ^1.5 to ^1.6\nthanks to\n@dependabot\n[bot]\n3240: Update phpspec/prophecy requirement from ^1.15 to ^1.16\nthanks to\n@dependabot\n[bot]\n3241: Update adriansuter/php-autoload-override requirement from ^1.3 to ^1.4\nthanks to\n@dependabot\n[bot]\n3245: New ability to override RouteGroupInterface in the Route class\nthanks to\n@githubjeka\n3253: Fix HttpBadRequestException description\nthanks to\n@jsanahuja\n3254: Update phpunit/phpunit requirement from ^9.5 to ^9.6\nthanks to\n@dependabot\n[bot]\n3255: Update phpstan/phpstan requirement from ^1.9 to ^1.10\nthanks to\n@dependabot\n[bot]\n3256: Update phpspec/prophecy requirement from ^1.16 to ^1.17\nthanks to\n@dependabot\n[bot]\n3264: Update psr/http-message requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3265: Update nyholm/psr7 requirement from ^1.5 to ^1.7\nthanks to\n@dependabot\n[bot]\n3266: Update guzzlehttp/psr7 requirement from ^2.4 to ^2.5\nthanks to\n@dependabot\n[bot]\n3267: Update nyholm/psr7 requirement from ^1.7 to ^1.8\nthanks to\n@dependabot\n[bot]\n3269: Update httpsoft/http-server-request requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3270: Update httpsoft/http-message requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3271: prevent multiple entries of same methode in FastRouteDispatcher\nthanks to\n@papparazzo",
         "crawl_status": "success"
       },
       {
-        "library_name": "ScalaCheck",
-        "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.17.1",
-        "version": "v1.17.1",
-        "title": "Release v1.17.1 · typelevel/scalacheck · GitHub",
-        "release_date": "2024-04-17T00:21:09Z",
-        "content": "Highlights\nfix wrong millisecond value (fixes\n#913\n) by\n@akonior\nin\n#924\nfix scala 3 compilation errors in user guide examples by\n@akonior\nin\n#925\nFix Many Of The Warnings by\n@isomarcte\nin\n#928\nAdd Cogen instances for SortedSet and SortedMap by\n@isomarcte\nin\n#927\nAdded some code improvements and Removed Redundent Arguments by\n@aashish2054\nin\n#942\nAdd Gen.nonEmptyStringOf by\n@satorg\nin\n#944\nadd a comment line about\nnonEmptyStringOf\nby\n@satorg\nin\n#951\nIntegrate sbt-header (via sbt-typelevel) by\n@satorg\nin\n#959\nFix trailing whitespaces in headers by\n@satorg\nin\n#963\nAdd scalafmt to the repository by\n@satorg\nin\n#950\nAdd\nopen\nto\nProperties\nto prevent Scala 3 compile errors by\n@froth\nin\n#991\nadd explicit type by\n@xuwei-k\nin\n#1005\nRemove CODE_OF_CONDUCT, use org default [ci skip] by\n@valencik\nin\n#1044\nPrefer docstrings.style = AsteriskSpace by\n@som-snytt\nin\n#1042\nUpdates\nUpdate nscplugin, sbt-scala-native, ... to 0.4.7 by @typelevel-steward in\n#915\nUpdate scala-library to 2.12.17 by @typelevel-steward in\n#917\nUpdate sbt-typelevel-ci-release, ... to 0.4.15 by @typelevel-steward in\n#918\nUpdate scala3-library, ... to 3.2.0 by @typelevel-steward in\n#920\nUpdate sbt to 1.7.2 by @typelevel-steward in\n#921\nUpdate scala-library to 2.13.9 by @typelevel-steward in\n#919\nUpdate sbt-typelevel-ci-release, ... to 0.4.16 by @typelevel-steward in\n#922\nUpdate scala-library to 2.13.10 by @typelevel-steward in\n#923\nUpdate sbt to 1.7.3 by @typelevel-steward in\n#926\nUpdate scala3-library, ... to 3.2.1 by @typelevel-steward in\n#929\nUpdate sbt-typelevel-ci-release, ... to 0.4.17 by @typelevel-steward in\n#931\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.11.0 by @typelevel-steward in\n#932\nUpdate sbt to 1.8.0 by @typelevel-steward in\n#934\nUpdate nscplugin, sbt-scala-native, ... to 0.4.9 by @typelevel-steward in\n#933\nUpdate sbt to 1.8.1 by @typelevel-steward in\n#935\nUpdate sbt to 1.8.2 by @typelevel-steward in\n#936\nUpdate sbt-typelevel-ci-release, ... to 0.4.18 by @typelevel-steward in\n#937\nUpdate scala3-library, ... to 3.2.2 by @typelevel-steward in\n#939\nUpdate sbt-jmh to 0.4.4 by @typelevel-steward in\n#940\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.13.0 by @typelevel-steward in\n#941\nUpdate nscplugin, sbt-scala-native, ... to 0.4.10 by @typelevel-steward in\n#938\nUpdate sbt-scala-native-crossproject, ... to 1.3.0 by @typelevel-steward in\n#953\nUpdate sbt-typelevel-ci-release, ... to 0.4.21 by @typelevel-steward in\n#958\nUpdate sbt to 1.8.3 by @typelevel-steward in\n#957\nUpdate nscplugin, sbt-scala-native, ... to 0.4.12 by @typelevel-steward in\n#947\nUpdate scalafmt-core to 3.7.4 by @typelevel-steward in\n#961\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.13.1 by @typelevel-steward in\n#954\nUpdate sbt-scala-native-crossproject, ... to 1.3.1 by @typelevel-steward in\n#955\nUpdate sbt-jmh to 0.4.5 by @typelevel-steward in\n#964\nUpdate sbt-typelevel to 0.4.22 by @typelevel-steward in\n#966\nUpdate scala-library to 2.13.11 by @typelevel-steward in\n#972\nUpdate sbt to 1.9.0 by @typelevel-steward in\n#962\nUpdate nscplugin, sbt-scala-native, ... to 0.4.14 by @typelevel-steward in\n#967\nUpdate scala3-library, ... to 3.3.0 by @typelevel-steward in\n#960\nUpdate scala-library to 2.12.18 by @typelevel-steward in\n#971\nUpdate sbt to 1.9.1 by @typelevel-steward in\n#975\nUpdate scalafmt-core to 3.7.6 by @typelevel-steward in\n#977\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.13.2 by @typelevel-steward in\n#974\nUpdate to sbt-typelevel 0.5.0-RC1 by\n@armanbilge\nin\n#973\nUpdate sbt-typelevel to 0.5.0-RC5 by @typelevel-steward in\n#978\nUpdate scalafmt-core to 3.7.7 by @typelevel-steward in\n#980\nUpdate sbt to 1.9.2 by @typelevel-steward in\n#982\nUpdate scalafmt-core to 3.7.9 by @typelevel-steward in\n#985\nUpdate sbt-typelevel to 0.5.0-RC7 by @typelevel-steward in\n#983\nUpdate sbt to 1.9.3 by @typelevel-steward in\n#989\nUpdate sbt-typelevel to 0.5.0-RC9 by @typelevel-steward in\n#988\nUpdate scalafmt-core to 3.7.10 by @typelevel-steward in\n#986\nUpdate scalafmt-core to 3.7.12 by @typelevel-steward in\n#995\nUpdate scala3-library, ... to 3.3.1 by @typelevel-steward in\n#1004\nUpdate sbt to 1.9.4 by @typelevel-steward in\n#999\nUpdate sbt-jmh to 0.4.6 by @typelevel-steward in\n#1003\nUpdate scalafmt-core to 3.7.14 by @typelevel-steward in\n#1001\nUpdate nscplugin, sbt-scala-native, ... to 0.4.15 by @typelevel-steward in\n#1002\nUpdate sbt to 1.9.5 by @typelevel-steward in\n#1009\nUpdate sbt to 1.9.6 by @typelevel-steward in\n#1010\nUpdate commons-lang3 to 3.13.0 by @typelevel-steward in\n#992\nUpdate scalafmt-core to 3.7.15 by @typelevel-steward in\n#1016\nUpdate sbt to 1.9.7 by @typelevel-steward in\n#1015\nUpdate sbt-typelevel to 0.6.0 by @typelevel-steward in\n#1017\nUpdate sbt-typelevel to 0.6.2 by @typelevel-steward in\n#1020\nUpdate nscplugin, sbt-scala-native, ... to 0.4.16 by @typelevel-steward in\n#1014\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.14.0 by @typelevel-steward in\n#1012\nUpdate scalafmt-core to 3.7.17 by @typelevel-steward in\n#1021\nUpdate sbt-typelevel to 0.6.4 by @typelevel-steward in\n#1027\nUpdate sbt to 1.9.8 by @typelevel-steward in\n#1026\nUpdate sbt-jmh to 0.4.7 by @typelevel-steward in\n#1025\nUpdate scala-library to 2.13.12 by @typelevel-steward in\n#1007\nUpdate sbt-typelevel to 0.6.5 by @typelevel-steward in\n#1029\nUpdate scalafmt-core to 3.8.0 by @typelevel-steward in\n#1034\nUpdate scala3-library, ... to 3.3.3 by @typelevel-steward in\n#1039\nUpdate sbt to 1.9.9 by @typelevel-steward in\n#1035\nUpdate sbt-typelevel to 0.6.7 by @typelevel-steward in\n#1036\nUpdate commons-lang3 to 3.14.0 by @typelevel-steward in\n#1022\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.15.0 by @typelevel-steward in\n#1030\nUpdate nscplugin, sbt-scala-native, ... to 0.4.17 by @typelevel-steward in\n#1032\nUpdate scala-library to 2.12.19 by @typelevel-steward in\n#1037\nUpdate scala-library to 2.13.13 by @typelevel-steward in\n#1038\nUpdate scalafmt-core to 3.8.1 by @typelevel-steward in\n#1045\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.16.0 by @typelevel-steward in\n#1046\nNew Contributors\n@akonior\nmade their first contribution in\n#924\n@aashish2054\nmade their first contribution in\n#942\n@satorg\nmade their first contribution in\n#944\n@valencik\nmade their first contribution in\n#1044\n@som-snytt\nmade their first contribution in\n#1042\nFull Changelog\n:\nv1.17.0...v1.17.1",
+        "library_name": "Slim",
+        "url": "https://github.com/slimphp/Slim/releases/tag/4.13.0",
+        "version": "4.13.0",
+        "title": "Release 4.13.0 · slimphp/Slim · GitHub",
+        "release_date": "2024-03-03T21:35:10Z",
+        "content": "Total issues resolved:\n16\n3277: Create HttpTooManyRequestsException.php\nthanks to\n@flavioheleno\n3278: Remove HttpGoneException executable flag\nthanks to\n@flavioheleno\n3285: Update guzzlehttp/psr7 requirement from ^2.5 to ^2.6\nthanks to\n@dependabot\n[bot]\n3290: Bump actions/checkout from 3 to 4\nthanks to\n@dependabot\n[bot]\n3291: Fix line length\nthanks to\n@l0gicgate\n3296: PSR 7 http-message version requirement\nthanks to\n@rotexdegba\n3297: Allow Diactoros 3\nthanks to\n@derrabus\n3299: Update tests and add PHP 8.3 to the CI matrix\nthanks to\n@akrabat\n3301: Update nyholm/psr7-server requirement from ^1.0 to ^1.1\nthanks to\n@dependabot\n[bot]\n3302: Add support for psr/http-message ^2.0\nthanks to\n@rotexdegba\n3305: Update phpspec/prophecy-phpunit requirement from ^2.0 to ^2.1\nthanks to\n@dependabot\n[bot]\n3306: Update phpspec/prophecy requirement from ^1.17 to ^1.18\nthanks to\n@dependabot\n[bot]\n3308: Update squizlabs/php_codesniffer requirement from ^3.7 to ^3.8\nthanks to\n@dependabot\n[bot]\n3313: Bump ramsey/composer-install from 2 to 3\nthanks to\n@dependabot\n[bot]\n3314: Update phpspec/prophecy requirement from ^1.18 to ^1.19\nthanks to\n@dependabot\n[bot]\n3315: Update squizlabs/php_codesniffer requirement from ^3.8 to ^3.9\nthanks to\n@dependabot\n[bot]",
         "crawl_status": "success"
       },
       {
-        "library_name": "ScalaCheck",
-        "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.19.0",
-        "version": "v1.19.0",
-        "title": "Release v1.19.0 · typelevel/scalacheck · GitHub",
-        "release_date": "2025-09-06T19:49:36Z",
-        "content": "What's Changed\nFix Gen.pick producing only a subset of possible combinations by\n@sirmax\nin\n#1119\nIncrease Fidelity of the sbt.testing.Framework Implementation by\n@dubinsky\nin\n#1107\nIntroduce\nGen.zipWith\nmulti-arity method by\n@satorg\nin\n#1062\nMention Gradle plugin for Scala.js and Scala Native. by\n@dubinsky\nin\n#1117\nVerify only props matching the given TestSelectors by\n@Duhemm\nin\n#1031\nProject Updates\nauxlib, clib, javalib, nativelib, ...\n0.5.6 (\n#1081\n)\n0.5.7 (\n#1098\n)\n0.5.8 (\n#1113\n)\ncommons-lang3\n3.18.0 (\n#1116\n)\nsbt\n1.10.2 (\n#1073\n)\n1.10.3 (\n#1077\n)\n1.10.4 (\n#1079\n)\n1.10.5 (\n#1080\n)\nsbt-scalajs, scalajs-compiler, ...\n1.17.0 (\n#1084\n)\n1.18.1 (\n#1091\n)\n1.18.2 (\n#1092\n)\nsbt-typelevel\n0.7.4 (\n#1076\n)\n0.7.5 (\n#1086\n)\n0.7.6 (\n#1090\n)\n0.7.7 (\n#1094\n)\n0.8.0 (\n#1112\n)\nsbt, scripted-plugin\n1.10.6 (\n#1083\n)\n1.10.7 (\n#1085\n)\n1.10.10 (\n#1102\n)\n1.10.11 (\n#1106\n)\n1.11.0 (\n#1110\n)\n1.11.1 (\n#1111\n)\n1.11.2 (\n#1114\n)\n1.11.3 (\n#1115\n)\n1.11.4 (\n#1118\n)\n1.11.5 (\n#1122\n)\nscala-library\n2.13.15 (\n#1074\n)\n2.13.16 (\n#1088\n)\nscala3-library, ...\n3.3.4 (\n#1075\n)\n3.3.5 (\n#1095\n)\n3.3.6 (\n#1109\n)\nscalafmt-core\n3.8.5 (\n#1089\n)\n3.8.6 (\n#1093\n)\n3.9.0 (\n#1096\n)\n3.9.1 (\n#1097\n)\n3.9.2 (\n#1099\n)\n3.9.3 (\n#1103\n)\n3.9.4 (\n#1104\n)\nNew Contributors\n@sirmax\nmade their first contribution in\n#1119\n@Duhemm\nmade their first contribution in\n#1031\n@dubinsky\nmade their first contribution in\n#1107\nFull Changelog\n:\nv1.18.1...v1.19.0",
-        "crawl_status": "success"
-      }
-    ],
-    "expected_years": [
-      2024,
-      2025,
-      2023
-    ],
-    "actual_years": [
-      2024,
-      2025
-    ],
-    "years_extracted": [
-      null,
-      2024,
-      2025
-    ],
-    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
-  },
-  {
-    "library": "Shapeless",
-    "entries": [
-      {
-        "library_name": "Shapeless",
-        "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.10",
-        "version": "v2.3.10",
-        "title": "Release Shapeless 2.3.10 · milessabin/shapeless · GitHub",
-        "release_date": "2022-09-12T22:32:36Z",
-        "content": "What's Changed\nUse Scala Native JUnit plugin by\n@armanbilge\nin\n#1259\nUpdate dependencies in series/2.3 branch by\n@joroKr21\nin\n#1268\nExtract all subtype annotations by\n@pgrandjean\nin\n#1265\nMake Generic product and coproduct agree on definitions by\n@joroKr21\nin\n#1270\nMake enum example serializable by\n@joroKr21\nin\n#1271\nCapture implicit parameters at Generic materialization time by\n@joroKr21\nin\n#1272\nNew Contributors\n@armanbilge\nmade their first contribution in\n#1259\nFull Changelog\n:\nv2.3.9...2.3.10",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Shapeless",
-        "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.11",
-        "version": "v2.3.11",
-        "title": "Release Shapeless 2.3.11 · milessabin/shapeless · GitHub",
-        "release_date": "2024-05-14T14:17:32Z",
-        "content": "Note\nThis is the last release to support Scala 2.11 and Scala Native 0.4\nWhat's Changed\nMassively simplify build by\n@joroKr21\nin\n#1279\nadd explicit type for implicit def by\n@xuwei-k\nin\n#1330\nConcrete return type for MkFieldLens.mkFieldLens by\n@liorregev\nin\n#1324\nAdd support for Generic materialized in macro-generated companion object of nested case class by\n@DmytroMitin\nin\n#1286\nUpdate Scala and other dependencies by\n@joroKr21\nin\n#1354\nFull Changelog\n:\nv2.3.10...2.3.11",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Shapeless",
-        "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.13",
-        "version": "v2.3.13",
-        "title": "Release Shapeless 2.3.13 · milessabin/shapeless · GitHub",
-        "release_date": "2025-03-02T21:41:46Z",
-        "content": "What's Changed\nUse primary constructor to extract field annotations by\n@joroKr21\nin\n#1374\nUpdate dependencies on series/2.3 by\n@joroKr21\nin\n#1398\ndev: fix sourcemap path for scalajs (\n#1390\n) by\n@kalejami\nin\n#1395\nGenerate\nAutomatic-Module-Name\nattribute (\n#1375\n) by\n@hubertp\nin\n#1400\nFull Changelog\n:\nv2.3.12...v2.3.13",
-        "crawl_status": "success"
-      }
-    ],
-    "expected_years": [
-      2024,
-      2025,
-      2023
-    ],
-    "actual_years": [
-      2024,
-      2025
-    ],
-    "years_extracted": [
-      null,
-      2024,
-      2025
-    ],
-    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
-  },
-  {
-    "library": "Refined",
-    "entries": [
-      {
-        "library_name": "Refined",
-        "url": "https://github.com/fthomas/refined/releases/tag/v0.11.0",
-        "version": "v0.11.0",
-        "title": "Release 0.11.0 · fthomas/refined · GitHub",
-        "release_date": "2023-06-16T17:05:18Z",
-        "content": "What’s Changed\nPrepare for 0.11.0 (\n#1194\n)\n@fthomas\nRemove shapeless dependency in scala 3 (\n#1193\n)\n@mrdziuban\nUpdate scala-compiler, scala-library, ... to 2.13.11 (\n#1192\n)\n@scala-steward\nUpdate scala-compiler, scala-library, ... to 2.12.18 (\n#1191\n)\n@scala-steward\nUpdate nscplugin, sbt-scala-native, ... to 0.4.14 (\n#1188\n)\n@scala-steward\nUpdate sbt-jmh to 0.4.5 (\n#1190\n)\n@scala-steward\nUpdate sbt to 1.9.0 (\n#1186\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.4.22 (\n#1189\n)\n@scala-steward\nUpdate sbt-scoverage to 2.0.8 (\n#1187\n)\n@scala-steward\nUpdate scala3-library, ... to 3.3.0 (\n#1184\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.4 (\n#1185\n)\n@scala-steward\nUpdate pureconfig-core to 0.17.4 (\n#1181\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.4.21 (\n#1183\n)\n@scala-steward\nUpdate sbt to 1.8.3 (\n#1182\n)\n@scala-steward\nAdd PITS Global Data Recovery Services to the adopters list (\n#1180\n)\n@ghost\nUpdate sbt-ci-release to 1.5.12 (\n#1178\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.4.20 (\n#1177\n)\n@scala-steward\nUpdate sbt-scala-native-crossproject, ... to 1.3.1 (\n#1176\n)\n@scala-steward\nUpdate pureconfig-core to 0.17.3 (\n#1175\n)\n@scala-steward\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.13.1 (\n#1172\n)\n@scala-steward\nUpdate sbt-scala-native-crossproject, ... to 1.3.0 (\n#1170\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.3 (\n#1169\n)\n@scala-steward\nUpdate sbt-mima-plugin to 1.1.2 (\n#1168\n)\n@scala-steward\nUpdate json-path to 2.8.0 (\n#1167\n)\n@scala-steward\navoid deprecated\njava.net.URL\nconstructor (\n#1166\n)\n@xuwei-k\nUpdate nscplugin, sbt-scala-native, ... to 0.4.12 (\n#1165\n)\n@scala-steward",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Refined",
-        "url": "https://github.com/fthomas/refined/releases/tag/v0.11.3",
-        "version": "v0.11.3",
-        "title": "Release 0.11.3 · fthomas/refined · GitHub",
-        "release_date": "2024-12-27T11:46:38Z",
-        "content": "What's Changed\nUpdate auxlib, clib, javalib, nativelib, ... to 0.5.3 by\n@scala-steward\nin\n#1275\nUpdate pureconfig-core to 0.17.7 by\n@scala-steward\nin\n#1276\nUpdate scalafmt-core to 3.8.2 by\n@scala-steward\nin\n#1278\nUpdate auxlib, clib, javalib, nativelib, ... to 0.5.4 by\n@scala-steward\nin\n#1279\nUpdate sbt-scoverage to 2.1.0 by\n@scala-steward\nin\n#1280\nUpdate sbt to 1.10.1 by\n@scala-steward\nin\n#1281\nUpdate sbt-typelevel-mergify to 0.7.2 by\n@scala-steward\nin\n#1282\nUpdate scalafmt-core to 3.8.3 by\n@scala-steward\nin\n#1283\nUpdate sbt-mima-plugin to 1.1.4 by\n@scala-steward\nin\n#1284\nUpdate auxlib, clib, javalib, nativelib, ... to 0.5.5 by\n@scala-steward\nin\n#1286\nUpdate sbt-scoverage to 2.1.1 by\n@scala-steward\nin\n#1288\nUpdate scala-compiler, scala-library, ... to 2.12.20 by\n@scala-steward\nin\n#1289\nUpdate sbt-scoverage to 2.2.0 by\n@scala-steward\nin\n#1290\nUpdate sbt-typelevel-mergify to 0.7.3 by\n@scala-steward\nin\n#1291\nUpdate sbt to 1.10.2 by\n@scala-steward\nin\n#1292\nUpdate scalacheck to 1.18.1 by\n@scala-steward\nin\n#1293\nfix CI setting by\n@xuwei-k\nin\n#1295\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.17.0 by\n@scala-steward\nin\n#1296\nUpdate scala3-library, ... to 3.3.4 by\n@scala-steward\nin\n#1298\nuse SAM instead of anonymous class by\n@xuwei-k\nin\n#1294\nUpdate scala-compiler, scala-library, ... to 2.13.15 by\n@scala-steward\nin\n#1297\nAdd Adopter: Hypefactors by\n@nguyenvietyen\nin\n#1277\nUpdate sbt-ci-release to 1.6.1 by\n@scala-steward\nin\n#1287\nUpdate codecov-action to v4 by\n@fthomas\nin\n#1300\nUpdate sbt-ci-release to 1.7.0 by\n@scala-steward\nin\n#1301\nUpdate sbt-typelevel-mergify to 0.7.4 by\n@scala-steward\nin\n#1302\nUpdate sbt-ci-release to 1.8.0 by\n@scala-steward\nin\n#1303\nUpdate sbt, scripted-plugin to 1.10.3 by\n@scala-steward\nin\n#1304\nUpdate sbt-scoverage to 2.2.2 by\n@scala-steward\nin\n#1305\nUpdate sbt-ci-release to 1.9.0 by\n@scala-steward\nin\n#1306\nUpdate sbt-doctest to 0.11.0 by\n@scala-steward\nin\n#1307\nUpdate sbt, scripted-plugin to 1.10.4 by\n@scala-steward\nin\n#1308\nUpdate sbt-buildinfo to 0.13.0 by\n@scala-steward\nin\n#1310\nUpdate sbt, scripted-plugin to 1.10.5 by\n@scala-steward\nin\n#1311\nUpdate sbt-buildinfo to 0.13.1 by\n@scala-steward\nin\n#1312\nUpdate auxlib, clib, javalib, nativelib, ... to 0.5.6 by\n@scala-steward\nin\n#1313\nUpdate pureconfig-core to 0.17.8 by\n@scala-steward\nin\n#1314\nUpdate sbt, scripted-plugin to 1.10.6 by\n@scala-steward\nin\n#1315\nUpdate sbt-doctest to 0.11.1 by\n@scala-steward\nin\n#1316\nUpdate sbt-ci-release to 1.9.2 by\n@scala-steward\nin\n#1319\nUpdate sbt, scripted-plugin to 1.10.7 by\n@scala-steward\nin\n#1320\nDe-prioritize\nintWitnessAs\nimplicit on Scala 3 by\n@armanbilge\nin\n#1317\nNew Contributors\n@nguyenvietyen\nmade their first contribution in\n#1277\nFull Changelog\n:\nv0.11.2...v0.11.3",
-        "crawl_status": "success"
-      },
-      {
-        "library_name": "Refined",
-        "url": "https://github.com/fthomas/refined/releases/tag/v0.11.1",
-        "version": "v0.11.1",
-        "title": "Release 0.11.1 · fthomas/refined · GitHub",
-        "release_date": "2024-01-26T07:56:44Z",
-        "content": "What’s Changed\nadd\nBigDecimal\nand\nBigInt\ncache in\nRefineMacro\n(\n#1245\n)\n@xuwei-k\nUpdate nscplugin, sbt-scala-native, ... to 0.4.17 (\n#1244\n)\n@scala-steward\nUpdate json-path to 2.9.0 (\n#1243\n)\n@scala-steward\nUpdate pureconfig-core to 0.17.5 (\n#1242\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.6.5 (\n#1241\n)\n@scala-steward\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.15.0 (\n#1240\n)\n@scala-steward\nenforce new wildcard syntax (\n#1239\n)\n@xuwei-k\nUpdate sbt-typelevel-mergify to 0.6.4 (\n#1236\n)\n@scala-steward\nUpdate sbt to 1.9.8 (\n#1235\n)\n@scala-steward\nCustomize Mergify config (\n#1238\n)\n@fthomas\nUpdate sbt-jmh to 0.4.7 (\n#1237\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.6.3 (\n#1234\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.17 (\n#1232\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.6.2 (\n#1231\n)\n@scala-steward\nUpdate scalaz-core to 7.3.8 (\n#1230\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.16 (\n#1229\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.6.1 (\n#1228\n)\n@scala-steward\nUpdate sbt to 1.9.7 (\n#1226\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.15 (\n#1227\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.6.0 (\n#1225\n)\n@scala-steward\nUpdate nscplugin, sbt-scala-native, ... to 0.4.16 (\n#1224\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.5.4 (\n#1223\n)\n@scala-steward\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.14.0 (\n#1222\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.5.3 (\n#1221\n)\n@scala-steward\nUpdate sbt to 1.9.6 (\n#1220\n)\n@scala-steward\nUpdate scala3-library, ... to 3.3.1 (\n#1216\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.5.2 (\n#1219\n)\n@scala-steward\nUpdate scala-compiler, scala-library, ... to 2.13.12 (\n#1218\n)\n@scala-steward\nUpdate sbt-jmh to 0.4.6 (\n#1215\n)\n@scala-steward\nUpdate nscplugin, sbt-scala-native, ... to 0.4.15 (\n#1213\n)\n@scala-steward\nUpdate sbt-typelevel-mergify to 0.5.0 (\n#1210\n)\n@scala-steward\nUpdate sbt-scoverage to 2.0.9 (\n#1217\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.14 (\n#1214\n)\n@scala-steward\nUpdate sbt-scalafmt to 2.5.2 (\n#1211\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.13 (\n#1212\n)\n@scala-steward\nUpdate cats-core, cats-laws to 2.10.0 (\n#1208\n)\n@scala-steward\nUpdate sbt to 1.9.4 (\n#1209\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.12 (\n#1207\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.11 (\n#1206\n)\n@scala-steward\nUpdate sbt to 1.9.3 (\n#1205\n)\n@scala-steward\nUpdate sbt-mima-plugin to 1.1.3 (\n#1204\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.10 (\n#1203\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.9 (\n#1202\n)\n@scala-steward\nUpdate sbt to 1.9.2 (\n#1201\n)\n@scala-steward\nUpdate sbt-scala-native-crossproject, ... to 1.3.2 (\n#1200\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.7 (\n#1199\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.6 (\n#1198\n)\n@scala-steward\nUpdate scalafmt-core to 3.7.5 (\n#1197\n)\n@scala-steward\nUpdate sbt to 1.9.1 (\n#1196\n)\n@scala-steward\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.13.2 (\n#1195\n)\n@scala-steward",
+        "library_name": "Slim",
+        "url": "https://github.com/slimphp/Slim/releases/tag/4.14.0",
+        "version": "4.14.0",
+        "title": "Release 4.14.0 · slimphp/Slim · GitHub",
+        "release_date": "2024-06-13T09:37:43Z",
+        "content": "What's Changed\nDo not HTML entity encode in PlainTextErrorRenderer by\n@akrabat\nin\n#3319\nOnly render tip to error log if plain text renderer is used by\n@akrabat\nin\n#3321\nAdd template generics for PSR-11 implementations in PHPStan and Psalm by\n@limarkxx\nin\n#3322\nUpdate squizlabs/php_codesniffer requirement from ^3.9 to ^3.10 by\n@dependabot\nin\n#3324\nUpdate phpstan/phpstan requirement from ^1.10 to ^1.11 by\n@dependabot\nin\n#3325\nUpdate psr/http-factory requirement from ^1.0 to ^1.1 by\n@dependabot\nin\n#3326\nType hinting with template generics\nWith the introduction of template generics, if you type-hint\nSlim\\App\ninstance variable using\n/** @var \\Slim\\App $app */\n, then you will need to change it to either:\n/** @var \\Slim\\App<null> $app */\nif you are not using a DI container, or\n/** @var \\Slim\\App<\\Psr\\Container\\ContainerInterface> $app */\nif you are\nYou can also type-hint to the concrete instance of the container you are using too. For example, if you are using\nPHP-DI\n, then you can use:\n/** @var \\Slim\\App<DI\\Container> $app */\n.\nNew Contributors\n@limarkxx\nmade their first contribution in\n#3322\nFull Changelog\n:\n4.13.0...4.14.0",
         "crawl_status": "success"
       }
     ],
@@ -188,33 +94,33 @@
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   },
   {
-    "library": "Monocle",
+    "library": "PHP-Parser",
     "entries": [
       {
-        "library_name": "Monocle",
-        "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.3.0",
-        "version": "v3.3.0",
-        "title": "Release 3.3.0 · optics-dev/Monocle · GitHub",
-        "release_date": "2024-08-09T09:12:26Z",
-        "content": "What's Changed\nImprove error messages for the\nFocus\nmacro. by\n@yilinwei\nin\n#1413\nMove Scala 3 tests to correct directory by\n@armanbilge\nin\n#1381\nupdate docs to use correct groupId by\n@jopecko\nin\n#1352\nadd explicit type for implicit methods by\n@xuwei-k\nin\n#1365\nadd explicit type for implicit by\n@xuwei-k\nin\n#1366\nScala 3.3.0 by\n@xuwei-k\nin\n#1356\nUpdate scala-native to 0.5\nUpdate alleycats-core, cats-core, cats-free, ... to 2.10.0 by\n@scala-steward\nin\n#1382\nNew Contributors\n@jopecko\nmade their first contribution in\n#1352\n@yilinwei\nmade their first contribution in\n#1413\nFull Changelog\n:\nv3.2.0...v3.3.0",
+        "library_name": "PHP-Parser",
+        "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.7.0",
+        "version": "v5.7.0",
+        "title": "Release PHP-Parser 5.7.0 · nikic/PHP-Parser · GitHub",
+        "release_date": "2025-12-06T11:57:25Z",
+        "content": "Fixed\nFixed changing modifier on anonymous class with formatting preserving pretty printer.\nEmit an error for unparenthesized arrow functions in pipe operator, and print necessary parentheses in the pretty printer.\nFix PHP 8.5 deprecation warning in php-parse binary.\nChanged\nWhen targeting PHP 8.4 or newer, omit parentheses around immediately dereferenced new expressions.\nAdded\nAdded\nshouldPrintRawValue\nattribute to\nScalar\\Int_\n, which makes the pretty printer use the\nrawValue\nof the node. This can be used to print integers with separators.",
         "crawl_status": "success"
       },
       {
-        "library_name": "Monocle",
-        "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.2.0",
-        "version": "v3.2.0",
-        "title": "Release 3.2.0 · optics-dev/Monocle · GitHub",
-        "release_date": "2023-01-03T14:12:47Z",
-        "content": "What's new\nadd\nrefocus\nto scala 2 by\n@julien-truffaut\nin\n#1206\nadd generic\nIndex\nfor various Scala 2 sequences by\n@skozlov\nin\n#1285\nCross-build for Scala Native by\n@armanbilge\nin\n#1310\nBump scala3 version to 3.2.1 by\n@scala-steward\nin\n#1316\nBug Fix\nFix maven badge on website by\n@justjoheinz\nin\n#1234\nFix\nGenLens\nissue with evidence shadowing by\n@NTPape\nin\n#1265\nFix\nPlated.transformOf\nby\n@GreyPlane\nin\n#1319\nNew Contributors\n@NTPape\nmade their first contribution in\n#1265\n@skozlov\nmade their first contribution in\n#1285\n@armanbilge\nmade their first contribution in\n#1307\n@GreyPlane\nmade their first contribution in\n#1319\nFull Changelog\n:\nv3.1.0...v3.2.0",
+        "library_name": "PHP-Parser",
+        "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.3.0",
+        "version": "v5.3.0",
+        "title": "Release PHP-Parser 5.3.0 · nikic/PHP-Parser · GitHub",
+        "release_date": "2024-09-29T13:59:38Z",
+        "content": "Added\nAdded\nindent\noption to pretty printer, which can be used to specify the indentation to use (defaulting to four spaces). This also allows using tab indentation.\nFixed\nResolve names in\nPropertyHook\ns in the\nNameResolver\n.\nInclude the trailing semicolon inside\nStmt\\GroupUse\nnodes, making them consistent with\nStmt\\Use_\nnodes.\nFixed indentation sometimes becoming negative in formatting-preserving pretty printer, resulting in\nValueError\ns.",
         "crawl_status": "success"
       },
       {
-        "library_name": "Monocle",
-        "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.1.0",
-        "version": "v3.1.0",
-        "title": "Release 3.1.0 · optics-dev/Monocle · GitHub",
-        "release_date": "2021-09-01T08:31:16Z",
-        "content": "What's Changed\nAdd\nrefocus\nto all optics as an alias for\n.andThen(Focus(...))\n(\n#1184\n)\n@kenbot\ncase\nclass\nUser\n(\nname\n:\nString\n,\naddress\n:\nAddress\n)\ncase\nclass\nAddress\n(\nstreetNumber\n:\nInt\n,\nstreet\n:\nOption\n[\nStreet\n])\nval\nelise\n=\nUser\n(\n\"\nElise\n\"\n,\nAddress\n(\n12\n,\nSome\n(\nStreet\n(\n\"\nhigh street\n\"\n))))\nval\naddressLens\n:\nLens\n[\nUser\n,\nAddress\n]\n=\nFocus\n[\nUser\n](_.address)\nval\nnewLens\n:\nLens\n[\nUser\n,\nInt\n]\n=\naddressLens.refocus(_.streetNumber)\n\nnewLens.replace(\n50\n)(elise)\n//\nor using the applied syntax\nimport\nmonocle\n.\nsyntax\n.\nall\n.\n_\nelise.focus(_.address).refocus(_.streetNumber)\nAdd\nGenIso\nto Scala 3 (\n#1185\n)\n@japgolly\nAdd\nIso.fields\n(\n#1197\n)\n@kenbot\nindex\nis now a direct method for all optics for better Cats compat (\n#1192\n)\n@kenbot\nAvoid indirect call to\nAsPrismImpl\n(\n#1186\n)\n@nicolasstucki\nFix\n#1177\nwhere Focus could not operate on type aliases (\n#1178\n)\n@kenbot\nDependencies\nUpdate sbt-scalajs, scalajs-compiler, ... to 1.7.0 (\n#1187\n)\n@scala-steward\nUpdate refined, refined-scalacheck to 0.9.27 (\n#1179\n)\n@scala-steward",
+        "library_name": "PHP-Parser",
+        "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.0.0",
+        "version": "v5.0.0",
+        "title": "Release PHP-Parser 5.0.0 · nikic/PHP-Parser · GitHub",
+        "release_date": "2024-01-07T17:32:55Z",
+        "content": "See the\nupgrading guide\nfor detailed migration instructions. The changelog is relative to PHP-Parser 4.18.0.\nAdded\nAdded\nPhpVersion\nclass, which is accepted in a number of places (e.g. ParserFactory, Parser, Lexer, PrettyPrinter) and gives more precise control over the PHP version being targeted.\nAdded PHP 8 parser though it only differs from the PHP 7 parser in concatenation precedence.\nAdded\nParser::getTokens()\nmethod.\nAdded a\nModifiers\nclass, as a replacement for\nStmt\\Class_::MODIFIER_*\n.\nAdded support for returning an array or\nREMOVE_NODE\nfrom\nNodeVisitor::enterNode()\n.\nAdded many additional type annotations. PhpStan is now used.\nAdded a fuzzing target for PHP-Fuzzer, which was how a lot of pretty printer bugs were found.\nAdded\nisPromoted()\n,\nisPublic()\n,\nisProtected()\n,\nisPrivate()\nand\nisReadonly()\nmethods on\nParam\n.\nAdded support for class constants in trait builder.\nAdded\nPrettyPrinter\ninterface.\nAdded support for formatting preservation when toggling static modifiers.\nThe\nphp-parse\nbinary now accepts\n-\nas the file name, in which case it will read from stdin.\nAdded support for\nNodeVisitor::REPLACE_WITH_NULL\n.\nAdded support for CRLF newlines in the pretty printer, using the new\nnewline\noption.\nVisitors can now be passed directly to the\nNodeTraverser\nconstructor. A separate call to\naddVisitor()\nis no longer required.\nAdded support for printing additional attributes (like\nkind\n) in\nNodeDumper\n.\nAdded\nrawValue\nattribute to\nInterpolatedStringPart\nand heredoc/nowdoc\nString_\ns, which provides the original, unparsed value. It was previously only available for non-interpolated single/double quoted strings.\nAdded\nStmt\\Block\nto represent\n{}\ncode blocks. Previously, such code blocks were flattened into the parent statements array.\nStmt\\Block\nwill not be created for structures that are typically used with code blocks, for example\nif ($x) { $y; }\nwill be represented as previously, while\nif ($x) { { $x; } }\nwill have an extra\nStmt\\Block\nwrapper.\nChanged\nPHP 7.4 is now required to run PHP-Parser.\nProperty types have been added where possible.\nFormatting of the standard pretty printer has been adjusted to match PSR-12 more closely.\nThe internal token representation now uses a\nPhpParser\\Token\nclass, which is compatible with PHP 8 token representation (\nPhpToken\n).\nArray destructuring is now always represented using\nExpr\\List_\nnodes, even if it uses\n[]\nsyntax.\nRenamed a number of node classes, and moved things that were not real expressions/statements outside the\nExpr\n/\nStmt\nhierarchy. Compatibility shims for the old names have been retained.\nThe pretty printer no longer unconditionally wraps\nyield\nin parentheses, unless the target version is set to older than PHP 7.0.\nThe pretty printer now defaults to PHP 7.4 as the target version.\nPrint\nelse if { }\ninstead of\nelse { if { } }\n.\nThe\nleaveNode()\nmethod on visitors is now invoked in reverse order of\nenterNode()\n.\nMoved\nNodeTraverser::REMOVE_NODE\netc. to\nNodeVisitor::REMOVE_NODE\n. The old constants are still available for compatibility.\nThe\nName\nsubnode\nparts\nhas been replaced by\nname\n, which stores the name as a string rather than an array of parts separated by namespace separators. The\ngetParts()\nmethod returns the old representation.\nNo longer accept strings for types in Node constructors. Instead, either an\nIdentifier\n,\nName\nor\nComplexType\nmust be passed.\nComment::getReformattedText()\nnow normalizes CRLF newlines to LF newlines.\nThe\nLexer\nno longer accepts options.\nLexer\\Emulative\nonly accepts a\nPhpVersion\n. The\nstartLexing()\n,\ngetTokens()\nand\nhandleHaltCompiler()\nmethods have been removed. Instead, there is a single method\ntokenize()\nreturning the tokens.\nAttribute handling has been moved from the lexer to the parser, and is no longer configurable. The comments, startLine, endLine, startTokenPos, endTokenPos, startFilePos, and endFilePos attributes will always be added.\nThe pretty printer now indents heredoc/nowdoc strings if the target version is >= 7.3 (flexible heredoc/nowdoc).\nUse visitor to assign comments. This fixes the long-standing issue where comments were assigned to all nodes sharing a starting position. Now only the outer-most node will hold the comments.\nImprove NodeDumper performance for large dumps.\nRemoved\nThe PHP 5 parser has been removed. The PHP 7 parser has been adjusted to deal with PHP 5 code more gracefully.\nRemoved deprecated\nError\nconstructor taking a line number instead of an attributes array.\nThe deprecated\nComment::getLine()\n,\nComment::getTokenPos()\nand\nComment::getFilePos()\nmethods have been removed. Use\nComment::getStartLine()\n,\nComment::getStartTokenPos()\nand\nComment::getStartFilePos()\ninstead.\nRemoved\nStmt\\Throw_\nnode, use\nExpr\\Throw_\ninside\nStmt\\Expression\ninstead.\nRemoved\nParserFactory::create()\n.\nFixed\nThe pretty printer now uses a more accurate treatment of unary operator precedence, and will only wrap them in parentheses if required. This allowed fixing a number of other precedence related bugs.\nThe pretty printer now respects the precedence of\nclone\n,\nthrow\nand arrow functions.\nFixed formatting preservation for alternative elseif/else syntax.\nFixed checks for when it is safe to print strings as heredoc/nowdoc to accommodate flexible doc string semantics.\nFixed various cases where\n\\r\nat the end of a doc string could be incorrectly merged into a CRLF sequence with a following\n\\n\n.\n__halt_compiler\nis no longer recognized as a semi-reserved keyword, in line with PHP behavior.\n<?=\nis no longer recognized as a semi-reserved keyword.\nFix handling of very large overflowing\n\\u\nescape sequences.\nDon't trim leading whitespace in formatting preserving printer.\nTreat DEL as a label character in the formatting preserving printer depending on the targeted PHP version.\nFix error reporting in emulative lexer without explicitly specified error handler.\nGracefully handle non-contiguous array indices in the\nDiffer\n.\nDeprecated\nThe\nNode::getLine()\nmethod has been deprecated. Use\nNode::getStartLine()\ninstead.",
         "crawl_status": "success"
       }
     ],
@@ -225,12 +131,59 @@
     ],
     "actual_years": [
       2024,
-      2023
+      2025
     ],
     "years_extracted": [
+      2025,
       2024,
-      2023,
-      null
+      2024
+    ],
+    "reason": "年份分布不符合要求（2023、2024、2025各一个）"
+  },
+  {
+    "library": "Laravel-Excel",
+    "entries": [
+      {
+        "library_name": "Laravel-Excel",
+        "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.63",
+        "version": "3.1.63",
+        "title": "Release 3.1.63 · SpartnerNL/Laravel-Excel · GitHub",
+        "release_date": "2025-02-19T14:25:19Z",
+        "content": "What's Changed\nUpdate phpspreadsheet to 1.29.8 to tackle CVE issue by\n@brdv\nin\n#4264\nSupport for Laravel 12 by\n@pascalbaljet\nin\n#4269\nAvoid calling query() twice by adding a local var, fixes\n#4133\nand\n#4140\nby\n@Synchro\nin\n#4221\nExclude heading row when limiting imported rows by\n@jivanf\nin\n#4217\nFormat rule for required_without by\n@rust17\nin\n#4196\nNew Contributors\n@brdv\nmade their first contribution in\n#4264\n@pascalbaljet\nmade their first contribution in\n#4269\n@Synchro\nmade their first contribution in\n#4221\n@jivanf\nmade their first contribution in\n#4217\n@rust17\nmade their first contribution in\n#4196\nFull Changelog\n:\n3.1.62...3.1.63",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Laravel-Excel",
+        "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.41",
+        "version": "3.1.41",
+        "title": "Release 3.1.41 · SpartnerNL/Laravel-Excel · GitHub",
+        "release_date": "2022-09-26T14:56:02Z",
+        "content": "What's Changed\nFix typo in excel.php file by\n@guiassemany\nin\n#3613\nFix testing for multiple stored files by regex by\n@keithbrink\nin\n#3631\nFix local temp file cleanup by\n@FrancisMawn\nin\n#3628\nAllow validations with toArray by\n@ahmedash95\nin\n#3641\nSimplify validations by using only one concern by\n@ahmedash95\nin\n#3642\nCast empty headers to int by\n@ahmedash95\nin\n#3646\nIs empty when by\n@ibrahimeldesoki\nin\n#3645\nSupport required_unless (and other required_*) rules by\n@RobertWeideKyos\nin\n#3660\nPrevent install of psr/simplecache 3.0 by\n@ziming\nin\n#3735\nNew Contributors\n@guiassemany\nmade their first contribution in\n#3613\n@keithbrink\nmade their first contribution in\n#3631\n@FrancisMawn\nmade their first contribution in\n#3628\n@ahmedash95\nmade their first contribution in\n#3641\n@ibrahimeldesoki\nmade their first contribution in\n#3645\n@RobertWeideKyos\nmade their first contribution in\n#3660\n@ziming\nmade their first contribution in\n#3735\nFull Changelog\n:\n3.1.40...3.1.41",
+        "crawl_status": "success"
+      },
+      {
+        "library_name": "Laravel-Excel",
+        "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.52",
+        "version": "3.1.52",
+        "title": "Release 3.1.52 · SpartnerNL/Laravel-Excel · GitHub",
+        "release_date": "2024-01-16T10:50:11Z",
+        "content": "What's Changed\nFix mkdir recursive flag placement by\n@iftaras\nin\n#4054\nUse regex lazy quantifier to match first occurrence in combined validation rules by\n@kenfai\nin\n#4049\nMemory exhaust 1024M in queued export with FromQuery method by\n@sebestenyb\nin\n#4044\nAdd AfterChunk event for chunked exports by\n@sebestenyb\nin\n#4037\nCell Value Middleware / Trim cells by default by\n@joelharkes\nin\n#4050\nFix facade diskName by\n@SanderMuller\nin\n#4020\nNew Contributors\n@kenfai\nmade their first contribution in\n#4049\n@sebestenyb\nmade their first contribution in\n#4044\nFull Changelog\n:\n3.1.51...3.1.52",
+        "crawl_status": "success"
+      }
+    ],
+    "expected_years": [
+      2024,
+      2025,
+      2023
+    ],
+    "actual_years": [
+      2024,
+      2025
+    ],
+    "years_extracted": [
+      2025,
+      null,
+      2024
     ],
     "reason": "年份分布不符合要求（2023、2024、2025各一个）"
   }

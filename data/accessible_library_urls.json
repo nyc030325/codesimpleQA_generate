@@ -1,152 +1,152 @@
 {
-  "Akka": [
-    "https://github.com/akka/akka/releases/tag/v2.8.3",
-    "https://github.com/akka/akka/releases/tag/v2.9.3",
-    "https://github.com/akka/akka/releases/tag/v2.10.7"
+  "Laravel": [
+    "https://github.com/laravel/laravel/releases/tag/v10.2.7",
+    "https://github.com/laravel/laravel/releases/tag/v11.0.4",
+    "https://github.com/laravel/laravel/releases/tag/v12.0.0"
   ],
-  "Akka-HTTP": [
-    "https://github.com/akka/akka-http/releases/tag/v10.5.1",
-    "https://github.com/akka/akka-http/releases/tag/v10.6.3",
-    "https://github.com/akka/akka-http/releases/tag/v10.7.2"
+  "Symfony": [
+    "https://github.com/symfony/symfony/releases/tag/v6.3.0",
+    "https://github.com/symfony/symfony/releases/tag/v7.1.0",
+    "https://github.com/symfony/symfony/releases/tag/v7.4.0"
   ],
-  "Http4s": [
-    "https://github.com/http4s/http4s/releases/tag/v0.23.22",
-    "https://github.com/http4s/http4s/releases/tag/v0.23.27",
-    "https://github.com/http4s/http4s/releases/tag/v0.23.31"
+  "Composer": [
+    "https://github.com/composer/composer/releases/tag/2.6.0",
+    "https://github.com/composer/composer/releases/tag/2.8.0",
+    "https://github.com/composer/composer/releases/tag/2.9.0"
   ],
-  "Cats": [
-    "https://github.com/typelevel/cats/releases/tag/v2.10.0",
-    "https://github.com/typelevel/cats/releases/tag/v2.12.0",
-    "https://github.com/typelevel/cats/releases/tag/v2.13.0"
+  "PHPUnit": [
+    "https://github.com/sebastianbergmann/phpunit/releases/tag/11.1.0",
+    "https://github.com/sebastianbergmann/phpunit/releases/tag/11.4.0",
+    "https://github.com/sebastianbergmann/phpunit/releases/tag/12.2.0"
   ],
-  "Cats-Effect": [
-    "https://github.com/typelevel/cats-effect/releases/tag/v3.5.1",
-    "https://github.com/typelevel/cats-effect/releases/tag/v3.5.4",
-    "https://github.com/typelevel/cats-effect/releases/tag/v3.6.2"
+  "Doctrine-ORM": [
+    "https://github.com/doctrine/orm/releases/tag/2.16.0",
+    "https://github.com/doctrine/orm/releases/tag/3.3.0",
+    "https://github.com/doctrine/orm/releases/tag/3.4.0"
   ],
-  "ZIO": [
-    "https://github.com/zio/zio/releases/tag/v2.0.15",
-    "https://github.com/zio/zio/releases/tag/v2.1.5",
-    "https://github.com/zio/zio/releases/tag/v2.1.20"
+  "Doctrine-DBAL": [
+    "https://github.com/doctrine/dbal/releases/tag/3.7.0",
+    "https://github.com/doctrine/dbal/releases/tag/4.1.0",
+    "https://github.com/doctrine/dbal/releases/tag/4.3.0"
   ],
-  "ZIO-HTTP": [
-    "https://github.com/zio/zio-http/releases/tag/v0.0.5",
-    "https://github.com/zio/zio-http/releases/tag/v3.0.0",
-    "https://github.com/zio/zio-http/releases/tag/v3.5.0"
+  "Guzzle": [
+    "https://github.com/guzzle/guzzle/releases/tag/7.8.0",
+    "https://github.com/guzzle/guzzle/releases/tag/7.9.0",
+    "https://github.com/guzzle/guzzle/releases/tag/7.9.3"
   ],
-  "FS2": [
-    "https://github.com/typelevel/fs2/releases/tag/v3.7.0",
-    "https://github.com/typelevel/fs2/releases/tag/v3.11.0",
-    "https://github.com/typelevel/fs2/releases/tag/v3.12.0"
+  "Monolog": [
+    "https://github.com/Seldaek/monolog/releases/tag/3.4.0",
+    "https://github.com/Seldaek/monolog/releases/tag/3.6.0",
+    "https://github.com/Seldaek/monolog/releases/tag/3.9.0"
   ],
-  "Circe": [
-    "https://github.com/circe/circe/releases/tag/v0.14.6",
-    "https://github.com/circe/circe/releases/tag/v0.14.10",
-    "https://github.com/circe/circe/releases/tag/v0.14.15"
+  "Carbon": [
+    "https://github.com/briannesbitt/Carbon/releases/tag/2.68.0",
+    "https://github.com/briannesbitt/Carbon/releases/tag/3.8.0",
+    "https://github.com/briannesbitt/Carbon/releases/tag/3.10.0"
   ],
-  "Slick": [
-    "https://github.com/slick/slick/releases/tag/v3.5.0-M2",
-    "https://github.com/slick/slick/releases/tag/v3.5.0",
-    "https://github.com/slick/slick/releases/tag/v3.6.0"
+  "PHP-CS-Fixer": [
+    "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.21.0",
+    "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.60.0",
+    "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.85.0"
   ],
-  "ScalaTest": [
-    "https://github.com/scalatest/scalatest/releases/tag/release-3.2.14",
-    "https://github.com/scalatest/scalatest/releases/tag/release-3.2.16",
-    "https://github.com/scalatest/scalatest/releases/tag/release-3.2.19"
+  "PHPStan": [
+    "https://github.com/phpstan/phpstan/releases/tag/1.10.30",
+    "https://github.com/phpstan/phpstan/releases/tag/1.11.5",
+    "https://github.com/phpstan/phpstan/releases/tag/2.1.17"
   ],
-  "MUnit": [
-    "https://github.com/scalameta/munit/releases/tag/v1.0.0-M8",
-    "https://github.com/scalameta/munit/releases/tag/v1.0.2",
-    "https://github.com/scalameta/munit/releases/tag/v1.1.2"
+  "Psalm": [
+    "https://github.com/vimeo/psalm/releases/tag/5.13.0",
+    "https://github.com/vimeo/psalm/releases/tag/5.25.0",
+    "https://github.com/vimeo/psalm/releases/tag/6.12.0"
   ],
-  "ScalaCheck": [
-    "https://github.com/typelevel/scalacheck/releases/tag/v1.17.0",
-    "https://github.com/typelevel/scalacheck/releases/tag/v1.17.1",
-    "https://github.com/typelevel/scalacheck/releases/tag/v1.19.0"
+  "Livewire": [
+    "https://github.com/livewire/livewire/releases/tag/v3.0.0",
+    "https://github.com/livewire/livewire/releases/tag/v3.5.0",
+    "https://github.com/livewire/livewire/releases/tag/v3.7.0"
   ],
-  "Shapeless": [
-    "https://github.com/milessabin/shapeless/releases/tag/v2.3.10",
-    "https://github.com/milessabin/shapeless/releases/tag/v2.3.11",
-    "https://github.com/milessabin/shapeless/releases/tag/v2.3.13"
+  "Inertia": [
+    "https://github.com/inertiajs/inertia-laravel/releases/tag/v0.6.10",
+    "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.0",
+    "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.4"
   ],
-  "Refined": [
-    "https://github.com/fthomas/refined/releases/tag/v0.11.0",
-    "https://github.com/fthomas/refined/releases/tag/v0.11.1",
-    "https://github.com/fthomas/refined/releases/tag/v0.11.3"
+  "Filament": [
+    "https://github.com/filamentphp/filament/releases/tag/v3.0.0",
+    "https://github.com/filamentphp/filament/releases/tag/v3.2.80",
+    "https://github.com/filamentphp/filament/releases/tag/v4.1.0"
   ],
-  "Monocle": [
-    "https://github.com/optics-dev/Monocle/releases/tag/v3.1.0",
-    "https://github.com/optics-dev/Monocle/releases/tag/v3.2.0",
-    "https://github.com/optics-dev/Monocle/releases/tag/v3.3.0"
+  "Spatie-Laravel-Permission": [
+    "https://github.com/spatie/laravel-permission/releases/tag/6.0.0",
+    "https://github.com/spatie/laravel-permission/releases/tag/6.10.0",
+    "https://github.com/spatie/laravel-permission/releases/tag/6.18.0"
   ],
-  "Chimney": [
-    "https://github.com/scalalandio/chimney/releases/tag/0.8.0",
-    "https://github.com/scalalandio/chimney/releases/tag/1.3.0",
-    "https://github.com/scalalandio/chimney/releases/tag/1.8.0"
+  "Spatie-Laravel-Medialibrary": [
+    "https://github.com/spatie/laravel-medialibrary/releases/tag/10.10.2",
+    "https://github.com/spatie/laravel-medialibrary/releases/tag/11.10.0",
+    "https://github.com/spatie/laravel-medialibrary/releases/tag/11.17.0"
   ],
-  "Tapir": [
-    "https://github.com/softwaremill/tapir/releases/tag/v1.7.4",
-    "https://github.com/softwaremill/tapir/releases/tag/v1.11.4",
-    "https://github.com/softwaremill/tapir/releases/tag/v1.11.45"
+  "League-CSV": [
+    "https://github.com/thephpleague/csv/releases/tag/9.9.0",
+    "https://github.com/thephpleague/csv/releases/tag/9.16.0",
+    "https://github.com/thephpleague/csv/releases/tag/9.22.0"
   ],
-  "SBT": [
-    "https://github.com/sbt/sbt/releases/tag/v1.9.5",
-    "https://github.com/sbt/sbt/releases/tag/v1.10.0",
-    "https://github.com/sbt/sbt/releases/tag/v1.11.5"
+  "PHP-Mailer": [
+    "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.1",
+    "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.2",
+    "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.11.0"
   ],
-  "Mill": [
-    "https://github.com/com-lihaoyi/mill/releases/tag/0.11.1",
-    "https://github.com/com-lihaoyi/mill/releases/tag/0.11.8",
-    "https://github.com/com-lihaoyi/mill/releases/tag/0.12.15"
+  "Predis": [
+    "https://github.com/predis/predis/releases/tag/v2.2.0",
+    "https://github.com/predis/predis/releases/tag/v2.3.0",
+    "https://github.com/predis/predis/releases/tag/v2.4.0"
   ],
-  "Scala-CLI": [
-    "https://github.com/VirtusLab/scala-cli/releases/tag/v1.0.2",
-    "https://github.com/VirtusLab/scala-cli/releases/tag/v1.4.0",
-    "https://github.com/VirtusLab/scala-cli/releases/tag/v1.8.0"
+  "Swoole": [
+    "https://github.com/swoole/swoole-src/releases/tag/v5.1.0",
+    "https://github.com/swoole/swoole-src/releases/tag/v6.0.0",
+    "https://github.com/swoole/swoole-src/releases/tag/v6.1.0"
   ],
-  "Caliban": [
-    "https://github.com/ghostdogpr/caliban/releases/tag/v2.3.0",
-    "https://github.com/ghostdogpr/caliban/releases/tag/v2.7.0",
-    "https://github.com/ghostdogpr/caliban/releases/tag/v2.11.0"
+  "RoadRunner": [
+    "https://github.com/roadrunner-server/roadrunner/releases/tag/v2023.2.0",
+    "https://github.com/roadrunner-server/roadrunner/releases/tag/v2024.3.0",
+    "https://github.com/roadrunner-server/roadrunner/releases/tag/v2025.1.0"
   ],
-  "Sangria": [
-    "https://github.com/sangria-graphql/sangria/releases/tag/v4.0.0",
-    "https://github.com/sangria-graphql/sangria/releases/tag/v4.1.0",
-    "https://github.com/sangria-graphql/sangria/releases/tag/v4.2.13"
+  "Laravel-Passport": [
+    "https://github.com/laravel/passport/releases/tag/v11.6.0",
+    "https://github.com/laravel/passport/releases/tag/v12.0.0",
+    "https://github.com/laravel/passport/releases/tag/v13.0.0"
   ],
-  "Skunk": [
-    "https://github.com/typelevel/skunk/releases/tag/v0.6.0",
-    "https://github.com/typelevel/skunk/releases/tag/v0.6.4",
-    "https://github.com/typelevel/skunk/releases/tag/v1.0.0-M11"
+  "Laravel-Horizon": [
+    "https://github.com/laravel/horizon/releases/tag/v5.18.0",
+    "https://github.com/laravel/horizon/releases/tag/v5.28.0",
+    "https://github.com/laravel/horizon/releases/tag/v5.33.5"
   ],
-  "Scio": [
-    "https://github.com/spotify/scio/releases/tag/v0.13.0",
-    "https://github.com/spotify/scio/releases/tag/v0.14.0",
-    "https://github.com/spotify/scio/releases/tag/v0.15.0"
+  "Slim": [
+    "https://github.com/slimphp/Slim/releases/tag/4.12.0",
+    "https://github.com/slimphp/Slim/releases/tag/4.13.0",
+    "https://github.com/slimphp/Slim/releases/tag/4.14.0"
   ],
-  "STTP": [
-    "https://github.com/softwaremill/sttp/releases/tag/v3.8.7",
-    "https://github.com/softwaremill/sttp/releases/tag/v3.9.4",
-    "https://github.com/softwaremill/sttp/releases/tag/v4.0.0"
+  "Laravel-Framework": [
+    "https://github.com/laravel/framework/releases/tag/v10.15.0",
+    "https://github.com/laravel/framework/releases/tag/v11.10.0",
+    "https://github.com/laravel/framework/releases/tag/v12.20.0"
   ],
-  "Scala-Steward": [
-    "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.25.0",
-    "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.31.0",
-    "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.34.0"
+  "Rector": [
+    "https://github.com/rectorphp/rector/releases/tag/0.17.6",
+    "https://github.com/rectorphp/rector/releases/tag/1.2.0",
+    "https://github.com/rectorphp/rector/releases/tag/2.1.0"
   ],
-  "Scala3": [
-    "https://github.com/scala/scala3/releases/tag/3.3.0",
-    "https://github.com/scala/scala3/releases/tag/3.4.2",
-    "https://github.com/scala/scala3/releases/tag/3.7.0"
+  "PHP-Parser": [
+    "https://github.com/nikic/PHP-Parser/releases/tag/v5.0.0",
+    "https://github.com/nikic/PHP-Parser/releases/tag/v5.3.0",
+    "https://github.com/nikic/PHP-Parser/releases/tag/v5.7.0"
   ],
-  "Scala2": [
-    "https://github.com/scala/scala/releases/tag/v2.13.11",
-    "https://github.com/scala/scala/releases/tag/v2.13.14",
-    "https://github.com/scala/scala/releases/tag/v2.13.18"
+  "Laravel-Excel": [
+    "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.41",
+    "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.52",
+    "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.63"
   ],
-  "Scalafmt": [
-    "https://github.com/scalameta/scalafmt/releases/tag/v3.7.0",
-    "https://github.com/scalameta/scalafmt/releases/tag/v3.8.0",
-    "https://github.com/scalameta/scalafmt/releases/tag/v3.9.0"
+  "Frankenphp": [
+    "https://github.com/dunglas/frankenphp/releases/tag/v1.0.0",
+    "https://github.com/dunglas/frankenphp/releases/tag/v1.2.0",
+    "https://github.com/dunglas/frankenphp/releases/tag/v1.8.0"
   ]
 }

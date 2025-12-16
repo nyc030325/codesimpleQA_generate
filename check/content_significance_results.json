@@ -1,632 +1,632 @@
 [
   {
-    "library_name": "Http4s",
-    "version": "v0.23.27",
-    "url": "https://github.com/http4s/http4s/releases/tag/v0.23.27",
-    "content_length": 2530,
+    "library_name": "Composer",
+    "version": "2.6.0",
+    "url": "https://github.com/composer/composer/releases/tag/2.6.0",
+    "content_length": 2137,
     "significance": 1
   },
   {
-    "library_name": "Cats-Effect",
-    "version": "v3.6.2",
-    "url": "https://github.com/typelevel/cats-effect/releases/tag/v3.6.2",
-    "content_length": 4251,
+    "library_name": "Laravel",
+    "version": "v11.0.4",
+    "url": "https://github.com/laravel/laravel/releases/tag/v11.0.4",
+    "content_length": 323,
     "significance": 1
   },
   {
-    "library_name": "Akka",
-    "version": "v2.8.3",
-    "url": "https://github.com/akka/akka/releases/tag/v2.8.3",
-    "content_length": 2581,
+    "library_name": "PHPUnit",
+    "version": "11.1.0",
+    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.1.0",
+    "content_length": 2119,
     "significance": 1
   },
   {
-    "library_name": "Cats",
-    "version": "v2.13.0",
-    "url": "https://github.com/typelevel/cats/releases/tag/v2.13.0",
-    "content_length": 5302,
+    "library_name": "Symfony",
+    "version": "v7.1.0",
+    "url": "https://github.com/symfony/symfony/releases/tag/v7.1.0",
+    "content_length": 1089,
     "significance": 1
   },
   {
-    "library_name": "Cats",
-    "version": "v2.12.0",
-    "url": "https://github.com/typelevel/cats/releases/tag/v2.12.0",
-    "content_length": 596,
+    "library_name": "Doctrine-ORM",
+    "version": "2.16.0",
+    "url": "https://github.com/doctrine/orm/releases/tag/2.16.0",
+    "content_length": 1397,
     "significance": 1
   },
   {
-    "library_name": "Cats",
-    "version": "v2.10.0",
-    "url": "https://github.com/typelevel/cats/releases/tag/v2.10.0",
-    "content_length": 5234,
+    "library_name": "PHPUnit",
+    "version": "11.4.0",
+    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/11.4.0",
+    "content_length": 1211,
     "significance": 1
   },
   {
-    "library_name": "Akka",
-    "version": "v2.9.3",
-    "url": "https://github.com/akka/akka/releases/tag/v2.9.3",
-    "content_length": 4067,
+    "library_name": "Composer",
+    "version": "2.9.0",
+    "url": "https://github.com/composer/composer/releases/tag/2.9.0",
+    "content_length": 2432,
     "significance": 1
   },
   {
-    "library_name": "Akka-HTTP",
-    "version": "v10.6.3",
-    "url": "https://github.com/akka/akka-http/releases/tag/v10.6.3",
-    "content_length": 756,
+    "library_name": "Doctrine-ORM",
+    "version": "3.4.0",
+    "url": "https://github.com/doctrine/orm/releases/tag/3.4.0",
+    "content_length": 1127,
     "significance": 1
   },
   {
-    "library_name": "Cats-Effect",
-    "version": "v3.5.4",
-    "url": "https://github.com/typelevel/cats-effect/releases/tag/v3.5.4",
-    "content_length": 2656,
+    "library_name": "Doctrine-ORM",
+    "version": "3.3.0",
+    "url": "https://github.com/doctrine/orm/releases/tag/3.3.0",
+    "content_length": 1069,
     "significance": 1
   },
   {
-    "library_name": "ZIO",
-    "version": "v2.1.20",
-    "url": "https://github.com/zio/zio/releases/tag/v2.1.20",
-    "content_length": 6634,
+    "library_name": "PHPUnit",
+    "version": "12.2.0",
+    "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/12.2.0",
+    "content_length": 4381,
     "significance": 1
   },
   {
-    "library_name": "Akka",
-    "version": "v2.10.7",
-    "url": "https://github.com/akka/akka/releases/tag/v2.10.7",
-    "content_length": 2152,
+    "library_name": "Symfony",
+    "version": "v7.3.0",
+    "url": "https://github.com/symfony/symfony/releases/tag/v7.3.0",
+    "content_length": 287,
     "significance": 1
   },
   {
-    "library_name": "Http4s",
-    "version": "v0.23.31",
-    "url": "https://github.com/http4s/http4s/releases/tag/v0.23.31",
-    "content_length": 5830,
+    "library_name": "Composer",
+    "version": "2.8.0",
+    "url": "https://github.com/composer/composer/releases/tag/2.8.0",
+    "content_length": 2840,
     "significance": 1
   },
   {
-    "library_name": "Http4s",
-    "version": "v0.23.22",
-    "url": "https://github.com/http4s/http4s/releases/tag/v0.23.22",
-    "content_length": 1632,
+    "library_name": "Laravel",
+    "version": "v10.2.7",
+    "url": "https://github.com/laravel/laravel/releases/tag/v10.2.7",
+    "content_length": 679,
     "significance": 1
   },
   {
-    "library_name": "Akka-HTTP",
-    "version": "v10.5.1",
-    "url": "https://github.com/akka/akka-http/releases/tag/v10.5.1",
-    "content_length": 674,
+    "library_name": "Doctrine-DBAL",
+    "version": "4.3.0",
+    "url": "https://github.com/doctrine/dbal/releases/tag/4.3.0",
+    "content_length": 7888,
     "significance": 1
   },
   {
-    "library_name": "Cats-Effect",
-    "version": "v3.5.1",
-    "url": "https://github.com/typelevel/cats-effect/releases/tag/v3.5.1",
-    "content_length": 1918,
+    "library_name": "Laravel",
+    "version": "v12.0.0",
+    "url": "https://github.com/laravel/laravel/releases/tag/v12.0.0",
+    "content_length": 512,
     "significance": 1
   },
   {
-    "library_name": "Akka-HTTP",
-    "version": "v10.7.2",
-    "url": "https://github.com/akka/akka-http/releases/tag/v10.7.2",
-    "content_length": 990,
+    "library_name": "Symfony",
+    "version": "v6.3.0",
+    "url": "https://github.com/symfony/symfony/releases/tag/v6.3.0",
+    "content_length": 1064,
     "significance": 1
   },
   {
-    "library_name": "ZIO",
-    "version": "v2.0.15",
-    "url": "https://github.com/zio/zio/releases/tag/v2.0.15",
-    "content_length": 441,
+    "library_name": "Doctrine-DBAL",
+    "version": "4.1.0",
+    "url": "https://github.com/doctrine/dbal/releases/tag/4.1.0",
+    "content_length": 1336,
     "significance": 1
   },
   {
-    "library_name": "ZIO",
-    "version": "v2.1.5",
-    "url": "https://github.com/zio/zio/releases/tag/v2.1.5",
-    "content_length": 1257,
+    "library_name": "Guzzle",
+    "version": "7.5.2",
+    "url": "https://github.com/guzzle/guzzle/releases/tag/7.8.0",
+    "content_length": 174,
     "significance": 1
   },
   {
-    "library_name": "Circe",
-    "version": "v0.14.15",
-    "url": "https://github.com/circe/circe/releases/tag/v0.14.15",
-    "content_length": 1199,
+    "library_name": "Doctrine-DBAL",
+    "version": "3.7.0",
+    "url": "https://github.com/doctrine/dbal/releases/tag/3.7.0",
+    "content_length": 2290,
     "significance": 1
   },
   {
-    "library_name": "Circe",
-    "version": "v0.14.10",
-    "url": "https://github.com/circe/circe/releases/tag/v0.14.10",
-    "content_length": 1218,
+    "library_name": "PHP-CS-Fixer",
+    "version": "v3.85.0",
+    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.85.0",
+    "content_length": 3119,
     "significance": 1
   },
   {
-    "library_name": "ZIO-HTTP",
-    "version": "v3.5.0",
-    "url": "https://github.com/zio/zio-http/releases/tag/v3.5.0",
-    "content_length": 2376,
+    "library_name": "Guzzle",
+    "version": "7.9.0",
+    "url": "https://github.com/guzzle/guzzle/releases/tag/7.9.0",
+    "content_length": 301,
     "significance": 1
   },
   {
-    "library_name": "FS2",
-    "version": "v3.12.0",
-    "url": "https://github.com/typelevel/fs2/releases/tag/v3.12.0",
-    "content_length": 2146,
+    "library_name": "Monolog",
+    "version": "3.4.0",
+    "url": "https://github.com/Seldaek/monolog/releases/tag/3.4.0",
+    "content_length": 591,
     "significance": 1
   },
   {
-    "library_name": "Circe",
-    "version": "v0.14.6",
-    "url": "https://github.com/circe/circe/releases/tag/v0.14.6",
-    "content_length": 4412,
+    "library_name": "Monolog",
+    "version": "3.9.0",
+    "url": "https://github.com/Seldaek/monolog/releases/tag/3.9.0",
+    "content_length": 550,
     "significance": 1
   },
   {
-    "library_name": "FS2",
+    "library_name": "Guzzle",
+    "version": "7.9.3",
+    "url": "https://github.com/guzzle/guzzle/releases/tag/7.9.3",
+    "content_length": 127,
+    "significance": 1
+  },
+  {
+    "library_name": "PHP-CS-Fixer",
+    "version": "v3.21.0",
+    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.21.0",
+    "content_length": 1395,
+    "significance": 1
+  },
+  {
+    "library_name": "PHP-CS-Fixer",
+    "version": "v3.60.0",
+    "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.60.0",
+    "content_length": 2023,
+    "significance": 1
+  },
+  {
+    "library_name": "Monolog",
+    "version": "3.6.0",
+    "url": "https://github.com/Seldaek/monolog/releases/tag/3.6.0",
+    "content_length": 649,
+    "significance": 1
+  },
+  {
+    "library_name": "Psalm",
+    "version": "Unknown version",
+    "url": "https://github.com/vimeo/psalm/releases/tag/6.12.0",
+    "content_length": 1275,
+    "significance": 1
+  },
+  {
+    "library_name": "Carbon",
+    "version": "3.8.0",
+    "url": "https://github.com/briannesbitt/Carbon/releases/tag/3.8.0",
+    "content_length": 726,
+    "significance": 1
+  },
+  {
+    "library_name": "Carbon",
+    "version": "2.68.0",
+    "url": "https://github.com/briannesbitt/Carbon/releases/tag/2.68.0",
+    "content_length": 1677,
+    "significance": 1
+  },
+  {
+    "library_name": "Carbon",
+    "version": "3.10.0",
+    "url": "https://github.com/briannesbitt/Carbon/releases/tag/3.10.0",
+    "content_length": 1116,
+    "significance": 1
+  },
+  {
+    "library_name": "Psalm",
+    "version": "Unknown version",
+    "url": "https://github.com/vimeo/psalm/releases/tag/5.13.0",
+    "content_length": 3533,
+    "significance": 1
+  },
+  {
+    "library_name": "PHPStan",
+    "version": "2.1.17",
+    "url": "https://github.com/phpstan/phpstan/releases/tag/2.1.17",
+    "content_length": 2741,
+    "significance": 1
+  },
+  {
+    "library_name": "PHPStan",
+    "version": "1.11.5",
+    "url": "https://github.com/phpstan/phpstan/releases/tag/1.11.5",
+    "content_length": 2896,
+    "significance": 1
+  },
+  {
+    "library_name": "Psalm",
+    "version": "Unknown version",
+    "url": "https://github.com/vimeo/psalm/releases/tag/5.25.0",
+    "content_length": 696,
+    "significance": 1
+  },
+  {
+    "library_name": "PHPStan",
+    "version": "1.10.30",
+    "url": "https://github.com/phpstan/phpstan/releases/tag/1.10.30",
+    "content_length": 1100,
+    "significance": 1
+  },
+  {
+    "library_name": "Livewire",
     "version": "v3.7.0",
-    "url": "https://github.com/typelevel/fs2/releases/tag/v3.7.0",
-    "content_length": 3271,
+    "url": "https://github.com/livewire/livewire/releases/tag/v3.7.0",
+    "content_length": 2671,
     "significance": 1
   },
   {
-    "library_name": "ZIO-HTTP",
-    "version": "v0.0.5",
-    "url": "https://github.com/zio/zio-http/releases/tag/v0.0.5",
-    "content_length": 2911,
-    "significance": 1
-  },
-  {
-    "library_name": "Slick",
-    "version": "v3.5.0-M2",
-    "url": "https://github.com/slick/slick/releases/tag/v3.5.0-M2",
-    "content_length": 1602,
-    "significance": 1
-  },
-  {
-    "library_name": "ZIO-HTTP",
-    "version": "v3.0.0",
-    "url": "https://github.com/zio/zio-http/releases/tag/v3.0.0",
-    "content_length": 45421,
-    "significance": 1
-  },
-  {
-    "library_name": "FS2",
-    "version": "v3.11.0",
-    "url": "https://github.com/typelevel/fs2/releases/tag/v3.11.0",
-    "content_length": 2189,
-    "significance": 1
-  },
-  {
-    "library_name": "Slick",
-    "version": "v3.6.0",
-    "url": "https://github.com/slick/slick/releases/tag/v3.6.0",
-    "content_length": 4329,
-    "significance": 1
-  },
-  {
-    "library_name": "Slick",
+    "library_name": "Livewire",
     "version": "v3.5.0",
-    "url": "https://github.com/slick/slick/releases/tag/v3.5.0",
-    "content_length": 15345,
+    "url": "https://github.com/livewire/livewire/releases/tag/v3.5.0",
+    "content_length": 1279,
+    "significance": 0
+  },
+  {
+    "library_name": "Livewire",
+    "version": "v3.0.0",
+    "url": "https://github.com/livewire/livewire/releases/tag/v3.0.0",
+    "content_length": 18103,
     "significance": 1
   },
   {
-    "library_name": "ScalaTest",
-    "version": "release-3.2.14",
-    "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.14",
-    "content_length": 835,
+    "library_name": "Inertia",
+    "version": "v2.0.0",
+    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.0",
+    "content_length": 421,
     "significance": 1
   },
   {
-    "library_name": "ScalaTest",
-    "version": "release-3.2.19",
-    "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.19",
-    "content_length": 1540,
+    "library_name": "Filament",
+    "version": "v3.0.0",
+    "url": "https://github.com/filamentphp/filament/releases/tag/v3.0.0",
+    "content_length": 21136,
     "significance": 1
   },
   {
-    "library_name": "ScalaTest",
-    "version": "release-3.2.16",
-    "url": "https://github.com/scalatest/scalatest/releases/tag/release-3.2.16",
-    "content_length": 837,
+    "library_name": "Inertia",
+    "version": "v0.6.10",
+    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v0.6.10",
+    "content_length": 212,
     "significance": 1
   },
   {
-    "library_name": "MUnit",
-    "version": "v1.1.2",
-    "url": "https://github.com/scalameta/munit/releases/tag/v1.1.2",
-    "content_length": 3788,
+    "library_name": "Spatie-Laravel-Permission",
+    "version": "6.18.0",
+    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.18.0",
+    "content_length": 787,
     "significance": 1
   },
   {
-    "library_name": "Shapeless",
-    "version": "v2.3.10",
-    "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.10",
-    "content_length": 501,
+    "library_name": "Inertia",
+    "version": "v2.0.4",
+    "url": "https://github.com/inertiajs/inertia-laravel/releases/tag/v2.0.4",
+    "content_length": 917,
     "significance": 1
   },
   {
-    "library_name": "ScalaCheck",
-    "version": "v1.17.0",
-    "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.17.0",
-    "content_length": 548,
+    "library_name": "Filament",
+    "version": "v4.1.0",
+    "url": "https://github.com/filamentphp/filament/releases/tag/v4.1.0",
+    "content_length": 2965,
     "significance": 1
   },
   {
-    "library_name": "MUnit",
-    "version": "v1.0.2",
-    "url": "https://github.com/scalameta/munit/releases/tag/v1.0.2",
-    "content_length": 980,
+    "library_name": "Filament",
+    "version": "v3.2.80",
+    "url": "https://github.com/filamentphp/filament/releases/tag/v3.2.80",
+    "content_length": 687,
     "significance": 1
   },
   {
-    "library_name": "MUnit",
-    "version": "v1.0.0-M8",
-    "url": "https://github.com/scalameta/munit/releases/tag/v1.0.0-M8",
-    "content_length": 2574,
+    "library_name": "Spatie-Laravel-Permission",
+    "version": "6.10.0",
+    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.10.0",
+    "content_length": 1458,
     "significance": 1
   },
   {
-    "library_name": "ScalaCheck",
-    "version": "v1.19.0",
-    "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.19.0",
-    "content_length": 1404,
+    "library_name": "Spatie-Laravel-Permission",
+    "version": "6.0.0",
+    "url": "https://github.com/spatie/laravel-permission/releases/tag/6.0.0",
+    "content_length": 3371,
     "significance": 1
   },
   {
-    "library_name": "ScalaCheck",
-    "version": "v1.17.1",
-    "url": "https://github.com/typelevel/scalacheck/releases/tag/v1.17.1",
-    "content_length": 6262,
-    "significance": 1
-  },
-  {
-    "library_name": "Shapeless",
-    "version": "v2.3.11",
-    "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.11",
-    "content_length": 473,
-    "significance": 1
-  },
-  {
-    "library_name": "Shapeless",
-    "version": "v2.3.13",
-    "url": "https://github.com/milessabin/shapeless/releases/tag/v2.3.13",
-    "content_length": 320,
-    "significance": 1
-  },
-  {
-    "library_name": "Refined",
-    "version": "v0.11.0",
-    "url": "https://github.com/fthomas/refined/releases/tag/v0.11.0",
-    "content_length": 1623,
-    "significance": 1
-  },
-  {
-    "library_name": "Refined",
-    "version": "v0.11.1",
-    "url": "https://github.com/fthomas/refined/releases/tag/v0.11.1",
-    "content_length": 2944,
-    "significance": 1
-  },
-  {
-    "library_name": "Refined",
-    "version": "v0.11.3",
-    "url": "https://github.com/fthomas/refined/releases/tag/v0.11.3",
-    "content_length": 2720,
-    "significance": 1
-  },
-  {
-    "library_name": "Monocle",
-    "version": "v3.2.0",
-    "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.2.0",
-    "content_length": 654,
-    "significance": 1
-  },
-  {
-    "library_name": "Chimney",
-    "version": "1.8.0",
-    "url": "https://github.com/scalalandio/chimney/releases/tag/1.8.0",
-    "content_length": 1504,
-    "significance": 1
-  },
-  {
-    "library_name": "Tapir",
-    "version": "v1.11.4",
-    "url": "https://github.com/softwaremill/tapir/releases/tag/v1.11.4",
-    "content_length": 651,
-    "significance": 1
-  },
-  {
-    "library_name": "Monocle",
-    "version": "v3.1.0",
-    "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.1.0",
-    "content_length": 1039,
-    "significance": 1
-  },
-  {
-    "library_name": "Monocle",
-    "version": "v3.3.0",
-    "url": "https://github.com/optics-dev/Monocle/releases/tag/v3.3.0",
-    "content_length": 605,
-    "significance": 1
-  },
-  {
-    "library_name": "Chimney",
-    "version": "0.8.0",
-    "url": "https://github.com/scalalandio/chimney/releases/tag/0.8.0",
-    "content_length": 3864,
-    "significance": 1
-  },
-  {
-    "library_name": "SBT",
-    "version": "v1.11.5",
-    "url": "https://github.com/sbt/sbt/releases/tag/v1.11.5",
-    "content_length": 1978,
-    "significance": 1
-  },
-  {
-    "library_name": "Chimney",
-    "version": "1.3.0",
-    "url": "https://github.com/scalalandio/chimney/releases/tag/1.3.0",
-    "content_length": 953,
-    "significance": 1
-  },
-  {
-    "library_name": "Tapir",
-    "version": "v1.7.4",
-    "url": "https://github.com/softwaremill/tapir/releases/tag/v1.7.4",
-    "content_length": 2426,
-    "significance": 1
-  },
-  {
-    "library_name": "Tapir",
-    "version": "v1.11.45",
-    "url": "https://github.com/softwaremill/tapir/releases/tag/v1.11.45",
-    "content_length": 1663,
-    "significance": 1
-  },
-  {
-    "library_name": "SBT",
-    "version": "v1.10.0",
-    "url": "https://github.com/sbt/sbt/releases/tag/v1.10.0",
-    "content_length": 5579,
-    "significance": 1
-  },
-  {
-    "library_name": "Mill",
-    "version": "0.12.15",
-    "url": "https://github.com/com-lihaoyi/mill/releases/tag/0.12.15",
-    "content_length": 1771,
-    "significance": 1
-  },
-  {
-    "library_name": "Mill",
-    "version": "0.11.1",
-    "url": "https://github.com/com-lihaoyi/mill/releases/tag/0.11.1",
-    "content_length": 1908,
-    "significance": 1
-  },
-  {
-    "library_name": "Scala-CLI",
-    "version": "v1.0.2",
-    "url": "https://github.com/VirtusLab/scala-cli/releases/tag/v1.0.2",
-    "content_length": 5407,
-    "significance": 1
-  },
-  {
-    "library_name": "SBT",
-    "version": "v1.9.5",
-    "url": "https://github.com/sbt/sbt/releases/tag/v1.9.5",
-    "content_length": 1084,
-    "significance": 1
-  },
-  {
-    "library_name": "Mill",
-    "version": "0.11.8",
-    "url": "https://github.com/com-lihaoyi/mill/releases/tag/0.11.8",
-    "content_length": 9098,
-    "significance": 1
-  },
-  {
-    "library_name": "Scala-CLI",
-    "version": "v1.8.0",
-    "url": "https://github.com/VirtusLab/scala-cli/releases/tag/v1.8.0",
-    "content_length": 8524,
-    "significance": 1
-  },
-  {
-    "library_name": "Scala-CLI",
-    "version": "v1.4.0",
-    "url": "https://github.com/VirtusLab/scala-cli/releases/tag/v1.4.0",
-    "content_length": 7948,
-    "significance": 1
-  },
-  {
-    "library_name": "Caliban",
-    "version": "v2.11.0",
-    "url": "https://github.com/ghostdogpr/caliban/releases/tag/v2.11.0",
+    "library_name": "Spatie-Laravel-Medialibrary",
+    "version": "11.17.0",
+    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/11.17.0",
     "content_length": 682,
     "significance": 1
   },
   {
-    "library_name": "Sangria",
-    "version": "v4.0.0",
-    "url": "https://github.com/sangria-graphql/sangria/releases/tag/v4.0.0",
-    "content_length": 2812,
+    "library_name": "League-CSV",
+    "version": "9.16.0",
+    "url": "https://github.com/thephpleague/csv/releases/tag/9.16.0",
+    "content_length": 1346,
     "significance": 1
   },
   {
-    "library_name": "Caliban",
-    "version": "v2.3.0",
-    "url": "https://github.com/ghostdogpr/caliban/releases/tag/v2.3.0",
-    "content_length": 1314,
+    "library_name": "Spatie-Laravel-Medialibrary",
+    "version": "10.10.2",
+    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/10.10.2",
+    "content_length": 502,
     "significance": 1
   },
   {
-    "library_name": "Sangria",
-    "version": "v4.2.13",
-    "url": "https://github.com/sangria-graphql/sangria/releases/tag/v4.2.13",
-    "content_length": 487,
+    "library_name": "Spatie-Laravel-Medialibrary",
+    "version": "11.10.0",
+    "url": "https://github.com/spatie/laravel-medialibrary/releases/tag/11.10.0",
+    "content_length": 576,
     "significance": 1
   },
   {
-    "library_name": "Caliban",
-    "version": "v2.7.0",
-    "url": "https://github.com/ghostdogpr/caliban/releases/tag/v2.7.0",
-    "content_length": 1479,
+    "library_name": "League-CSV",
+    "version": "9.9.0",
+    "url": "https://github.com/thephpleague/csv/releases/tag/9.9.0",
+    "content_length": 1168,
     "significance": 1
   },
   {
-    "library_name": "Skunk",
-    "version": "v1.0.0-M11",
-    "url": "https://github.com/typelevel/skunk/releases/tag/v1.0.0-M11",
-    "content_length": 3117,
+    "library_name": "PHP-Mailer",
+    "version": "v6.9.2",
+    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.2",
+    "content_length": 598,
     "significance": 1
   },
   {
-    "library_name": "Scio",
-    "version": "v0.13.0",
-    "url": "https://github.com/spotify/scio/releases/tag/v0.13.0",
-    "content_length": 5262,
+    "library_name": "League-CSV",
+    "version": "9.22.0",
+    "url": "https://github.com/thephpleague/csv/releases/tag/9.22.0",
+    "content_length": 1732,
     "significance": 1
   },
   {
-    "library_name": "Skunk",
-    "version": "v0.6.0",
-    "url": "https://github.com/typelevel/skunk/releases/tag/v0.6.0",
-    "content_length": 3993,
+    "library_name": "PHP-Mailer",
+    "version": "v6.11.0",
+    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.11.0",
+    "content_length": 1927,
     "significance": 1
   },
   {
-    "library_name": "Sangria",
-    "version": "v4.1.0",
-    "url": "https://github.com/sangria-graphql/sangria/releases/tag/v4.1.0",
+    "library_name": "PHP-Mailer",
+    "version": "v6.9.1",
+    "url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.9.1",
+    "content_length": 1235,
+    "significance": 1
+  },
+  {
+    "library_name": "Predis",
+    "version": "v2.4.0",
+    "url": "https://github.com/predis/predis/releases/tag/v2.4.0",
+    "content_length": 960,
+    "significance": 1
+  },
+  {
+    "library_name": "RoadRunner",
+    "version": "v2024.3.0",
+    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2024.3.0",
+    "content_length": 2785,
+    "significance": 1
+  },
+  {
+    "library_name": "Swoole",
+    "version": "v5.1.0",
+    "url": "https://github.com/swoole/swoole-src/releases/tag/v5.1.0",
+    "content_length": 2906,
+    "significance": 1
+  },
+  {
+    "library_name": "Laravel-Passport",
+    "version": "v11.6.0",
+    "url": "https://github.com/laravel/passport/releases/tag/v11.6.0",
+    "content_length": 204,
+    "significance": 1
+  },
+  {
+    "library_name": "Swoole",
+    "version": "v6.0.0",
+    "url": "https://github.com/swoole/swoole-src/releases/tag/v6.0.0",
+    "content_length": 13401,
+    "significance": 1
+  },
+  {
+    "library_name": "Swoole",
+    "version": "v6.1.0",
+    "url": "https://github.com/swoole/swoole-src/releases/tag/v6.1.0",
+    "content_length": 27435,
+    "significance": 1
+  },
+  {
+    "library_name": "RoadRunner",
+    "version": "v2023.2.0",
+    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2023.2.0",
+    "content_length": 2174,
+    "significance": 1
+  },
+  {
+    "library_name": "Predis",
+    "version": "v2.2.0",
+    "url": "https://github.com/predis/predis/releases/tag/v2.2.0",
+    "content_length": 856,
+    "significance": 1
+  },
+  {
+    "library_name": "RoadRunner",
+    "version": "v2025.1.0",
+    "url": "https://github.com/roadrunner-server/roadrunner/releases/tag/v2025.1.0",
+    "content_length": 975,
+    "significance": 1
+  },
+  {
+    "library_name": "Laravel-Passport",
+    "version": "v12.0.0",
+    "url": "https://github.com/laravel/passport/releases/tag/v12.0.0",
+    "content_length": 300,
+    "significance": 1
+  },
+  {
+    "library_name": "Laravel-Horizon",
+    "version": "v5.24.0",
+    "url": "https://github.com/laravel/horizon/releases/tag/v5.24.0",
+    "content_length": 165,
+    "significance": 1
+  },
+  {
+    "library_name": "Slim",
+    "version": "4.12.0",
+    "url": "https://github.com/slimphp/Slim/releases/tag/4.12.0",
     "content_length": 1559,
     "significance": 1
   },
   {
-    "library_name": "Skunk",
-    "version": "v0.6.4",
-    "url": "https://github.com/typelevel/skunk/releases/tag/v0.6.4",
-    "content_length": 2111,
+    "library_name": "Laravel-Passport",
+    "version": "v13.0.0",
+    "url": "https://github.com/laravel/passport/releases/tag/v13.0.0",
+    "content_length": 2341,
     "significance": 1
   },
   {
-    "library_name": "STTP",
-    "version": "v3.9.4",
-    "url": "https://github.com/softwaremill/sttp/releases/tag/v3.9.4",
-    "content_length": 209,
+    "library_name": "Laravel-Horizon",
+    "version": "v5.31.0",
+    "url": "https://github.com/laravel/horizon/releases/tag/v5.31.0",
+    "content_length": 173,
     "significance": 1
   },
   {
-    "library_name": "STTP",
-    "version": "v3.8.7",
-    "url": "https://github.com/softwaremill/sttp/releases/tag/v3.8.7",
-    "content_length": 401,
+    "library_name": "Predis",
+    "version": "v2.3.0",
+    "url": "https://github.com/predis/predis/releases/tag/v2.3.0",
+    "content_length": 815,
     "significance": 1
   },
   {
-    "library_name": "Scio",
-    "version": "v0.15.0",
-    "url": "https://github.com/spotify/scio/releases/tag/v0.15.0",
-    "content_length": 2332,
+    "library_name": "Slim",
+    "version": "4.14.0",
+    "url": "https://github.com/slimphp/Slim/releases/tag/4.14.0",
+    "content_length": 1136,
     "significance": 1
   },
   {
-    "library_name": "Scio",
-    "version": "v0.14.0",
-    "url": "https://github.com/spotify/scio/releases/tag/v0.14.0",
-    "content_length": 6279,
+    "library_name": "Laravel-Horizon",
+    "version": "v5.18.0",
+    "url": "https://github.com/laravel/horizon/releases/tag/v5.18.0",
+    "content_length": 246,
     "significance": 1
   },
   {
-    "library_name": "Scala-Steward",
-    "version": "v0.34.0",
-    "url": "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.34.0",
-    "content_length": 2479,
+    "library_name": "Laravel-Framework",
+    "version": "v11.10.0",
+    "url": "https://github.com/laravel/framework/releases/tag/v11.10.0",
+    "content_length": 1255,
     "significance": 1
   },
   {
-    "library_name": "Scala-Steward",
-    "version": "v0.31.0",
-    "url": "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.31.0",
-    "content_length": 5446,
+    "library_name": "Slim",
+    "version": "4.13.0",
+    "url": "https://github.com/slimphp/Slim/releases/tag/4.13.0",
+    "content_length": 1247,
     "significance": 1
   },
   {
-    "library_name": "Scala2",
-    "version": "v2.13.18",
-    "url": "https://github.com/scala/scala/releases/tag/v2.13.18",
-    "content_length": 3256,
+    "library_name": "Laravel-Framework",
+    "version": "v12.20.0",
+    "url": "https://github.com/laravel/framework/releases/tag/v12.20.0",
+    "content_length": 4390,
     "significance": 1
   },
   {
-    "library_name": "STTP",
-    "version": "v4.0.0",
-    "url": "https://github.com/softwaremill/sttp/releases/tag/v4.0.0",
-    "content_length": 1630,
+    "library_name": "Rector",
+    "version": "2.1.0",
+    "url": "https://github.com/rectorphp/rector/releases/tag/2.1.0",
+    "content_length": 4831,
     "significance": 1
   },
   {
-    "library_name": "Scala2",
-    "version": "v2.13.11",
-    "url": "https://github.com/scala/scala/releases/tag/v2.13.11",
-    "content_length": 4768,
+    "library_name": "PHP-Parser",
+    "version": "v5.3.0",
+    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.3.0",
+    "content_length": 443,
     "significance": 1
   },
   {
-    "library_name": "Scala-Steward",
-    "version": "v0.25.0",
-    "url": "https://github.com/scala-steward-org/scala-steward/releases/tag/v0.25.0",
-    "content_length": 1417,
+    "library_name": "Rector",
+    "version": "1.2.0",
+    "url": "https://github.com/rectorphp/rector/releases/tag/1.2.0",
+    "content_length": 5908,
     "significance": 1
   },
   {
-    "library_name": "Scala2",
-    "version": "v2.13.14",
-    "url": "https://github.com/scala/scala/releases/tag/v2.13.14",
-    "content_length": 2409,
+    "library_name": "PHP-Parser",
+    "version": "v5.7.0",
+    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.7.0",
+    "content_length": 546,
     "significance": 1
   },
   {
-    "library_name": "Scala3",
-    "version": "scala3",
-    "url": "https://github.com/scala/scala3/releases/tag/3.7.0",
-    "content_length": 9111,
+    "library_name": "Laravel-Framework",
+    "version": "v10.15.0",
+    "url": "https://github.com/laravel/framework/releases/tag/v10.15.0",
+    "content_length": 1984,
     "significance": 1
   },
   {
-    "library_name": "Scala3",
-    "version": "scala3",
-    "url": "https://github.com/scala/scala3/releases/tag/3.3.0",
-    "content_length": 8930,
+    "library_name": "Rector",
+    "version": "0.17.6",
+    "url": "https://github.com/rectorphp/rector/releases/tag/0.17.6",
+    "content_length": 1880,
     "significance": 1
   },
   {
-    "library_name": "Scala3",
-    "version": "scala3",
-    "url": "https://github.com/scala/scala3/releases/tag/3.4.2",
-    "content_length": 6071,
+    "library_name": "PHP-Parser",
+    "version": "v5.0.0",
+    "url": "https://github.com/nikic/PHP-Parser/releases/tag/v5.0.0",
+    "content_length": 5979,
     "significance": 1
   },
   {
-    "library_name": "Scalafmt",
-    "version": "v3.7.0",
-    "url": "https://github.com/scalameta/scalafmt/releases/tag/v3.7.0",
-    "content_length": 4382,
+    "library_name": "Frankenphp",
+    "version": "v1.0.0",
+    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.0.0",
+    "content_length": 1051,
     "significance": 1
   },
   {
-    "library_name": "Scalafmt",
-    "version": "v3.9.0",
-    "url": "https://github.com/scalameta/scalafmt/releases/tag/v3.9.0",
-    "content_length": 4937,
+    "library_name": "Frankenphp",
+    "version": "v1.2.0",
+    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.2.0",
+    "content_length": 734,
     "significance": 1
   },
   {
-    "library_name": "Scalafmt",
-    "version": "v3.8.0",
-    "url": "https://github.com/scalameta/scalafmt/releases/tag/v3.8.0",
-    "content_length": 4303,
+    "library_name": "Frankenphp",
+    "version": "v1.8.0",
+    "url": "https://github.com/dunglas/frankenphp/releases/tag/v1.8.0",
+    "content_length": 1175,
+    "significance": 1
+  },
+  {
+    "library_name": "Laravel-Excel",
+    "version": "3.1.52",
+    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.52",
+    "content_length": 584,
+    "significance": 1
+  },
+  {
+    "library_name": "Laravel-Excel",
+    "version": "3.1.63",
+    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.63",
+    "content_length": 638,
+    "significance": 1
+  },
+  {
+    "library_name": "Laravel-Excel",
+    "version": "3.1.41",
+    "url": "https://github.com/SpartnerNL/Laravel-Excel/releases/tag/3.1.41",
+    "content_length": 965,
     "significance": 1
   }
 ]
