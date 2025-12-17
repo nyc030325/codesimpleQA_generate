@@ -39,15 +39,18 @@ def convert_to_singleline(multiline_str, preserve_newlines=False):
     if preserve_newlines:
         singleline = multiline_str.replace('\r\n', '\n')  # 统一Windows换行符
         singleline = singleline.replace('\r', '\n')  # 处理单独的回车符
-        # 保留换行符为转义序列
+        # 保留换行符为转义序列，需要双重转义以确保JSON解析正确
         singleline = singleline.replace('\n', '\\n')
     else:
         singleline = multiline_str.replace('\r\n', ' ')
         singleline = singleline.replace('\n', ' ')
         singleline = singleline.replace('\r', ' ')
     
-    # 直接删除双引号，避免与字符串标识重复
-    singleline = singleline.replace('"', '')
+    # 转义反斜杠，确保所有反斜杠都被正确转义
+    singleline = singleline.replace('\\', '\\\\')
+    
+    # 转义双引号，避免与JSON字符串标识冲突
+    singleline = singleline.replace('"', '\\"')
     
     # 折叠连续的空格
     import re
