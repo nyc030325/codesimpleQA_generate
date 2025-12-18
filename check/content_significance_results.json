@@ -1,422 +1,422 @@
 [
   {
-    "library_name": "Abseil",
-    "version": "20240722.0",
-    "url": "https://github.com/abseil/abseil-cpp/releases/tag/20240722.0",
-    "content_length": 1375,
+    "library_name": "Alamofire",
+    "version": "5.7.0",
+    "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.7.0",
+    "content_length": 1030,
     "significance": 1
   },
   {
-    "library_name": "nlohmann-json",
-    "version": "v3.11.3",
-    "url": "https://github.com/nlohmann/json/releases/tag/v3.11.3",
-    "content_length": 5720,
+    "library_name": "Vapor",
+    "version": "Unknown version",
+    "url": "https://github.com/vapor/vapor/releases/tag/4.115.0",
+    "content_length": 353,
     "significance": 1
   },
   {
-    "library_name": "gRPC-Cpp",
-    "version": "v1.74.0",
-    "url": "https://github.com/grpc/grpc/releases/tag/v1.74.0",
-    "content_length": 1265,
+    "library_name": "Kingfisher",
+    "version": "8.6.0",
+    "url": "https://github.com/onevcat/Kingfisher/releases/tag/8.6.0",
+    "content_length": 569,
     "significance": 1
   },
   {
-    "library_name": "Abseil",
-    "version": "20230802.0",
-    "url": "https://github.com/abseil/abseil-cpp/releases/tag/20230802.0",
-    "content_length": 1439,
+    "library_name": "Vapor",
+    "version": "Unknown version",
+    "url": "https://github.com/vapor/vapor/releases/tag/4.100.0",
+    "content_length": 581,
     "significance": 1
   },
   {
-    "library_name": "gRPC-Cpp",
-    "version": "v1.56.0",
-    "url": "https://github.com/grpc/grpc/releases/tag/v1.56.0",
+    "library_name": "Kingfisher",
+    "version": "7.9.0",
+    "url": "https://github.com/onevcat/Kingfisher/releases/tag/7.9.0",
+    "content_length": 782,
+    "significance": 1
+  },
+  {
+    "library_name": "Kingfisher",
+    "version": "7.12.0",
+    "url": "https://github.com/onevcat/Kingfisher/releases/tag/7.12.0",
+    "content_length": 820,
+    "significance": 1
+  },
+  {
+    "library_name": "RxSwift",
+    "version": "6.6.0",
+    "url": "https://github.com/ReactiveX/RxSwift/releases/tag/6.6.0",
+    "content_length": 322,
+    "significance": 1
+  },
+  {
+    "library_name": "SDWebImage",
+    "version": "5.17.0",
+    "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.17.0",
+    "content_length": 949,
+    "significance": 1
+  },
+  {
+    "library_name": "SDWebImage",
+    "version": "5.19.0",
+    "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.0",
+    "content_length": 590,
+    "significance": 1
+  },
+  {
+    "library_name": "Alamofire",
+    "version": "5.9.0",
+    "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.9.0",
     "content_length": 1703,
     "significance": 1
   },
   {
-    "library_name": "Abseil",
-    "version": "20250512.0",
-    "url": "https://github.com/abseil/abseil-cpp/releases/tag/20250512.0",
-    "content_length": 992,
-    "significance": 1
-  },
-  {
-    "library_name": "gRPC-Cpp",
-    "version": "v1.65.0",
-    "url": "https://github.com/grpc/grpc/releases/tag/v1.65.0",
-    "content_length": 2113,
-    "significance": 1
-  },
-  {
-    "library_name": "Boost",
-    "version": "version_1_85_0.html",
-    "url": "https://www.boost.org/users/history/version_1_85_0.html",
-    "content_length": 16789,
-    "significance": 1
-  },
-  {
-    "library_name": "Boost",
-    "version": "version_1_88_0.html",
-    "url": "https://www.boost.org/users/history/version_1_88_0.html",
-    "content_length": 12491,
-    "significance": 1
-  },
-  {
-    "library_name": "LLVM",
-    "version": "18.1.0rc",
-    "url": "https://releases.llvm.org/18.1.0/docs/ReleaseNotes.html",
-    "content_length": 15477,
-    "significance": 1
-  },
-  {
-    "library_name": "Boost",
-    "version": "version_1_82_0.html",
-    "url": "https://www.boost.org/users/history/version_1_82_0.html",
-    "content_length": 16259,
-    "significance": 1
-  },
-  {
-    "library_name": "Qt",
+    "library_name": "Swift",
     "version": "Unknown version",
-    "url": "https://www.qt.io/blog/qt-6.6-released",
-    "content_length": 12713,
+    "url": "https://www.swift.org/blog/swift-5.10-released/",
+    "content_length": 8437,
     "significance": 1
   },
   {
-    "library_name": "Qt",
+    "library_name": "Vapor",
     "version": "Unknown version",
-    "url": "https://www.qt.io/blog/qt-6.9-released",
-    "content_length": 8623,
+    "url": "https://github.com/vapor/vapor/releases/tag/4.84.1",
+    "content_length": 934,
     "significance": 1
   },
   {
-    "library_name": "Qt",
+    "library_name": "Swift",
     "version": "Unknown version",
-    "url": "https://www.qt.io/blog/qt-6.7-released",
-    "content_length": 11113,
+    "url": "https://www.swift.org/blog/swift-6.1-released/",
+    "content_length": 7887,
     "significance": 1
   },
   {
-    "library_name": "LLVM",
+    "library_name": "Alamofire",
+    "version": "5.10.0",
+    "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.10.0",
+    "content_length": 1177,
+    "significance": 1
+  },
+  {
+    "library_name": "SDWebImage",
+    "version": "5.21.0",
+    "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.0",
+    "content_length": 1711,
+    "significance": 1
+  },
+  {
+    "library_name": "RxSwift",
+    "version": "6.9.0",
+    "url": "https://github.com/ReactiveX/RxSwift/releases/tag/6.9.0",
+    "content_length": 532,
+    "significance": 1
+  },
+  {
+    "library_name": "RxSwift",
+    "version": "6.8.0",
+    "url": "https://github.com/ReactiveX/RxSwift/releases/tag/6.8.0",
+    "content_length": 1907,
+    "significance": 1
+  },
+  {
+    "library_name": "SwiftNIO",
+    "version": "2.70.0",
+    "url": "https://github.com/apple/swift-nio/releases/tag/2.70.0",
+    "content_length": 1696,
+    "significance": 1
+  },
+  {
+    "library_name": "Swift-Composable-Architecture",
+    "version": "1.19.0",
+    "url": "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.19.0",
+    "content_length": 1559,
+    "significance": 1
+  },
+  {
+    "library_name": "SwiftNIO",
+    "version": "2.60.0",
+    "url": "https://github.com/apple/swift-nio/releases/tag/2.60.0",
+    "content_length": 2646,
+    "significance": 1
+  },
+  {
+    "library_name": "Swift-Composable-Architecture",
+    "version": "1.2.0",
+    "url": "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.2.0",
+    "content_length": 795,
+    "significance": 1
+  },
+  {
+    "library_name": "SwiftProtobuf",
+    "version": "1.21.0",
+    "url": "https://github.com/apple/swift-protobuf/releases/tag/1.21.0",
+    "content_length": 505,
+    "significance": 1
+  },
+  {
+    "library_name": "Swift-Composable-Architecture",
+    "version": "1.11.0",
+    "url": "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.11.0",
+    "content_length": 1596,
+    "significance": 1
+  },
+  {
+    "library_name": "SwiftProtobuf",
+    "version": "1.31.0",
+    "url": "https://github.com/apple/swift-protobuf/releases/tag/1.31.0",
+    "content_length": 2836,
+    "significance": 1
+  },
+  {
+    "library_name": "GRPC-Swift",
+    "version": "1.23.1",
+    "url": "https://github.com/grpc/grpc-swift/releases/tag/1.23.1",
+    "content_length": 908,
+    "significance": 1
+  },
+  {
+    "library_name": "SwiftProtobuf",
+    "version": "1.27.0",
+    "url": "https://github.com/apple/swift-protobuf/releases/tag/1.27.0",
+    "content_length": 1292,
+    "significance": 1
+  },
+  {
+    "library_name": "GRPC-Swift",
+    "version": "2.2.0",
+    "url": "https://github.com/grpc/grpc-swift/releases/tag/2.2.0",
+    "content_length": 525,
+    "significance": 1
+  },
+  {
+    "library_name": "Swift",
     "version": "Unknown version",
-    "url": "https://releases.llvm.org/16.0.0/docs/ReleaseNotes.html",
-    "content_length": 15191,
+    "url": "https://www.swift.org/blog/swift-5.9-released/",
+    "content_length": 12366,
     "significance": 1
   },
   {
-    "library_name": "GoogleTest",
-    "version": "v1.15.0",
-    "url": "https://github.com/google/googletest/releases/tag/v1.15.0",
-    "content_length": 750,
+    "library_name": "SwiftNIO",
+    "version": "2.85.0",
+    "url": "https://github.com/apple/swift-nio/releases/tag/2.85.0",
+    "content_length": 1756,
     "significance": 1
   },
   {
-    "library_name": "LLVM",
-    "version": "Unknown version",
-    "url": "https://releases.llvm.org/20.1.0/docs/ReleaseNotes.html",
-    "content_length": 23963,
+    "library_name": "Swift-Log",
+    "version": "1.5.0",
+    "url": "https://github.com/apple/swift-log/releases/tag/1.5.0",
+    "content_length": 2521,
     "significance": 1
   },
   {
-    "library_name": "GoogleTest",
-    "version": "v1.17.0",
-    "url": "https://github.com/google/googletest/releases/tag/v1.17.0",
-    "content_length": 679,
+    "library_name": "GRPC-Swift",
+    "version": "1.20.0",
+    "url": "https://github.com/grpc/grpc-swift/releases/tag/1.20.0",
+    "content_length": 938,
     "significance": 1
   },
   {
-    "library_name": "GoogleTest",
-    "version": "v1.13.0",
-    "url": "https://github.com/google/googletest/releases/tag/v1.13.0",
-    "content_length": 727,
+    "library_name": "Swift-Log",
+    "version": "1.6.0",
+    "url": "https://github.com/apple/swift-log/releases/tag/1.6.0",
+    "content_length": 770,
     "significance": 1
   },
   {
-    "library_name": "Protobuf-Cpp",
-    "version": "v23.0",
-    "url": "https://github.com/protocolbuffers/protobuf/releases/tag/v23.0",
-    "content_length": 4624,
+    "library_name": "GRDB",
+    "version": "v6.19.0",
+    "url": "https://github.com/groue/GRDB.swift/releases/tag/v6.19.0",
+    "content_length": 717,
     "significance": 1
   },
   {
-    "library_name": "nlohmann-json",
-    "version": "v3.11.2",
-    "url": "https://github.com/nlohmann/json/releases/tag/v3.11.2",
-    "content_length": 3826,
+    "library_name": "GRDB",
+    "version": "v7.9.0",
+    "url": "https://github.com/groue/GRDB.swift/releases/tag/v7.9.0",
+    "content_length": 1309,
     "significance": 1
   },
   {
-    "library_name": "Protobuf-Cpp",
-    "version": "v27.0",
-    "url": "https://github.com/protocolbuffers/protobuf/releases/tag/v27.0",
-    "content_length": 9597,
+    "library_name": "Swift-Log",
+    "version": "1.7.0",
+    "url": "https://github.com/apple/swift-log/releases/tag/1.7.0",
+    "content_length": 1032,
     "significance": 1
   },
   {
-    "library_name": "Protobuf-Cpp",
-    "version": "v31.0",
-    "url": "https://github.com/protocolbuffers/protobuf/releases/tag/v31.0",
-    "content_length": 7172,
+    "library_name": "Swift-Argument-Parser",
+    "version": "1.5.0",
+    "url": "https://github.com/apple/swift-argument-parser/releases/tag/1.5.0",
+    "content_length": 584,
     "significance": 1
   },
   {
-    "library_name": "simdjson",
-    "version": "v4.0.0",
-    "url": "https://github.com/simdjson/simdjson/releases/tag/v4.0.0",
-    "content_length": 4642,
+    "library_name": "Swift-Argument-Parser",
+    "version": "1.3.0",
+    "url": "https://github.com/apple/swift-argument-parser/releases/tag/1.3.0",
+    "content_length": 1614,
     "significance": 1
   },
   {
-    "library_name": "simdjson",
-    "version": "v3.3.0",
-    "url": "https://github.com/simdjson/simdjson/releases/tag/v3.3.0",
-    "content_length": 707,
+    "library_name": "Nimble",
+    "version": "v13.0.0",
+    "url": "https://github.com/Quick/Nimble/releases/tag/v13.0.0",
+    "content_length": 1305,
     "significance": 1
   },
   {
-    "library_name": "nlohmann-json",
-    "version": "v3.12.0",
-    "url": "https://github.com/nlohmann/json/releases/tag/v3.12.0",
-    "content_length": 10022,
+    "library_name": "Swift-Argument-Parser",
+    "version": "1.6.0",
+    "url": "https://github.com/apple/swift-argument-parser/releases/tag/1.6.0",
+    "content_length": 2201,
     "significance": 1
   },
   {
-    "library_name": "simdjson",
-    "version": "v3.11.0",
-    "url": "https://github.com/simdjson/simdjson/releases/tag/v3.11.0",
-    "content_length": 876,
+    "library_name": "Nimble",
+    "version": "v13.8.0",
+    "url": "https://github.com/Quick/Nimble/releases/tag/v13.8.0",
+    "content_length": 794,
     "significance": 1
   },
   {
-    "library_name": "spdlog",
-    "version": "v1.16.0",
-    "url": "https://github.com/gabime/spdlog/releases/tag/v1.16.0",
-    "content_length": 643,
+    "library_name": "SnapshotTesting",
+    "version": "1.17.0",
+    "url": "https://github.com/pointfreeco/swift-snapshot-testing/releases/tag/1.17.0",
+    "content_length": 1018,
     "significance": 1
   },
   {
-    "library_name": "Catch2",
-    "version": "v3.6.0",
-    "url": "https://github.com/catchorg/Catch2/releases/tag/v3.6.0",
-    "content_length": 1383,
+    "library_name": "SwiftFormat",
+    "version": "0.54.0",
+    "url": "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.0",
+    "content_length": 2088,
     "significance": 1
   },
   {
-    "library_name": "Catch2",
-    "version": "v3.9.0",
-    "url": "https://github.com/catchorg/Catch2/releases/tag/v3.9.0",
-    "content_length": 2499,
+    "library_name": "SnapshotTesting",
+    "version": "1.18.2",
+    "url": "https://github.com/pointfreeco/swift-snapshot-testing/releases/tag/1.18.2",
+    "content_length": 499,
     "significance": 1
   },
   {
-    "library_name": "Google-Benchmark",
-    "version": "v1.8.3",
-    "url": "https://github.com/google/benchmark/releases/tag/v1.8.3",
-    "content_length": 2051,
+    "library_name": "Nimble",
+    "version": "v13.3.0",
+    "url": "https://github.com/Quick/Nimble/releases/tag/v13.3.0",
+    "content_length": 869,
     "significance": 1
   },
   {
-    "library_name": "Google-Benchmark",
-    "version": "v1.8.4",
-    "url": "https://github.com/google/benchmark/releases/tag/v1.8.4",
-    "content_length": 5686,
+    "library_name": "SnapshotTesting",
+    "version": "1.13.0",
+    "url": "https://github.com/pointfreeco/swift-snapshot-testing/releases/tag/1.13.0",
+    "content_length": 3931,
     "significance": 1
   },
   {
-    "library_name": "spdlog",
-    "version": "v1.14.0",
-    "url": "https://github.com/gabime/spdlog/releases/tag/v1.14.0",
-    "content_length": 1611,
+    "library_name": "SwiftFormat",
+    "version": "0.57.0",
+    "url": "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.57.0",
+    "content_length": 2096,
     "significance": 1
   },
   {
-    "library_name": "Google-Benchmark",
-    "version": "v1.9.2",
-    "url": "https://github.com/google/benchmark/releases/tag/v1.9.2",
-    "content_length": 3660,
+    "library_name": "SwiftFormat",
+    "version": "0.52.0",
+    "url": "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.0",
+    "content_length": 935,
     "significance": 1
   },
   {
-    "library_name": "Catch2",
-    "version": "v3.4.0",
-    "url": "https://github.com/catchorg/Catch2/releases/tag/v3.4.0",
-    "content_length": 1499,
+    "library_name": "GRDB",
+    "version": "v7.0.0",
+    "url": "https://github.com/groue/GRDB.swift/releases/tag/v7.0.0",
+    "content_length": 3451,
     "significance": 1
   },
   {
-    "library_name": "fmt",
-    "version": "12.0.0",
-    "url": "https://github.com/fmtlib/fmt/releases/tag/12.0.0",
-    "content_length": 3930,
+    "library_name": "Hummingbird",
+    "version": "1.9.0",
+    "url": "https://github.com/hummingbird-project/hummingbird/releases/tag/1.9.0",
+    "content_length": 482,
     "significance": 1
   },
   {
-    "library_name": "spdlog",
-    "version": "v1.12.0",
-    "url": "https://github.com/gabime/spdlog/releases/tag/v1.12.0",
-    "content_length": 2552,
+    "library_name": "Lottie-iOS",
+    "version": "4.5.0",
+    "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.0",
+    "content_length": 914,
     "significance": 1
   },
   {
-    "library_name": "OpenCV",
-    "version": "4.10.0",
-    "url": "https://github.com/opencv/opencv/releases/tag/4.10.0",
-    "content_length": 5417,
+    "library_name": "SwiftLint",
+    "version": "0.55.0",
+    "url": "https://github.com/realm/SwiftLint/releases/tag/0.55.0",
+    "content_length": 9025,
     "significance": 1
   },
   {
-    "library_name": "fmt",
-    "version": "10.0.0",
-    "url": "https://github.com/fmtlib/fmt/releases/tag/10.0.0",
-    "content_length": 16417,
+    "library_name": "Hummingbird",
+    "version": "2.0.0",
+    "url": "https://github.com/hummingbird-project/hummingbird/releases/tag/2.0.0",
+    "content_length": 1505,
     "significance": 1
   },
   {
-    "library_name": "fmt",
-    "version": "11.0.0",
-    "url": "https://github.com/fmtlib/fmt/releases/tag/11.0.0",
-    "content_length": 8092,
+    "library_name": "SwiftLint",
+    "version": "0.52.0",
+    "url": "https://github.com/realm/SwiftLint/releases/tag/0.52.0",
+    "content_length": 4760,
     "significance": 1
   },
   {
-    "library_name": "TensorRT",
-    "version": "v9.1.0",
-    "url": "https://github.com/NVIDIA/TensorRT/releases/tag/v9.1.0",
-    "content_length": 787,
+    "library_name": "AsyncHTTPClient",
+    "version": "1.26.0",
+    "url": "https://github.com/swift-server/async-http-client/releases/tag/1.26.0",
+    "content_length": 1183,
     "significance": 1
   },
   {
-    "library_name": "TensorRT",
-    "version": "v10.12.0",
-    "url": "https://github.com/NVIDIA/TensorRT/releases/tag/v10.12.0",
-    "content_length": 1556,
+    "library_name": "Lottie-iOS",
+    "version": "4.3.0",
+    "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.3.0",
+    "content_length": 2631,
     "significance": 1
   },
   {
-    "library_name": "TensorRT",
-    "version": "v10.0.0",
-    "url": "https://github.com/NVIDIA/TensorRT/releases/tag/v10.0.0",
-    "content_length": 1928,
+    "library_name": "Lottie-iOS",
+    "version": "4.5.2",
+    "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.2",
+    "content_length": 321,
     "significance": 1
   },
   {
-    "library_name": "OpenCV",
-    "version": "4.12.0",
-    "url": "https://github.com/opencv/opencv/releases/tag/4.12.0",
-    "content_length": 8414,
+    "library_name": "SwiftLint",
+    "version": "0.60.0",
+    "url": "https://github.com/realm/SwiftLint/releases/tag/0.60.0",
+    "content_length": 6959,
     "significance": 1
   },
   {
-    "library_name": "Crow",
-    "version": "v1.2.0",
-    "url": "https://github.com/CrowCpp/Crow/releases/tag/v1.2.0",
-    "content_length": 1790,
+    "library_name": "Hummingbird",
+    "version": "2.17.0",
+    "url": "https://github.com/hummingbird-project/hummingbird/releases/tag/2.17.0",
+    "content_length": 568,
     "significance": 1
   },
   {
-    "library_name": "OpenCV",
-    "version": "4.8.0",
-    "url": "https://github.com/opencv/opencv/releases/tag/4.8.0",
-    "content_length": 5949,
+    "library_name": "AsyncHTTPClient",
+    "version": "1.19.0",
+    "url": "https://github.com/swift-server/async-http-client/releases/tag/1.19.0",
+    "content_length": 647,
     "significance": 1
   },
   {
-    "library_name": "ONNX-Runtime",
-    "version": "v1.15.0",
-    "url": "https://github.com/microsoft/onnxruntime/releases/tag/v1.15.0",
-    "content_length": 6419,
-    "significance": 1
-  },
-  {
-    "library_name": "Crow",
-    "version": "v1.1.0",
-    "url": "https://github.com/CrowCpp/Crow/releases/tag/v1.1.0",
-    "content_length": 9363,
-    "significance": 1
-  },
-  {
-    "library_name": "Poco",
-    "version": "poco-1.12.5-release",
-    "url": "https://github.com/pocoproject/poco/releases/tag/poco-1.12.5-release",
-    "content_length": 3221,
-    "significance": 1
-  },
-  {
-    "library_name": "Crow",
-    "version": "v1.3.0",
-    "url": "https://github.com/CrowCpp/Crow/releases/tag/v1.3.0",
-    "content_length": 4516,
-    "significance": 1
-  },
-  {
-    "library_name": "ONNX-Runtime",
-    "version": "v1.22.0",
-    "url": "https://github.com/microsoft/onnxruntime/releases/tag/v1.22.0",
-    "content_length": 4613,
-    "significance": 1
-  },
-  {
-    "library_name": "ONNX-Runtime",
-    "version": "v1.18.0",
-    "url": "https://github.com/microsoft/onnxruntime/releases/tag/v1.18.0",
-    "content_length": 7351,
-    "significance": 1
-  },
-  {
-    "library_name": "Poco",
-    "version": "poco-1.14.0-release",
-    "url": "https://github.com/pocoproject/poco/releases/tag/poco-1.14.0-release",
-    "content_length": 8202,
-    "significance": 1
-  },
-  {
-    "library_name": "Poco",
-    "version": "poco-1.14.2-release",
-    "url": "https://github.com/pocoproject/poco/releases/tag/poco-1.14.2-release",
-    "content_length": 1374,
-    "significance": 1
-  },
-  {
-    "library_name": "Drogon",
-    "version": "v1.9.8",
-    "url": "https://github.com/drogonframework/drogon/releases/tag/v1.9.8",
-    "content_length": 655,
-    "significance": 1
-  },
-  {
-    "library_name": "Drogon",
-    "version": "v1.9.11",
-    "url": "https://github.com/drogonframework/drogon/releases/tag/v1.9.11",
-    "content_length": 679,
-    "significance": 1
-  },
-  {
-    "library_name": "Drogon",
-    "version": "v1.8.5",
-    "url": "https://github.com/drogonframework/drogon/releases/tag/v1.8.5",
-    "content_length": 2476,
-    "significance": 1
-  },
-  {
-    "library_name": "Vcpkg",
-    "version": "Unknown version",
-    "url": "https://github.com/microsoft/vcpkg/releases/tag/2023.12.12",
-    "content_length": 7348,
-    "significance": 1
-  },
-  {
-    "library_name": "Vcpkg",
-    "version": "Unknown version",
-    "url": "https://github.com/microsoft/vcpkg/releases/tag/2024.07.12",
-    "content_length": 11027,
-    "significance": 1
-  },
-  {
-    "library_name": "Vcpkg",
-    "version": "Unknown version",
-    "url": "https://github.com/microsoft/vcpkg/releases/tag/2025.06.13",
-    "content_length": 18234,
+    "library_name": "AsyncHTTPClient",
+    "version": "1.22.0",
+    "url": "https://github.com/swift-server/async-http-client/releases/tag/1.22.0",
+    "content_length": 846,
     "significance": 1
   }
 ]
