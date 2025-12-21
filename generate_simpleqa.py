@@ -11,7 +11,7 @@ import threading
 
 # 设置API参数（使用用户提供的Azure OpenAI接口配置）
 api_key = "dDBVPJZeExZ8L0GL25J7RPIAGiwLwcrO_GPT_AK"
-api_version = "2024-02-0"
+api_version = "2024-02-01"
 
 # 定义可用的模型配置
 # 可以通过修改DEFAULT_MODEL变量来选择使用哪个模型
@@ -51,6 +51,12 @@ model_configs = {
     },
     "kimi-k2-0905-preview": {
         "endpoint": "https://search.bytedance.net/gpt/openapi/online/v2/crawl",
+        "max_tokens": 4095,  # 用户提供的测试代码中使用的范围是[1, 4095]
+        "thinking": None,  # Kimi模型不支持thinking功能
+        "api_type": "chat"  # 使用chat.completions.create API
+    },
+    "ep-20250722230306-6jvzh": {
+        "endpoint": "https://ark-cn-beijing.bytedance.net/api/v3/chat/completions",
         "max_tokens": 4095,  # 用户提供的测试代码中使用的范围是[1, 4095]
         "thinking": None,  # Kimi模型不支持thinking功能
         "api_type": "chat"  # 使用chat.completions.create API

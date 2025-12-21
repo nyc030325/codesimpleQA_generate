@@ -1,119 +1,121 @@
 problem,answer,library_name,tag,language,year,problem_type
-In simdjson 3.3.0 what new library target was added,simdjson_static,simdjson,NICHE,Python,2023,General
-In simdjson 3.3.0 which PR removed the number parsing fallback,#2056,simdjson,NICHE,Python,2023,API
-In simdjson v3.11.0 what new function was added,pad,simdjson,NICHE,Python,2024,API
-In simdjson v3.11.0 which dependency manager replaced the previous system,CPM,simdjson,NICHE,Python,2024,General
-In GoogleTest 1.15.0 what build system integration gained official support,Bzlmod,GoogleTest,POPULAR,Python,2024,General
-In GoogleTest 1.15.0 what C++ standard is the minimum required,C++14,GoogleTest,POPULAR,Python,2024,General
-In Google-Benchmark 1.9.2 which architecture gained cycleclock support,PA-RISC,Google-Benchmark,NICHE,Python,2025,General
-In Google-Benchmark 1.9.2 what callback type was changed,setup and teardown,Google-Benchmark,NICHE,Python,2025,API
-In Qt 6.6 which new layout element was introduced to Qt Quick,LayoutItemProxy,Qt,POPULAR,Python,2023,API
-In Qt 6.6 what new URL scheme shows Chromium version information,chrome://qt,Qt,POPULAR,Python,2023,General
-In Protobuf-Cpp v23.0 which new flag was added to protoc,retain_options,Protobuf-Cpp,POPULAR,Python,2023,General
-In Protobuf-Cpp v23.0 which C++ method was added to Reflection,GetCord,Protobuf-Cpp,POPULAR,Python,2023,API
-In simdjson 4.0.0 what new function converts data to JSON,to_json,Simdjson,NICHE,Python,2025,API
-In simdjson 4.0.0 what CMake option enables C++26 reflection,SIMDJSON_STATIC_REFLECTION=ON,Simdjson,NICHE,Python,2025,General
-In GoogleTest 1.17.0 what new flag causes failure if no test is linked,--gtest_fail_if_no_test_linked,GoogleTest,POPULAR,Python,2025,General
-In GoogleTest 1.17.0 what new matcher supports user defined abs,DistanceFrom(),GoogleTest,POPULAR,Python,2025,API
-In GoogleTest v1.13.0 what new function returns the configured test data directory,testing::SrcDir(),GoogleTest,POPULAR,Python,2023,API
-In GoogleTest v1.13.0 what macro now terminates the test instead of continuing,GTEST_FAIL_AT,GoogleTest,POPULAR,Python,2023,General
-In Boost 1.85.0 which new library provides scope guard utilities,Scope,Boost,POPULAR,Python,2024,General
-In Boost 1.85.0 what new copy_options enum value ignores attribute errors,ignore_attribute_errors,Boost,POPULAR,Python,2024,API
-In gRPC Core 1.56.0 what transport type was added,vsock,gRPC-Cpp,POPULAR,Python,2023,General
-In gRPC Core 1.56.0 what TXT lookup result type was changed to,std::vector<std::string>,gRPC-Cpp,POPULAR,Python,2023,API
-In Protobuf-Cpp v31.0 what new flag was added to protoc,--notices,Protobuf-Cpp,POPULAR,Python,2025,General
-In Protobuf-Cpp v31.0 what new method was added to Python repeated fields,clear,Protobuf-Cpp,POPULAR,Python,2025,API
-In LLVM 20.1.0 what was the only new IR pass added,IRNormalizer,LLVM,POPULAR,Python,2025,General
-In LLVM 20.1.0 which C API function was added to run the new pass manager on a single function,LLVMRunPassesOnFunction,LLVM,POPULAR,Python,2025,API
-In Catch2 3.6.0 what is the new default precision for floating point stringmakers,max_digits10,Catch2,NICHE,Python,2024,API
-In Catch2 3.6.0 what new CMake target name is set through Conan,Catch2::Catch2,Catch2,NICHE,Python,2024,General
-In Boost 1.88.0 which new header was moved under boost/iterator,generator_iterator.hpp,Boost,POPULAR,Python,2025,API
-In Boost 1.88.0 what new lockfree single-producer single-consumer value was added,spsc_value,Boost,POPULAR,Python,2025,General
-In nlohmann-json 3.12.0 what new macro enables byte position diagnostics,JSON_DIAGNOSTIC_POSITIONS,nlohmann-json,POPULAR,Python,2025,API
-In nlohmann-json 3.12.0 which iterator tag did iteration_proxy upgrade to,std::forward_iterator,nlohmann-json,POPULAR,Python,2025,General
-In nlohmann-json 3.11.2 which header was fixed to be self-contained,json_fwd.hpp,nlohmann-json,POPULAR,Python,2023,General
-In nlohmann-json 3.11.2 which overloads received missing constraints,deprecated JSON Pointer contains and at,nlohmann-json,POPULAR,Python,2023,API
-In LLVM 18.1.0rc which new intrinsic was added,llvm.exp10,LLVM,POPULAR,Python,2024,General
-In LLVM 18.1.0rc which C API function sets tail call kind,LLVMSetTailCallKind,LLVM,POPULAR,Python,2024,API
-In nlohmann-json 3.11.3 what new template parameter was added to nlohmann::json,custom base class,nlohmann-json,POPULAR,Python,2024,API
-In nlohmann-json 3.11.3 what build system support was newly added,Bazel,nlohmann-json,POPULAR,Python,2024,General
-In Google-Benchmark 1.8.3 what new file was added for PEP518 compliance,pyproject.toml,Google-Benchmark,NICHE,Python,2023,General
-In Google-Benchmark 1.8.3 what new internal function was marked as dev_dependency so downstream modules skip it,internal deps,Google-Benchmark,NICHE,Python,2023,API
-In gRPC-Cpp 1.74.0 what new platform support was added to Ruby gems,linux-gnu and linux-musl,gRPC-Cpp,POPULAR,Python,2025,General
-In gRPC-Cpp 1.74.0 what new fork support was enabled in Ruby,EE fork support,gRPC-Cpp,POPULAR,Python,2025,General
-In Qt 6.9 what new window flag enables edge-to-edge content,Qt.ExpandedClientAreaHint,Qt,POPULAR,Python,2025,API
-In Qt 6.9 what technique does Qt Quick 3D use for Order Independent Transparency,Weighted Blended,Qt,POPULAR,Python,2025,General
-In Abseil 20240722.0 which header must now be included to use VLOG_IS_ON,absl/log/vlog_is_on.h,Abseil,POPULAR,Python,2024,General
-In Abseil 20240722.0 what new overload was added to absl::StrJoin,absl::string_view,Abseil,POPULAR,Python,2024,API
-In Qt 6.7 which new class enables REST-specific HTTP headers,QHttpHeaders,Qt,POPULAR,Python,2024,API
-In Qt 6.7 what new Qt Quick scene capability allows embedding native windows,Embedding native windows,Qt,POPULAR,Python,2024,General
-In Abseil 20250512.0 which new compile-time function returns a unique id per type,absl::FastTypeId,Abseil,POPULAR,Python,2025,API
-In Abseil 20250512.0 which two new polyfills were added for endian operations,absl::endian and absl::byteswap,Abseil,POPULAR,Python,2025,General
-In gRPC-Cpp 1.65.0 what new C++ method on OpenTelemetryPluginBuilder was deprecated,SetTargetAttributeFilter,gRPC-Cpp,POPULAR,Python,2024,API
-In gRPC-Cpp 1.65.0 what new experiment was added to throttle HTTP2 pings,GRPC_ARG_HTTP2_MAX_PINGS_WITHOUT_DATA,gRPC-Cpp,POPULAR,Python,2024,General
-In Abseil 20230802.0 what new library was added for pointer annotations,nullability,Abseil,POPULAR,Python,2023,API
-In Abseil 20230802.0 what smaller Bazel target became available for string_view,@com_google_absl//absl/strings:string_view,Abseil,POPULAR,Python,2023,General
-In Catch2 v3.9.0 what is the new default test run order,random,Catch2,NICHE,Python,2025,General
-In Catch2 v3.9.0 which ReporterPreferences boolean was added for assertionStarting fast path,shouldReportAllAssertionStarts,Catch2,NICHE,Python,2025,API
-In Catch2 v3.4.0 what new option controls experimental static analysis support,CATCH_CONFIG_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT,Catch2,NICHE,Python,2023,General
-In Catch2 v3.4.0 what XML format version was introduced after adding location info for INFO and WARN,3,Catch2,NICHE,Python,2023,General
-In LLVM 16.0.0 what new metadata flag specifies the stack protector guard symbol,stack-protector-guard-symbol,LLVM,POPULAR,Python,2023,General
-In LLVM 16.0.0 which function replaced LLVMBuildCall,LLVMBuildCall2,LLVM,POPULAR,Python,2023,API
-In Protobuf-Cpp 27.0 which new C++ JSON serializer option was added,always_print_without_presence_fields,Protobuf-Cpp,POPULAR,Python,2024,API
-In Protobuf-Cpp 27.0 what was the single renamed JSON serializer option in C++ Py and Java,alwaysPrintFieldsWithNoPresence,Protobuf-Cpp,POPULAR,Python,2024,General
-In spdlog 1.16.0 what new CMAKE option was added,CMAKE_DEBUG_POSTFIX,spdlog,NICHE,Python,2025,General
-In spdlog 1.16.0 what timeout was added to TCP calls,connect send recv,spdlog,NICHE,Python,2025,API
-In spdlog 1.12.0 which new function was added to file_helper,sync,spdlog,NICHE,Python,2023,API
-In spdlog 1.12.0 what new sink type was introduced,kafka sink,spdlog,NICHE,Python,2023,General
-In fmt 10.0.0 which new function was added for C++23 compatibility,println,fmt,POPULAR,Python,2023,General
-In fmt 10.0.0 which macro was renamed for shared library exports,FMT_LIB_EXPORT,fmt,POPULAR,Python,2023,API
-In Crow 1.1.0 which new macro accepts an app reference,CROW_WEBSOCKET_ROUTE,Crow,NICHE,Python,2023,API
-In Crow 1.1.0 what new middleware was introduced,Sessions Middleware,Crow,NICHE,Python,2023,General
-In spdlog 1.14.0 which new header was added to support Mapped Diagnostic Context,spdlog/mdc.h,spdlog,NICHE,Python,2024,API
-In spdlog 1.14.0 which type gained overloads for logger accessor functions,std::string_view,spdlog,NICHE,Python,2024,General
-In TensorRT 10.0.0 what new parser class was added,IParserRefitter,TensorRT,NICHE,Python,2024,API
-In TensorRT 10.0.0 what quantization type was newly supported,INT4,TensorRT,NICHE,Python,2024,General
-In fmt 11.0.0 which new header was added to provide a minimal API subset,fmt/base.h,fmt,POPULAR,Python,2024,API
-In fmt 11.0.0 which macro enables replacing standard includes with import std,FMT_IMPORT_STD,fmt,POPULAR,Python,2024,General
-In Crow 1.3.0 which new CMake option enables SBOM generation,CROW_GENERATE_SBOM,Crow,NICHE,Python,2025,General
-In Crow 1.3.0 which new helper method checks server bind state,is_bound,Crow,NICHE,Python,2025,API
-In OpenCV 4.10.0 which new ONNX layer was added for GroupNorm,GroupNorm layer,OpenCV,POPULAR,Python,2024,API
-In OpenCV 4.10.0 what new HAL entry was added for gaussianBlur,gaussianBlur,OpenCV,POPULAR,Python,2024,General
-In Vcpkg 2025.06.13 what new port was added named barkeep,barkeep,Vcpkg,NICHE,Python,2025,General
-In Vcpkg 2025.06.13 what new tool flag cleans only on success,--clean-buildtrees-after-build,Vcpkg,NICHE,Python,2025,API
-In OpenCV 4.12.0 which new flag was added to cv::threshold,mask,OpenCV,POPULAR,Python,2025,API
-In OpenCV 4.12.0 which new function returns closest points on an ellipse,cv::getClosestEllipsePoints,OpenCV,POPULAR,Python,2025,General
-In Poco 1.12.5 which bundled library was upgraded to 10.42,pcre2,Poco,NICHE,Python,2023,General
-In Poco 1.12.5 what new page directive feature was added to PageCompiler,referrerPolicy,Poco,NICHE,Python,2023,API
-In Crow 1.2.0 which new status code was added to the HTTP enum,406,Crow,NICHE,Python,2024,API
-In Crow 1.2.0 what new build option enables the use of Boost.Asio,BOOST_CROW_USE_BOOST_ASIO,Crow,NICHE,Python,2024,General
-In ONNX Runtime v1.22.0 which new Execution Provider was added for RTX GPUs,NV TensorRT RTX EP,ONNX-Runtime,NICHE,Python,2025,General
-In ONNX Runtime v1.22.0 what new struct supports explicit model compilation,OrtCompileApi,ONNX-Runtime,NICHE,Python,2025,API
-In ONNX Runtime 1.15.0 which new execution provider was introduced for JavaScript,JS EP,ONNX-Runtime,NICHE,Python,2023,General
-In ONNX Runtime 1.15.0 which new dependency was added exclusively for CUDA TensorRT packages,cutlass,ONNX Runtime,NICHE,Python,2023,API
-In OpenCV 4.8.0 which new API was added to build network inputs with pre-processings,blobFromImageParam,OpenCV,POPULAR,Python,2023,API
-In OpenCV 4.8.0 what new graphical code API unified bar codes and QR codes,common API,OpenCV,POPULAR,Python,2023,General
-In TensorRT 9.1.0 which two demos received structured sparsity and FP8 BMM support,NeMo,TensorRT,NICHE,Python,2023,General
-In TensorRT 9.1.0 what Python sample demonstrates the progress monitor API,simple_progress_monitor,TensorRT,NICHE,Python,2023,API
-In Vcpkg 2024.07.12 which port was removed,ms-quic,Vcpkg,NICHE,Python,2024,General
-In Vcpkg 2024.07.12 what new platform expression was added,VxWorks,Vcpkg,NICHE,Python,2024,API
-In Drogon v1.8.5 what new method was added to HttpAppFramework,forwardCoro,Drogon,NICHE,Python,2023,API
-In Drogon v1.8.5 what plugin was added to remove trailing slashes,SlashRemover,Drogon,NICHE,Python,2023,General
-In Poco 1.14.0 what new UUID versions were added to Poco::UUIDGenerator,Version 6 and Version 7,Poco,NICHE,Python,2024,API
-In Poco 1.14.0 what new isolation level was added for SQLite databases,Serializable,Poco,NICHE,Python,2024,General
-In Poco 1.14.2 which bundled library was upgraded to 2.7.1,libexpat,Poco,NICHE,Python,2025,General
-In Poco 1.14.2 what return value change occurred in NetSSL_OpenSSL non-blocking functions,return value,Poco,NICHE,Python,2025,API
-In TensorRT 10.12.0 which plugin version was migrated to implement IPluginV3,cropAndResizeDynamic version 1,TensorRT,NICHE,Python,2025,General
-In TensorRT 10.12.0 what new integer support was added for Pow operations,integer-typed base tensors,TensorRT,NICHE,Python,2025,API
-In Drogon v1.9.8 what new API was added for base64 operations,in-place encode decode,Drogon,NICHE,Python,2024,API
-In Drogon v1.9.8 what new command was added to drogon_ctl,customized http requests,Drogon,NICHE,Python,2024,General
-In Drogon v1.9.11 what new overload was added to execSqlCoro,execSqlCoro,Drogon,NICHE,Python,2025,API
-In Drogon v1.9.11 what new option was added to drogon_ctl create models,-o|--output,Drogon,NICHE,Python,2025,General
-In Google-Benchmark 1.8.4 which two new macros fuse BENCHMARK_CAPTURE and BENCHMARK_TEMPLATE,BENCHMARK_TEMPLATE[12]_CAPTURE,Google-Benchmark,NICHE,Python,2024,API
-In Google-Benchmark 1.8.4 which architecture gained CycleClock support via RDTIME instead of RDCYCLE,RISC-V,Google-Benchmark,NICHE,Python,2024,General
-In Vcpkg 2023.12.12 which new port was added with version 1.0,veigar,Vcpkg,NICHE,Python,2023,General
-In Vcpkg 2023.12.12 what vcpkg-tool PR added qnx platform expression,1282,Vcpkg,NICHE,Python,2023,API
-In ONNX Runtime 1.18.0 what new CMake option enables CUDA EP without ops,onnxruntime_CUDA_MINIMAL,ONNX-Runtime,NICHE,Python,2024,General
-In ONNX Runtime 1.18.0 what new SessionOptions config entry disables specific transformers,disable specific transformers and rules,ONNX-Runtime,NICHE,Python,2024,API
-In fmt 12.0.0 what new macro allows formatting into a string of the exact required size at compile time,FMT_STATIC_FORMAT,fmt,POPULAR,Python,2025,API
-In fmt 12.0.0 what component prefix changed from fmt- to fmt_ for compatibility with NSIS/CPack on Windows,fmt-doc to fmt_doc,fmt,POPULAR,Python,2025,General
+In Puma 6.5.0 what new hook was added,on_stopped,Puma,POPULAR,Python,2024,General
+In Puma 6.5.0 what new option controls keepalive,enable_keep_alives,Puma,POPULAR,Python,2024,API
+In Faraday v2.11.0 what new method was added to ParallelManager,execute,Faraday,POPULAR,Python,2024,API
+In Faraday v2.11.0 what new SSL option attribute was introduced,ciphers,Faraday,POPULAR,Python,2024,General
+In ActiveAdmin 3.2.5 which method replaced columns_hash to determine type,attribute_types,ActiveAdmin,POPULAR,Python,2024,API
+In ActiveAdmin 3.2.5 what new pagination option was optimized,count query,ActiveAdmin,POPULAR,Python,2024,General
+In Puma 6.4.0 what new hook was added for thread lifecycle events,on_thread_exit,Puma,POPULAR,Python,2023,API
+In Puma 6.4.0 what new feature allows shutdown on idle,Shutdown on idle,Puma,POPULAR,Python,2023,General
+In ActiveAdmin v2.14.0 what tag method was added to layout,csp_meta_tag,ActiveAdmin,POPULAR,Python,2023,API
+In ActiveAdmin v2.14.0 what was updated to support options,config.register_javascript,ActiveAdmin,POPULAR,Python,2023,General
+In FactoryBot 6.3.0 which notification was newly announced,factory_bot.compile_factory,FactoryBot,POPULAR,Python,2023,General
+In FactoryBot 6.3.0 what method was explicitly defined within Stub to return false,#destroyed?,FactoryBot,POPULAR,Python,2023,API
+In ActiveAdmin 3.3.0 what new argument was added to id_column,sortable,ActiveAdmin,POPULAR,Python,2025,API
+In ActiveAdmin 3.3.0 what new option was added to id_column,title,ActiveAdmin,POPULAR,Python,2025,General
+In Faraday 2.7.11 which gem was added to runtime dependency,base64,Faraday,POPULAR,Python,2023,General
+In Faraday 2.7.11 what new option was added to omit request data from exceptions,omit request data,Faraday,POPULAR,Python,2023,API
+In FactoryBot 6.5.0 what new case was added to build_class,class names with underscores,FactoryBot,POPULAR,Python,2024,API
+In FactoryBot 6.5.0 which Rails version compatibility was ensured,Rails 7.2,FactoryBot,POPULAR,Python,2024,General
+In CarrierWave v3.1.0 what new processing method was added,crop,CarrierWave,POPULAR,Python,2025,General
+In CarrierWave v3.1.0 what was renamed to #version_active?,#version_exists?,CarrierWave,POPULAR,Python,2025,API
+In Bundler 2.5.12 which URI option was fixed for duplicated config keys,fallback_timeout,Bundler,POPULAR,Python,2024,General
+In Bundler 2.5.12 which explicit require removal broke bundle exec on truffleruby,pathname,Bundler,POPULAR,Python,2024,API
+In Pagy 9.0.0 what was the only renamed parameter from max_limit,limit_max,Pagy,NICHE,Python,2024,General
+In Pagy 9.0.0 what keyword replaced the vars positional hash argument,keyword arguments,Pagy,NICHE,Python,2024,API
+In Bundler v2.4.20 which ruby file directive format was newly supported,.tool-versions,Bundler,POPULAR,Python,2023,General
+In Bundler v2.4.20 which git gem Gemfile attributes combination made bundle outdated crash,ref and branch,Bundler,POPULAR,Python,2023,API
+In Pagy 43.1.0 what new option was added to handle nested params,:root_key,Pagy,NICHE,Python,2025,API
+In Pagy 43.1.0 what new pagination technique was introduced,Keynav,Pagy,NICHE,Python,2025,General
+In Puma v7.0.0 what is the only new callback hook name that replaces on_worker_boot,before_worker_boot,Puma,POPULAR,Python,2025,General
+In Puma v7.0.0 what new default value in seconds was set for persistent_timeout,65,Puma,POPULAR,Python,2025,API
+In RuboCop v1.65.0 what new cop was added,Gemspec/AddRuntimeDependency,RuboCop,POPULAR,Python,2024,API
+In RuboCop v1.65.0 what option was added to Metrics/BlockNesting,CountModifierForms,RuboCop,POPULAR,Python,2024,General
+In RuboCop 1.54.0 what new LSP config option was introduced,safe or unsafe autocorrect,RuboCop,POPULAR,Python,2023,API
+In RuboCop 1.54.0 which file type was added to default Include list,Ridgepole files,RuboCop,POPULAR,Python,2023,General
+In Faker 3.2.1 what new filter parameter was added to Faker::Lorem.word,exclude_words,Faker,POPULAR,Python,2023,API
+In Faker 3.2.1 what new option was added to Faker::ChileRut.rut,max_rut,Faker,POPULAR,Python,2023,General
+In RuboCop v1.79.0 what new cop was added,Layout/EmptyLinesAfterModuleInclusion,RuboCop,POPULAR,Python,2025,General
+In RuboCop v1.79.0 what config was added to Lint/RedundantSafeNavigation,InferNonNilReceiver,RuboCop,POPULAR,Python,2025,API
+In Ransack v4.0.0 what new feature was added regarding default predicates,default predicates,Ransack,NICHE,Python,2023,API
+In Ransack v4.0.0 what security change required explicit allowlisting,explicit allowlisting,Ransack,NICHE,Python,2023,General
+In FactoryBot 6.5.6 which dependency was re-added after removal,mutex_m,FactoryBot,POPULAR,Python,2025,General
+In FactoryBot 6.5.6 which Ruby version was added to CI matrix,Ruby 3.4,FactoryBot,POPULAR,Python,2025,API
+In Ransack 4.1.0 which Rails version gained official support,Rails 7.1.0,Ransack,NICHE,Python,2024,General
+In Ransack 4.1.0 which Ruby version had its support dropped,Ruby 2.7,Ransack,NICHE,Python,2024,General
+In Hotwire-Rails v1.5.0 what new Array argument was supported by target,Array,Hotwire-Rails,POPULAR,Python,2023,API
+In Hotwire-Rails v1.5.0 what configuration option was added to disable routes,disable routes,Hotwire-Rails,POPULAR,Python,2023,General
+In Pagy 8.0.2 what script.build value was set,"NODE_PATH=""$(bundle show 'pagy')/javascripts""",Pagy,NICHE,Python,2023,General
+In Pagy 8.0.2 which locale received a complete aria.nav translation,ru,Pagy,NICHE,Python,2023,API
+In Faker 3.5.2 which locale had its condominium_fiscal_code generator length fixed from 9 to 11,de-CH,Faker,POPULAR,Python,2025,General
+In Faker 3.5.2 which method had its fr locale corrected by @brupla6126,Faker::Address.city,Faker,POPULAR,Python,2025,API
+In Ransack 4.4.0 what new helper was added for Turbo Hotwire integration,turbo_search_form_for,Ransack,NICHE,Python,2025,General
+In Ransack 4.4.0 what new search matcher was added ending in _eq_any,_eq_any,Ransack,NICHE,Python,2025,API
+In Bundler 4.0.0 what new flag was added to bundle gem,--ext=go,Bundler,POPULAR,Python,2025,API
+In Bundler 4.0.0 what new bundle list option outputs JSON,--format=json,Bundler,POPULAR,Python,2025,General
+In Faker 3.4.2 what new range does Faker::NationalHealthService.british_number use,9990000000to9999999999,Faker,POPULAR,Python,2024,API
+In Faker 3.4.2 what ability was added to silence deprecators in tests,Deprecator.skip_warning,Faker,POPULAR,Python,2024,General
+In CarrierWave v3.0.6 which method had its return type fixed from Array to Hash,derived_versions,CarrierWave,POPULAR,Python,2024,API
+In CarrierWave v3.0.6 which issue number is linked to the fix for failing to remove files with ActiveRecord 7.1,2713,CarrierWave,POPULAR,Python,2024,General
+In Hotwire-Rails v2.0.14 which dependency was updated to >=7.0,@rails/actioncable,Hotwire-Rails,POPULAR,Python,2025,General
+In Hotwire-Rails v2.0.14 what was fixed inside of thread calculation,stream_name,Hotwire-Rails,POPULAR,Python,2025,API
+In CarrierWave 3.0.0 what new method was added to CarrierWave::Storage::Fog::File for interface consistency,to_file,CarrierWave,POPULAR,Python,2023,API
+In CarrierWave 3.0.0 what new option was added to download from remote url,retry,CarrierWave,POPULAR,Python,2023,General
+In Faraday 2.14.0 which HTTP status constant name was updated to UnprocessableContent,UnprocessableContent,Faraday,POPULAR,Python,2025,General
+In Faraday 2.14.0 which method had its to_hash behavior fixed when response unfinished,Response#to_hash,Faraday,POPULAR,Python,2025,API
+In ViewComponent 3.0.0 what new starting value is used for the counter variable,0,ViewComponent,NICHE,Python,2023,General
+In ViewComponent 3.0.0 what is the new name for the class previously called SlotV2,Slot,ViewComponent,NICHE,Python,2023,API
+In Prism v1.5.0 what new Rust API method was added to Integer,to_u32_digits,Prism,NICHE,Python,2025,API
+In Prism v1.5.0 what keyword now accepts a trailing newline,defined?,Prism,NICHE,Python,2025,General
+In Phlex 1.9.0 which HTML element was added,canvas,Phlex,NICHE,Python,2023,General
+In Phlex 1.9.0 which method can now be overridden to customise Integer rendering,format_object,Phlex,NICHE,Python,2023,API
+In ViewComponent 4.0.0 what new lifecycle method was added to wrap rendering,around_render,ViewComponent,NICHE,Python,2025,API
+In ViewComponent 4.0.0 what configuration option was removed for instrumentation name,use_deprecated_instrumentation_name,ViewComponent,NICHE,Python,2025,General
+In ViewComponent 3.15.0 which new test helper was added for rendered JSON,rendered_json,ViewComponent,NICHE,Python,2024,General
+In ViewComponent 3.15.0 which method parameter type was fixed in ViewComponent::TestHelpers,with_controller_class,ViewComponent,NICHE,Python,2024,API
+In Solid-Queue v1.2.0 what new option was added to concurrency controls,discard,Solid-Queue,NICHE,Python,2025,API
+In Solid-Queue v1.2.0 what environment variable can skip recurring jobs,Not specified,Solid-Queue,NICHE,Python,2025,General
+In Prism v0.9.0 which new Visitor class was introduced to simplify AST for tools,DesugarVisitor,Prism,NICHE,Python,2023,General
+In Prism v0.9.0 which new method on IntegerNode returns the Ruby Integer value,value,Prism,NICHE,Python,2023,API
+In Good-Job 4.12.0 which new column was added to cron entries table,state,Good-Job,NICHE,Python,2025,General
+In Good-Job 4.12.0 what new attribute was added to GoodJob::Cli,log_to_stdout,Good-Job,NICHE,Python,2025,API
+In Solid-Queue v1.0.0 which configuration value was set to true and made immutable,enqueue_after_transaction_commit,Solid-Queue,NICHE,Python,2024,API
+In Solid-Queue v1.0.0 which Thor CLI improvement made ENV variables set default values,Update Thor CLI options,Solid-Queue,NICHE,Python,2024,General
+In Kamal v1.6.0 what build context value enables direct checkout,.,Kamal,NICHE,Python,2024,General
+In Kamal v1.6.0 which new command runs ad-hoc server tasks,server exec,Kamal,NICHE,Python,2024,General
+In Hotwire-Rails 2.0.6 which helper method was added to make turbo_frame_request? available,turbo_frame_request?,Hotwire-Rails,POPULAR,Python,2024,API
+In Hotwire-Rails 2.0.6 what change was made to *streamables arguments in broadcasts,Flatten and compact,Hotwire-Rails,POPULAR,Python,2024,General
+In Phlex 2.1.0 which template method replaced view_template,row_template,Phlex,NICHE,Python,2025,API
+In Phlex 2.1.0 what new helper was added to Phlex::SGML,json_escape,Phlex,NICHE,Python,2025,General
+In Solid-Cache 1.0.9 what was allowed in databases configuration,a single database,Solid-Cache,NICHE,Python,2025,General
+In Solid-Cache 1.0.9 what was removed from schema.rb,frozen_string_literal,Solid-Cache,NICHE,Python,2025,General
+In Prism v1.0.0 what new method was added to Node,Node#breadth_first_search,Prism,NICHE,Python,2024,API
+In Prism v1.0.0 what special false value for the encoding option tells Prism to ignore magic encoding comments,false,Prism,NICHE,Python,2024,General
+In Good-Job 3.16.0 what new method was added as alternative to GoodJob.active_record_parent_class,GoodJob.configure_active_record,Good-Job,NICHE,Python,2023,API
+In Good-Job 3.16.0 what new column was created to track error context,error_event,Good-Job,NICHE,Python,2023,General
+In Solid-Cache v0.2.0 which method was removed from SolidCache::Entry,expire,Solid-Cache,NICHE,Python,2023,API
+In Solid-Cache v0.2.0 what gem replaced postgresql in dependencies,pg,Solid-Cache,NICHE,Python,2023,General
+In Kamal v1.0.0 what new CLI subcommand pushes env files to hosts,kamal env push,Kamal,NICHE,Python,2023,General
+In Kamal v1.0.0 what new label must external images carry for pruning,service=<app name>,Kamal,NICHE,Python,2023,API
+In Kamal 2.7.0 what new environment variable is injected into app and accessory containers,KAMAL_HOST,Kamal,NICHE,Python,2025,General
+In Kamal 2.7.0 what new builder option was added for cloud native buildpacks,pack,Kamal,NICHE,Python,2025,API
+In ruby-lsp v0.17.0 which new class was introduced for listeners,NodeContext,ruby-lsp,NICHE,Python,2024,API
+In ruby-lsp v0.17.0 which new CodeAction feature was added,Extract Method,ruby-lsp,NICHE,Python,2024,General
+In Solid-Queue v0.2.2 what default logging behavior was changed,Silence Logging by default,Solid-Queue,NICHE,Python,2023,General
+In Solid-Queue v0.2.2 what job attribute was added to the order clause when fetching scheduled jobs,job_id,Solid-Queue,NICHE,Python,2023,API
+In Phlex 1.10.0 what new method must CSV views define,escape_csv_injection?,Phlex,NICHE,Python,2024,API
+In Phlex 1.10.0 what keyword argument enables selective rendering,fragments:,Phlex,NICHE,Python,2024,General
+In Good-Job v4.2.0 what option was removed,smaller_number_is_higher_priority,Good-Job,NICHE,Python,2024,General
+In Good-Job v4.2.0 what new functionality was added for batches,retry functionality,Good-Job,NICHE,Python,2024,General
+In ruby-lsp 0.26.0 what flag replaced RUBYOPT for requiring LSP reporters,-r,ruby-lsp,NICHE,Python,2025,General
+In ruby-lsp 0.26.0 which method was removed from ruby-lsp-test-exec,RUBYOPT,ruby-lsp,NICHE,Python,2025,API
+In ruby-lsp 0.7.0 what new executable was added,ruby-lsp-check,ruby-lsp,NICHE,Python,2023,General
+In ruby-lsp 0.7.0 what new request type was added,show syntax tree,ruby-lsp,NICHE,Python,2023,API
+In Solid-Cache 1.0.6 what default config file name changed to,cache.yml,Solid-Cache,NICHE,Python,2024,General
+In Solid-Cache 1.0.6 which PR updated the readme to show five engine options,#221,Solid-Cache,NICHE,Python,2024,API
+In Rails 8.0.2 which exception type does ActionView now raise for strict locals errors,ActionView::StrictLocalsError,Rails,POPULAR,Python,2025,API
+In Rails 8.0.2 what new option does rails new --minimal now skip besides brakeman and rubocop,skip_solid,Rails,POPULAR,Python,2025,General
+In Rails 7.2.0 which new method was added to ActiveRecord::Base for leasing a connection,with_connection,Rails,POPULAR,Python,2024,API
+In Rails 7.2.0 what new callback option was added to ActiveRecord::Transactions::ClassMethods#set_callback,after_commit,Rails,POPULAR,Python,2024,General
+In Rails v7.0.0 which new method was added to ActionController::ConditionalGet,no_store,Rails,POPULAR,Python,2023,API
+In Rails v7.0.0 what exponentiation base is used for ActionCable reconnection attempts,less than 2,Rails,POPULAR,Python,2023,General

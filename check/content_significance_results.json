@@ -1,422 +1,422 @@
 [
   {
-    "library_name": "Alamofire",
-    "version": "5.7.0",
-    "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.7.0",
-    "content_length": 1030,
+    "library_name": "ActiveAdmin",
+    "version": "v3.3.0",
+    "url": "https://github.com/activeadmin/activeadmin/releases/tag/v3.3.0",
+    "content_length": 705,
     "significance": 1
   },
   {
-    "library_name": "Vapor",
-    "version": "Unknown version",
-    "url": "https://github.com/vapor/vapor/releases/tag/4.115.0",
-    "content_length": 353,
-    "significance": 1
-  },
-  {
-    "library_name": "Kingfisher",
-    "version": "8.6.0",
-    "url": "https://github.com/onevcat/Kingfisher/releases/tag/8.6.0",
-    "content_length": 569,
-    "significance": 1
-  },
-  {
-    "library_name": "Vapor",
-    "version": "Unknown version",
-    "url": "https://github.com/vapor/vapor/releases/tag/4.100.0",
-    "content_length": 581,
-    "significance": 1
-  },
-  {
-    "library_name": "Kingfisher",
-    "version": "7.9.0",
-    "url": "https://github.com/onevcat/Kingfisher/releases/tag/7.9.0",
-    "content_length": 782,
-    "significance": 1
-  },
-  {
-    "library_name": "Kingfisher",
-    "version": "7.12.0",
-    "url": "https://github.com/onevcat/Kingfisher/releases/tag/7.12.0",
-    "content_length": 820,
-    "significance": 1
-  },
-  {
-    "library_name": "RxSwift",
-    "version": "6.6.0",
-    "url": "https://github.com/ReactiveX/RxSwift/releases/tag/6.6.0",
-    "content_length": 322,
-    "significance": 1
-  },
-  {
-    "library_name": "SDWebImage",
-    "version": "5.17.0",
-    "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.17.0",
-    "content_length": 949,
-    "significance": 1
-  },
-  {
-    "library_name": "SDWebImage",
-    "version": "5.19.0",
-    "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.19.0",
-    "content_length": 590,
-    "significance": 1
-  },
-  {
-    "library_name": "Alamofire",
-    "version": "5.9.0",
-    "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.9.0",
-    "content_length": 1703,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift",
-    "version": "Unknown version",
-    "url": "https://www.swift.org/blog/swift-5.10-released/",
-    "content_length": 8437,
-    "significance": 1
-  },
-  {
-    "library_name": "Vapor",
-    "version": "Unknown version",
-    "url": "https://github.com/vapor/vapor/releases/tag/4.84.1",
-    "content_length": 934,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift",
-    "version": "Unknown version",
-    "url": "https://www.swift.org/blog/swift-6.1-released/",
-    "content_length": 7887,
-    "significance": 1
-  },
-  {
-    "library_name": "Alamofire",
-    "version": "5.10.0",
-    "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.10.0",
-    "content_length": 1177,
-    "significance": 1
-  },
-  {
-    "library_name": "SDWebImage",
-    "version": "5.21.0",
-    "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.0",
-    "content_length": 1711,
-    "significance": 1
-  },
-  {
-    "library_name": "RxSwift",
-    "version": "6.9.0",
-    "url": "https://github.com/ReactiveX/RxSwift/releases/tag/6.9.0",
-    "content_length": 532,
-    "significance": 1
-  },
-  {
-    "library_name": "RxSwift",
-    "version": "6.8.0",
-    "url": "https://github.com/ReactiveX/RxSwift/releases/tag/6.8.0",
-    "content_length": 1907,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftNIO",
-    "version": "2.70.0",
-    "url": "https://github.com/apple/swift-nio/releases/tag/2.70.0",
-    "content_length": 1696,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Composable-Architecture",
-    "version": "1.19.0",
-    "url": "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.19.0",
-    "content_length": 1559,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftNIO",
-    "version": "2.60.0",
-    "url": "https://github.com/apple/swift-nio/releases/tag/2.60.0",
-    "content_length": 2646,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Composable-Architecture",
-    "version": "1.2.0",
-    "url": "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.2.0",
-    "content_length": 795,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftProtobuf",
-    "version": "1.21.0",
-    "url": "https://github.com/apple/swift-protobuf/releases/tag/1.21.0",
-    "content_length": 505,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Composable-Architecture",
-    "version": "1.11.0",
-    "url": "https://github.com/pointfreeco/swift-composable-architecture/releases/tag/1.11.0",
-    "content_length": 1596,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftProtobuf",
-    "version": "1.31.0",
-    "url": "https://github.com/apple/swift-protobuf/releases/tag/1.31.0",
-    "content_length": 2836,
-    "significance": 1
-  },
-  {
-    "library_name": "GRPC-Swift",
-    "version": "1.23.1",
-    "url": "https://github.com/grpc/grpc-swift/releases/tag/1.23.1",
-    "content_length": 908,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftProtobuf",
-    "version": "1.27.0",
-    "url": "https://github.com/apple/swift-protobuf/releases/tag/1.27.0",
-    "content_length": 1292,
-    "significance": 1
-  },
-  {
-    "library_name": "GRPC-Swift",
-    "version": "2.2.0",
-    "url": "https://github.com/grpc/grpc-swift/releases/tag/2.2.0",
-    "content_length": 525,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift",
-    "version": "Unknown version",
-    "url": "https://www.swift.org/blog/swift-5.9-released/",
-    "content_length": 12366,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftNIO",
-    "version": "2.85.0",
-    "url": "https://github.com/apple/swift-nio/releases/tag/2.85.0",
-    "content_length": 1756,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Log",
-    "version": "1.5.0",
-    "url": "https://github.com/apple/swift-log/releases/tag/1.5.0",
-    "content_length": 2521,
-    "significance": 1
-  },
-  {
-    "library_name": "GRPC-Swift",
-    "version": "1.20.0",
-    "url": "https://github.com/grpc/grpc-swift/releases/tag/1.20.0",
-    "content_length": 938,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Log",
-    "version": "1.6.0",
-    "url": "https://github.com/apple/swift-log/releases/tag/1.6.0",
-    "content_length": 770,
-    "significance": 1
-  },
-  {
-    "library_name": "GRDB",
-    "version": "v6.19.0",
-    "url": "https://github.com/groue/GRDB.swift/releases/tag/v6.19.0",
-    "content_length": 717,
-    "significance": 1
-  },
-  {
-    "library_name": "GRDB",
-    "version": "v7.9.0",
-    "url": "https://github.com/groue/GRDB.swift/releases/tag/v7.9.0",
-    "content_length": 1309,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Log",
-    "version": "1.7.0",
-    "url": "https://github.com/apple/swift-log/releases/tag/1.7.0",
-    "content_length": 1032,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Argument-Parser",
-    "version": "1.5.0",
-    "url": "https://github.com/apple/swift-argument-parser/releases/tag/1.5.0",
-    "content_length": 584,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Argument-Parser",
-    "version": "1.3.0",
-    "url": "https://github.com/apple/swift-argument-parser/releases/tag/1.3.0",
-    "content_length": 1614,
-    "significance": 1
-  },
-  {
-    "library_name": "Nimble",
-    "version": "v13.0.0",
-    "url": "https://github.com/Quick/Nimble/releases/tag/v13.0.0",
-    "content_length": 1305,
-    "significance": 1
-  },
-  {
-    "library_name": "Swift-Argument-Parser",
-    "version": "1.6.0",
-    "url": "https://github.com/apple/swift-argument-parser/releases/tag/1.6.0",
-    "content_length": 2201,
-    "significance": 1
-  },
-  {
-    "library_name": "Nimble",
-    "version": "v13.8.0",
-    "url": "https://github.com/Quick/Nimble/releases/tag/v13.8.0",
-    "content_length": 794,
-    "significance": 1
-  },
-  {
-    "library_name": "SnapshotTesting",
-    "version": "1.17.0",
-    "url": "https://github.com/pointfreeco/swift-snapshot-testing/releases/tag/1.17.0",
-    "content_length": 1018,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftFormat",
-    "version": "0.54.0",
-    "url": "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.54.0",
-    "content_length": 2088,
-    "significance": 1
-  },
-  {
-    "library_name": "SnapshotTesting",
-    "version": "1.18.2",
-    "url": "https://github.com/pointfreeco/swift-snapshot-testing/releases/tag/1.18.2",
-    "content_length": 499,
-    "significance": 1
-  },
-  {
-    "library_name": "Nimble",
-    "version": "v13.3.0",
-    "url": "https://github.com/Quick/Nimble/releases/tag/v13.3.0",
-    "content_length": 869,
-    "significance": 1
-  },
-  {
-    "library_name": "SnapshotTesting",
-    "version": "1.13.0",
-    "url": "https://github.com/pointfreeco/swift-snapshot-testing/releases/tag/1.13.0",
-    "content_length": 3931,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftFormat",
-    "version": "0.57.0",
-    "url": "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.57.0",
-    "content_length": 2096,
-    "significance": 1
-  },
-  {
-    "library_name": "SwiftFormat",
-    "version": "0.52.0",
-    "url": "https://github.com/nicklockwood/SwiftFormat/releases/tag/0.52.0",
-    "content_length": 935,
-    "significance": 1
-  },
-  {
-    "library_name": "GRDB",
+    "library_name": "Puma",
     "version": "v7.0.0",
-    "url": "https://github.com/groue/GRDB.swift/releases/tag/v7.0.0",
-    "content_length": 3451,
+    "url": "https://github.com/puma/puma/releases/tag/v7.0.0",
+    "content_length": 2098,
     "significance": 1
   },
   {
-    "library_name": "Hummingbird",
+    "library_name": "RuboCop",
+    "version": "v1.79.0",
+    "url": "https://github.com/rubocop/rubocop/releases/tag/v1.79.0",
+    "content_length": 2470,
+    "significance": 1
+  },
+  {
+    "library_name": "Faker",
+    "version": "v3.4.2",
+    "url": "https://github.com/faker-ruby/faker/releases/tag/v3.4.2",
+    "content_length": 1992,
+    "significance": 1
+  },
+  {
+    "library_name": "ActiveAdmin",
+    "version": "v2.14.0",
+    "url": "https://github.com/activeadmin/activeadmin/releases/tag/v2.14.0",
+    "content_length": 1086,
+    "significance": 1
+  },
+  {
+    "library_name": "FactoryBot",
+    "version": "v6.3.0",
+    "url": "https://github.com/thoughtbot/factory_bot/releases/tag/v6.3.0",
+    "content_length": 1805,
+    "significance": 1
+  },
+  {
+    "library_name": "RuboCop",
+    "version": "v1.65.0",
+    "url": "https://github.com/rubocop/rubocop/releases/tag/v1.65.0",
+    "content_length": 2639,
+    "significance": 1
+  },
+  {
+    "library_name": "RuboCop",
+    "version": "v1.54.0",
+    "url": "https://github.com/rubocop/rubocop/releases/tag/v1.54.0",
+    "content_length": 1378,
+    "significance": 1
+  },
+  {
+    "library_name": "Bundler",
+    "version": "bundler-v2.4.20",
+    "url": "https://github.com/rubygems/rubygems/releases/tag/bundler-v2.4.20",
+    "content_length": 1281,
+    "significance": 1
+  },
+  {
+    "library_name": "Faker",
+    "version": "v3.5.2",
+    "url": "https://github.com/faker-ruby/faker/releases/tag/v3.5.2",
+    "content_length": 2472,
+    "significance": 1
+  },
+  {
+    "library_name": "Faker",
+    "version": "v3.2.1",
+    "url": "https://github.com/faker-ruby/faker/releases/tag/v3.2.1",
+    "content_length": 3070,
+    "significance": 1
+  },
+  {
+    "library_name": "FactoryBot",
+    "version": "v6.5.0",
+    "url": "https://github.com/thoughtbot/factory_bot/releases/tag/v6.5.0",
+    "content_length": 1502,
+    "significance": 1
+  },
+  {
+    "library_name": "FactoryBot",
+    "version": "v6.5.6",
+    "url": "https://github.com/thoughtbot/factory_bot/releases/tag/v6.5.6",
+    "content_length": 1237,
+    "significance": 1
+  },
+  {
+    "library_name": "ActiveAdmin",
+    "version": "v3.2.5",
+    "url": "https://github.com/activeadmin/activeadmin/releases/tag/v3.2.5",
+    "content_length": 530,
+    "significance": 1
+  },
+  {
+    "library_name": "Puma",
+    "version": "v6.4.0",
+    "url": "https://github.com/puma/puma/releases/tag/v6.4.0",
+    "content_length": 624,
+    "significance": 1
+  },
+  {
+    "library_name": "Puma",
+    "version": "v6.5.0",
+    "url": "https://github.com/puma/puma/releases/tag/v6.5.0",
+    "content_length": 2671,
+    "significance": 1
+  },
+  {
+    "library_name": "Bundler",
+    "version": "bundler-v4.0.0",
+    "url": "https://github.com/rubygems/rubygems/releases/tag/bundler-v4.0.0",
+    "content_length": 4962,
+    "significance": 1
+  },
+  {
+    "library_name": "Faraday",
+    "version": "v2.14.0",
+    "url": "https://github.com/lostisland/faraday/releases/tag/v2.14.0",
+    "content_length": 605,
+    "significance": 1
+  },
+  {
+    "library_name": "Faraday",
+    "version": "v2.7.11",
+    "url": "https://github.com/lostisland/faraday/releases/tag/v2.7.11",
+    "content_length": 859,
+    "significance": 1
+  },
+  {
+    "library_name": "Bundler",
+    "version": "bundler-v2.5.12",
+    "url": "https://github.com/rubygems/rubygems/releases/tag/bundler-v2.5.12",
+    "content_length": 743,
+    "significance": 1
+  },
+  {
+    "library_name": "Ransack",
+    "version": "v4.4.0",
+    "url": "https://github.com/activerecord-hackery/ransack/releases/tag/v4.4.0",
+    "content_length": 2835,
+    "significance": 1
+  },
+  {
+    "library_name": "Ransack",
+    "version": "v4.1.0",
+    "url": "https://github.com/activerecord-hackery/ransack/releases/tag/v4.1.0",
+    "content_length": 1423,
+    "significance": 1
+  },
+  {
+    "library_name": "CarrierWave",
+    "version": "v3.0.0",
+    "url": "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.0.0",
+    "content_length": 4803,
+    "significance": 1
+  },
+  {
+    "library_name": "Pagy",
+    "version": "43.1.0",
+    "url": "https://github.com/ddnexus/pagy/releases/tag/43.1.0",
+    "content_length": 1801,
+    "significance": 1
+  },
+  {
+    "library_name": "Pagy",
+    "version": "8.0.2",
+    "url": "https://github.com/ddnexus/pagy/releases/tag/8.0.2",
+    "content_length": 710,
+    "significance": 1
+  },
+  {
+    "library_name": "Faraday",
+    "version": "v2.11.0",
+    "url": "https://github.com/lostisland/faraday/releases/tag/v2.11.0",
+    "content_length": 835,
+    "significance": 1
+  },
+  {
+    "library_name": "Hotwire-Rails",
+    "version": "v1.5.0",
+    "url": "https://github.com/hotwired/turbo-rails/releases/tag/v1.5.0",
+    "content_length": 1948,
+    "significance": 1
+  },
+  {
+    "library_name": "CarrierWave",
+    "version": "v3.0.6",
+    "url": "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.0.6",
+    "content_length": 404,
+    "significance": 1
+  },
+  {
+    "library_name": "Pagy",
+    "version": "9.0.0",
+    "url": "https://github.com/ddnexus/pagy/releases/tag/9.0.0",
+    "content_length": 963,
+    "significance": 1
+  },
+  {
+    "library_name": "CarrierWave",
+    "version": "v3.1.0",
+    "url": "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.1.0",
+    "content_length": 1217,
+    "significance": 1
+  },
+  {
+    "library_name": "Hotwire-Rails",
+    "version": "v2.0.6",
+    "url": "https://github.com/hotwired/turbo-rails/releases/tag/v2.0.6",
+    "content_length": 1709,
+    "significance": 1
+  },
+  {
+    "library_name": "Ransack",
+    "version": "v4.0.0",
+    "url": "https://github.com/activerecord-hackery/ransack/releases/tag/v4.0.0",
+    "content_length": 2427,
+    "significance": 1
+  },
+  {
+    "library_name": "Hotwire-Rails",
+    "version": "v2.0.14",
+    "url": "https://github.com/hotwired/turbo-rails/releases/tag/v2.0.14",
+    "content_length": 872,
+    "significance": 1
+  },
+  {
+    "library_name": "ViewComponent",
+    "version": "v3.0.0",
+    "url": "https://github.com/ViewComponent/view_component/releases/tag/v3.0.0",
+    "content_length": 2999,
+    "significance": 1
+  },
+  {
+    "library_name": "ViewComponent",
+    "version": "v4.0.0",
+    "url": "https://github.com/ViewComponent/view_component/releases/tag/v4.0.0",
+    "content_length": 5051,
+    "significance": 1
+  },
+  {
+    "library_name": "Solid-Queue",
+    "version": "v0.2.2",
+    "url": "https://github.com/rails/solid_queue/releases/tag/v0.2.2",
+    "content_length": 829,
+    "significance": 1
+  },
+  {
+    "library_name": "Solid-Queue",
+    "version": "v1.2.0",
+    "url": "https://github.com/rails/solid_queue/releases/tag/v1.2.0",
+    "content_length": 1256,
+    "significance": 1
+  },
+  {
+    "library_name": "Solid-Queue",
+    "version": "v1.0.0",
+    "url": "https://github.com/rails/solid_queue/releases/tag/v1.0.0",
+    "content_length": 751,
+    "significance": 1
+  },
+  {
+    "library_name": "Good-Job",
+    "version": "v3.16.0",
+    "url": "https://github.com/bensheldon/good_job/releases/tag/v3.16.0",
+    "content_length": 896,
+    "significance": 1
+  },
+  {
+    "library_name": "Prism",
+    "version": "v1.5.0",
+    "url": "https://github.com/ruby/prism/releases/tag/v1.5.0",
+    "content_length": 588,
+    "significance": 1
+  },
+  {
+    "library_name": "Prism",
+    "version": "v1.0.0",
+    "url": "https://github.com/ruby/prism/releases/tag/v1.0.0",
+    "content_length": 1242,
+    "significance": 1
+  },
+  {
+    "library_name": "Prism",
+    "version": "v0.9.0",
+    "url": "https://github.com/ruby/prism/releases/tag/v0.9.0",
+    "content_length": 2310,
+    "significance": 1
+  },
+  {
+    "library_name": "Good-Job",
+    "version": "v4.2.0",
+    "url": "https://github.com/bensheldon/good_job/releases/tag/v4.2.0",
+    "content_length": 502,
+    "significance": 1
+  },
+  {
+    "library_name": "Good-Job",
+    "version": "v4.12.0",
+    "url": "https://github.com/bensheldon/good_job/releases/tag/v4.12.0",
+    "content_length": 512,
+    "significance": 1
+  },
+  {
+    "library_name": "Phlex",
     "version": "1.9.0",
-    "url": "https://github.com/hummingbird-project/hummingbird/releases/tag/1.9.0",
-    "content_length": 482,
+    "url": "https://github.com/phlex-ruby/phlex/releases/tag/1.9.0",
+    "content_length": 403,
     "significance": 1
   },
   {
-    "library_name": "Lottie-iOS",
-    "version": "4.5.0",
-    "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.0",
-    "content_length": 914,
+    "library_name": "Phlex",
+    "version": "2.1.0",
+    "url": "https://github.com/phlex-ruby/phlex/releases/tag/2.1.0",
+    "content_length": 866,
     "significance": 1
   },
   {
-    "library_name": "SwiftLint",
-    "version": "0.55.0",
-    "url": "https://github.com/realm/SwiftLint/releases/tag/0.55.0",
-    "content_length": 9025,
+    "library_name": "ViewComponent",
+    "version": "v3.15.0",
+    "url": "https://github.com/ViewComponent/view_component/releases/tag/v3.15.0",
+    "content_length": 754,
     "significance": 1
   },
   {
-    "library_name": "Hummingbird",
-    "version": "2.0.0",
-    "url": "https://github.com/hummingbird-project/hummingbird/releases/tag/2.0.0",
-    "content_length": 1505,
+    "library_name": "Phlex",
+    "version": "1.10.0",
+    "url": "https://github.com/phlex-ruby/phlex/releases/tag/1.10.0",
+    "content_length": 10636,
     "significance": 1
   },
   {
-    "library_name": "SwiftLint",
-    "version": "0.52.0",
-    "url": "https://github.com/realm/SwiftLint/releases/tag/0.52.0",
-    "content_length": 4760,
+    "library_name": "Solid-Cache",
+    "version": "v0.2.0",
+    "url": "https://github.com/rails/solid_cache/releases/tag/v0.2.0",
+    "content_length": 1014,
     "significance": 1
   },
   {
-    "library_name": "AsyncHTTPClient",
-    "version": "1.26.0",
-    "url": "https://github.com/swift-server/async-http-client/releases/tag/1.26.0",
-    "content_length": 1183,
+    "library_name": "Solid-Cache",
+    "version": "v1.0.6",
+    "url": "https://github.com/rails/solid_cache/releases/tag/v1.0.6",
+    "content_length": 539,
     "significance": 1
   },
   {
-    "library_name": "Lottie-iOS",
-    "version": "4.3.0",
-    "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.3.0",
-    "content_length": 2631,
+    "library_name": "ruby-lsp",
+    "version": "v0.17.0",
+    "url": "https://github.com/Shopify/ruby-lsp/releases/tag/v0.17.0",
+    "content_length": 1368,
     "significance": 1
   },
   {
-    "library_name": "Lottie-iOS",
-    "version": "4.5.2",
-    "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.2",
-    "content_length": 321,
+    "library_name": "ruby-lsp",
+    "version": "v0.7.0",
+    "url": "https://github.com/Shopify/ruby-lsp/releases/tag/v0.7.0",
+    "content_length": 760,
     "significance": 1
   },
   {
-    "library_name": "SwiftLint",
-    "version": "0.60.0",
-    "url": "https://github.com/realm/SwiftLint/releases/tag/0.60.0",
-    "content_length": 6959,
+    "library_name": "Solid-Cache",
+    "version": "v1.0.9",
+    "url": "https://github.com/rails/solid_cache/releases/tag/v1.0.9",
+    "content_length": 872,
     "significance": 1
   },
   {
-    "library_name": "Hummingbird",
-    "version": "2.17.0",
-    "url": "https://github.com/hummingbird-project/hummingbird/releases/tag/2.17.0",
-    "content_length": 568,
+    "library_name": "Kamal",
+    "version": "v2.7.0",
+    "url": "https://github.com/basecamp/kamal/releases/tag/v2.7.0",
+    "content_length": 1731,
     "significance": 1
   },
   {
-    "library_name": "AsyncHTTPClient",
-    "version": "1.19.0",
-    "url": "https://github.com/swift-server/async-http-client/releases/tag/1.19.0",
-    "content_length": 647,
+    "library_name": "Rails",
+    "version": "v8.0.2",
+    "url": "https://github.com/rails/rails/releases/tag/v8.0.2",
+    "content_length": 9230,
     "significance": 1
   },
   {
-    "library_name": "AsyncHTTPClient",
-    "version": "1.22.0",
-    "url": "https://github.com/swift-server/async-http-client/releases/tag/1.22.0",
-    "content_length": 846,
+    "library_name": "ruby-lsp",
+    "version": "v0.26.0",
+    "url": "https://github.com/Shopify/ruby-lsp/releases/tag/v0.26.0",
+    "content_length": 759,
+    "significance": 1
+  },
+  {
+    "library_name": "Rails",
+    "version": "v7.2.0",
+    "url": "https://github.com/rails/rails/releases/tag/v7.2.0",
+    "content_length": 55886,
+    "significance": 1
+  },
+  {
+    "library_name": "Kamal",
+    "version": "v1.6.0",
+    "url": "https://github.com/basecamp/kamal/releases/tag/v1.6.0",
+    "content_length": 1554,
+    "significance": 1
+  },
+  {
+    "library_name": "Rails",
+    "version": "v7.0.0",
+    "url": "https://github.com/rails/rails/releases/tag/v7.0.0",
+    "content_length": 98052,
+    "significance": 1
+  },
+  {
+    "library_name": "Kamal",
+    "version": "v1.0.0",
+    "url": "https://github.com/basecamp/kamal/releases/tag/v1.0.0",
+    "content_length": 3017,
     "significance": 1
   }
 ]
