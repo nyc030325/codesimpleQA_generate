@@ -1,102 +1,127 @@
 {
-  "Rails": [
-    "https://github.com/rails/rails/releases/tag/v7.0.0",
-    "https://github.com/rails/rails/releases/tag/v7.2.0",
-    "https://github.com/rails/rails/releases/tag/v8.0.2"
+  "Kotlin": [
+    "https://kotlinlang.org/docs/whatsnew19.html",
+    "https://kotlinlang.org/docs/whatsnew20.html",
+    "https://kotlinlang.org/docs/whatsnew22.html"
   ],
-  "Puma": [
-    "https://github.com/puma/puma/releases/tag/v6.4.0",
-    "https://github.com/puma/puma/releases/tag/v6.5.0",
-    "https://github.com/puma/puma/releases/tag/v7.0.0"
+  "Ktor": [
+    "https://github.com/ktorio/ktor/releases/tag/2.3.0",
+    "https://github.com/ktorio/ktor/releases/tag/3.0.0",
+    "https://github.com/ktorio/ktor/releases/tag/3.2.0"
   ],
-  "FactoryBot": [
-    "https://github.com/thoughtbot/factory_bot/releases/tag/v6.3.0",
-    "https://github.com/thoughtbot/factory_bot/releases/tag/v6.5.0",
-    "https://github.com/thoughtbot/factory_bot/releases/tag/v6.5.6"
+  "Exposed": [
+    "https://github.com/JetBrains/Exposed/releases/tag/0.42.0",
+    "https://github.com/JetBrains/Exposed/releases/tag/0.52.0",
+    "https://github.com/JetBrains/Exposed/releases/tag/0.61.0"
   ],
-  "Faker": [
-    "https://github.com/faker-ruby/faker/releases/tag/v3.2.1",
-    "https://github.com/faker-ruby/faker/releases/tag/v3.4.2",
-    "https://github.com/faker-ruby/faker/releases/tag/v3.5.2"
+  "Kotlinx-Coroutines": [
+    "https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.7.0",
+    "https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0",
+    "https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.2"
   ],
-  "ActiveAdmin": [
-    "https://github.com/activeadmin/activeadmin/releases/tag/v2.14.0",
-    "https://github.com/activeadmin/activeadmin/releases/tag/v3.2.5",
-    "https://github.com/activeadmin/activeadmin/releases/tag/v3.3.0"
+  "Kotlinx-Serialization": [
+    "https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.5.0",
+    "https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.6.3",
+    "https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.0"
   ],
-  "RuboCop": [
-    "https://github.com/rubocop/rubocop/releases/tag/v1.54.0",
-    "https://github.com/rubocop/rubocop/releases/tag/v1.65.0",
-    "https://github.com/rubocop/rubocop/releases/tag/v1.79.0"
+  "Koin": [
+    "https://github.com/InsertKoinIO/koin/releases/tag/3.5.0",
+    "https://github.com/InsertKoinIO/koin/releases/tag/4.0.0",
+    "https://github.com/InsertKoinIO/koin/releases/tag/4.1.0"
   ],
-  "Bundler": [
-    "https://github.com/rubygems/rubygems/releases/tag/bundler-v2.4.20",
-    "https://github.com/rubygems/rubygems/releases/tag/bundler-v2.5.12",
-    "https://github.com/rubygems/rubygems/releases/tag/bundler-v4.0.0"
+  "Arrow": [
+    "https://github.com/arrow-kt/arrow/releases/tag/1.2.0",
+    "https://github.com/arrow-kt/arrow/releases/tag/1.2.3",
+    "https://github.com/arrow-kt/arrow/releases/tag/2.1.0"
   ],
-  "Faraday": [
-    "https://github.com/lostisland/faraday/releases/tag/v2.7.11",
-    "https://github.com/lostisland/faraday/releases/tag/v2.11.0",
-    "https://github.com/lostisland/faraday/releases/tag/v2.14.0"
+  "Kotest": [
+    "https://github.com/kotest/kotest/releases/tag/v5.6.2",
+    "https://github.com/kotest/kotest/releases/tag/v5.9.1",
+    "https://github.com/kotest/kotest/releases/tag/v6.0.5"
   ],
-  "CarrierWave": [
-    "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.0.0",
-    "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.0.6",
-    "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.1.0"
+  "MockK": [
+    "https://github.com/mockk/mockk/releases/tag/1.13.8",
+    "https://github.com/mockk/mockk/releases/tag/1.13.13",
+    "https://github.com/mockk/mockk/releases/tag/1.14.3"
   ],
-  "Pagy": [
-    "https://github.com/ddnexus/pagy/releases/tag/8.0.2",
-    "https://github.com/ddnexus/pagy/releases/tag/9.0.0",
-    "https://github.com/ddnexus/pagy/releases/tag/43.1.0"
+  "Detekt": [
+    "https://github.com/detekt/detekt/releases/tag/v1.23.0",
+    "https://github.com/detekt/detekt/releases/tag/v1.23.7",
+    "https://github.com/detekt/detekt/releases/tag/v1.23.8"
   ],
-  "Ransack": [
-    "https://github.com/activerecord-hackery/ransack/releases/tag/v4.0.0",
-    "https://github.com/activerecord-hackery/ransack/releases/tag/v4.1.0",
-    "https://github.com/activerecord-hackery/ransack/releases/tag/v4.4.0"
+  "Ktlint": [
+    "https://github.com/pinterest/ktlint/releases/tag/0.50.0",
+    "https://github.com/pinterest/ktlint/releases/tag/1.3.0",
+    "https://github.com/pinterest/ktlint/releases/tag/1.6.0"
   ],
-  "ViewComponent": [
-    "https://github.com/ViewComponent/view_component/releases/tag/v3.0.0",
-    "https://github.com/ViewComponent/view_component/releases/tag/v3.15.0",
-    "https://github.com/ViewComponent/view_component/releases/tag/v4.0.0"
+  "Compose-Multiplatform": [
+    "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.5.0",
+    "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.7.0",
+    "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.9.0"
   ],
-  "Hotwire-Rails": [
-    "https://github.com/hotwired/turbo-rails/releases/tag/v1.5.0",
-    "https://github.com/hotwired/turbo-rails/releases/tag/v2.0.6",
-    "https://github.com/hotwired/turbo-rails/releases/tag/v2.0.14"
+  "dagger": [
+    "https://github.com/google/dagger/releases/tag/dagger-2.48",
+    "https://github.com/google/dagger/releases/tag/dagger-2.53",
+    "https://github.com/google/dagger/releases/tag/dagger-2.57.1"
   ],
-  "Good-Job": [
-    "https://github.com/bensheldon/good_job/releases/tag/v3.16.0",
-    "https://github.com/bensheldon/good_job/releases/tag/v4.2.0",
-    "https://github.com/bensheldon/good_job/releases/tag/v4.12.0"
+  "Coil": [
+    "https://github.com/coil-kt/coil/releases/tag/2.3.0",
+    "https://github.com/coil-kt/coil/releases/tag/3.0.4",
+    "https://github.com/coil-kt/coil/releases/tag/3.3.0"
   ],
-  "Solid-Queue": [
-    "https://github.com/rails/solid_queue/releases/tag/v0.2.2",
-    "https://github.com/rails/solid_queue/releases/tag/v1.0.0",
-    "https://github.com/rails/solid_queue/releases/tag/v1.2.0"
+  "Kotlinx-Datetime": [
+    "https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.4.0",
+    "https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.6.0",
+    "https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.7.0"
   ],
-  "Solid-Cache": [
-    "https://github.com/rails/solid_cache/releases/tag/v0.2.0",
-    "https://github.com/rails/solid_cache/releases/tag/v1.0.6",
-    "https://github.com/rails/solid_cache/releases/tag/v1.0.9"
+  "Kotlinx-IO": [
+    "https://github.com/Kotlin/kotlinx-io/releases/tag/0.3.0",
+    "https://github.com/Kotlin/kotlinx-io/releases/tag/0.5.2",
+    "https://github.com/Kotlin/kotlinx-io/releases/tag/0.7.0"
   ],
-  "Kamal": [
-    "https://github.com/basecamp/kamal/releases/tag/v1.0.0",
-    "https://github.com/basecamp/kamal/releases/tag/v1.6.0",
-    "https://github.com/basecamp/kamal/releases/tag/v2.7.0"
+  "SQLDelight": [
+    "https://github.com/cashapp/sqldelight/releases/tag/2.0.0",
+    "https://github.com/cashapp/sqldelight/releases/tag/2.0.2",
+    "https://github.com/cashapp/sqldelight/releases/tag/2.1.0"
   ],
-  "Phlex": [
-    "https://github.com/phlex-ruby/phlex/releases/tag/1.9.0",
-    "https://github.com/phlex-ruby/phlex/releases/tag/1.10.0",
-    "https://github.com/phlex-ruby/phlex/releases/tag/2.1.0"
+  "Apollo-Kotlin": [
+    "https://github.com/apollographql/apollo-kotlin/releases/tag/v3.8.0",
+    "https://github.com/apollographql/apollo-kotlin/releases/tag/v4.0.0",
+    "https://github.com/apollographql/apollo-kotlin/releases/tag/v4.2.0"
   ],
-  "Prism": [
-    "https://github.com/ruby/prism/releases/tag/v0.9.0",
-    "https://github.com/ruby/prism/releases/tag/v1.0.0",
-    "https://github.com/ruby/prism/releases/tag/v1.5.0"
+  "Kotlin-Result": [
+    "https://github.com/michaelbull/kotlin-result/releases/tag/1.1.17",
+    "https://github.com/michaelbull/kotlin-result/releases/tag/2.0.0",
+    "https://github.com/michaelbull/kotlin-result/releases/tag/2.1.0"
   ],
-  "ruby-lsp": [
-    "https://github.com/Shopify/ruby-lsp/releases/tag/v0.7.0",
-    "https://github.com/Shopify/ruby-lsp/releases/tag/v0.17.0",
-    "https://github.com/Shopify/ruby-lsp/releases/tag/v0.26.0"
+  "Multiplatform-Settings": [
+    "https://github.com/russhwolf/multiplatform-settings/releases/tag/v0.9",
+    "https://github.com/russhwolf/multiplatform-settings/releases/tag/v1.1.0",
+    "https://github.com/russhwolf/multiplatform-settings/releases/tag/v1.2.0"
+  ],
+  "Firebase-Kotlin": [
+    "https://github.com/GitLiveApp/firebase-kotlin-sdk/releases/tag/v1.9.0",
+    "https://github.com/GitLiveApp/firebase-kotlin-sdk/releases/tag/v2.0.0",
+    "https://github.com/GitLiveApp/firebase-kotlin-sdk/releases/tag/v2.2.0"
+  ],
+  "Kotlin-Inject": [
+    "https://github.com/evant/kotlin-inject/releases/tag/v0.6.2",
+    "https://github.com/evant/kotlin-inject/releases/tag/v0.7.0",
+    "https://github.com/evant/kotlin-inject/releases/tag/v0.8.0"
+  ],
+  "Decompose": [
+    "https://github.com/arkivanov/Decompose/releases/tag/2.2.0",
+    "https://github.com/arkivanov/Decompose/releases/tag/3.0.0",
+    "https://github.com/arkivanov/Decompose/releases/tag/3.4.0"
+  ],
+  "KotlinPoet": [
+    "https://github.com/square/kotlinpoet/releases/tag/1.14.0",
+    "https://github.com/square/kotlinpoet/releases/tag/1.17.0",
+    "https://github.com/square/kotlinpoet/releases/tag/2.1.0"
+  ],
+  "Molecule": [
+    "https://github.com/cashapp/molecule/releases/tag/1.2.0",
+    "https://github.com/cashapp/molecule/releases/tag/2.0.0",
+    "https://github.com/cashapp/molecule/releases/tag/2.1.0"
   ]
 }

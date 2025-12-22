@@ -1,422 +1,527 @@
 [
   {
-    "library_name": "ActiveAdmin",
-    "version": "v3.3.0",
-    "url": "https://github.com/activeadmin/activeadmin/releases/tag/v3.3.0",
-    "content_length": 705,
+    "library_name": "Kotlinx-Coroutines",
+    "version": "1.8.0",
+    "url": "https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.8.0",
+    "content_length": 1710,
     "significance": 1
   },
   {
-    "library_name": "Puma",
-    "version": "v7.0.0",
-    "url": "https://github.com/puma/puma/releases/tag/v7.0.0",
-    "content_length": 2098,
-    "significance": 1
-  },
-  {
-    "library_name": "RuboCop",
-    "version": "v1.79.0",
-    "url": "https://github.com/rubocop/rubocop/releases/tag/v1.79.0",
-    "content_length": 2470,
-    "significance": 1
-  },
-  {
-    "library_name": "Faker",
-    "version": "v3.4.2",
-    "url": "https://github.com/faker-ruby/faker/releases/tag/v3.4.2",
-    "content_length": 1992,
-    "significance": 1
-  },
-  {
-    "library_name": "ActiveAdmin",
-    "version": "v2.14.0",
-    "url": "https://github.com/activeadmin/activeadmin/releases/tag/v2.14.0",
-    "content_length": 1086,
-    "significance": 1
-  },
-  {
-    "library_name": "FactoryBot",
-    "version": "v6.3.0",
-    "url": "https://github.com/thoughtbot/factory_bot/releases/tag/v6.3.0",
-    "content_length": 1805,
-    "significance": 1
-  },
-  {
-    "library_name": "RuboCop",
-    "version": "v1.65.0",
-    "url": "https://github.com/rubocop/rubocop/releases/tag/v1.65.0",
-    "content_length": 2639,
-    "significance": 1
-  },
-  {
-    "library_name": "RuboCop",
-    "version": "v1.54.0",
-    "url": "https://github.com/rubocop/rubocop/releases/tag/v1.54.0",
-    "content_length": 1378,
-    "significance": 1
-  },
-  {
-    "library_name": "Bundler",
-    "version": "bundler-v2.4.20",
-    "url": "https://github.com/rubygems/rubygems/releases/tag/bundler-v2.4.20",
-    "content_length": 1281,
-    "significance": 1
-  },
-  {
-    "library_name": "Faker",
-    "version": "v3.5.2",
-    "url": "https://github.com/faker-ruby/faker/releases/tag/v3.5.2",
-    "content_length": 2472,
-    "significance": 1
-  },
-  {
-    "library_name": "Faker",
-    "version": "v3.2.1",
-    "url": "https://github.com/faker-ruby/faker/releases/tag/v3.2.1",
-    "content_length": 3070,
-    "significance": 1
-  },
-  {
-    "library_name": "FactoryBot",
-    "version": "v6.5.0",
-    "url": "https://github.com/thoughtbot/factory_bot/releases/tag/v6.5.0",
-    "content_length": 1502,
-    "significance": 1
-  },
-  {
-    "library_name": "FactoryBot",
-    "version": "v6.5.6",
-    "url": "https://github.com/thoughtbot/factory_bot/releases/tag/v6.5.6",
-    "content_length": 1237,
-    "significance": 1
-  },
-  {
-    "library_name": "ActiveAdmin",
-    "version": "v3.2.5",
-    "url": "https://github.com/activeadmin/activeadmin/releases/tag/v3.2.5",
-    "content_length": 530,
-    "significance": 1
-  },
-  {
-    "library_name": "Puma",
-    "version": "v6.4.0",
-    "url": "https://github.com/puma/puma/releases/tag/v6.4.0",
-    "content_length": 624,
-    "significance": 1
-  },
-  {
-    "library_name": "Puma",
-    "version": "v6.5.0",
-    "url": "https://github.com/puma/puma/releases/tag/v6.5.0",
-    "content_length": 2671,
-    "significance": 1
-  },
-  {
-    "library_name": "Bundler",
-    "version": "bundler-v4.0.0",
-    "url": "https://github.com/rubygems/rubygems/releases/tag/bundler-v4.0.0",
-    "content_length": 4962,
-    "significance": 1
-  },
-  {
-    "library_name": "Faraday",
-    "version": "v2.14.0",
-    "url": "https://github.com/lostisland/faraday/releases/tag/v2.14.0",
-    "content_length": 605,
-    "significance": 1
-  },
-  {
-    "library_name": "Faraday",
-    "version": "v2.7.11",
-    "url": "https://github.com/lostisland/faraday/releases/tag/v2.7.11",
-    "content_length": 859,
-    "significance": 1
-  },
-  {
-    "library_name": "Bundler",
-    "version": "bundler-v2.5.12",
-    "url": "https://github.com/rubygems/rubygems/releases/tag/bundler-v2.5.12",
-    "content_length": 743,
-    "significance": 1
-  },
-  {
-    "library_name": "Ransack",
-    "version": "v4.4.0",
-    "url": "https://github.com/activerecord-hackery/ransack/releases/tag/v4.4.0",
-    "content_length": 2835,
-    "significance": 1
-  },
-  {
-    "library_name": "Ransack",
-    "version": "v4.1.0",
-    "url": "https://github.com/activerecord-hackery/ransack/releases/tag/v4.1.0",
-    "content_length": 1423,
-    "significance": 1
-  },
-  {
-    "library_name": "CarrierWave",
-    "version": "v3.0.0",
-    "url": "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.0.0",
-    "content_length": 4803,
-    "significance": 1
-  },
-  {
-    "library_name": "Pagy",
-    "version": "43.1.0",
-    "url": "https://github.com/ddnexus/pagy/releases/tag/43.1.0",
-    "content_length": 1801,
-    "significance": 1
-  },
-  {
-    "library_name": "Pagy",
-    "version": "8.0.2",
-    "url": "https://github.com/ddnexus/pagy/releases/tag/8.0.2",
-    "content_length": 710,
-    "significance": 1
-  },
-  {
-    "library_name": "Faraday",
-    "version": "v2.11.0",
-    "url": "https://github.com/lostisland/faraday/releases/tag/v2.11.0",
-    "content_length": 835,
-    "significance": 1
-  },
-  {
-    "library_name": "Hotwire-Rails",
+    "library_name": "Kotlinx-Serialization",
     "version": "v1.5.0",
-    "url": "https://github.com/hotwired/turbo-rails/releases/tag/v1.5.0",
-    "content_length": 1948,
+    "url": "https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.5.0",
+    "content_length": 1172,
     "significance": 1
   },
   {
-    "library_name": "CarrierWave",
-    "version": "v3.0.6",
-    "url": "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.0.6",
-    "content_length": 404,
+    "library_name": "Exposed",
+    "version": "0.52.0",
+    "url": "https://github.com/JetBrains/Exposed/releases/tag/0.52.0",
+    "content_length": 2174,
     "significance": 1
   },
   {
-    "library_name": "Pagy",
-    "version": "9.0.0",
-    "url": "https://github.com/ddnexus/pagy/releases/tag/9.0.0",
-    "content_length": 963,
+    "library_name": "Kotlinx-Coroutines",
+    "version": "1.10.2",
+    "url": "https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.10.2",
+    "content_length": 571,
     "significance": 1
   },
   {
-    "library_name": "CarrierWave",
-    "version": "v3.1.0",
-    "url": "https://github.com/carrierwaveuploader/carrierwave/releases/tag/v3.1.0",
-    "content_length": 1217,
+    "library_name": "Ktor",
+    "version": "3.0.0",
+    "url": "https://github.com/ktorio/ktor/releases/tag/3.0.0",
+    "content_length": 2545,
     "significance": 1
   },
   {
-    "library_name": "Hotwire-Rails",
-    "version": "v2.0.6",
-    "url": "https://github.com/hotwired/turbo-rails/releases/tag/v2.0.6",
-    "content_length": 1709,
+    "library_name": "Ktor",
+    "version": "2.3.0",
+    "url": "https://github.com/ktorio/ktor/releases/tag/2.3.0",
+    "content_length": 4545,
     "significance": 1
   },
   {
-    "library_name": "Ransack",
-    "version": "v4.0.0",
-    "url": "https://github.com/activerecord-hackery/ransack/releases/tag/v4.0.0",
-    "content_length": 2427,
+    "library_name": "Exposed",
+    "version": "0.61.0",
+    "url": "https://github.com/JetBrains/Exposed/releases/tag/0.61.0",
+    "content_length": 692,
     "significance": 1
   },
   {
-    "library_name": "Hotwire-Rails",
-    "version": "v2.0.14",
-    "url": "https://github.com/hotwired/turbo-rails/releases/tag/v2.0.14",
-    "content_length": 872,
+    "library_name": "Kotlinx-Coroutines",
+    "version": "1.7.0",
+    "url": "https://github.com/Kotlin/kotlinx.coroutines/releases/tag/1.7.0",
+    "content_length": 5004,
     "significance": 1
   },
   {
-    "library_name": "ViewComponent",
-    "version": "v3.0.0",
-    "url": "https://github.com/ViewComponent/view_component/releases/tag/v3.0.0",
-    "content_length": 2999,
+    "library_name": "Kotlinx-Serialization",
+    "version": "v1.8.0",
+    "url": "https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.8.0",
+    "content_length": 3658,
     "significance": 1
   },
   {
-    "library_name": "ViewComponent",
-    "version": "v4.0.0",
-    "url": "https://github.com/ViewComponent/view_component/releases/tag/v4.0.0",
-    "content_length": 5051,
+    "library_name": "Arrow",
+    "version": "1.2.0",
+    "url": "https://github.com/arrow-kt/arrow/releases/tag/1.2.0",
+    "content_length": 2663,
     "significance": 1
   },
   {
-    "library_name": "Solid-Queue",
-    "version": "v0.2.2",
-    "url": "https://github.com/rails/solid_queue/releases/tag/v0.2.2",
-    "content_length": 829,
+    "library_name": "Kotlinx-Serialization",
+    "version": "v1.6.3",
+    "url": "https://github.com/Kotlin/kotlinx.serialization/releases/tag/v1.6.3",
+    "content_length": 1316,
     "significance": 1
   },
   {
-    "library_name": "Solid-Queue",
-    "version": "v1.2.0",
-    "url": "https://github.com/rails/solid_queue/releases/tag/v1.2.0",
-    "content_length": 1256,
+    "library_name": "Ktor",
+    "version": "3.2.0",
+    "url": "https://github.com/ktorio/ktor/releases/tag/3.2.0",
+    "content_length": 2987,
     "significance": 1
   },
   {
-    "library_name": "Solid-Queue",
-    "version": "v1.0.0",
-    "url": "https://github.com/rails/solid_queue/releases/tag/v1.0.0",
-    "content_length": 751,
+    "library_name": "Exposed",
+    "version": "0.42.0",
+    "url": "https://github.com/JetBrains/Exposed/releases/tag/0.42.0",
+    "content_length": 7145,
     "significance": 1
   },
   {
-    "library_name": "Good-Job",
-    "version": "v3.16.0",
-    "url": "https://github.com/bensheldon/good_job/releases/tag/v3.16.0",
-    "content_length": 896,
+    "library_name": "Kotlin",
+    "version": "Unknown version",
+    "url": "https://kotlinlang.org/docs/whatsnew22.html",
+    "content_length": 53785,
     "significance": 1
   },
   {
-    "library_name": "Prism",
-    "version": "v1.5.0",
-    "url": "https://github.com/ruby/prism/releases/tag/v1.5.0",
-    "content_length": 588,
+    "library_name": "Kotlin",
+    "version": "Unknown version",
+    "url": "https://kotlinlang.org/docs/whatsnew19.html",
+    "content_length": 47872,
     "significance": 1
   },
   {
-    "library_name": "Prism",
-    "version": "v1.0.0",
-    "url": "https://github.com/ruby/prism/releases/tag/v1.0.0",
+    "library_name": "Kotlin",
+    "version": "Unknown version",
+    "url": "https://kotlinlang.org/docs/whatsnew20.html",
+    "content_length": 63856,
+    "significance": 1
+  },
+  {
+    "library_name": "MockK",
+    "version": "1.14.3",
+    "url": "https://github.com/mockk/mockk/releases/tag/1.14.3",
+    "content_length": 945,
+    "significance": 1
+  },
+  {
+    "library_name": "Arrow",
+    "version": "2.1.0",
+    "url": "https://github.com/arrow-kt/arrow/releases/tag/2.1.0",
+    "content_length": 1542,
+    "significance": 1
+  },
+  {
+    "library_name": "MockK",
+    "version": "1.13.13",
+    "url": "https://github.com/mockk/mockk/releases/tag/1.13.13",
     "content_length": 1242,
     "significance": 1
   },
   {
-    "library_name": "Prism",
-    "version": "v0.9.0",
-    "url": "https://github.com/ruby/prism/releases/tag/v0.9.0",
-    "content_length": 2310,
+    "library_name": "MockK",
+    "version": "1.13.8",
+    "url": "https://github.com/mockk/mockk/releases/tag/1.13.8",
+    "content_length": 1422,
     "significance": 1
   },
   {
-    "library_name": "Good-Job",
-    "version": "v4.2.0",
-    "url": "https://github.com/bensheldon/good_job/releases/tag/v4.2.0",
-    "content_length": 502,
+    "library_name": "Kotest",
+    "version": "v6.0.5",
+    "url": "https://github.com/kotest/kotest/releases/tag/v6.0.5",
+    "content_length": 2273,
     "significance": 1
   },
   {
-    "library_name": "Good-Job",
-    "version": "v4.12.0",
-    "url": "https://github.com/bensheldon/good_job/releases/tag/v4.12.0",
-    "content_length": 512,
+    "library_name": "Koin",
+    "version": "4.1.0",
+    "url": "https://github.com/InsertKoinIO/koin/releases/tag/4.1.0",
+    "content_length": 3861,
     "significance": 1
   },
   {
-    "library_name": "Phlex",
-    "version": "1.9.0",
-    "url": "https://github.com/phlex-ruby/phlex/releases/tag/1.9.0",
-    "content_length": 403,
+    "library_name": "Kotest",
+    "version": "v5.9.1",
+    "url": "https://github.com/kotest/kotest/releases/tag/v5.9.1",
+    "content_length": 2358,
     "significance": 1
   },
   {
-    "library_name": "Phlex",
-    "version": "2.1.0",
-    "url": "https://github.com/phlex-ruby/phlex/releases/tag/2.1.0",
-    "content_length": 866,
+    "library_name": "Koin",
+    "version": "4.0.0",
+    "url": "https://github.com/InsertKoinIO/koin/releases/tag/4.0.0",
+    "content_length": 3413,
     "significance": 1
   },
   {
-    "library_name": "ViewComponent",
-    "version": "v3.15.0",
-    "url": "https://github.com/ViewComponent/view_component/releases/tag/v3.15.0",
-    "content_length": 754,
+    "library_name": "Koin",
+    "version": "3.5.0",
+    "url": "https://github.com/InsertKoinIO/koin/releases/tag/3.5.0",
+    "content_length": 4237,
     "significance": 1
   },
   {
-    "library_name": "Phlex",
-    "version": "1.10.0",
-    "url": "https://github.com/phlex-ruby/phlex/releases/tag/1.10.0",
-    "content_length": 10636,
+    "library_name": "Kotest",
+    "version": "v5.6.2",
+    "url": "https://github.com/kotest/kotest/releases/tag/v5.6.2",
+    "content_length": 1687,
     "significance": 1
   },
   {
-    "library_name": "Solid-Cache",
-    "version": "v0.2.0",
-    "url": "https://github.com/rails/solid_cache/releases/tag/v0.2.0",
-    "content_length": 1014,
+    "library_name": "Arrow",
+    "version": "1.2.3",
+    "url": "https://github.com/arrow-kt/arrow/releases/tag/1.2.3",
+    "content_length": 5919,
     "significance": 1
   },
   {
-    "library_name": "Solid-Cache",
-    "version": "v1.0.6",
-    "url": "https://github.com/rails/solid_cache/releases/tag/v1.0.6",
-    "content_length": 539,
+    "library_name": "Ktlint",
+    "version": "1.3.0",
+    "url": "https://github.com/pinterest/ktlint/releases/tag/1.3.0",
+    "content_length": 2951,
     "significance": 1
   },
   {
-    "library_name": "ruby-lsp",
-    "version": "v0.17.0",
-    "url": "https://github.com/Shopify/ruby-lsp/releases/tag/v0.17.0",
-    "content_length": 1368,
+    "library_name": "Ktlint",
+    "version": "0.50.0",
+    "url": "https://github.com/pinterest/ktlint/releases/tag/0.50.0",
+    "content_length": 6064,
     "significance": 1
   },
   {
-    "library_name": "ruby-lsp",
+    "library_name": "Detekt",
+    "version": "v1.23.8",
+    "url": "https://github.com/detekt/detekt/releases/tag/v1.23.8",
+    "content_length": 925,
+    "significance": 1
+  },
+  {
+    "library_name": "Detekt",
+    "version": "v1.23.7",
+    "url": "https://github.com/detekt/detekt/releases/tag/v1.23.7",
+    "content_length": 1698,
+    "significance": 1
+  },
+  {
+    "library_name": "Ktlint",
+    "version": "1.6.0",
+    "url": "https://github.com/pinterest/ktlint/releases/tag/1.6.0",
+    "content_length": 3035,
+    "significance": 1
+  },
+  {
+    "library_name": "Hilt",
+    "version": "dagger-2.57.1",
+    "url": "https://github.com/google/dagger/releases/tag/dagger-2.57.1",
+    "content_length": 957,
+    "significance": 1
+  },
+  {
+    "library_name": "Hilt",
+    "version": "dagger-2.53",
+    "url": "https://github.com/google/dagger/releases/tag/dagger-2.53",
+    "content_length": 3501,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlinx-Datetime",
+    "version": "v0.4.0",
+    "url": "https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.4.0",
+    "content_length": 475,
+    "significance": 1
+  },
+  {
+    "library_name": "Coil",
+    "version": "3.0.4",
+    "url": "https://github.com/coil-kt/coil/releases/tag/3.0.4",
+    "content_length": 831,
+    "significance": 1
+  },
+  {
+    "library_name": "Compose-Multiplatform",
+    "version": "v1.5.0",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.5.0",
+    "content_length": 5211,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlinx-Datetime",
+    "version": "v0.6.0",
+    "url": "https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.6.0",
+    "content_length": 1400,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlinx-Datetime",
     "version": "v0.7.0",
-    "url": "https://github.com/Shopify/ruby-lsp/releases/tag/v0.7.0",
-    "content_length": 760,
+    "url": "https://github.com/Kotlin/kotlinx-datetime/releases/tag/v0.7.0",
+    "content_length": 1656,
     "significance": 1
   },
   {
-    "library_name": "Solid-Cache",
-    "version": "v1.0.9",
-    "url": "https://github.com/rails/solid_cache/releases/tag/v1.0.9",
-    "content_length": 872,
+    "library_name": "Coil",
+    "version": "3.3.0",
+    "url": "https://github.com/coil-kt/coil/releases/tag/3.3.0",
+    "content_length": 1769,
     "significance": 1
   },
   {
-    "library_name": "Kamal",
-    "version": "v2.7.0",
-    "url": "https://github.com/basecamp/kamal/releases/tag/v2.7.0",
-    "content_length": 1731,
+    "library_name": "Coil",
+    "version": "2.3.0",
+    "url": "https://github.com/coil-kt/coil/releases/tag/2.3.0",
+    "content_length": 1094,
     "significance": 1
   },
   {
-    "library_name": "Rails",
-    "version": "v8.0.2",
-    "url": "https://github.com/rails/rails/releases/tag/v8.0.2",
-    "content_length": 9230,
+    "library_name": "Hilt",
+    "version": "dagger-2.48",
+    "url": "https://github.com/google/dagger/releases/tag/dagger-2.48",
+    "content_length": 4861,
     "significance": 1
   },
   {
-    "library_name": "ruby-lsp",
-    "version": "v0.26.0",
-    "url": "https://github.com/Shopify/ruby-lsp/releases/tag/v0.26.0",
-    "content_length": 759,
+    "library_name": "Kotlinx-IO",
+    "version": "0.3.0",
+    "url": "https://github.com/Kotlin/kotlinx-io/releases/tag/0.3.0",
+    "content_length": 855,
     "significance": 1
   },
   {
-    "library_name": "Rails",
-    "version": "v7.2.0",
-    "url": "https://github.com/rails/rails/releases/tag/v7.2.0",
-    "content_length": 55886,
+    "library_name": "Detekt",
+    "version": "v1.23.0",
+    "url": "https://github.com/detekt/detekt/releases/tag/v1.23.0",
+    "content_length": 12744,
     "significance": 1
   },
   {
-    "library_name": "Kamal",
-    "version": "v1.6.0",
-    "url": "https://github.com/basecamp/kamal/releases/tag/v1.6.0",
-    "content_length": 1554,
+    "library_name": "SQLDelight",
+    "version": "2.0.2",
+    "url": "https://github.com/cashapp/sqldelight/releases/tag/2.0.2",
+    "content_length": 2629,
     "significance": 1
   },
   {
-    "library_name": "Rails",
-    "version": "v7.0.0",
-    "url": "https://github.com/rails/rails/releases/tag/v7.0.0",
-    "content_length": 98052,
+    "library_name": "Compose-Multiplatform",
+    "version": "v1.7.0",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.7.0",
+    "content_length": 9776,
     "significance": 1
   },
   {
-    "library_name": "Kamal",
-    "version": "v1.0.0",
-    "url": "https://github.com/basecamp/kamal/releases/tag/v1.0.0",
-    "content_length": 3017,
+    "library_name": "Compose-Multiplatform",
+    "version": "v1.9.0",
+    "url": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.9.0",
+    "content_length": 9756,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlinx-IO",
+    "version": "0.5.2",
+    "url": "https://github.com/Kotlin/kotlinx-io/releases/tag/0.5.2",
+    "content_length": 651,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlinx-IO",
+    "version": "0.7.0",
+    "url": "https://github.com/Kotlin/kotlinx-io/releases/tag/0.7.0",
+    "content_length": 355,
+    "significance": 1
+  },
+  {
+    "library_name": "SQLDelight",
+    "version": "2.1.0",
+    "url": "https://github.com/cashapp/sqldelight/releases/tag/2.1.0",
+    "content_length": 4251,
+    "significance": 1
+  },
+  {
+    "library_name": "Multiplatform-Settings",
+    "version": "v1.1.0",
+    "url": "https://github.com/russhwolf/multiplatform-settings/releases/tag/v1.1.0",
+    "content_length": 682,
+    "significance": 1
+  },
+  {
+    "library_name": "SQLDelight",
+    "version": "2.0.0",
+    "url": "https://github.com/cashapp/sqldelight/releases/tag/2.0.0",
+    "content_length": 20072,
+    "significance": 1
+  },
+  {
+    "library_name": "Multiplatform-Settings",
+    "version": "v1.2.0",
+    "url": "https://github.com/russhwolf/multiplatform-settings/releases/tag/v1.2.0",
+    "content_length": 1310,
+    "significance": 1
+  },
+  {
+    "library_name": "Apollo-Kotlin",
+    "version": "v3.8.0",
+    "url": "https://github.com/apollographql/apollo-kotlin/releases/tag/v3.8.0",
+    "content_length": 4503,
+    "significance": 1
+  },
+  {
+    "library_name": "Multiplatform-Settings",
+    "version": "v0.9",
+    "url": "https://github.com/russhwolf/multiplatform-settings/releases/tag/v0.9",
+    "content_length": 516,
+    "significance": 1
+  },
+  {
+    "library_name": "Apollo-Kotlin",
+    "version": "v4.2.0",
+    "url": "https://github.com/apollographql/apollo-kotlin/releases/tag/v4.2.0",
+    "content_length": 4026,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlin-Result",
+    "version": "2.1.0",
+    "url": "https://github.com/michaelbull/kotlin-result/releases/tag/2.1.0",
+    "content_length": 1091,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlin-Result",
+    "version": "1.1.17",
+    "url": "https://github.com/michaelbull/kotlin-result/releases/tag/1.1.17",
+    "content_length": 437,
+    "significance": 1
+  },
+  {
+    "library_name": "Firebase-Kotlin",
+    "version": "v1.9.0",
+    "url": "https://github.com/GitLiveApp/firebase-kotlin-sdk/releases/tag/v1.9.0",
+    "content_length": 1013,
+    "significance": 1
+  },
+  {
+    "library_name": "Apollo-Kotlin",
+    "version": "v4.0.0",
+    "url": "https://github.com/apollographql/apollo-kotlin/releases/tag/v4.0.0",
+    "content_length": 11559,
+    "significance": 1
+  },
+  {
+    "library_name": "Firebase-Kotlin",
+    "version": "v2.2.0",
+    "url": "https://github.com/GitLiveApp/firebase-kotlin-sdk/releases/tag/v2.2.0",
+    "content_length": 1528,
+    "significance": 1
+  },
+  {
+    "library_name": "Decompose",
+    "version": "2.2.0",
+    "url": "https://github.com/arkivanov/Decompose/releases/tag/2.2.0",
+    "content_length": 1126,
+    "significance": 1
+  },
+  {
+    "library_name": "Firebase-Kotlin",
+    "version": "v2.0.0",
+    "url": "https://github.com/GitLiveApp/firebase-kotlin-sdk/releases/tag/v2.0.0",
+    "content_length": 1319,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlin-Inject",
+    "version": "v0.8.0",
+    "url": "https://github.com/evant/kotlin-inject/releases/tag/v0.8.0",
+    "content_length": 610,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlin-Inject",
+    "version": "v0.6.2",
+    "url": "https://github.com/evant/kotlin-inject/releases/tag/v0.6.2",
+    "content_length": 1932,
+    "significance": 1
+  },
+  {
+    "library_name": "KotlinPoet",
+    "version": "2.1.0",
+    "url": "https://github.com/square/kotlinpoet/releases/tag/2.1.0",
+    "content_length": 596,
+    "significance": 1
+  },
+  {
+    "library_name": "KotlinPoet",
+    "version": "1.17.0",
+    "url": "https://github.com/square/kotlinpoet/releases/tag/1.17.0",
+    "content_length": 1807,
+    "significance": 1
+  },
+  {
+    "library_name": "Decompose",
+    "version": "3.4.0",
+    "url": "https://github.com/arkivanov/Decompose/releases/tag/3.4.0",
+    "content_length": 3412,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlin-Inject",
+    "version": "v0.7.0",
+    "url": "https://github.com/evant/kotlin-inject/releases/tag/v0.7.0",
+    "content_length": 2336,
+    "significance": 1
+  },
+  {
+    "library_name": "Molecule",
+    "version": "2.1.0",
+    "url": "https://github.com/cashapp/molecule/releases/tag/2.1.0",
+    "content_length": 906,
+    "significance": 1
+  },
+  {
+    "library_name": "Kotlin-Result",
+    "version": "2.0.0",
+    "url": "https://github.com/michaelbull/kotlin-result/releases/tag/2.0.0",
+    "content_length": 10785,
+    "significance": 1
+  },
+  {
+    "library_name": "Decompose",
+    "version": "3.0.0",
+    "url": "https://github.com/arkivanov/Decompose/releases/tag/3.0.0",
+    "content_length": 8262,
+    "significance": 1
+  },
+  {
+    "library_name": "Molecule",
+    "version": "1.2.0",
+    "url": "https://github.com/cashapp/molecule/releases/tag/1.2.0",
+    "content_length": 794,
+    "significance": 1
+  },
+  {
+    "library_name": "Molecule",
+    "version": "2.0.0",
+    "url": "https://github.com/cashapp/molecule/releases/tag/2.0.0",
+    "content_length": 2179,
+    "significance": 1
+  },
+  {
+    "library_name": "KotlinPoet",
+    "version": "1.14.0",
+    "url": "https://github.com/square/kotlinpoet/releases/tag/1.14.0",
+    "content_length": 1972,
     "significance": 1
   }
 ]
