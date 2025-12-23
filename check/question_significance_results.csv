@@ -1,0 +1,121 @@
+problem,answer,library_name,tag,language,year,problem_type,significance
+In Qt 6.9 which Qt Quick 3D transparency technique was introduced,Weighted Blended,Qt,POPULAR,Python,2025,General,1
+In Google-Benchmark 1.9.2 what callback type was changed,setup and teardown,Google-Benchmark,NICHE,Python,2025,API,1
+In simdjson v3.3.0 which new library target was added,simdjson_static,simdjson,NICHE,Python,2023,General,1
+In Catch2 3.6.0 what new default precision is used in floating point stringmakers,max_digits10,Catch2,NICHE,Python,2024,API,1
+In GoogleTest v1.17.0 what new matcher supports distance comparison,DistanceFrom(),GoogleTest,POPULAR,Python,2025,API,1
+In Protobuf-Cpp v23.0 what protoc flag was newly implemented,retain_options,Protobuf-Cpp,POPULAR,Python,2023,General,1
+In simdjson v3.3.0 what step parameter was made variable,structural indexer,simdjson,NICHE,Python,2023,API,1
+In Google-Benchmark 1.9.2 what new architecture gained cycleclock support,PA-RISC,Google-Benchmark,NICHE,Python,2025,General,1
+In Catch2 3.6.0 which CMake target name is set for the implementation library through Conan,Catch2::Catch2,Catch2,NICHE,Python,2024,General,1
+In nlohmann-json 3.12.0 what new macro enables byte position diagnostics,JSON_DIAGNOSTIC_POSITIONS,nlohmann-json,POPULAR,Python,2025,General,1
+In Protobuf-Cpp v23.0 which new C++ method was added to Reflection,GetCord,Protobuf-Cpp,POPULAR,Python,2023,API,1
+In Catch2 v3.4.0 what new DISCOVERY_MODE option was added to catch_discover_tests,post build or pre-run,Catch2,NICHE,Python,2023,API,1
+In GoogleTest 1.15.0 what build system gained official support,Bzlmod,GoogleTest,POPULAR,Python,2024,General,1
+In LLVM 18.1.0rc which new intrinsic was added,llvm.exp10,LLVM,POPULAR,Python,2024,API,1
+In Boost 1.82.0 which new protocol type was added to represent AF_UNIX with SOCK_SEQPACKET,local::seq_packet_protocol,Boost,POPULAR,Python,2023,API,1
+In LLVM 18.1.0rc what backend added support for Cortex-A520, AArch64,LLVM,POPULAR,Python,2024,General,1
+In simdjson v3.11.0 what new function was added to the public API,pad,simdjson,NICHE,Python,2024,API,1
+In Protobuf-Cpp v31.0 what new protoc flag prints dependency license information,--notices,Protobuf-Cpp,POPULAR,Python,2025,General,1
+In simdjson v3.11.0 what dependency manager did the project switch to,CPM,simdjson,NICHE,Python,2024,General,1
+In GoogleTest 1.15.0 which file contains the conflicting Python toolchain,MODULE.bazel,GoogleTest,POPULAR,Python,2024,API,1
+In LLVM 16.0.0 what Module Flags Metadata was added,stack-protector-guard-symbol,LLVM,POPULAR,Python,2023,General,1
+In Abseil 20230802.0 what new library was added for pointer annotations,nullability,Abseil,POPULAR,Python,2023,API,1
+In GoogleTest v1.13.0 what new function returns the test data directory,testing::SrcDir,GoogleTest,POPULAR,Python,2023,API,1
+In GoogleTest v1.17.0 what new flag causes failure if no test is linked,--gtest_fail_if_no_test_linked,GoogleTest,POPULAR,Python,2025,General,1
+In LLVM 20.1.0 which new LLDB setting sets a persistent cwd for process launch,target.launch-working-dir,LLVM,POPULAR,Python,2025,API,1
+In nlohmann-json 3.11.2 which comparison operators for json_pointer were fixed,== and !=,nlohmann-json,POPULAR,Python,2023,General,1
+In LLVM 20.1.0 which new IR pass normalizes modules while preserving semantics,IRNormalizer,LLVM,POPULAR,Python,2025,General,1
+In Boost 1.85.0 which new header provides a functor wrapper,boost/core/functor.hpp,Boost,POPULAR,Python,2024,API,1
+In nlohmann-json 3.12.0 which iterator tag does iteration_proxy now publicly expose,std::forward_iterator,nlohmann-json,POPULAR,Python,2025,API,1
+In Protobuf-Cpp v31.0 what new method was added to Python repeated fields,clear,Protobuf-Cpp,POPULAR,Python,2025,API,1
+In Protobuf-Cpp 27.0 what new C++ JSON serializer option was added,always_print_without_presence_fields,Protobuf-Cpp,POPULAR,Python,2024,General,1
+In gRPC-Cpp v1.56.0 what TXT lookup result type did EventEngine change to,std::vector<std::string>,gRPC-Cpp,POPULAR,Python,2023,API,1
+In Abseil 20230802.0 what new library was added for moving data into caches before it is read,prefetch,Abseil,POPULAR,Python,2023,General,1
+In Boost 1.82.0 which library added user-defined literals for buffer types,Asio,Boost,POPULAR,Python,2023,General,1
+In Boost 1.88.0 what macro disables offset address base in stacktrace,BOOST_STACKTRACE_DISABLE_OFFSET_ADDR_BASE,Boost,POPULAR,Python,2025,General,1
+In Qt 6.6 which new Qt Quick layout element enables dynamic layout switching,LayoutItemProxy,Qt,POPULAR,Python,2023,API,1
+In Google-Benchmark v1.8.3 which CMake variable was marked as dev_dependency for downstream modules,internal deps,Google-Benchmark,NICHE,Python,2023,API,1
+In Google-Benchmark v1.8.3 what new file was added for PEP518 compliance,pyproject.toml,Google-Benchmark,NICHE,Python,2023,General,1
+In nlohmann-json 3.11.2 which header was fixed to be self-contained,json_fwd.hpp,nlohmann-json,POPULAR,Python,2023,API,1
+In GoogleTest v1.13.0 what macro now terminates tests instead of continuing,GTEST_FAIL_AT,GoogleTest,POPULAR,Python,2023,General,1
+In Protobuf-Cpp 27.0 what new method was added to support string views with scratch,GetStringView(),Protobuf-Cpp,POPULAR,Python,2024,API,1
+In fmt 12.0.0 what new macro allows formatting into a string of exact required size at compile time,FMT_STATIC_FORMAT,fmt,POPULAR,Python,2025,API,1
+In Qt 6.9 what new window flag supports expanded client areas,Qt.ExpandedClientAreaHint,Qt,POPULAR,Python,2025,API,1
+In gRPC-Cpp 1.65.0 what new pkg-config file was generated for the OTel plugin,grpcpp_otel_plugin,gRPC-Cpp,POPULAR,Python,2024,API,1
+In Abseil 20250512.0 which polyfill type remains not aliased to std,absl::string_view,Abseil,POPULAR,Python,2025,General,1
+In Qt 6.6 which new URL scheme shows Chromium version information,chrome://qt,Qt,POPULAR,Python,2023,General,1
+In simdjson 4.0.0 which new function enables thread-local parser access,simdjson::ondemand::parser::get_parser,simdjson,NICHE,Python,2025,API,1
+In gRPC-Cpp 1.74.0 what was fixed when BDP is disabled,GRPC_ARG_HTTP2_STREAM_LOOKAHEAD_BYTES,gRPC-Cpp,POPULAR,Python,2025,API,1
+In Catch2 v3.4.0 what XML format version was introduced by XMLReporter,3,Catch2,NICHE,Python,2023,General,1
+In Abseil 20240722.0 which header must now be included to use VLOG_IS_ON,absl/log/vlog_is_on.h,Abseil,POPULAR,Python,2024,General,1
+In gRPC-Cpp v1.56.0 what new transport type was added to core,vsock,gRPC-Cpp,POPULAR,Python,2023,General,1
+In Abseil 20240722.0 what new overload was added to absl::StrJoin,absl::string_view,Abseil,POPULAR,Python,2024,API,1
+In Boost 1.85.0 what copy_options flag ignores attribute errors,ignore_attribute_errors,Boost,POPULAR,Python,2024,General,1
+In Catch2 v3.9.0 what new ReporterPreferences member was added for assertionStarting fast path,shouldReportAllAssertionStarts,Catch2,NICHE,Python,2025,API,1
+In nlohmann-json 3.11.3 what new build system support was added,Bazel,nlohmann-json,POPULAR,Python,2024,General,1
+In spdlog 1.16.0 what CMAKE variable can now be overridden,CMAKE_DEBUG_POSTFIX,spdlog,NICHE,Python,2025,API,1
+In Qt 6.7 which experimental tool converts SVG assets directly into QML,svgtoqml,Qt,POPULAR,Python,2024,General,1
+In Crow 1.2.0 what new optional argument was added to route(),const std::string&,Crow,NICHE,Python,2024,API,1
+In spdlog 1.14.0 which function was made synchronous,async_logger::flush,spdlog,NICHE,Python,2024,General,1
+In Boost 1.88.0 which new function returns the connection ID for any_connection,connection_id,Boost,POPULAR,Python,2025,API,1
+In Catch2 v3.9.0 what is the new default test run order,random,Catch2,NICHE,Python,2025,General,1
+In OpenCV 4.10.0 what new data type was added to cv::Mat,CV_FP16,OpenCV,POPULAR,Python,2024,API,1
+In gRPC-Cpp 1.65.0 what experiment was added to modify GRPC_ARG_HTTP2_MAX_PINGS_WITHOUT_DATA,throttle pings,gRPC-Cpp,POPULAR,Python,2024,General,1
+In spdlog 1.16.0 what new TCP timeout option was added,timeout for connect send recv,spdlog,NICHE,Python,2025,General,1
+In spdlog v1.12.0 what new sink was added that logs to QTextEdit,qt color sink,spdlog,NICHE,Python,2023,General,1
+In TensorRT 9.1.0 what Python plugin sample was updated,trt_python_plugin,TensorRT,NICHE,Python,2023,API,1
+In gRPC-Cpp 1.74.0 what new support was added to Posix Event Engine,fork support,gRPC-Cpp,POPULAR,Python,2025,General,1
+In ONNX-Runtime 1.15.0 what protobuf version was upgraded to,21.12,ONNX-Runtime,NICHE,Python,2023,API,1
+In fmt 12.0.0 what component prefix replaced fmt- for NSIS CPack compatibility,fmt_,fmt,POPULAR,Python,2025,General,1
+In OpenCV 4.12.0 what new method was added to cv::Mat,reinterpret,OpenCV,POPULAR,Python,2025,General,1
+In Abseil 20250512.0 which new function returns a compile time unique type id,absl::FastTypeId,Abseil,POPULAR,Python,2025,API,1
+In Crow v1.3.0 what new helper method checks server bind state,is_bound,Crow,NICHE,Python,2025,API,1
+In OpenCV 4.12.0 which new flag was added to cv::threshold,mask,OpenCV,POPULAR,Python,2025,API,1
+In TensorRT 9.1.0 which new API sample was added to demonstrate progress monitoring,sampleProgressMonitor,TensorRT,NICHE,Python,2023,General,1
+In ONNX-Runtime 1.15.0 which new execution provider was introduced,JS EP,ONNX-Runtime,NICHE,Python,2023,General,1
+In spdlog v1.12.0 what new function was added to file_helper,sync,spdlog,NICHE,Python,2023,API,1
+In Drogon v1.9.8 what new whitelist was introduced,Hodor whitelists,Drogon,NICHE,Python,2024,General,1
+In Poco 1.12.5 what new page directive feature was added to PageCompiler,referrerPolicy,Poco,NICHE,Python,2023,API,1
+In OpenCV 4.10.0 which new method was added to review optimized graph with Netron,dumpToPbtxt,OpenCV,POPULAR,Python,2024,General,1
+In Drogon v1.8.5 what single new method was added to HttpAppFramework,forwardCoro,Drogon,NICHE,Python,2023,API,1
+In Crow v1.3.0 what new CMake option enables SBOM generation,CROW_GENERATE_SBOM,Crow,NICHE,Python,2025,General,1
+In OpenCV 4.8.0 what REDUCE option was added to cv::reduce,REDUCE_SUM2,OpenCV,POPULAR,Python,2023,General,1
+In simdjson 4.0.0 which single new CMake option activates C++26 static reflection,SIMDJSON_STATIC_REFLECTION,simdjson,NICHE,Python,2025,General,1
+In spdlog 1.14.0 which new header was added for MDC support,spdlog/mdc.h,spdlog,NICHE,Python,2024,API,1
+In Poco 1.12.5 which bundled library was upgraded to version 10.42,PCRE2,Poco,NICHE,Python,2023,General,1
+In TensorRT 10.0.0 which new class was added to refit a TensorRT engine with ONNX weights,IParserRefitter,TensorRT,NICHE,Python,2024,API,1
+In TensorRT 10.0.0 what default value was set for kNATIVE_INSTANCENORM,ON,TensorRT,NICHE,Python,2024,General,1
+What was a new overload added to in Drogon v1.9.11,execSqlCoro,Drogon,NICHE,Python,2025,API,1
+In Crow v1.1.0 what was the only new middleware added,Sessions Middleware,Crow,NICHE,Python,2023,General,1
+In fmt 10.0.0 which single macro was renamed for shared library usage,FMT_LIB_EXPORT,fmt,POPULAR,Python,2023,General,1
+In OpenCV 4.8.0 which new API was added to build network inputs with pre-processings,blobFromImageParam,OpenCV,POPULAR,Python,2023,API,1
+In Poco 1.14.0 what new UUID versions did Poco::UUIDGenerator gain,Version 6 and Version 7,Poco,NICHE,Python,2024,API,1
+In TensorRT 10.12.0 which plugin version was migrated from IPluginV2 to IPluginV3,version 1,TensorRT,NICHE,Python,2025,API,1
+In Drogon v1.9.8 what new in-place operation was added,base64 encode and decode,Drogon,NICHE,Python,2024,API,1
+In Crow 1.2.0 what new HTTP status code was added,406,Crow,NICHE,Python,2024,General,1
+In TensorRT 10.12.0 what new quantization operation type was added to the parser,custom MXFP8,TensorRT,NICHE,Python,2025,General,1
+In Drogon v1.9.11 what new option was added to drogon_ctl create models,-o|--output,Drogon,NICHE,Python,2025,General,1
+In Vcpkg 2024.07.12 which single port was removed,ms-quic,Vcpkg,NICHE,Python,2024,General,1
+In Crow v1.1.0 which macro gained template typename keywords,CROW_MIDDLEWARES,Crow,NICHE,Python,2023,API,1
+In fmt 11.0.0 what macro enables replacing standard includes with import std,FMT_IMPORT_STD,fmt,POPULAR,Python,2024,General,1
+In Poco 1.14.2 which bundled library was upgraded to 2.7.1,libexpat,Poco,NICHE,Python,2025,General,1
+In ONNX Runtime 1.22.0 what option enables TRT Preview Feature,EP,ONNX-Runtime,NICHE,Python,2025,General,1
+In Vcpkg 2024.07.12 which new port version was added for lightgbm,4.4.0,Vcpkg,NICHE,Python,2024,API,1
+In ONNX Runtime 1.22.0 which new struct reference documents the explicit compilation of ONNX models,OrtCompileApi,ONNX-Runtime,NICHE,Python,2025,API,1
+In fmt 10.0.0 which function was added for C++23 compatibility,println,fmt,POPULAR,Python,2023,API,1
+In Poco 1.14.0 what define silences deprecated warnings,POCO_SILENCE_DEPRECATED,Poco,NICHE,Python,2024,General,1
+In nlohmann-json 3.11.3 what new template parameter was added,custom base class,nlohmann-json,POPULAR,Python,2024,API,1
+In Vcpkg 2023.12.12 which port among the 10 added has version 1.1.10,clap-cleveraudio,Vcpkg,NICHE,Python,2023,General,1
+In Qt 6.7 what new renderer type property value became fully supported,curve,Qt,POPULAR,Python,2024,API,1
+In Google-Benchmark 1.8.4 what new macros were added for fusing BENCHMARK_CAPTURE and BENCHMARK_TEMPLATE,BENCHMARK_TEMPLATE[12]_CAPTURE,Google-Benchmark,NICHE,Python,2024,API,1
+In Google-Benchmark 1.8.4 which pkg-config file was added to link the main containing library,benchmark_main.pc,Google-Benchmark,NICHE,Python,2024,General,1
+In Vcpkg 2025.06.13 which port was removed,boost-compatibility,Vcpkg,NICHE,Python,2025,General,1
+In ONNX Runtime 1.18.0 which new CMake option builds CUDA EP with only memcpy ops,onnxruntime_CUDA_MINIMAL,ONNX-Runtime,NICHE,Python,2024,General,1
+In Vcpkg 2025.06.13 which new option was added to clean-buildtrees-after-build,Only clean on success,Vcpkg,NICHE,Python,2025,General,1
+In Vcpkg 2023.12.12 which single new port was added with version 1.0,veigar,Vcpkg,NICHE,Python,2023,General,1
+In fmt 11.0.0 what new header provides a minimal API subset to replace printf,fmt/base.h,fmt,POPULAR,Python,2024,API,1
+In Drogon v1.8.5 what new plugin was added to remove trailing slashes,SlashRemover,Drogon,NICHE,Python,2023,General,1
+In LLVM 16.0.0 what new uinc_wrap operation was added to atomicrmw,uinc_wrap,LLVM,POPULAR,Python,2023,API,1
+In Poco 1.14.2 which function must check idle sessions,Poco::Data::SessionPool::dead,Poco,NICHE,Python,2025,API,1
+In ONNX Runtime 1.18.0 which new SessionOptions config entry allows disabling specific transformers and rules,DisableSpecificTransformers,ONNX-Runtime,NICHE,Python,2024,API,1
