@@ -1,121 +1,151 @@
 problem,answer,library_name,tag,language,year,problem_type
-In simdjson v3.3.0 what step parameter was made variable,structural indexer,simdjson,NICHE,Python,2023,API
-In GoogleTest 1.15.0 what build system gained official support,Bzlmod,GoogleTest,POPULAR,Python,2024,General
-In simdjson v3.11.0 what new function was added to the public API,pad,simdjson,NICHE,Python,2024,API
-In Boost 1.85.0 which new header provides a functor wrapper,boost/core/functor.hpp,Boost,POPULAR,Python,2024,API
-In LLVM 20.1.0 which new LLDB setting sets a persistent cwd for process launch,target.launch-working-dir,LLVM,POPULAR,Python,2025,API
-In LLVM 16.0.0 what Module Flags Metadata was added,stack-protector-guard-symbol,LLVM,POPULAR,Python,2023,General
-In nlohmann-json 3.12.0 which iterator tag does iteration_proxy now publicly expose,std::forward_iterator,nlohmann-json,POPULAR,Python,2025,API
-In GoogleTest 1.15.0 which file contains the conflicting Python toolchain,MODULE.bazel,GoogleTest,POPULAR,Python,2024,API
-In Boost 1.82.0 which new protocol type was added to represent AF_UNIX with SOCK_SEQPACKET,local::seq_packet_protocol,Boost,POPULAR,Python,2023,API
-In simdjson v3.11.0 what dependency manager did the project switch to,CPM,simdjson,NICHE,Python,2024,General
-In Boost 1.82.0 which library added user-defined literals for buffer types,Asio,Boost,POPULAR,Python,2023,General
-In nlohmann-json 3.12.0 what new macro enables byte position diagnostics,JSON_DIAGNOSTIC_POSITIONS,nlohmann-json,POPULAR,Python,2025,General
-In simdjson v3.3.0 which new library target was added,simdjson_static,simdjson,NICHE,Python,2023,General
-In LLVM 20.1.0 which new IR pass normalizes modules while preserving semantics,IRNormalizer,LLVM,POPULAR,Python,2025,General
-In Google-Benchmark 1.9.2 what new architecture gained cycleclock support,PA-RISC,Google-Benchmark,NICHE,Python,2025,General
-In Google-Benchmark 1.9.2 what callback type was changed,setup and teardown,Google-Benchmark,NICHE,Python,2025,API
-In Qt 6.9 which Qt Quick 3D transparency technique was introduced,Weighted Blended,Qt,POPULAR,Python,2025,General
-In GoogleTest v1.17.0 what new matcher supports distance comparison,DistanceFrom(),GoogleTest,POPULAR,Python,2025,API
-In LLVM 18.1.0rc which new intrinsic was added,llvm.exp10,LLVM,POPULAR,Python,2024,API
-In Protobuf-Cpp v23.0 which new C++ method was added to Reflection,GetCord,Protobuf-Cpp,POPULAR,Python,2023,API
-In LLVM 18.1.0rc what backend added support for Cortex-A520, AArch64,LLVM,POPULAR,Python,2024,General
-In Catch2 3.6.0 what new default precision is used in floating point stringmakers,max_digits10,Catch2,NICHE,Python,2024,API
-In GoogleTest v1.13.0 what macro now terminates tests instead of continuing,GTEST_FAIL_AT,GoogleTest,POPULAR,Python,2023,General
-In Abseil 20230802.0 what new library was added for pointer annotations,nullability,Abseil,POPULAR,Python,2023,API
-In Protobuf-Cpp v23.0 what protoc flag was newly implemented,retain_options,Protobuf-Cpp,POPULAR,Python,2023,General
-In GoogleTest v1.13.0 what new function returns the test data directory,testing::SrcDir,GoogleTest,POPULAR,Python,2023,API
-In Protobuf-Cpp v31.0 what new protoc flag prints dependency license information,--notices,Protobuf-Cpp,POPULAR,Python,2025,General
-In GoogleTest v1.17.0 what new flag causes failure if no test is linked,--gtest_fail_if_no_test_linked,GoogleTest,POPULAR,Python,2025,General
-In Catch2 3.6.0 which CMake target name is set for the implementation library through Conan,Catch2::Catch2,Catch2,NICHE,Python,2024,General
-In Catch2 v3.4.0 what new DISCOVERY_MODE option was added to catch_discover_tests,post build or pre-run,Catch2,NICHE,Python,2023,API
-In Boost 1.85.0 what copy_options flag ignores attribute errors,ignore_attribute_errors,Boost,POPULAR,Python,2024,General
-In Qt 6.9 what new window flag supports expanded client areas,Qt.ExpandedClientAreaHint,Qt,POPULAR,Python,2025,API
-In Google-Benchmark v1.8.3 which CMake variable was marked as dev_dependency for downstream modules,internal deps,Google-Benchmark,NICHE,Python,2023,API
-In nlohmann-json 3.11.2 which header was fixed to be self-contained,json_fwd.hpp,nlohmann-json,POPULAR,Python,2023,API
-In Google-Benchmark v1.8.3 what new file was added for PEP518 compliance,pyproject.toml,Google-Benchmark,NICHE,Python,2023,General
-In Catch2 v3.4.0 what XML format version was introduced by XMLReporter,3,Catch2,NICHE,Python,2023,General
-In Protobuf-Cpp v31.0 what new method was added to Python repeated fields,clear,Protobuf-Cpp,POPULAR,Python,2025,API
-In Boost 1.88.0 what macro disables offset address base in stacktrace,BOOST_STACKTRACE_DISABLE_OFFSET_ADDR_BASE,Boost,POPULAR,Python,2025,General
-In nlohmann-json 3.11.2 which comparison operators for json_pointer were fixed,== and !=,nlohmann-json,POPULAR,Python,2023,General
-In gRPC-Cpp v1.56.0 what TXT lookup result type did EventEngine change to,std::vector<std::string>,gRPC-Cpp,POPULAR,Python,2023,API
-In Protobuf-Cpp 27.0 what new C++ JSON serializer option was added,always_print_without_presence_fields,Protobuf-Cpp,POPULAR,Python,2024,General
-In Protobuf-Cpp 27.0 what new method was added to support string views with scratch,GetStringView(),Protobuf-Cpp,POPULAR,Python,2024,API
-In Abseil 20250512.0 which polyfill type remains not aliased to std,absl::string_view,Abseil,POPULAR,Python,2025,General
-In Abseil 20240722.0 which header must now be included to use VLOG_IS_ON,absl/log/vlog_is_on.h,Abseil,POPULAR,Python,2024,General
-In Abseil 20230802.0 what new library was added for moving data into caches before it is read,prefetch,Abseil,POPULAR,Python,2023,General
-In gRPC-Cpp v1.56.0 what new transport type was added to core,vsock,gRPC-Cpp,POPULAR,Python,2023,General
-In Qt 6.6 which new Qt Quick layout element enables dynamic layout switching,LayoutItemProxy,Qt,POPULAR,Python,2023,API
-In gRPC-Cpp 1.65.0 what new pkg-config file was generated for the OTel plugin,grpcpp_otel_plugin,gRPC-Cpp,POPULAR,Python,2024,API
-In LLVM 16.0.0 what new uinc_wrap operation was added to atomicrmw,uinc_wrap,LLVM,POPULAR,Python,2023,API
-In Catch2 v3.9.0 what new ReporterPreferences member was added for assertionStarting fast path,shouldReportAllAssertionStarts,Catch2,NICHE,Python,2025,API
-In Abseil 20240722.0 what new overload was added to absl::StrJoin,absl::string_view,Abseil,POPULAR,Python,2024,API
-In Boost 1.88.0 which new function returns the connection ID for any_connection,connection_id,Boost,POPULAR,Python,2025,API
-In Qt 6.6 which new URL scheme shows Chromium version information,chrome://qt,Qt,POPULAR,Python,2023,General
-In Qt 6.7 which experimental tool converts SVG assets directly into QML,svgtoqml,Qt,POPULAR,Python,2024,General
-In gRPC-Cpp 1.74.0 what was fixed when BDP is disabled,GRPC_ARG_HTTP2_STREAM_LOOKAHEAD_BYTES,gRPC-Cpp,POPULAR,Python,2025,API
-In gRPC-Cpp 1.65.0 what experiment was added to modify GRPC_ARG_HTTP2_MAX_PINGS_WITHOUT_DATA,throttle pings,gRPC-Cpp,POPULAR,Python,2024,General
-In Catch2 v3.9.0 what is the new default test run order,random,Catch2,NICHE,Python,2025,General
-In gRPC-Cpp 1.74.0 what new support was added to Posix Event Engine,fork support,gRPC-Cpp,POPULAR,Python,2025,General
-In simdjson 4.0.0 which new function enables thread-local parser access,simdjson::ondemand::parser::get_parser,simdjson,NICHE,Python,2025,API
-In nlohmann-json 3.11.3 what new build system support was added,Bazel,nlohmann-json,POPULAR,Python,2024,General
-In OpenCV 4.12.0 which new flag was added to cv::threshold,mask,OpenCV,POPULAR,Python,2025,API
-In fmt 12.0.0 what new macro allows formatting into a string of exact required size at compile time,FMT_STATIC_FORMAT,fmt,POPULAR,Python,2025,API
-In spdlog 1.16.0 what CMAKE variable can now be overridden,CMAKE_DEBUG_POSTFIX,spdlog,NICHE,Python,2025,API
-In fmt 12.0.0 what component prefix replaced fmt- for NSIS CPack compatibility,fmt_,fmt,POPULAR,Python,2025,General
-In spdlog 1.14.0 which function was made synchronous,async_logger::flush,spdlog,NICHE,Python,2024,General
-In OpenCV 4.12.0 what new method was added to cv::Mat,reinterpret,OpenCV,POPULAR,Python,2025,General
-In spdlog 1.14.0 which new header was added for MDC support,spdlog/mdc.h,spdlog,NICHE,Python,2024,API
-In Crow 1.2.0 what new optional argument was added to route(),const std::string&,Crow,NICHE,Python,2024,API
-In spdlog 1.16.0 what new TCP timeout option was added,timeout for connect send recv,spdlog,NICHE,Python,2025,General
-In spdlog v1.12.0 what new function was added to file_helper,sync,spdlog,NICHE,Python,2023,API
-In spdlog v1.12.0 what new sink was added that logs to QTextEdit,qt color sink,spdlog,NICHE,Python,2023,General
-In OpenCV 4.10.0 what new data type was added to cv::Mat,CV_FP16,OpenCV,POPULAR,Python,2024,API
-In Abseil 20250512.0 which new function returns a compile time unique type id,absl::FastTypeId,Abseil,POPULAR,Python,2025,API
-In TensorRT 9.1.0 which new API sample was added to demonstrate progress monitoring,sampleProgressMonitor,TensorRT,NICHE,Python,2023,General
-In simdjson 4.0.0 which single new CMake option activates C++26 static reflection,SIMDJSON_STATIC_REFLECTION,simdjson,NICHE,Python,2025,General
-In TensorRT 9.1.0 what Python plugin sample was updated,trt_python_plugin,TensorRT,NICHE,Python,2023,API
-In OpenCV 4.10.0 which new method was added to review optimized graph with Netron,dumpToPbtxt,OpenCV,POPULAR,Python,2024,General
-In Crow v1.3.0 what new helper method checks server bind state,is_bound,Crow,NICHE,Python,2025,API
-In OpenCV 4.8.0 what REDUCE option was added to cv::reduce,REDUCE_SUM2,OpenCV,POPULAR,Python,2023,General
-In ONNX-Runtime 1.15.0 what protobuf version was upgraded to,21.12,ONNX-Runtime,NICHE,Python,2023,API
-In ONNX-Runtime 1.15.0 which new execution provider was introduced,JS EP,ONNX-Runtime,NICHE,Python,2023,General
-In fmt 10.0.0 which function was added for C++23 compatibility,println,fmt,POPULAR,Python,2023,API
-In Drogon v1.9.8 what new whitelist was introduced,Hodor whitelists,Drogon,NICHE,Python,2024,General
-In Poco 1.12.5 what new page directive feature was added to PageCompiler,referrerPolicy,Poco,NICHE,Python,2023,API
-In OpenCV 4.8.0 which new API was added to build network inputs with pre-processings,blobFromImageParam,OpenCV,POPULAR,Python,2023,API
-In Crow v1.3.0 what new CMake option enables SBOM generation,CROW_GENERATE_SBOM,Crow,NICHE,Python,2025,General
-In Drogon v1.8.5 what single new method was added to HttpAppFramework,forwardCoro,Drogon,NICHE,Python,2023,API
-In Drogon v1.9.8 what new in-place operation was added,base64 encode and decode,Drogon,NICHE,Python,2024,API
-In TensorRT 10.12.0 what new quantization operation type was added to the parser,custom MXFP8,TensorRT,NICHE,Python,2025,General
-In Drogon v1.8.5 what new plugin was added to remove trailing slashes,SlashRemover,Drogon,NICHE,Python,2023,General
-In TensorRT 10.12.0 which plugin version was migrated from IPluginV2 to IPluginV3,version 1,TensorRT,NICHE,Python,2025,API
-In Crow 1.2.0 what new HTTP status code was added,406,Crow,NICHE,Python,2024,General
-In Poco 1.12.5 which bundled library was upgraded to version 10.42,PCRE2,Poco,NICHE,Python,2023,General
-In TensorRT 10.0.0 which new class was added to refit a TensorRT engine with ONNX weights,IParserRefitter,TensorRT,NICHE,Python,2024,API
-In fmt 11.0.0 what macro enables replacing standard includes with import std,FMT_IMPORT_STD,fmt,POPULAR,Python,2024,General
-In fmt 11.0.0 what new header provides a minimal API subset to replace printf,fmt/base.h,fmt,POPULAR,Python,2024,API
-What was a new overload added to in Drogon v1.9.11,execSqlCoro,Drogon,NICHE,Python,2025,API
-In Drogon v1.9.11 what new option was added to drogon_ctl create models,-o|--output,Drogon,NICHE,Python,2025,General
-In Poco 1.14.2 which bundled library was upgraded to 2.7.1,libexpat,Poco,NICHE,Python,2025,General
-In Poco 1.14.0 what new UUID versions did Poco::UUIDGenerator gain,Version 6 and Version 7,Poco,NICHE,Python,2024,API
-In Crow v1.1.0 what was the only new middleware added,Sessions Middleware,Crow,NICHE,Python,2023,General
-In TensorRT 10.0.0 what default value was set for kNATIVE_INSTANCENORM,ON,TensorRT,NICHE,Python,2024,General
-In Qt 6.7 what new renderer type property value became fully supported,curve,Qt,POPULAR,Python,2024,API
-In Crow v1.1.0 which macro gained template typename keywords,CROW_MIDDLEWARES,Crow,NICHE,Python,2023,API
-In Poco 1.14.0 what define silences deprecated warnings,POCO_SILENCE_DEPRECATED,Poco,NICHE,Python,2024,General
-In Poco 1.14.2 which function must check idle sessions,Poco::Data::SessionPool::dead,Poco,NICHE,Python,2025,API
-In fmt 10.0.0 which single macro was renamed for shared library usage,FMT_LIB_EXPORT,fmt,POPULAR,Python,2023,General
-In Google-Benchmark 1.8.4 which pkg-config file was added to link the main containing library,benchmark_main.pc,Google-Benchmark,NICHE,Python,2024,General
-In ONNX Runtime 1.22.0 which new struct reference documents the explicit compilation of ONNX models,OrtCompileApi,ONNX-Runtime,NICHE,Python,2025,API
-In Vcpkg 2025.06.13 which port was removed,boost-compatibility,Vcpkg,NICHE,Python,2025,General
-In Vcpkg 2024.07.12 which single port was removed,ms-quic,Vcpkg,NICHE,Python,2024,General
-In Vcpkg 2024.07.12 which new port version was added for lightgbm,4.4.0,Vcpkg,NICHE,Python,2024,API
-In ONNX Runtime 1.22.0 what option enables TRT Preview Feature,EP,ONNX-Runtime,NICHE,Python,2025,General
-In ONNX Runtime 1.18.0 which new CMake option builds CUDA EP with only memcpy ops,onnxruntime_CUDA_MINIMAL,ONNX-Runtime,NICHE,Python,2024,General
-In Vcpkg 2023.12.12 which port among the 10 added has version 1.1.10,clap-cleveraudio,Vcpkg,NICHE,Python,2023,General
-In Vcpkg 2025.06.13 which new option was added to clean-buildtrees-after-build,Only clean on success,Vcpkg,NICHE,Python,2025,General
-In Vcpkg 2023.12.12 which single new port was added with version 1.0,veigar,Vcpkg,NICHE,Python,2023,General
-In nlohmann-json 3.11.3 what new template parameter was added,custom base class,nlohmann-json,POPULAR,Python,2024,API
-In Google-Benchmark 1.8.4 what new macros were added for fusing BENCHMARK_CAPTURE and BENCHMARK_TEMPLATE,BENCHMARK_TEMPLATE[12]_CAPTURE,Google-Benchmark,NICHE,Python,2024,API
-In ONNX Runtime 1.18.0 which new SessionOptions config entry allows disabling specific transformers and rules,DisableSpecificTransformers,ONNX-Runtime,NICHE,Python,2024,API
+In Fiber v2.52.9 which method gained an upper index limit,parsers,Fiber,POPULAR,Python,2025,API
+In Fiber v2.52.9 which comparison was fixed in Is,Content-Type,Fiber,POPULAR,Python,2025,General
+In Fiber v2.52.0 which new middleware was introduced,healthcheck,Fiber,POPULAR,Python,2024,General
+In Fiber v2.52.0 which Config field sets the liveness probe endpoint,LivenessEndpoint,Fiber,POPULAR,Python,2024,API
+In Testify v1.7.1 which new assertion function was added,ErrorContains,Testify,POPULAR,Python,2023,API
+In Testify v1.7.1 what method was added to the Mock type,String,Testify,POPULAR,Python,2023,General
+In Chi v5.0.10 which new middleware was introduced,Request size middleware,Chi,POPULAR,Python,2023,General
+In Chi v5.0.10 which method was added to compressResponseWriter,Unwrap,Chi,POPULAR,Python,2023,API
+In GoMock v0.3.0 what new flag excludes interfaces from mock generation,exclude_interfaces,GoMock,POPULAR,Python,2023,General
+In GoMock v0.3.0 what new matcher specifies a conditional result,Cond,GoMock,POPULAR,Python,2023,API
+In Echo v4.14.0 which middleware function replaced middleware.Logger,middleware.RequestLogger,Echo,POPULAR,Python,2025,API
+In Echo v4.14.0 what new slog handler is required for JSON request logs,slog.NewJSONHandler,Echo,POPULAR,Python,2025,General
+In Zap v1.27.0 what new method was added to SugaredLogger,WithLazy,Zap,POPULAR,Python,2024,API
+In Zap v1.27.0 what new option was added for testing panic logs,WithPanicHook,Zap,POPULAR,Python,2024,General
+In Zap v1.25.0 what new method was added to Logger,Name,Zap,POPULAR,Python,2023,API
+In Zap v1.25.0 what experimental package was added for slog integration,zap/exp/zapslog,Zap,POPULAR,Python,2023,General
+In Fiber v2.42.0 which new Context method extracts query parameters as integers,QueryInt,Fiber,POPULAR,Python,2023,API
+In Fiber v2.42.0 which new middleware was added to support TLS 1.3 early data,earlydata,Fiber,POPULAR,Python,2023,General
+In Ent v0.12.5 what new annotation was added to entsql,OnDelete,Ent,NICHE,Python,2024,API
+In Ent v0.12.5 which flag was hidden from the generate command,--idtype,Ent,NICHE,Python,2024,General
+In Gin v1.9.0 which new method was added to RouterGroup for multiple HTTP methods,match,Gin,POPULAR,Python,2023,API
+In Gin v1.9.0 what dependency was upgraded to v3,yaml,Gin,POPULAR,Python,2023,General
+In Cobra v1.9.0 what new helper was added for completions,CompletionWithDesc,Cobra,POPULAR,Python,2025,API
+In Cobra v1.9.0 what new type was added to help with completions,CompletionFunc,Cobra,POPULAR,Python,2025,API
+In Ent v0.14.0 which new annotation was added to dialect/entsql,Skip,Ent,NICHE,Python,2025,API
+In Ent v0.14.0 which new predefined mutation method was added to entc/gen,SetID,Ent,NICHE,Python,2025,General
+In Viper 1.17.0 what new function was added to retrieve the environment prefix,GetEnvPrefix,Viper,POPULAR,Python,2023,API
+In Viper 1.17.0 which new messaging system gained support,NATS,Viper,POPULAR,Python,2023,General
+In Chi v5.2.2 which file was excluded for TinyGo,middleware/profiler.go,Chi,POPULAR,Python,2025,General
+In Chi v5.2.2 which function was used to replace manual slicing,strings.Cut,Chi,POPULAR,Python,2025,API
+In Echo v4.11.0 what new config variable was added to recovery middleware,disable centralized error handler,Echo,POPULAR,Python,2023,General
+In Echo v4.11.0 what method was added to Response struct,http.rwUnwrapper,Echo,POPULAR,Python,2023,API
+In SQLC 1.27.0 what new golang configuration option was added,initialisms,SQLC,POPULAR,Python,2024,API
+In SQLC 1.27.0 what type of databases will be turned off on September 4th 2024,hosted ephemeral,SQLC,POPULAR,Python,2024,General
+In Chi 5.2.0 what new method was added to the Routes interface,Find,Chi,POPULAR,Python,2024,API
+In Chi 5.2.0 what new middleware was added by m1k1o,strip prefix middleware,Chi,POPULAR,Python,2024,General
+In Testify 1.10.0 which mock feature was added to record return arguments of a call,Record Return Arguments,Testify,POPULAR,Python,2024,General
+In Testify 1.10.0 what new assertion function was added for NotErrorAs,NotErrorAs,Testify,POPULAR,Python,2024,API
+In Gin v1.10.0 which new function type was added to the engine package,OptionFunc,Gin,POPULAR,Python,2024,API
+In Gin v1.10.0 what new shortcut method was added for ShouldBindBodyWith,ShouldBindBodyWith,Gin,POPULAR,Python,2024,General
+In Cobra v1.7.0 which new PowerShell version received completion support,PowerShell 7.2+,Cobra,POPULAR,Python,2023,General
+In Cobra v1.7.0 which variable import name was removed from the template variable,template,Cobra,POPULAR,Python,2023,API
+In Cobra v1.8.0 which new API marks a flag group as requiring at least one flag,MarkFlagsOneRequired,Cobra,POPULAR,Python,2024,API
+In Cobra v1.8.0 which new Command struct API sets a custom error message prefix,SetErrPrefix,Cobra,POPULAR,Python,2024,General
+In Viper v1.21.0 which three new pflag slice types were added,BoolSlice UintSlice Float64Slice,Viper,POPULAR,Python,2025,API
+In Viper v1.21.0 which maintained yaml library replaced the previous one,sagikazarmark yaml,Viper,POPULAR,Python,2025,General
+In Viper 1.18.0 which new function enables automatic unmarshalling from environment variables,Viper.BindStruct,Viper,POPULAR,Python,2024,API
+In Viper 1.18.0 what issue number documented the problem that AutomaticEnv works with Unmarshal,761,Viper,POPULAR,Python,2024,General
+In Echo v4.12.0 what new method can the default binder use to unmarshal params,UnmarshalParams,Echo,POPULAR,Python,2024,API
+In Echo v4.12.0 what normalization occurs when a route is registered with an empty path,Normalized to /,Echo,POPULAR,Python,2024,General
+In SQLC v1.30.0 which new Go struct tag handling was fixed for db_type overrides,go_struct_tag,SQLC,POPULAR,Python,2025,API
+In SQLC v1.30.0 which identifier usage was normalized for table names,Normalize identifier usage,SQLC,POPULAR,Python,2025,General
+In GoMock v0.5.0 which new flag controls inclusion of the Generated by this command comment,--write_command_comment,GoMock,POPULAR,Python,2024,General
+In GoMock v0.5.0 which flag was added to insert //go:build directives into generated mocks,--build_constraint,GoMock,POPULAR,Python,2024,API
+In Ent v0.11.0 which new method was exposed on RType,Implements,Ent,NICHE,Python,2023,API
+In Ent v0.11.0 what new command line option was added to pre-commit run,--fail-fast,Ent,NICHE,Python,2023,General
+In SQLC 1.20.0 what new query annotation opts out of sqlc vet rules,sqlc-vet-disable,SQLC,POPULAR,Python,2023,API
+In SQLC 1.20.0 what new engine gained multi-dimensional array support,PostgreSQL,SQLC,POPULAR,Python,2023,General
+In Testify v1.11.0 which new assert function was added,IsNotType,Testify,POPULAR,Python,2025,API
+In Testify v1.11.0 what shortcut was added to assert.JSONEq when strings are identical,shortcut if same strings,Testify,POPULAR,Python,2025,General
+In Gin v1.11.0 which new method was added to Context,AbortWithStatusPureJSON,Context,AbortWithStatusPureJSON(),Gin,POPULAR,Python,2025,API
+In Gin v1.11.0 what new flag format was introduced in form binding,array collection format,Gin,POPULAR,Python,2025,General
+In Zap 1.27.1 which method was fixed for race conditions,WithLazy,Zap,POPULAR,Python,2025,API
+In Zap 1.27.1 what type was prevented from panicking on nils,Object,Zap,POPULAR,Python,2025,General
+In Go-Redis v9.6.0 what new method was added to StatusCmd,Bytes,Go-Redis,POPULAR,Python,2024,API
+In Go-Redis v9.6.0 what new parameter was added to HSCAN,NOVALUES,Go-Redis,POPULAR,Python,2024,General
+In Go-Redis 9.12.0 what new option was added to FT.VSIM,EPSILON,Go-Redis,POPULAR,Python,2025,API
+In Go-Redis 9.12.0 what new bitop operations were added,bitop operations,Go-Redis,POPULAR,Python,2025,General
+In Validator v10.21.0 which language was newly supported,Polish,Validator,POPULAR,Python,2024,General
+In Validator v10.21.0 which error translation was fixed for Japanese,max-items,Validator,POPULAR,Python,2024,General
+In NATS v1.28.0 what new field was added to OrderedConsumerConfig,HeadersOnly,NATS,POPULAR,Python,2023,API
+In NATS v1.28.0 what breaking change moved NakWithDelay to a separate method,Nak,NATS,POPULAR,Python,2023,General
+In NATS v1.44.0 which new Conn option method was added,UserCredentialBytes,NATS,POPULAR,Python,2025,API
+In NATS v1.44.0 what new implementation was added to the jetstream package,PushConsumer,NATS,POPULAR,Python,2025,General
+In NATS v1.35.0 which new method was added to connection for manually triggering reconnect,ForceReconnect,NATS,POPULAR,Python,2024,API
+In NATS v1.35.0 what new API was added to read reply subject from micro.Request,read reply subject,NATS,POPULAR,Python,2024,General
+In Validator 10.12.0 which new validation was added for URLs,http_url,Validator,POPULAR,Python,2023,API
+In Validator 10.12.0 what new validation was added for MongoDB IDs,mongodb,Validator,POPULAR,Python,2023,General
+In Kratos v2.7.0 what new contrib logger was added,zerolog,Kratos,NICHE,Python,2023,General
+In Kratos v2.7.0 what new default was added to bindQuery,bindQuery default,Kratos,NICHE,Python,2023,API
+In Kratos v2.9.0 which new transport was added,MCP,Kratos,NICHE,Python,2025,General
+In Kratos v2.9.0 which function replaced strconv.Itoa for int64,strconv.FormatInt,Kratos,NICHE,Python,2025,API
+In Validator 10.27.0 what new function parameter was added to tag validateFn,validateFn,Validator,POPULAR,Python,2025,API
+In Validator 10.27.0 what URL scheme was made to fail url validation,file://,Validator,POPULAR,Python,2025,General
+In gRPC-Go v1.56.0 which new dial option enables channel idleness,WithIdleTimeout,gRPC-Go,POPULAR,Python,2023,API
+In gRPC-Go v1.56.0 which new LB policy was added for load-based backend balancing,weightedroundrobin,gRPC-Go,POPULAR,Python,2023,General
+In Protobuf-Go v1.29.0 which new package was added,protodelim,Protobuf-Go,POPULAR,Python,2023,General
+In Protobuf-Go v1.29.0 which method was added to Value in protoreflect,Equal,Protobuf-Go,POPULAR,Python,2023,API
+In gRPC-Go v1.73.0 what new Call Option was added,CallAuthority,gRPC-Go,POPULAR,Python,2025,API
+In gRPC-Go v1.73.0 what environment variable disables least request LB policy,GRPC_EXPERIMENTAL_ENABLE_LEAST_REQUEST=false,gRPC-Go,POPULAR,Python,2025,General
+In Swagger-Go v1.16.5 which new struct tag extension was added,collectionFormat,Swagger-Go,NICHE,Python,2025,API
+In Swagger-Go v1.16.5 what new attribute prefix is now supported for tags,@tag.x-,Swagger-Go,NICHE,Python,2025,General
+In gRPC-Go v1.64.0 which new function was added to resolver/dns,SetMinResolutionInterval,gRPC-Go,POPULAR,Python,2024,API
+In gRPC-Go v1.64.0 what environment variable handling was removed from codec,GRPC_GO_ADVERTISE_COMPRESSORS,gRPC-Go,POPULAR,Python,2024,General
+In Go-Zero v1.7.0 what new parameter type was added to rest file server functions,embed.FS,Go-Zero,NICHE,Python,2024,API
+In Go-Zero v1.7.0 what new hook type was added for Redis,redis hook,Go-Zero,NICHE,Python,2024,General
+In Go-Zero v1.5.4 which new method was added to httpx,SetOkHandler,Go-Zero,NICHE,Python,2023,API
+In Go-Zero v1.5.4 which new feature was added to logx regarding old logs,Compress auto delete,Go-Zero,NICHE,Python,2023,General
+In Go-Redis v9.2.0 what new configuration setting controls connection growth limit,MaxActiveConns,Go-Redis,POPULAR,Python,2023,General
+In Go-Redis v9.2.0 what suffix replaced Args for probabilistic commands accepting arguments,WithArgs,Go-Redis,POPULAR,Python,2023,API
+In Protobuf-Go v1.34.0 which new edition string can be used in proto files,"edition = ""2023""",Protobuf-Go,POPULAR,Python,2024,General
+In Protobuf-Go v1.34.0 which new method was documented with an example,MarshalAppend,Protobuf-Go,POPULAR,Python,2024,API
+In Protobuf-Go v1.36.7 which filedesc method centralized presence and lazy logic,filedesc,Protobuf-Go,POPULAR,Python,2025,API
+In Protobuf-Go v1.36.7 which package received a 20% SizeVarint micro-optimization on Intel,encoding/protowire,Protobuf-Go,POPULAR,Python,2025,General
+In Swagger-Go v1.16.4 what new tag was added for securityDefinitions,@description,Swagger-Go,NICHE,Python,2024,General
+In Swagger-Go v1.16.4 what new CLI capability was introduced,read from stdin write to stdout,Swagger-Go,NICHE,Python,2024,General
+In Go-Zero v1.9.3 which balancer name enables consistent hash routing,consistent_hash,Go-Zero,NICHE,Python,2025,General
+In Go-Zero v1.9.3 which function initializes nil pointers before scanning,getValueInterface,Go-Zero,NICHE,Python,2025,API
+In GoReleaser v2.11.0 which new commit feature was added,signed commits capability,GoReleaser,POPULAR,Python,2025,General
+In GoReleaser v2.11.0 which field must artifact.Checksum set,artifact.Extra,GoReleaser,POPULAR,Python,2025,API
+In Swagger-Go v1.16.2 what new CLI flag was added to control dependency parse operations,--pdl,Swagger-Go,NICHE,Python,2023,General
+In Swagger-Go v1.16.2 what new parameter was added to limit parsing to packages matching a specific prefix,--packagePrefix,Swagger-Go,NICHE,Python,2023,API
+In Kratos v2.8.0 which new HTTP transport method was added,Set-Cookie,Kratos,NICHE,Python,2024,API
+In Kratos v2.8.0 what breaking change affected the metrics package,refactor with otel metrics,Kratos,NICHE,Python,2024,General
+In GoReleaser v2.1.0 what new skip flag was added,--skip=archive,GoReleaser,POPULAR,Python,2024,General
+In GoReleaser v2.1.0 what new package format did nfpm gain,ipk,GoReleaser,POPULAR,Python,2024,API
+In Excelize v2.10.0 what new exported error variable was added,ErrTransparency,Excelize,NICHE,Python,2025,General
+In Excelize v2.10.0 what optional parameter was added to GetMergeCells,withoutValues,Excelize,NICHE,Python,2025,API
+In Excelize 2.9.0 what new enumeration type was introduced for chart tick labels,ChartTickLabelPositionType,Excelize,NICHE,Python,2024,API
+In Excelize 2.9.0 what new function supports changing sheet order,MoveSheet,Excelize,NICHE,Python,2024,General
+In Excelize 2.8.0 what exported variable was renamed to ErrNameLength,ErrTableNameLength,Excelize,NICHE,Python,2023,General
+In Excelize 2.8.0 what new enumeration was added for country code,CultureName,Excelize,NICHE,Python,2023,API
+In GoReleaser v1.19.0 which template function was added for environment variables,envOrDefault,GoReleaser,POPULAR,Python,2023,API
+In GoReleaser v1.19.0 what new field was added to control changelog inclusion,include,GoReleaser,POPULAR,Python,2023,General
+In GoMock v0.6.0 what new mockgen mode generates mocks from archive files,Archive mode,GoMock,POPULAR,Python,2025,General
+In GoMock v0.6.0 what Go version caused mockgen errors that were fixed,go1.25,GoMock,POPULAR,Python,2025,API
+In Buf v1.56.0 what new flag was added to buf export,--all,Buf,NICHE,Python,2025,General
+In Buf v1.56.0 which architecture gained new Linux binaries,s390x,Buf,NICHE,Python,2025,General
+In Watermill v1.3.0 what new public API was added,CQRS public API,Watermill,NICHE,Python,2023,General
+In Watermill v1.3.0 what new support was added for Event Handler,Event Handler groups,Watermill,NICHE,Python,2023,General
+In Buf v1.36.0 what new flag was added to buf curl,--list-services,Buf,NICHE,Python,2024,General
+In Buf v1.36.0 what new top-level option was added to buf.gen.yaml,clean,Buf,NICHE,Python,2024,API
+In Watermill v1.4.0 what new constructor was added to the router,NewDefaultRouter,Watermill,NICHE,Python,2024,API
+In Watermill v1.4.0 what custom configuration was added for metrics histograms,custom histogram buckets,Watermill,NICHE,Python,2024,General
+In Templ v0.2.227 which linter was added to the build,golangci-lint,Templ,NICHE,Python,2023,General
+In Templ v0.2.227 which unused variable was removed,unused variable,Templ,NICHE,Python,2023,API
+In Buf v1.24.0 what new file extension is now canonical for binary-encoded Protobuf data,.binpb,Buf,NICHE,Python,2023,General
+In Buf v1.24.0 which remote generation subdomain was removed from netrc support,go,Buf,NICHE,Python,2023,General
+In Templ v0.2.731 what new attribute can be set with templ.JSONScript,type,Templ,NICHE,Python,2024,API
+In Templ v0.2.731 what new component enables streaming responses,flush,Templ,NICHE,Python,2024,General
+In Connect-Go v1.12.0 which function replaced envelope prefix reading,io.ReadFull,Connect-Go,NICHE,Python,2023,API
+In Connect-Go v1.12.0 who was added as maintainer,mattrobenolt,Connect-Go,NICHE,Python,2023,General
+In Connect-Go v1.17.0 what new minimum Go version is required,Go 1.21,Connect-Go,NICHE,Python,2024,General
+In Connect-Go v1.17.0 which error code is returned when transport fails with io.EOF,unavailable,Connect-Go,NICHE,Python,2024,General
+In Watermill v1.5.0 which new function creates a message with context,NewMessageWithContext,Watermill,NICHE,Python,2025,API
+In Watermill v1.5.0 which dependency was upgraded to v5,github.com/cenkalti/backoff,Watermill,NICHE,Python,2025,General
+In Connect-Go v1.19.0 what new protoc plugin flag was added,simple,Connect-Go,NICHE,Python,2025,General
+In Connect-Go v1.19.0 which edition did protoc-gen-connect-go gain support for,Edition 2024,Connect-Go,NICHE,Python,2025,API
+In Templ v0.3.887 which new mode was added to gopls launch,shared daemon,Templ,NICHE,Python,2025,General
+In Templ v0.3.887 which new expression type entered the AST,attribute key,Templ,NICHE,Python,2025,API

@@ -1,48 +1,74 @@
 === 条目 1 ===
-库名: OpenSSL
+库名: Zap
 版本: N/A
-URL: https://github.com/openssl/openssl/releases/tag/openssl-3.2.0
-长度: 100 字符
+URL: https://github.com/uber-go/zap/releases/tag/v1.27.1
+长度: 198 字符
 内容:
-OpenSSL 3.2.0 has been released. You can find more details about this release in the
-release notes
+Enhancements:
+#1501
+: prevent
+Object
+from panicking on nils
+#1511
+: Fix a race condition in
+WithLazy
 .
+Thanks to
+@rabbbit
+,
+@alshopov
+,
+@jquirke
+,
+@arukiidou
+for their contributions to this release.
 
 ==================================================
 
 === 条目 2 ===
-库名: OpenSSL
+库名: GoMock
 版本: N/A
-URL: https://github.com/openssl/openssl/releases/tag/openssl-3.3.0
-长度: 100 字符
+URL: https://github.com/uber-go/mock/releases/tag/v0.6.0
+长度: 201 字符
 内容:
-OpenSSL 3.3.0 has been released. You can find more details about this release in the
-release notes
-.
+0.6.0 (18 Aug 2025)
+Added
+#258
+: Archive mode: a new mockgen mode that generates mocks out of archive files.
+Fixed
+#276
+: Fixed mockgen errors with go1.25 due to outdated golang.org/x/tools dependency.
 
 ==================================================
 
 === 条目 3 ===
-库名: libuv
+库名: Fiber
 版本: N/A
-URL: https://github.com/libuv/libuv/releases/tag/v1.46.0
-长度: 299 字符
+URL: https://github.com/gofiber/fiber/releases/tag/v2.52.9
+长度: 250 字符
 内容:
-See
-#4077
-for details.
-Dist files at
-https://dist.libuv.org/dist/v1.46.0/
-Notable changes
-fs: use WTF-8 on Windows
-#2970
-linux: add some more iouring backed fs ops
-#4012
-Important bugs fixed
-linux: work around io_uring IORING_OP_CLOSE bug
-#4059
-src: don't run timers if loop is stopped/unref'd
-#4048
+🐛 Bug Fixes
+Add upper index limit for parsers by
+@gaby
+in
+#3503
+Embedded struct parsing by
+@ReneWerner87
+in
+#3478
+Fix Content-Type comparison in
+Is()
+by
+@gaby
+in
+#3537
+Fix MIME type equality checks by
+@gaby
+in
+#3603
+Full Changelog
+:
+v2.52.8...v2.52.9
 
 ==================================================
 
